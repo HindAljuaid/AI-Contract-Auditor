@@ -1,0 +1,39 @@
+Final project validation
+========================
+
+Validated after the final UI/documentation updates:
+
+- Python source syntax compilation: PASS
+- Automated test suite: PASS
+  - 6 tests passed
+- Frozen Hospital 1 reference pipeline: PASS
+  - Perfect categories: 18/18
+  - Mean precision: 1.000
+  - Mean recall: 1.000
+  - Mean F1: 1.000
+- Reusable contract-rules JSON schema path: PASS
+  - app imports ContractSpec explicitly
+  - previously downloaded contract rules can be validated and loaded through Advanced settings
+- Hospital 2 offline parser regression asset: PASS
+  - 76 services
+  - 8 non-Business-Day uplifts
+  - 9 threshold premiums
+  - 8 volume-discount services
+  - 3 unique bundle pairs
+  - 6 exclusion rules
+- Hospital 2 local-mapping/audit smoke run: PASS
+  - 1,132 source invoice rows
+  - 1,125 unique audited invoice IDs
+  - known duplicate INV-H2-000104 resolves to two physical source records
+  - source rows 104 and 497 retain separate patient/header context
+  - canonical submission record is source row 497
+  - duplicate source records are not summed together for the submission total
+- Deterministic invoice explanation module: covered by automated tests
+- GitHub hygiene review: PASS
+  - API secrets are ignored
+  - .venv, caches, Python bytecode, macOS metadata and logs are ignored/removed from the clean package
+
+Environment-dependent checks:
+
+- Successful live OpenAI contract extraction / AI explanation requires a valid API key with available credit.
+- Final browser appearance should be confirmed once after cloning/running on the target machine because Streamlit rendering is environment-dependent.
