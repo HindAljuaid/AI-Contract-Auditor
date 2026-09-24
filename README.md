@@ -2,6 +2,10 @@
 
 A Streamlit application for the insurance-auditing technical exercise. It combines AI-assisted contract interpretation with deterministic invoice auditing.
 
+## Live Demo
+
+🚀 **Try the deployed application:** [AI Contract Auditor](https://ai-contract-auditor.streamlit.app)
+
 The project deliberately separates **language interpretation** from **financial decisions**:
 
 - OpenAI can extract heterogeneous contract documents into a typed `ContractSpec` and optionally help resolve ambiguous service descriptions.
