@@ -1,0 +1,1743 @@
+{
+  "contract_number": "INS-H2-2024-1183",
+  "provider_name": "St. Auben Metropolitan Hospital Trust",
+  "payer_name": "Meridian Health Assurance Group",
+  "currency": "GBP",
+  "effective_from": "2024-01-01",
+  "effective_to": "2025-12-31",
+  "rounding": "half_up_cent",
+  "services": [
+    {
+      "service_name": "Advanced Infectious Isolation Room Occupancy",
+      "unit_basis": "per day of service",
+      "rates": [
+        {
+          "rate_cents": 164825,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 4.1",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": 24.0,
+      "daily_cap_unit": "days of service",
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Assisted Infectious Telemetry Monitoring",
+      "unit_basis": "per hour, per item",
+      "rates": [
+        {
+          "rate_cents": 10625,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 4.2",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Comprehensive Otolaryngologic Case Conference",
+      "unit_basis": "per visit",
+      "rates": [
+        {
+          "rate_cents": 16525,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 4.3",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Emergency Renal Infusion Therapy",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 5925,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 4.4",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Focused Palliative Recovery Room Occupancy",
+      "unit_basis": "per night of occupancy",
+      "rates": [
+        {
+          "rate_cents": 52775,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 4.5",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Intensive Otolaryngologic Rehabilitation Programme",
+      "unit_basis": "per day of service",
+      "rates": [
+        {
+          "rate_cents": 97200,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 4.6",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Intermittent Ophthalmic Anaesthesia Administration",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 391950,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 6.1",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Postoperative Orthopaedic Isolation Room Occupancy",
+      "unit_basis": "per night of occupancy",
+      "rates": [
+        {
+          "rate_cents": 120475,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 6.2",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Preoperative Vascular Imaging Interpretation",
+      "unit_basis": "per test",
+      "rates": [
+        {
+          "rate_cents": 9100,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 6.3",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Specialist Psychiatric Sterilisation Service",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 213700,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 6.4",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Supervised Haematology Biopsy Procedure",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 20800,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 6.5",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Advanced Dermatologic Specimen Analysis",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 22150,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 6.6",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": 24.0,
+      "daily_cap_unit": "items",
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Assisted Musculoskeletal Diagnostic Imaging",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 18050,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 8.1",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Continuous Renal Ventilation Support",
+      "unit_basis": "per day of service",
+      "rates": [
+        {
+          "rate_cents": 54325,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 8.2",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Emergency Haematology Transport Service",
+      "unit_basis": "per visit",
+      "rates": [
+        {
+          "rate_cents": 9675,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 8.3",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Focused Cardiac Dialysis Session",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 237000,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 8.4",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": 6.0,
+      "daily_cap_unit": "procedures",
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Intensive Palliative Ward Bed Occupancy",
+      "unit_basis": "per day of service",
+      "rates": [
+        {
+          "rate_cents": 136725,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 8.5",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Intermittent Psychiatric Laboratory Panel",
+      "unit_basis": "per test",
+      "rates": [
+        {
+          "rate_cents": 50475,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 8.6",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Postoperative Pulmonary Infusion Therapy",
+      "unit_basis": "per unit dispensed",
+      "rates": [
+        {
+          "rate_cents": 6725,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 10.1",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Preoperative Obstetric Home Visit",
+      "unit_basis": "per visit",
+      "rates": [
+        {
+          "rate_cents": 18475,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 10.2",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Standard Neurological Isolation Room Occupancy",
+      "unit_basis": "per day of service",
+      "rates": [
+        {
+          "rate_cents": 78075,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 10.3",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Supervised Metabolic Laboratory Panel",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 7925,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 10.4",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Advanced Rheumatologic Isolation Room Occupancy",
+      "unit_basis": "per night of occupancy",
+      "rates": [
+        {
+          "rate_cents": 141675,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 10.5",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Assisted Gastrointestinal Biopsy Procedure",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 379625,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 10.6",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Continuous Otolaryngologic Discharge Planning",
+      "unit_basis": "per visit",
+      "rates": [
+        {
+          "rate_cents": 19325,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 12.1",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Extended Orthopaedic Radiotherapy Fraction",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 27900,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 12.2",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Focused Vascular Transfusion Service",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 450700,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 12.3",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Intensive Paediatric Infusion Therapy",
+      "unit_basis": "per unit dispensed",
+      "rates": [
+        {
+          "rate_cents": 2900,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 12.4",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Intermittent Otolaryngologic Rehabilitation Programme",
+      "unit_basis": "per visit",
+      "rates": [
+        {
+          "rate_cents": 30775,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 12.5",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Postoperative Cardiac Physiotherapy Session",
+      "unit_basis": "per visit",
+      "rates": [
+        {
+          "rate_cents": 33775,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 12.6",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Preoperative Obstetric Physiotherapy Session",
+      "unit_basis": "per visit",
+      "rates": [
+        {
+          "rate_cents": 12800,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 14.1",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": 4.0,
+      "daily_cap_unit": "visits",
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Standard Orthopaedic Isolation Room Occupancy",
+      "unit_basis": "per day of service",
+      "rates": [
+        {
+          "rate_cents": 33275,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 14.2",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Supervised Rheumatologic Critical Care Occupancy",
+      "unit_basis": "per night of occupancy",
+      "rates": [
+        {
+          "rate_cents": 72800,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 14.3",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Advanced Gastrointestinal Endoscopic Procedure",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 377750,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 14.4",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Bedside Obstetric Physiotherapy Session",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 6950,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 14.5",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Elective Cardiac Nursing Observation",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 6775,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 14.6",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Extended Otolaryngologic Nutritional Support",
+      "unit_basis": "per night of occupancy",
+      "rates": [
+        {
+          "rate_cents": 54975,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 16.1",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Focused Ophthalmic Laboratory Panel",
+      "unit_basis": "per test",
+      "rates": [
+        {
+          "rate_cents": 26800,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 16.2",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Intensive Infectious Physiotherapy Session",
+      "unit_basis": "per visit",
+      "rates": [
+        {
+          "rate_cents": 34475,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 16.3",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Outpatient Haematology Biopsy Procedure",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 89775,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 16.4",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Postoperative Vascular Transport Service",
+      "unit_basis": "per visit",
+      "rates": [
+        {
+          "rate_cents": 15025,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 16.5",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Routine Geriatric Physiotherapy Session",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 21250,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 16.6",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Standard Metabolic Telemetry Monitoring",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 16400,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 18.1",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Supervised Hepatic Endoscopic Procedure",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 249825,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 18.2",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Advanced Endocrine Case Conference",
+      "unit_basis": "per visit",
+      "rates": [
+        {
+          "rate_cents": 17400,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 18.3",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Bedside Ophthalmic Radiotherapy Fraction",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 123550,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 18.4",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Elective Cardiac Transport Service",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 9125,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 18.5",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Extended Dermatologic Specimen Analysis",
+      "unit_basis": "per test",
+      "rates": [
+        {
+          "rate_cents": 35200,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 18.6",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Inpatient Ophthalmic Recovery Room Occupancy",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 7725,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 20.1",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Intensive Neurological Rehabilitation Programme",
+      "unit_basis": "per visit",
+      "rates": [
+        {
+          "rate_cents": 14125,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 20.2",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": 12.0,
+      "daily_cap_unit": "visits",
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Postoperative Neurological Rehabilitation Programme",
+      "unit_basis": "per day of service",
+      "rates": [
+        {
+          "rate_cents": 52250,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 20.3",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Preoperative Neurological Isolation Room Occupancy",
+      "unit_basis": "per night of occupancy",
+      "rates": [
+        {
+          "rate_cents": 170475,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 20.4",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Routine Ophthalmic Laboratory Panel",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 23100,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 20.5",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Standard Paediatric Infusion Therapy",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 12750,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 20.6",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": 4.0,
+      "daily_cap_unit": "hours",
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Supervised Musculoskeletal Diagnostic Imaging",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 424475,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 22.1",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Ambulatory Vascular Infusion Therapy",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 4225,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 22.2",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Bedside Pulmonary Pharmaceutical Dispensing",
+      "unit_basis": "per unit dispensed",
+      "rates": [
+        {
+          "rate_cents": 6900,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 22.3",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Emergency Pulmonary Ventilation Support",
+      "unit_basis": "per day of service",
+      "rates": [
+        {
+          "rate_cents": 54675,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 22.4",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Extended Vascular Home Visit",
+      "unit_basis": "per visit",
+      "rates": [
+        {
+          "rate_cents": 43200,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 22.5",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Inpatient Orthopaedic Recovery Room Occupancy",
+      "unit_basis": "per night of occupancy",
+      "rates": [
+        {
+          "rate_cents": 52100,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 22.6",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Intermittent Orthopaedic Recovery Room Occupancy",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 12600,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 24.1",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Postoperative Ophthalmic Anaesthesia Administration",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 20625,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 24.2",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Preoperative Orthopaedic Ventilation Support",
+      "unit_basis": "per night of occupancy",
+      "rates": [
+        {
+          "rate_cents": 84325,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 24.3",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Routine Infectious Isolation Room Occupancy",
+      "unit_basis": "per night of occupancy",
+      "rates": [
+        {
+          "rate_cents": 191325,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 24.4",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Standard Musculoskeletal Recovery Room Occupancy",
+      "unit_basis": "per night of occupancy",
+      "rates": [
+        {
+          "rate_cents": 87050,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 24.5",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Supervised Neurological Imaging Interpretation",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 77200,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 24.6",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": 6.0,
+      "daily_cap_unit": "procedures",
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Ambulatory Haematology Nutritional Support",
+      "unit_basis": "per unit dispensed",
+      "rates": [
+        {
+          "rate_cents": 8675,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 26.1",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Comprehensive Haematology Transport Service",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 16650,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 26.2",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Emergency Paediatric Theatre Time",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 8500,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 26.3",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Focused Pulmonary Pharmaceutical Dispensing",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 10050,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 26.4",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Inpatient Paediatric Isolation Room Occupancy",
+      "unit_basis": "per night of occupancy",
+      "rates": [
+        {
+          "rate_cents": 148400,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 26.5",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Intermittent Cardiac Specimen Analysis",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 26675,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 26.6",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Postoperative Paediatric Theatre Time",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 34000,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 28.1",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": 6.0,
+      "daily_cap_unit": "hours",
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Preoperative Cardiac Specimen Analysis",
+      "unit_basis": "per test",
+      "rates": [
+        {
+          "rate_cents": 5375,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 28.2",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Routine Neurological Imaging Interpretation",
+      "unit_basis": "per test",
+      "rates": [
+        {
+          "rate_cents": 11375,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 28.3",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Standard Psychiatric Transfusion Service",
+      "unit_basis": "per unit dispensed",
+      "rates": [
+        {
+          "rate_cents": 7025,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Article 28.4",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    }
+  ],
+  "facility_multipliers": [],
+  "plan_multipliers": [],
+  "threshold_premiums": [
+    {
+      "service_name": "Focused Palliative Recovery Room Occupancy",
+      "threshold_quantity": 12.0,
+      "multiplier": 1.3,
+      "comparison": "gt",
+      "scope": "patient_service_day",
+      "notes": "Article 4.5"
+    },
+    {
+      "service_name": "Supervised Metabolic Laboratory Panel",
+      "threshold_quantity": 16.0,
+      "multiplier": 1.15,
+      "comparison": "gt",
+      "scope": "patient_service_day",
+      "notes": "Article 10.4"
+    },
+    {
+      "service_name": "Focused Vascular Transfusion Service",
+      "threshold_quantity": 12.0,
+      "multiplier": 1.15,
+      "comparison": "gt",
+      "scope": "patient_service_day",
+      "notes": "Article 12.3"
+    },
+    {
+      "service_name": "Elective Cardiac Nursing Observation",
+      "threshold_quantity": 12.0,
+      "multiplier": 1.4,
+      "comparison": "gt",
+      "scope": "patient_service_day",
+      "notes": "Article 14.6"
+    },
+    {
+      "service_name": "Preoperative Neurological Isolation Room Occupancy",
+      "threshold_quantity": 6.0,
+      "multiplier": 1.25,
+      "comparison": "gt",
+      "scope": "patient_service_day",
+      "notes": "Article 20.4"
+    },
+    {
+      "service_name": "Ambulatory Vascular Infusion Therapy",
+      "threshold_quantity": 10.0,
+      "multiplier": 1.25,
+      "comparison": "gt",
+      "scope": "patient_service_day",
+      "notes": "Article 22.2"
+    },
+    {
+      "service_name": "Standard Musculoskeletal Recovery Room Occupancy",
+      "threshold_quantity": 6.0,
+      "multiplier": 1.15,
+      "comparison": "gt",
+      "scope": "patient_service_day",
+      "notes": "Article 24.5"
+    },
+    {
+      "service_name": "Ambulatory Haematology Nutritional Support",
+      "threshold_quantity": 12.0,
+      "multiplier": 1.4,
+      "comparison": "gt",
+      "scope": "patient_service_day",
+      "notes": "Article 26.1"
+    },
+    {
+      "service_name": "Inpatient Paediatric Isolation Room Occupancy",
+      "threshold_quantity": 8.0,
+      "multiplier": 1.15,
+      "comparison": "gt",
+      "scope": "patient_service_day",
+      "notes": "Article 26.5"
+    }
+  ],
+  "weekend_uplifts": [
+    {
+      "service_name": "Emergency Renal Infusion Therapy",
+      "multiplier": 1.12,
+      "weekdays": [
+        5,
+        6
+      ],
+      "notes": "Article 4.4; non-Business Days are Saturday and Sunday."
+    },
+    {
+      "service_name": "Intermittent Ophthalmic Anaesthesia Administration",
+      "multiplier": 1.2,
+      "weekdays": [
+        5,
+        6
+      ],
+      "notes": "Article 6.1; non-Business Days are Saturday and Sunday."
+    },
+    {
+      "service_name": "Supervised Haematology Biopsy Procedure",
+      "multiplier": 1.2,
+      "weekdays": [
+        5,
+        6
+      ],
+      "notes": "Article 6.5; non-Business Days are Saturday and Sunday."
+    },
+    {
+      "service_name": "Continuous Renal Ventilation Support",
+      "multiplier": 1.25,
+      "weekdays": [
+        5,
+        6
+      ],
+      "notes": "Article 8.2; non-Business Days are Saturday and Sunday."
+    },
+    {
+      "service_name": "Standard Neurological Isolation Room Occupancy",
+      "multiplier": 1.15,
+      "weekdays": [
+        5,
+        6
+      ],
+      "notes": "Article 10.3; non-Business Days are Saturday and Sunday."
+    },
+    {
+      "service_name": "Extended Orthopaedic Radiotherapy Fraction",
+      "multiplier": 1.25,
+      "weekdays": [
+        5,
+        6
+      ],
+      "notes": "Article 12.2; non-Business Days are Saturday and Sunday."
+    },
+    {
+      "service_name": "Extended Otolaryngologic Nutritional Support",
+      "multiplier": 1.15,
+      "weekdays": [
+        5,
+        6
+      ],
+      "notes": "Article 16.1; non-Business Days are Saturday and Sunday."
+    },
+    {
+      "service_name": "Preoperative Orthopaedic Ventilation Support",
+      "multiplier": 1.1,
+      "weekdays": [
+        5,
+        6
+      ],
+      "notes": "Article 24.3; non-Business Days are Saturday and Sunday."
+    }
+  ],
+  "volume_discounts": [
+    {
+      "service_name": "Emergency Haematology Transport Service",
+      "tiers": [
+        {
+          "threshold_quantity": 60.0,
+          "multiplier": 0.9,
+          "comparison": "gt"
+        },
+        {
+          "threshold_quantity": 180.0,
+          "multiplier": 0.8,
+          "comparison": "gt"
+        }
+      ],
+      "scope": "contract_service",
+      "notes": "Whole contract term; all Patients; prior cumulative utilisation only."
+    },
+    {
+      "service_name": "Preoperative Obstetric Home Visit",
+      "tiers": [
+        {
+          "threshold_quantity": 100.0,
+          "multiplier": 0.85,
+          "comparison": "gt"
+        },
+        {
+          "threshold_quantity": 300.0,
+          "multiplier": 0.75,
+          "comparison": "gt"
+        }
+      ],
+      "scope": "contract_service",
+      "notes": "Whole contract term; all Patients; prior cumulative utilisation only."
+    },
+    {
+      "service_name": "Advanced Gastrointestinal Endoscopic Procedure",
+      "tiers": [
+        {
+          "threshold_quantity": 120.0,
+          "multiplier": 0.88,
+          "comparison": "gt"
+        }
+      ],
+      "scope": "contract_service",
+      "notes": "Whole contract term; all Patients; prior cumulative utilisation only."
+    },
+    {
+      "service_name": "Elective Cardiac Transport Service",
+      "tiers": [
+        {
+          "threshold_quantity": 120.0,
+          "multiplier": 0.9,
+          "comparison": "gt"
+        }
+      ],
+      "scope": "contract_service",
+      "notes": "Whole contract term; all Patients; prior cumulative utilisation only."
+    },
+    {
+      "service_name": "Inpatient Orthopaedic Recovery Room Occupancy",
+      "tiers": [
+        {
+          "threshold_quantity": 100.0,
+          "multiplier": 0.88,
+          "comparison": "gt"
+        }
+      ],
+      "scope": "contract_service",
+      "notes": "Whole contract term; all Patients; prior cumulative utilisation only."
+    },
+    {
+      "service_name": "Postoperative Ophthalmic Anaesthesia Administration",
+      "tiers": [
+        {
+          "threshold_quantity": 80.0,
+          "multiplier": 0.9,
+          "comparison": "gt"
+        },
+        {
+          "threshold_quantity": 240.0,
+          "multiplier": 0.7,
+          "comparison": "gt"
+        }
+      ],
+      "scope": "contract_service",
+      "notes": "Whole contract term; all Patients; prior cumulative utilisation only."
+    },
+    {
+      "service_name": "Focused Pulmonary Pharmaceutical Dispensing",
+      "tiers": [
+        {
+          "threshold_quantity": 100.0,
+          "multiplier": 0.85,
+          "comparison": "gt"
+        },
+        {
+          "threshold_quantity": 300.0,
+          "multiplier": 0.75,
+          "comparison": "gt"
+        }
+      ],
+      "scope": "contract_service",
+      "notes": "Whole contract term; all Patients; prior cumulative utilisation only."
+    },
+    {
+      "service_name": "Routine Neurological Imaging Interpretation",
+      "tiers": [
+        {
+          "threshold_quantity": 120.0,
+          "multiplier": 0.88,
+          "comparison": "gt"
+        }
+      ],
+      "scope": "contract_service",
+      "notes": "Whole contract term; all Patients; prior cumulative utilisation only."
+    }
+  ],
+  "bundles": [
+    {
+      "service_a": "Postoperative Orthopaedic Isolation Room Occupancy",
+      "service_b": "Bedside Obstetric Physiotherapy Session",
+      "rate_a_cents": 90350,
+      "rate_b_cents": 5200,
+      "same_patient": true,
+      "same_service_date": true,
+      "notes": "Substitutes standalone rates."
+    },
+    {
+      "service_a": "Standard Orthopaedic Isolation Room Occupancy",
+      "service_b": "Outpatient Haematology Biopsy Procedure",
+      "rate_a_cents": 27275,
+      "rate_b_cents": 73625,
+      "same_patient": true,
+      "same_service_date": true,
+      "notes": "Substitutes standalone rates."
+    },
+    {
+      "service_a": "Bedside Pulmonary Pharmaceutical Dispensing",
+      "service_b": "Comprehensive Haematology Transport Service",
+      "rate_a_cents": 5875,
+      "rate_b_cents": 14150,
+      "same_patient": true,
+      "same_service_date": true,
+      "notes": "Substitutes standalone rates."
+    }
+  ],
+  "exclusions": [
+    {
+      "trigger_service": "Emergency Pulmonary Ventilation Support",
+      "excluded_service": "Intermittent Psychiatric Laboratory Panel",
+      "window_days": 7,
+      "direction": "either",
+      "notes": "Article 8.6."
+    },
+    {
+      "trigger_service": "Routine Ophthalmic Laboratory Panel",
+      "excluded_service": "Intensive Infectious Physiotherapy Session",
+      "window_days": 10,
+      "direction": "either",
+      "notes": "Article 16.3."
+    },
+    {
+      "trigger_service": "Routine Geriatric Physiotherapy Session",
+      "excluded_service": "Standard Metabolic Telemetry Monitoring",
+      "window_days": 14,
+      "direction": "either",
+      "notes": "Article 18.1."
+    },
+    {
+      "trigger_service": "Advanced Endocrine Case Conference",
+      "excluded_service": "Extended Dermatologic Specimen Analysis",
+      "window_days": 7,
+      "direction": "either",
+      "notes": "Article 18.6."
+    },
+    {
+      "trigger_service": "Bedside Ophthalmic Radiotherapy Fraction",
+      "excluded_service": "Postoperative Neurological Rehabilitation Programme",
+      "window_days": 7,
+      "direction": "either",
+      "notes": "Article 20.3."
+    },
+    {
+      "trigger_service": "Routine Geriatric Physiotherapy Session",
+      "excluded_service": "Emergency Paediatric Theatre Time",
+      "window_days": 7,
+      "direction": "either",
+      "notes": "Article 26.3."
+    }
+  ],
+  "adjustment_order": [
+    "bundle",
+    "facility_multiplier",
+    "plan_multiplier",
+    "threshold_premium",
+    "weekend_uplift",
+    "volume_discount"
+  ],
+  "interpretation_notes": [
+    "No facility differential applies; rates apply irrespective of Patient plan tier.",
+    "A Service Day runs from 07:00 to 06:59 the following day. Business Days exclude Saturday and Sunday.",
+    "Round to whole cents half up after each individual calculation step.",
+    "Cumulative utilisation is prior billed Units in Service Date order, with same-date line items ordered by ascending line identifier; deepest applicable discount applies and discounts do not compound.",
+    "The stated line total is the resulting effective unit rate multiplied by billed quantity."
+  ],
+  "ambiguities": [],
+  "unsupported_rules": [
+    "Rates are inclusive of consumables, staffing and overhead where stated; no separate charge may be raised for them.",
+    "Services presented on a different unit basis are incorrectly presented and must be returned to the Provider.",
+    "Invoice descriptions must sufficiently identify the actual Service and cannot vary the applicable rate.",
+    "Invoices must be submitted no later than 60 days after the Episode of Care discharge date, subject to written agreement otherwise."
+  ],
+  "extraction_confidence": 0.99
+}

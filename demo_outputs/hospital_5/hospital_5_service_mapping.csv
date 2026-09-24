@@ -1,0 +1,475 @@
+item_id,description,normalized_description,service_name,mapping_method,mapping_confidence,top_score,score_gap
+0,OBS  DERM NURSING /PH-3348,obs dermatologic nursing ph 3348,,ai_unresolved,0.52,74.808,0.0
+1,RTN - PSYCH PHYSIO SESSION,routine psychiatric physiotherapy session,Routine Psychiatric Physiotherapy Session,exact,0.995,100.0,100.0
+2,DISP  - ELECT METAB /PH-6137,dispensing elective metabolic ph 6137,Elective Metabolic Pharmaceutical Dispensing,ai_candidate_selection,0.95,85.462,29.159
+3,OPHTH TRANSP SVC EXT,ophthalmic transport service extended,Extended Ophthalmic Transport Service,fuzzy_high,0.96,97.25,13.465
+4,FOC  ENDO THTR TIME,focused endocrine thtr time,Focused Endocrine Theatre Time,fuzzy_medium,0.89,94.737,18.875
+5,INTERMITTENT - ORTHOPAEDIC DISCH PLNG,intermittent orthopaedic disch planning,Intermittent Orthopaedic Discharge Planning,fuzzy_high,0.96,95.122,14.109
+6,INPT  IMMUN RECOV RM OCCUPANCY /PH-6667,inpatient immunologic recovery room occupancy ph 6667,Inpatient Immunologic Recovery Room Occupancy,fuzzy_high,0.96,97.25,14.645
+7,INTENSIVE HEP CS CONF,intensive hepatic case conference conference,Intensive Hepatic Case Conference,fuzzy_high,0.96,97.25,17.366
+8,CONTINUOUS METAB ENDOSC PROC /PH-6106,continuous metabolic endoscopic procedure ph 6106,Continuous Metabolic Endoscopic Procedure,fuzzy_high,0.96,97.25,12.685
+9,METAB ENDOSC PROC CONT,metabolic endoscopic procedure continuous,Continuous Metabolic Endoscopic Procedure,fuzzy_high,0.96,97.25,12.685
+10,PREOP  - MSK NUTR SUPP /PH-3539,preoperative musculoskeletal nutritional support ph 3539,Preoperative Musculoskeletal Nutritional Support,fuzzy_high,0.96,97.25,19.134
+11,ELECTIVE  PHARM DISP /PH-2792,elective pharm dispensing ph 2792,,ai_unresolved,0.52,71.067,3.112
+12,COMPR GI ENDOSC PROC,comprehensive gastrointestinal endoscopic procedure,Comprehensive Gastrointestinal Endoscopic Procedure,exact,0.995,100.0,100.0
+13,SUPV  ENT SPCM ANALYSIS /PH-4343,supv otolaryngologic specimen analysis ph 4343,Supervised Otolaryngologic Specimen Analysis,ai_candidate_selection,0.86,85.016,26.666
+14,ROUTINE - UROLOGIC TRANSP SVC /PH-1731,routine urologic transport service ph 1731,Routine Urologic Transport Service,fuzzy_high,0.96,97.25,27.483
+15,DERM NURS OBS INPT,dermatologic nursing obs inpatient,Inpatient Dermatologic Nursing Observation,fuzzy_medium,0.89,91.172,17.839
+16,OUTPATIENT  NEURO RECOV RM OCCUPANCY,outpatient neurological recovery room occupancy,Outpatient Neurological Recovery Room Occupancy,exact,0.995,100.0,100.0
+17,EMER  BIOP PROC,emergency biopsy procedure,Emergency Neurological Biopsy Procedure,ai_candidate_selection,0.76,92.025,7.0
+18,EXT OPHTH TRANSP SERVICE /PH-7295,extended ophthalmic transport service ph 7295,Extended Ophthalmic Transport Service,fuzzy_high,0.96,97.25,18.322
+19,STD  INFECT VENTILATION SUPP /PH-3964,standard infectious ventilation support ph 3964,Standard Infectious Ventilation Support,fuzzy_high,0.96,97.25,29.051
+20,SPCLST  - METABOLIC STERIL SERVICE,spclst metabolic steril service,Specialist Metabolic Sterilisation Service,ai_candidate_selection,0.95,84.932,22.132
+21,THER  - ROUTINE INFECT INF,ther routine infectious infusion,Routine Infectious Infusion Therapy,fuzzy_medium,0.89,92.896,37.324
+22,POSTOPERATIVE MSK IMAGING INTERP,postoperative musculoskeletal imaging interp,Postoperative Musculoskeletal Imaging Interpretation,fuzzy_medium,0.89,91.667,24.058
+23,RTN  - DERMATOLOGIC HM VST,routine dermatologic home visit,Routine Dermatologic Home Visit,exact,0.995,100.0,100.0
+24,COMPR  VENT SUPP /PH-7497,comprehensive ventilation support ph 7497,Comprehensive Metabolic Ventilation Support,ai_candidate_selection,0.78,86.736,19.546
+25,EXT DERM TRANSP SERVICE /PH-1568,extended dermatologic transport service ph 1568,Extended Dermatologic Transport Service,fuzzy_high,0.96,97.25,16.98
+26,HEP CS CONF AMB,hepatic case conference conference ambulatory,Ambulatory Hepatic Case Conference,fuzzy_high,0.96,97.25,17.366
+27,EMER GI ENDOSC PROC /PH-7768,emergency gastrointestinal endoscopic procedure ph 7768,Emergency Gastrointestinal Endoscopic Procedure,fuzzy_high,0.96,97.25,15.472
+28,ADV - DERM DISPENSING,advanced dermatologic dispensing,Advanced Dermatologic Pharmaceutical Dispensing,fuzzy_high,0.96,97.25,27.99
+29,ROUTINE  UROL TRANSP SVC /PH-4926,routine urologic transport service ph 4926,Routine Urologic Transport Service,fuzzy_high,0.96,97.25,27.483
+30,SUPV  - OTOLARYNGOLOGIC SPCM ANLY,supv otolaryngologic specimen analysis,Supervised Otolaryngologic Specimen Analysis,fuzzy_medium,0.89,92.807,28.764
+31,COMPR  GER WOUND CR,comprehensive geriatric wound cr,Comprehensive Geriatric Wound Care,fuzzy_high,0.96,96.97,23.921
+32,OUTPT NEURO RECOV RM OCC,outpatient neurological recovery room occupancy,Outpatient Neurological Recovery Room Occupancy,exact,0.995,100.0,100.0
+33,COMPREHENSIVE  ONC TRANSFUSION SVC,comprehensive oncology transfusion service,Comprehensive Oncology Transfusion Service,exact,0.995,100.0,100.0
+34,ASST  - CARDIAC VENT SUPPORT,assisted cardiac ventilation support,Assisted Cardiac Ventilation Support,exact,0.995,100.0,100.0
+35,PREOP GASTROINTESTINAL NUTR SUPP,preoperative gastrointestinal nutritional support,Preoperative Gastrointestinal Nutritional Support,exact,0.995,100.0,100.0
+36,PNL - CONT IMMUN LAB /PH-7790,panel continuous immunologic laboratory ph 7790,Continuous Immunologic Laboratory Panel,fuzzy_high,0.96,97.25,40.371
+37,SERVICE CONT ENT TRANSP /PH-9101,service continuous otolaryngologic transport ph 9101,Continuous Otolaryngologic Transport Service,fuzzy_high,0.96,97.25,18.83
+38,ELECTIVE OPHTH RECOV OCC,elective ophthalmic recovery occupancy,Elective Ophthalmic Recovery Room Occupancy,fuzzy_high,0.96,97.25,29.549
+39,INTERPRETATION  AMB METAB IMG,interpretation ambulatory metabolic imaging,Ambulatory Metabolic Imaging Interpretation,fuzzy_high,0.96,97.25,11.67
+40,PREOP - IMMUN RECOVERY RM OCCUPANCY,preoperative immunologic recovery room occupancy,Preoperative Immunologic Recovery Room Occupancy,exact,0.995,100.0,100.0
+41,THERAPY RTN INFECT INF /PH-5866,therapy routine infectious infusion ph 5866,Routine Infectious Infusion Therapy,fuzzy_high,0.96,97.25,35.01
+42,CONF  AMB CS,conference ambulatory case conference,Ambulatory Hepatic Case Conference,fuzzy_high,0.96,97.25,25.145
+43,AMB HEPATIC CS CONFERENCE /PH-2286,ambulatory hepatic case conference conference ph 2286,Ambulatory Hepatic Case Conference,fuzzy_medium,0.89,94.5,10.511
+44,SUPV VASCULAR CONSULT,supv vascular consultation,Supervised Vascular Consultation,fuzzy_medium,0.89,89.655,21.454
+45,AMB  PAED ISOL RM OCC,ambulatory paediatric isolation room occupancy,Ambulatory Paediatric Isolation Room Occupancy,exact,0.995,100.0,100.0
+46,EXT PSYCH ENDOSC PROC /PH-6105,extended psychiatric endoscopic procedure ph 6105,Extended Psychiatric Endoscopic Procedure,fuzzy_high,0.96,97.25,24.35
+47,INTERMITTENT  ORTHO PLNG,intermittent orthopaedic planning,Intermittent Orthopaedic Discharge Planning,fuzzy_high,0.96,97.25,21.565
+48,FRACT FOC NEUROLOGICAL RADIOTHER /PH-3421,fract focused neurological radiotherapy ph 3421,Focused Neurological Radiotherapy Fraction,ai_candidate_selection,0.95,85.58,18.685
+49,SUPERVISED VASC CONSULT,supervised vascular consultation,Supervised Vascular Consultation,exact,0.995,100.0,100.0
+50,SUPV ENT SPECIMEN ANLY,supv otolaryngologic specimen analysis,Supervised Otolaryngologic Specimen Analysis,fuzzy_medium,0.89,92.807,28.764
+51,INTERMITTENT ORTHO DISCH PLANNING,intermittent orthopaedic disch planning,Intermittent Orthopaedic Discharge Planning,fuzzy_high,0.96,95.122,14.109
+52,EXT ENDO THTR TIME /PH-7392,extended endocrine thtr time ph 7392,Extended Endocrine Theatre Time,ai_candidate_selection,0.95,84.303,17.637
+53,OCC - ELECTIVE OPHTH RECOV RM,occupancy elective ophthalmic recovery room,Elective Ophthalmic Recovery Room Occupancy,fuzzy_high,0.96,97.25,25.743
+54,INPT PSYCHIATRIC CASE CONF,inpatient psychiatric case conference,Inpatient Psychiatric Case Conference,exact,0.995,100.0,100.0
+55,PSYCH DISCH PLNG STD,psychiatric disch planning standard,Standard Psychiatric Discharge Planning,fuzzy_medium,0.89,91.993,15.217
+56,PROC - COMPREHENSIVE GI ENDOSC /PH-2540,procedure comprehensive gastrointestinal endoscopic ph 2540,Comprehensive Gastrointestinal Endoscopic Procedure,fuzzy_high,0.96,97.25,11.577
+57,PLNG INTERM UROLOGIC DISCHARGE,planning intermittent urologic discharge,Intermittent Urologic Discharge Planning,fuzzy_high,0.96,97.25,12.327
+58,AMBULATORY PAED ISOL RM OCC /PH-1574,ambulatory paediatric isolation room occupancy ph 1574,Ambulatory Paediatric Isolation Room Occupancy,fuzzy_high,0.96,97.25,27.725
+59,SUPV IMMUN STERIL SVC /PH-6429,supv immunologic steril service ph 6429,Supervised Immunologic Sterilisation Service,ai_candidate_selection,0.95,74.699,5.563
+60,EXT PSYCH ENDOSC PROCEDURE,extended psychiatric endoscopic procedure,Extended Psychiatric Endoscopic Procedure,exact,0.995,100.0,100.0
+61,OBS SPCLST DERMATOLOGIC NURSING,obs spclst dermatologic nursing,Specialist Dermatologic Nursing Observation,ai_candidate_selection,0.95,81.48,5.205
+62,SUPERVISED - PALLIATIVE CONSULT /PH-8045,supervised palliative consultation ph 8045,Supervised Palliative Consultation,fuzzy_high,0.96,97.25,15.914
+63,POSTOP MSK IMG INTERP /PH-8595,postoperative musculoskeletal imaging interp ph 8595,Postoperative Musculoskeletal Imaging Interpretation,ai_candidate_selection,0.95,84.615,21.315
+64,EMER GI ENDOSC PROC /PH-8326,emergency gastrointestinal endoscopic procedure ph 8326,Emergency Gastrointestinal Endoscopic Procedure,fuzzy_high,0.96,97.25,15.472
+65,CONT  ENT TRANSP SVC,continuous otolaryngologic transport service,Continuous Otolaryngologic Transport Service,exact,0.995,100.0,100.0
+66,BEDS ONC TRANSF SERVICE /PH-2481,beds oncology transfusion service ph 2481,Bedside Oncology Transfusion Service,ai_candidate_selection,0.95,86.518,7.59
+67,PREOP  ENDO REHAB PROGRAMME /PH-2386,preoperative endocrine rehabilitation programme ph 2386,Preoperative Endocrine Rehabilitation Programme,fuzzy_high,0.96,97.25,29.049
+68,AMB HEP CASE CONF,ambulatory hepatic case conference,Ambulatory Hepatic Case Conference,exact,0.995,100.0,100.0
+69,EMERGENCY - GI ENDOSC PROC,emergency gastrointestinal endoscopic procedure,Emergency Gastrointestinal Endoscopic Procedure,exact,0.995,100.0,100.0
+70,EXTENDED  NEURO CONSULT,extended neurological consultation,Extended Neurological Consultation,exact,0.995,100.0,100.0
+71,OUTPATIENT DERM HM,outpatient dermatologic home,Outpatient Dermatologic Home Visit,fuzzy_high,0.96,97.25,17.758
+72,SUPV PALLIATIVE CONSULTATION,supv palliative consultation,Supervised Palliative Consultation,ai_candidate_selection,0.95,90.323,2.607
+73,ASSISTED  - STERIL SVC /PH-6091,assisted steril service ph 6091,Assisted Immunologic Sterilisation Service,ai_candidate_selection,0.8,66.213,11.418
+74,ONC IMG INTERP EMER,oncology imaging interp emergency,Emergency Oncology Imaging Interpretation,ai_candidate_selection,0.95,86.736,16.203
+75,COMPR  PALLIATIVE CONSULT,comprehensive palliative consultation,Comprehensive Palliative Consultation,exact,0.995,100.0,100.0
+76,ROUTINE  NEURO BIOP PROCEDURE /PH-5595,routine neurological biopsy procedure ph 5595,Routine Neurological Biopsy Procedure,fuzzy_high,0.96,97.25,14.301
+77,ROUTINE  PSYCH TELEM MONITORING,routine psychiatric telem monitoring,Routine Psychiatric Telemetry Monitoring,fuzzy_medium,0.89,94.737,10.953
+78,EXTENDED  DERM TRANSP SERVICE /PH-9532,extended dermatologic transport service ph 9532,Extended Dermatologic Transport Service,fuzzy_high,0.96,97.25,16.98
+79,TM FOC ENDOCRINE THEATRE,tm focused endocrine theatre,Focused Endocrine Theatre Time,fuzzy_medium,0.89,93.897,18.075
+80,PREOP GI NUTRITIONAL SUPP,preoperative gastrointestinal nutritional support,Preoperative Gastrointestinal Nutritional Support,exact,0.995,100.0,100.0
+81,OUTPT  PHYSIO SESSION,outpatient physiotherapy session,Outpatient Metabolic Physiotherapy Session,fuzzy_high,0.96,97.25,17.891
+82,EMER METAB DISCH PLNG,emergency metabolic disch planning,Emergency Metabolic Discharge Planning,fuzzy_medium,0.89,94.444,17.732
+83,SPCLST  GASTROINTESTINAL PHARM DISP,spclst gastrointestinal pharm dispensing,Specialist Gastrointestinal Pharmaceutical Dispensing,ai_candidate_selection,0.95,86.022,27.016
+84,INPATIENT  - PULM CRITICAL CR OCC,inpatient pulmonary critical cr occupancy,Inpatient Pulmonary Critical Care Occupancy,fuzzy_high,0.96,97.619,33.305
+85,INTENS  - ONCOLOGY STERIL SVC,intensive oncology steril service,Intensive Oncology Sterilisation Service,fuzzy_medium,0.89,90.411,17.947
+86,CONTINUOUS METAB ENDOSC PROCEDURE /PH-2824,continuous metabolic endoscopic procedure ph 2824,Continuous Metabolic Endoscopic Procedure,fuzzy_high,0.96,97.25,12.685
+87,INTENS HEP CS CONF,intensive hepatic case conference conference,Intensive Hepatic Case Conference,fuzzy_high,0.96,97.25,17.366
+88,CONT METAB ENDOSC PROC,continuous metabolic endoscopic procedure,Continuous Metabolic Endoscopic Procedure,exact,0.995,100.0,100.0
+89,FOCUSED NEURO RADIOTHER FRACT,focused neurological radiotherapy fract,Focused Neurological Radiotherapy Fraction,fuzzy_high,0.96,96.296,18.114
+90,SUPP STD INFECTIOUS VENT,support standard infectious ventilation,Standard Infectious Ventilation Support,fuzzy_high,0.96,97.25,27.23
+91,EXT OPHTH TRANSP SVC,extended ophthalmic transport service,Extended Ophthalmic Transport Service,exact,0.995,100.0,100.0
+92,AMBULATORY  - ONCOLOGY IMG INTERP,ambulatory oncology imaging interp,Ambulatory Oncology Imaging Interpretation,fuzzy_medium,0.89,89.474,15.578
+93,FOC - NUTR SUPP,focused nutritional support,Focused Urologic Nutritional Support,fuzzy_high,0.96,97.25,13.051
+94,SUPV  - STERIL SVC,supv steril service,Supervised Immunologic Sterilisation Service,ai_candidate_selection,0.78,74.168,2.912
+95,AMB PAED ISOL RM OCCUPANCY,ambulatory paediatric isolation room occupancy,Ambulatory Paediatric Isolation Room Occupancy,exact,0.995,100.0,100.0
+96,PALL CONSULT SUPV,palliative consultation supv,Supervised Palliative Consultation,ai_candidate_selection,0.95,87.839,0.123
+97,SVC EXT OPHTH TRANSP,service extended ophthalmic transport,Extended Ophthalmic Transport Service,fuzzy_high,0.96,97.25,13.465
+98,INTERM UROL DISCH PLNG,intermittent urologic disch planning,Intermittent Urologic Discharge Planning,fuzzy_medium,0.89,94.737,13.724
+99,SVC  PREOP OPHTHALMIC TRANSP,service preoperative ophthalmic transport,Preoperative Ophthalmic Transport Service,fuzzy_high,0.96,97.25,13.465
+100,CARD VENT SUPP ADV,cardiac ventilation support advanced,Advanced Cardiac Ventilation Support,fuzzy_high,0.96,97.25,13.507
+101,BEDS ONC TRANSF SVC,beds oncology transfusion service,Bedside Oncology Transfusion Service,fuzzy_high,0.96,95.652,6.373
+102,PREOP - GI NUTR SUPP,preoperative gastrointestinal nutritional support,Preoperative Gastrointestinal Nutritional Support,exact,0.995,100.0,100.0
+103,SVC INTENSIVE ONC STERILISATION,service intensive oncology sterilisation,Intensive Oncology Sterilisation Service,fuzzy_high,0.96,97.25,23.72
+104,RTN - INFECT INF THER /PH-5248,routine infectious infusion ther ph 5248,Routine Infectious Infusion Therapy,ai_candidate_selection,0.95,87.594,34.485
+105,ELECT METAB DISP,elective metabolic dispensing,Elective Metabolic Pharmaceutical Dispensing,fuzzy_medium,0.89,92.025,20.132
+106,PLNG  OUTPATIENT DISCH,planning outpatient disch,Outpatient Psychiatric Discharge Planning,ai_candidate_selection,0.77,85.889,10.739
+107,INTENSIVE  ONC STERIL SERVICE /PH-3836,intensive oncology steril service ph 3836,Intensive Oncology Sterilisation Service,ai_candidate_selection,0.95,81.481,16.421
+108,SVC - EXT DERMATOLOGIC TRANSP /PH-7506,service extended dermatologic transport ph 7506,Extended Dermatologic Transport Service,fuzzy_high,0.96,97.25,16.98
+109,INTERPRETATION POSTOPERATIVE MSK IMG /PH-1032,interpretation postoperative musculoskeletal imaging ph 1032,Postoperative Musculoskeletal Imaging Interpretation,fuzzy_high,0.96,97.25,16.666
+110,DERM - NURS OBSERVATION,dermatologic nursing observation,,ai_unresolved,0.52,97.25,0.0
+111,EXT  DERMATOLOGIC TRANSP SERVICE,extended dermatologic transport service,Extended Dermatologic Transport Service,exact,0.995,100.0,100.0
+112,SUPPORT PREOPERATIVE GI NUTR /PH-8764,support preoperative gastrointestinal nutritional ph 8764,Preoperative Gastrointestinal Nutritional Support,fuzzy_high,0.96,97.25,19.134
+113,ELECT METABOLIC PHARM DISP,elective metabolic pharm dispensing,Elective Metabolic Pharmaceutical Dispensing,fuzzy_medium,0.89,89.515,18.968
+114,OUTPT  METABOLIC PHYSIOTHERAPY SESS,outpatient metabolic physiotherapy session,Outpatient Metabolic Physiotherapy Session,exact,0.995,100.0,100.0
+115,CONFERENCE CONT PULMONARY CS,conference continuous pulmonary case conference,Continuous Pulmonary Case Conference,fuzzy_high,0.96,97.25,33.305
+116,AMB  - METAB IMG INTERP,ambulatory metabolic imaging interp,Ambulatory Metabolic Imaging Interpretation,fuzzy_medium,0.89,89.744,13.964
+117,ANALYSIS SUPV ENT SPCM,analysis supv otolaryngologic specimen,Supervised Otolaryngologic Specimen Analysis,fuzzy_medium,0.89,90.401,26.359
+118,EXT  ENDO THEATRE TM,extended endocrine theatre tm,Extended Endocrine Theatre Time,fuzzy_high,0.96,96.667,18.701
+119,EXT  NEUROLOGICAL CONSULT /PH-7491,extended neurological consultation ph 7491,Extended Neurological Consultation,fuzzy_high,0.96,97.25,32.645
+120,INTENS ONC STERILISATION SVC,intensive oncology sterilisation service,Intensive Oncology Sterilisation Service,exact,0.995,100.0,100.0
+121,PREOP  ENDOCRINE REHAB PROG /PH-1561,preoperative endocrine rehabilitation programme ph 1561,Preoperative Endocrine Rehabilitation Programme,fuzzy_high,0.96,97.25,29.049
+122,EMERGENCY  NEURO BIOP PROC,emergency neurological biopsy procedure,Emergency Neurological Biopsy Procedure,exact,0.995,100.0,100.0
+123,COMPR GER WOUND CR /PH-7691,comprehensive geriatric wound cr ph 7691,Comprehensive Geriatric Wound Care,fuzzy_medium,0.89,89.532,32.605
+124,INPATIENT  DERM NURSING OBS /PH-8521,inpatient dermatologic nursing obs ph 8521,Inpatient Dermatologic Nursing Observation,ai_candidate_selection,0.95,82.024,14.847
+125,EMER  GI ENDOSC PROC /PH-9383,emergency gastrointestinal endoscopic procedure ph 9383,Emergency Gastrointestinal Endoscopic Procedure,fuzzy_high,0.96,97.25,15.472
+126,PREOP OPHTH TRANSP SERVICE /PH-6454,preoperative ophthalmic transport service ph 6454,Preoperative Ophthalmic Transport Service,fuzzy_high,0.96,97.25,13.465
+127,OUTPT  - DERM VISIT /PH-3323,outpatient dermatologic visit ph 3323,Outpatient Dermatologic Home Visit,fuzzy_medium,0.89,89.532,17.62
+128,ASST IMMUN STERIL SVC,assisted immunologic steril service,Assisted Immunologic Sterilisation Service,fuzzy_medium,0.89,90.909,13.314
+129,RTN UROLOGIC RADIOTHER FRACTION /PH-6893,routine urologic radiotherapy fraction ph 6893,Routine Urologic Radiotherapy Fraction,fuzzy_high,0.96,97.25,19.977
+130,OCCUPANCY PREOP IMMUN RECOV ROOM,occupancy preoperative immunologic recovery room,Preoperative Immunologic Recovery Room Occupancy,fuzzy_high,0.96,97.25,11.503
+131,SUPERVISED SPCM ANLY /PH-7244,supervised specimen analysis ph 7244,Supervised Otolaryngologic Specimen Analysis,ai_candidate_selection,0.84,85.094,33.665
+132,ASST REN IMAGING INTERP /PH-6649,assisted renal imaging interp ph 6649,Assisted Renal Imaging Interpretation,ai_candidate_selection,0.95,78.378,24.753
+133,COMPREHENSIVE GER WND CARE,comprehensive geriatric wound care,Comprehensive Geriatric Wound Care,exact,0.995,100.0,100.0
+134,EMER NEURO BIOPSY PROC /PH-1059,emergency neurological biopsy procedure ph 1059,Emergency Neurological Biopsy Procedure,fuzzy_high,0.96,97.25,11.788
+135,OUTPT METABOLIC PHYSIO SESSION,outpatient metabolic physiotherapy session,Outpatient Metabolic Physiotherapy Session,exact,0.995,100.0,100.0
+136,PREOP PAEDIATRIC BIOPSY PROC,preoperative paediatric biopsy procedure,Preoperative Paediatric Biopsy Procedure,exact,0.995,100.0,100.0
+137,CR  INPATIENT PULM CRIT /PH-5924,cr inpatient pulmonary critical ph 5924,Inpatient Pulmonary Critical Care Occupancy,ai_candidate_selection,0.95,81.284,29.258
+138,IMAGING  - ELECTIVE VASCULAR DIAG /PH-2728,imaging elective vascular diagnostic ph 2728,Elective Vascular Diagnostic Imaging,fuzzy_high,0.96,97.25,16.458
+139,PREOP MSK NUTR SUPP /PH-5426,preoperative musculoskeletal nutritional support ph 5426,Preoperative Musculoskeletal Nutritional Support,fuzzy_high,0.96,97.25,19.134
+140,INPT PULM CRITICAL CR OCC /PH-1009,inpatient pulmonary critical cr occupancy ph 1009,Inpatient Pulmonary Critical Care Occupancy,fuzzy_medium,0.89,91.247,31.762
+141,FOCUSED NEURO RADIOTHERAPY FRACT /PH-2860,focused neurological radiotherapy fract ph 2860,Focused Neurological Radiotherapy Fraction,ai_candidate_selection,0.95,87.802,16.979
+142,PREOPERATIVE GI NUTR SUPP /PH-7619,preoperative gastrointestinal nutritional support ph 7619,Preoperative Gastrointestinal Nutritional Support,fuzzy_high,0.96,97.25,19.134
+143,VST  ROUTINE DERM HOME /PH-6678,visit routine dermatologic home ph 6678,Routine Dermatologic Home Visit,fuzzy_high,0.96,97.25,18.768
+144,OBS  - INPT DERM NURS,obs inpatient dermatologic nursing,Inpatient Dermatologic Nursing Observation,fuzzy_medium,0.89,91.172,19.135
+145,SVC EXT DERM TRANSPORT,service extended dermatologic transport,Extended Dermatologic Transport Service,fuzzy_high,0.96,97.25,16.98
+146,VASC DIAG IMG SUPV,vascular diagnostic imaging supv,Supervised Vascular Diagnostic Imaging,ai_candidate_selection,0.95,89.008,0.0
+147,EXT ENDO THTR TM,extended endocrine thtr tm,Extended Endocrine Theatre Time,fuzzy_medium,0.89,91.228,17.337
+148,SPCLST METAB STERIL SVC,spclst metabolic steril service,Specialist Metabolic Sterilisation Service,ai_candidate_selection,0.95,84.932,22.132
+149,ELECT PULM RADIOTHER FRACTION /PH-2542,elective pulmonary radiotherapy fraction ph 2542,Elective Pulmonary Radiotherapy Fraction,fuzzy_high,0.96,97.25,13.507
+150,DERM HM VST RTN,dermatologic home visit routine,Routine Dermatologic Home Visit,fuzzy_high,0.96,97.25,10.473
+151,OUTPATIENT  HAEM LAB PNL /PH-5094,outpatient haematology laboratory panel ph 5094,Outpatient Haematology Laboratory Panel,fuzzy_high,0.96,97.25,36.533
+152,EMER - METAB PLNG /PH-9105,emergency metabolic planning ph 9105,Emergency Metabolic Discharge Planning,ai_candidate_selection,0.95,85.094,20.26
+153,SPECIALIST - GI PHARM DISPENSING /PH-4317,specialist gastrointestinal pharm dispensing ph 4317,Specialist Gastrointestinal Pharmaceutical Dispensing,ai_candidate_selection,0.95,84.095,27.759
+154,SPECIALIST GI PHARM DISP,specialist gastrointestinal pharm dispensing,Specialist Gastrointestinal Pharmaceutical Dispensing,fuzzy_medium,0.89,91.604,30.954
+155,CONTINUOUS  IMMUN LAB PNL,continuous immunologic laboratory panel,Continuous Immunologic Laboratory Panel,exact,0.995,100.0,100.0
+156,COMPR WND CARE /PH-1784,comprehensive wound care ph 1784,Comprehensive Geriatric Wound Care,ai_candidate_selection,0.86,83.357,10.332
+157,RTN  GER TELEMETRY,routine geriatric telemetry,Routine Geriatric Telemetry Monitoring,fuzzy_high,0.96,97.25,22.102
+158,IMMUN STERIL SVC SUPV,immunologic steril service supv,Supervised Immunologic Sterilisation Service,ai_candidate_selection,0.95,80.393,6.483
+159,OPHTH  NUTR SUPP,ophthalmic nutritional support,Elective Ophthalmic Nutritional Support,fuzzy_high,0.96,97.25,15.327
+160,COMPR  ONC TRANSFUSION SVC /PH-7950,comprehensive oncology transfusion service ph 7950,Comprehensive Oncology Transfusion Service,fuzzy_high,0.96,97.25,12.156
+161,ENDO THTR TM EXT,endocrine thtr tm extended,Extended Endocrine Theatre Time,ai_candidate_selection,0.95,88.719,14.829
+162,INPT  - PSYCHIATRIC CS CONF /PH-3922,inpatient psychiatric case conference conference ph 3922,Inpatient Psychiatric Case Conference,fuzzy_medium,0.89,94.5,18.994
+163,EXT UROLOGIC INF THER,extended urologic infusion ther,Extended Urologic Infusion Therapy,fuzzy_high,0.96,95.385,23.231
+164,STD  PAED RADIOTHER FRACT /PH-5422,standard paediatric radiotherapy fract ph 5422,Standard Paediatric Radiotherapy Fraction,ai_candidate_selection,0.95,87.498,29.43
+165,UROL HM VST /PH-1437,urologic home visit ph 1437,Emergency Urologic Home Visit,ai_candidate_selection,0.78,80.337,16.371
+166,NEURO BIOP PROC EMER,neurological biopsy procedure emergency,Emergency Neurological Biopsy Procedure,fuzzy_high,0.96,97.25,11.788
+167,COMPR ENDOSC PROC,comprehensive endoscopic procedure,Comprehensive Gastrointestinal Endoscopic Procedure,fuzzy_medium,0.89,92.025,19.988
+168,PALL CONSULTATION,palliative consultation,,ai_unresolved,0.52,97.25,2.75
+169,SUPV  - PALL CONSULT,supv palliative consultation,Supervised Palliative Consultation,ai_candidate_selection,0.95,90.323,2.607
+170,RTN - UROL TRANSP SERVICE,routine urologic transport service,Routine Urologic Transport Service,exact,0.995,100.0,100.0
+171,EMER  UROL HM VST,emergency urologic home visit,Emergency Urologic Home Visit,exact,0.995,100.0,100.0
+172,VASC  - DIAGNOSTIC IMG,vascular diagnostic imaging,,ai_unresolved,0.52,97.25,0.0
+173,OPHTH NUTRITIONAL SUPP /PH-3490,ophthalmic nutritional support ph 3490,Elective Ophthalmic Nutritional Support,ai_candidate_selection,0.8,85.809,18.618
+174,EMER UROL VISIT /PH-9513,emergency urologic visit ph 9513,,ai_unresolved,0.52,88.075,25.822
+175,EXT - ENDO THTR TM,extended endocrine thtr tm,Extended Endocrine Theatre Time,fuzzy_medium,0.89,91.228,17.337
+176,EMERGENCY PULM FRACT,emergency pulmonary fract,Emergency Pulmonary Radiotherapy Fraction,ai_candidate_selection,0.94,85.889,12.556
+177,AMB ONCOLOGY IMG INTERP /PH-9222,ambulatory oncology imaging interp ph 9222,Ambulatory Oncology Imaging Interpretation,ai_candidate_selection,0.95,80.952,14.011
+178,INTENS HEP CS CONF /PH-3124,intensive hepatic case conference conference ph 3124,Intensive Hepatic Case Conference,fuzzy_medium,0.89,94.5,11.159
+179,EMER  METAB DISCH /PH-9998,emergency metabolic disch ph 9998,Emergency Metabolic Discharge Planning,ai_candidate_selection,0.95,76.056,17.723
+180,SPCLST GI PHARM DISP /PH-8561,spclst gastrointestinal pharm dispensing ph 8561,Specialist Gastrointestinal Pharmaceutical Dispensing,ai_candidate_selection,0.95,79.208,23.064
+181,SPCLST  METAB STERILISATION SVC /PH-4155,spclst metabolic sterilisation service ph 4155,Specialist Metabolic Sterilisation Service,ai_candidate_selection,0.95,86.364,17.475
+182,INPT - PULM CRITICAL CR OCC /PH-2338,inpatient pulmonary critical cr occupancy ph 2338,Inpatient Pulmonary Critical Care Occupancy,fuzzy_medium,0.89,91.247,31.762
+183,PLANNING INTERM UROLOGIC DISCHARGE /PH-4571,planning intermittent urologic discharge ph 4571,Intermittent Urologic Discharge Planning,fuzzy_high,0.96,97.25,15.77
+184,RTN INFECTIOUS INF THER,routine infectious infusion ther,Routine Infectious Infusion Therapy,fuzzy_high,0.96,95.522,37.644
+185,PLNG  STD PSYCHIATRIC DISCHARGE /PH-4685,planning standard psychiatric discharge ph 4685,Standard Psychiatric Discharge Planning,fuzzy_high,0.96,97.25,15.067
+186,SUPV IMMUNOLOGIC STERIL SVC /PH-9100,supv immunologic steril service ph 9100,Supervised Immunologic Sterilisation Service,ai_candidate_selection,0.95,74.699,5.563
+187,ROUTINE  DERM HM VST,routine dermatologic home visit,Routine Dermatologic Home Visit,exact,0.995,100.0,100.0
+188,METAB ENDOSC PROC ASST,metabolic endoscopic procedure assisted,Assisted Metabolic Endoscopic Procedure,fuzzy_high,0.96,97.25,12.685
+189,COMPREHENSIVE PALL CONSULT,comprehensive palliative consultation,Comprehensive Palliative Consultation,exact,0.995,100.0,100.0
+190,LAB CONT IMMUN,laboratory continuous immunologic,Continuous Immunologic Laboratory Panel,fuzzy_high,0.96,97.25,36.797
+191,INTENS  - ONCOLOGY STERIL SVC /PH-1663,intensive oncology steril service ph 1663,Intensive Oncology Sterilisation Service,ai_candidate_selection,0.95,81.481,16.421
+192,PNL  CONTINUOUS IMMUN LABORATORY /PH-6674,panel continuous immunologic laboratory ph 6674,Continuous Immunologic Laboratory Panel,fuzzy_high,0.96,97.25,40.371
+193,INPT PSYCHIATRIC CS CONF /PH-7007,inpatient psychiatric case conference conference ph 7007,Inpatient Psychiatric Case Conference,fuzzy_medium,0.89,94.5,18.994
+194,EMERGENCY NEUROLOGICAL BIOP PROC /PH-7800,emergency neurological biopsy procedure ph 7800,Emergency Neurological Biopsy Procedure,fuzzy_high,0.96,97.25,11.788
+195,ELECT OPHTH RECOV ROOM OCC /PH-7656,elective ophthalmic recovery room occupancy ph 7656,Elective Ophthalmic Recovery Room Occupancy,fuzzy_high,0.96,97.25,29.206
+196,THEATRE FOC ENDO,theatre focused endocrine,Focused Endocrine Theatre Time,fuzzy_high,0.96,97.25,18.524
+197,FOC - NEUROLOGICAL RADIOTHER FRACT,focused neurological radiotherapy fract,Focused Neurological Radiotherapy Fraction,fuzzy_high,0.96,96.296,18.114
+198,PREOPERATIVE IMMUN RECOV RM OCCUPANCY /PH-1117,preoperative immunologic recovery room occupancy ph 1117,Preoperative Immunologic Recovery Room Occupancy,fuzzy_high,0.96,97.25,12.156
+199,RTN  NEURO BIOPSY PROC,routine neurological biopsy procedure,Routine Neurological Biopsy Procedure,exact,0.995,100.0,100.0
+200,INTENS - HEP CS CONF,intensive hepatic case conference conference,Intensive Hepatic Case Conference,fuzzy_high,0.96,97.25,17.366
+201,SUPV DIAG IMG /PH-4513,supv diagnostic imaging ph 4513,Supervised Vascular Diagnostic Imaging,ai_candidate_selection,0.78,71.449,0.0
+202,ROUTINE PSYCH TELEM MONIT /PH-9954,routine psychiatric telem monitoring ph 9954,Routine Psychiatric Telemetry Monitoring,ai_candidate_selection,0.95,85.714,10.105
+203,BEDS PAEDIATRIC CONSULT /PH-8451,beds paediatric consultation ph 8451,Bedside Paediatric Consultation,ai_candidate_selection,0.95,84.303,22.732
+204,OCC COMPREHENSIVE OPHTHALMIC ISOL RM,occupancy comprehensive ophthalmic isolation room,Comprehensive Ophthalmic Isolation Room Occupancy,fuzzy_high,0.96,97.25,25.743
+205,CONTINUOUS  PULMONARY CS CONFERENCE,continuous pulmonary case conference conference,Continuous Pulmonary Case Conference,fuzzy_high,0.96,97.25,33.305
+206,VST RTN DERM /PH-7550,visit routine dermatologic ph 7550,Routine Dermatologic Home Visit,ai_candidate_selection,0.95,88.719,14.352
+207,RTN PSYCHIATRIC PHYSIO SESS /PH-3991,routine psychiatric physiotherapy session ph 3991,Routine Psychiatric Physiotherapy Session,fuzzy_high,0.96,97.25,27.285
+208,POSTOP  MSK IMG INTERP /PH-8079,postoperative musculoskeletal imaging interp ph 8079,Postoperative Musculoskeletal Imaging Interpretation,ai_candidate_selection,0.95,84.615,21.315
+209,EXT ENDO THTR TM /PH-7393,extended endocrine thtr tm ph 7393,Extended Endocrine Theatre Time,ai_candidate_selection,0.95,80.0,17.5
+210,ASST  REN IMAGING INTERP /PH-4396,assisted renal imaging interp ph 4396,Assisted Renal Imaging Interpretation,ai_candidate_selection,0.95,78.378,24.753
+211,ASST - METAB ENDOSC PROCEDURE /PH-8137,assisted metabolic endoscopic procedure ph 8137,Assisted Metabolic Endoscopic Procedure,fuzzy_high,0.96,97.25,15.067
+212,FRACT ROUTINE UROL RADIOTHER /PH-4232,fract routine urologic radiotherapy ph 4232,Routine Urologic Radiotherapy Fraction,ai_candidate_selection,0.95,84.187,15.54
+213,PREOP PAED BIOP,preoperative paediatric biopsy,Preoperative Paediatric Biopsy Procedure,fuzzy_high,0.96,97.25,24.511
+214,INPT  IMMUNOLOGIC RECOV RM OCC,inpatient immunologic recovery room occupancy,Inpatient Immunologic Recovery Room Occupancy,exact,0.995,100.0,100.0
+215,OUTPT  NEUROLOGICAL RECOV ROOM OCC /PH-5702,outpatient neurological recovery room occupancy ph 5702,Outpatient Neurological Recovery Room Occupancy,fuzzy_high,0.96,97.25,19.25
+216,INPT PULMONARY CRIT CR OCCUPANCY,inpatient pulmonary critical cr occupancy,Inpatient Pulmonary Critical Care Occupancy,fuzzy_high,0.96,97.619,33.305
+217,OUTPT  PSYCH DISCH PLNG /PH-4218,outpatient psychiatric disch planning ph 4218,Outpatient Psychiatric Discharge Planning,ai_candidate_selection,0.95,86.076,14.647
+218,ASSISTED METAB ENDOSCOPIC PROC /PH-2115,assisted metabolic endoscopic procedure ph 2115,Assisted Metabolic Endoscopic Procedure,fuzzy_high,0.96,97.25,15.067
+219,DISP  ELECTIVE METAB PHARM /PH-9640,dispensing elective metabolic pharm ph 9640,Elective Metabolic Pharmaceutical Dispensing,ai_candidate_selection,0.95,78.34,22.151
+220,ADV  CARDIAC VENTILATION SUPPORT,advanced cardiac ventilation support,Advanced Cardiac Ventilation Support,exact,0.995,100.0,100.0
+221,ASST HEP PHYSIO SESS,assisted hepatic physiotherapy session,Assisted Hepatic Physiotherapy Session,exact,0.995,100.0,100.0
+222,SPCLST  - METAB STERIL SVC,spclst metabolic steril service,Specialist Metabolic Sterilisation Service,ai_candidate_selection,0.95,84.932,22.132
+223,AMB  METABOLIC IMG INTERP,ambulatory metabolic imaging interp,Ambulatory Metabolic Imaging Interpretation,fuzzy_medium,0.89,89.744,13.964
+224,ADV DERM PHARM DISP,advanced dermatologic pharm dispensing,Advanced Dermatologic Pharmaceutical Dispensing,fuzzy_medium,0.89,90.319,26.905
+225,SERVICE INTENSIVE ONCOLOGY STERIL,service intensive oncology steril,Intensive Oncology Sterilisation Service,ai_candidate_selection,0.95,87.925,17.454
+226,VST EMER UROL HOME,visit emergency urologic home,Emergency Urologic Home Visit,fuzzy_high,0.96,97.25,27.725
+227,BEDSIDE  ONC SVC,bedside oncology service,Bedside Oncology Transfusion Service,ai_candidate_selection,0.82,92.025,9.0
+228,ADV DERM PHARM /PH-3728,advanced dermatologic pharm ph 3728,Advanced Dermatologic Pharmaceutical Dispensing,ai_candidate_selection,0.95,72.938,16.155
+229,HEP CS CONF /PH-8928,hepatic case conference conference ph 8928,,ai_unresolved,0.52,82.843,0.0
+230,PREOP ENDO REHAB PROGRAMME /PH-6136,preoperative endocrine rehabilitation programme ph 6136,Preoperative Endocrine Rehabilitation Programme,fuzzy_high,0.96,97.25,29.049
+231,FOC - NEURO RADIOTHER FRACT,focused neurological radiotherapy fract,Focused Neurological Radiotherapy Fraction,fuzzy_high,0.96,96.296,18.114
+232,COMPR GER WND CARE,comprehensive geriatric wound care,Comprehensive Geriatric Wound Care,exact,0.995,100.0,100.0
+233,ASSISTED METAB ENDOSC PROCEDURE,assisted metabolic endoscopic procedure,Assisted Metabolic Endoscopic Procedure,exact,0.995,100.0,100.0
+234,CONTINUOUS - IMMUN LAB PANEL,continuous immunologic laboratory panel,Continuous Immunologic Laboratory Panel,exact,0.995,100.0,100.0
+235,PSYCH DISCH PLNG OUTPT,psychiatric disch planning outpatient,Outpatient Psychiatric Discharge Planning,fuzzy_medium,0.89,92.263,15.487
+236,ADV - PHARM DISP,advanced pharm dispensing,Advanced Dermatologic Pharmaceutical Dispensing,ai_candidate_selection,0.81,85.889,12.777
+237,MONITORING  RTN PSYCH TELEM /PH-9117,monitoring routine psychiatric telem ph 9117,Routine Psychiatric Telemetry Monitoring,ai_candidate_selection,0.95,83.357,9.827
+238,INTERMITTENT - VASC MONIT,intermittent vascular monitoring,Intermittent Vascular Telemetry Monitoring,fuzzy_high,0.96,97.25,37.389
+239,EMER  NEURO BIOPSY PROCEDURE /PH-5562,emergency neurological biopsy procedure ph 5562,Emergency Neurological Biopsy Procedure,fuzzy_high,0.96,97.25,11.788
+240,ASSISTED IMMUN STERIL SVC /PH-9770,assisted immunologic steril service ph 9770,Assisted Immunologic Sterilisation Service,ai_candidate_selection,0.95,82.353,11.893
+241,SUPP  ELECT OPHTH NUTR,support elective ophthalmic nutritional,Elective Ophthalmic Nutritional Support,fuzzy_high,0.96,97.25,27.23
+242,SVC SPCLST METAB STERIL /PH-1083,service spclst metabolic steril ph 1083,Specialist Metabolic Sterilisation Service,ai_candidate_selection,0.95,74.438,19.883
+243,POSTOP - MUSCULOSKELETAL IMG INTERP,postoperative musculoskeletal imaging interp,Postoperative Musculoskeletal Imaging Interpretation,fuzzy_medium,0.89,91.667,24.058
+244,INTERM ENDO NURS OBS,intermittent endocrine nursing obs,,ai_unresolved,0.52,63.081,2.555
+245,SUPV DIAG IMG /PH-9633,supv diagnostic imaging ph 9633,Supervised Vascular Diagnostic Imaging,ai_candidate_selection,0.82,71.449,0.0
+246,METABOLIC  DISCH PLNG,metabolic disch planning,,ai_unresolved,0.52,85.596,0.0
+247,ONC IMG INTERP AMB,oncology imaging interp ambulatory,Ambulatory Oncology Imaging Interpretation,ai_candidate_selection,0.95,87.013,13.76
+248,CONT  IMMUNOLOGIC LAB PANEL,continuous immunologic laboratory panel,Continuous Immunologic Laboratory Panel,exact,0.995,100.0,100.0
+249,INTERM ORTHO DISCHARGE PLNG,intermittent orthopaedic discharge planning,Intermittent Orthopaedic Discharge Planning,exact,0.995,100.0,100.0
+250,STD PSYCH DISCH PLNG,standard psychiatric disch planning,Standard Psychiatric Discharge Planning,fuzzy_medium,0.89,94.595,15.647
+251,INTERM  VASCULAR TELEM,intermittent vascular telem,Intermittent Vascular Telemetry Monitoring,ai_candidate_selection,0.95,88.875,14.158
+252,OBS INPT DERMATOLOGIC NURS /PH-5222,obs inpatient dermatologic nursing ph 5222,Inpatient Dermatologic Nursing Observation,ai_candidate_selection,0.95,81.042,16.453
+253,EXT NEURO CONSULT /PH-3973,extended neurological consultation ph 3973,Extended Neurological Consultation,fuzzy_high,0.96,97.25,32.645
+254,PREOP  - MUSCULOSKELETAL NUTR SUPP,preoperative musculoskeletal nutritional support,Preoperative Musculoskeletal Nutritional Support,exact,0.995,100.0,100.0
+255,INTERP - POSTOP MSK IMG,interp postoperative musculoskeletal imaging,Postoperative Musculoskeletal Imaging Interpretation,fuzzy_medium,0.89,89.146,23.928
+256,INPATIENT - PSYCH CS CONF /PH-8216,inpatient psychiatric case conference conference ph 8216,Inpatient Psychiatric Case Conference,fuzzy_medium,0.89,94.5,18.994
+257,GI ENDOSC PROC EMER,gastrointestinal endoscopic procedure emergency,Emergency Gastrointestinal Endoscopic Procedure,fuzzy_high,0.96,97.25,11.577
+258,EXT  NEUROLOGICAL CONSULT,extended neurological consultation,Extended Neurological Consultation,exact,0.995,100.0,100.0
+259,EXT PSYCH ENDOSC PROC,extended psychiatric endoscopic procedure,Extended Psychiatric Endoscopic Procedure,exact,0.995,100.0,100.0
+260,FOC UROL NUTR,focused urologic nutritional,Focused Urologic Nutritional Support,fuzzy_high,0.96,97.25,21.939
+261,EMER ONC IMAGING INTERP /PH-5810,emergency oncology imaging interp ph 5810,Emergency Oncology Imaging Interpretation,ai_candidate_selection,0.95,80.488,15.428
+262,MONIT RTN PSYCH TELEMETRY,monitoring routine psychiatric telemetry,Routine Psychiatric Telemetry Monitoring,fuzzy_high,0.96,97.25,9.974
+263,INPT PSYCH CONFERENCE /PH-2719,inpatient psychiatric conference ph 2719,Inpatient Psychiatric Case Conference,fuzzy_medium,0.89,90.203,28.475
+264,OCC OUTPT RECOV RM /PH-1028,occupancy outpatient recovery room ph 1028,,ai_unresolved,0.52,87.013,15.473
+265,ELECT OPHTHALMIC NUTR SUPP /PH-9806,elective ophthalmic nutritional support ph 9806,Elective Ophthalmic Nutritional Support,fuzzy_high,0.96,97.25,30.059
+266,EXTENDED PSYCH ENDOSC PROCEDURE,extended psychiatric endoscopic procedure,Extended Psychiatric Endoscopic Procedure,exact,0.995,100.0,100.0
+267,RTN UROLOGIC RADIOTHER FRACT,routine urologic radiotherapy fract,Routine Urologic Radiotherapy Fraction,fuzzy_high,0.96,95.89,17.709
+268,OCC PREOPERATIVE IMMUN RECOV ROOM,occupancy preoperative immunologic recovery room,Preoperative Immunologic Recovery Room Occupancy,fuzzy_high,0.96,97.25,11.503
+269,FOC ENDOCRINE THTR TM /PH-7354,focused endocrine thtr tm ph 7354,Focused Endocrine Theatre Time,ai_candidate_selection,0.95,79.365,16.865
+270,ASST  METAB ENDOSC PROC /PH-4234,assisted metabolic endoscopic procedure ph 4234,Assisted Metabolic Endoscopic Procedure,fuzzy_high,0.96,97.25,15.067
+271,PROC EXT PSYCH ENDOSC /PH-7478,procedure extended psychiatric endoscopic ph 7478,Extended Psychiatric Endoscopic Procedure,fuzzy_high,0.96,97.25,24.35
+272,OUTPATIENT - NEURO RECOV RM OCC,outpatient neurological recovery room occupancy,Outpatient Neurological Recovery Room Occupancy,exact,0.995,100.0,100.0
+273,IMMUN RECOV RM OCC INPT,immunologic recovery room occupancy inpatient,Inpatient Immunologic Recovery Room Occupancy,fuzzy_high,0.96,97.25,11.503
+274,INTENS HEP CASE CONF /PH-1923,intensive hepatic case conference ph 1923,Intensive Hepatic Case Conference,fuzzy_high,0.96,97.25,18.768
+275,PROCEDURE  - CONT METAB ENDOSC /PH-8537,procedure continuous metabolic endoscopic ph 8537,Continuous Metabolic Endoscopic Procedure,fuzzy_high,0.96,97.25,12.685
+276,COMPR PALL CONSULT,comprehensive palliative consultation,Comprehensive Palliative Consultation,exact,0.995,100.0,100.0
+277,EXT  ENDO THTR TM /PH-3856,extended endocrine thtr tm ph 3856,Extended Endocrine Theatre Time,ai_candidate_selection,0.95,80.0,17.5
+278,AMB - HEP CS,ambulatory hepatic case conference,Ambulatory Hepatic Case Conference,exact,0.995,100.0,100.0
+279,EXT INF THER,extended infusion ther,Extended Urologic Infusion Therapy,ai_candidate_selection,0.75,86.256,10.81
+280,ASST STERIL SERVICE /PH-7778,assisted steril service ph 7778,Assisted Immunologic Sterilisation Service,ai_candidate_selection,0.72,66.213,11.418
+281,SUPV  IMMUNOLOGIC STERIL /PH-7453,supv immunologic steril ph 7453,Supervised Immunologic Sterilisation Service,ai_candidate_selection,0.95,70.596,6.596
+282,ASST  RENAL IMG INTERP,assisted renal imaging interp,Assisted Renal Imaging Interpretation,ai_candidate_selection,0.95,87.879,19.743
+283,SUPV  - VASC DIAG IMG /PH-5142,supv vascular diagnostic imaging ph 5142,Supervised Vascular Diagnostic Imaging,ai_candidate_selection,0.95,83.357,0.844
+284,MONIT - ROUTINE GER TELEM,monitoring routine geriatric telem,Routine Geriatric Telemetry Monitoring,fuzzy_medium,0.89,91.847,10.367
+285,PREOPERATIVE  OPHTHALMIC TRANSP SVC,preoperative ophthalmic transport service,Preoperative Ophthalmic Transport Service,exact,0.995,100.0,100.0
+286,DIAGNOSTIC - ELECT VASCULAR /PH-3569,diagnostic elective vascular ph 3569,Elective Vascular Diagnostic Imaging,ai_candidate_selection,0.95,85.094,17.903
+287,SUPV  METAB DISCH PLNG /PH-3947,supv metabolic disch planning ph 3947,Supervised Metabolic Discharge Planning,ai_candidate_selection,0.95,76.316,9.649
+288,SERVICE EXT DERM TRANSP,service extended dermatologic transport,Extended Dermatologic Transport Service,fuzzy_high,0.96,97.25,16.98
+289,RTN NEUROLOGICAL BIOP PROC,routine neurological biopsy procedure,Routine Neurological Biopsy Procedure,exact,0.995,100.0,100.0
+290,OUTPT  HAEM LAB PNL,outpatient haematology laboratory panel,Outpatient Haematology Laboratory Panel,exact,0.995,100.0,100.0
+291,SPCLST  DERM NURSING OBS,spclst dermatologic nursing obs,Specialist Dermatologic Nursing Observation,ai_candidate_selection,0.95,83.784,7.509
+292,ASST HEP PHYSIO SESSION,assisted hepatic physiotherapy session,Assisted Hepatic Physiotherapy Session,exact,0.995,100.0,100.0
+293,INTERP EMER ONC IMAGING /PH-9034,interp emergency oncology imaging ph 9034,Emergency Oncology Imaging Interpretation,ai_candidate_selection,0.95,78.274,15.003
+294,SPCLST  - GI PHARM DISP,spclst gastrointestinal pharm dispensing,Specialist Gastrointestinal Pharmaceutical Dispensing,ai_candidate_selection,0.95,86.022,27.016
+295,EMER METAB DISCHARGE PLANNING,emergency metabolic discharge planning,Emergency Metabolic Discharge Planning,exact,0.995,100.0,100.0
+296,PREOP  OPHTHALMIC TRANSP SVC,preoperative ophthalmic transport service,Preoperative Ophthalmic Transport Service,exact,0.995,100.0,100.0
+297,TRANSP  CONT ENT /PH-1091,transport continuous otolaryngologic ph 1091,Continuous Otolaryngologic Transport Service,ai_candidate_selection,0.95,87.525,30.172
+298,PLNG - SUPV METAB DISCH,planning supv metabolic disch,Supervised Metabolic Discharge Planning,ai_candidate_selection,0.95,82.949,8.459
+299,CONT GASTROINTESTINAL ISOL RM OCC,continuous gastrointestinal isolation room occupancy,,ai_unresolved,0.52,67.327,0.551
+300,OCCUPANCY  COMPR OPHTHALMIC ISOL RM /PH-4881,occupancy comprehensive ophthalmic isolation room ph 4881,Comprehensive Ophthalmic Isolation Room Occupancy,fuzzy_high,0.96,97.25,25.331
+301,BEDS PAEDIATRIC CONSULT /PH-9421,beds paediatric consultation ph 9421,Bedside Paediatric Consultation,ai_candidate_selection,0.95,84.303,22.732
+302,VISIT  EMER UROLOGIC HM,visit emergency urologic home,Emergency Urologic Home Visit,fuzzy_high,0.96,97.25,27.725
+303,ROUTINE - PSYCH PHYSIO SESS /PH-3410,routine psychiatric physiotherapy session ph 3410,Routine Psychiatric Physiotherapy Session,fuzzy_high,0.96,97.25,27.285
+304,CONSULT BEDSIDE PAED /PH-7802,consultation bedside paediatric ph 7802,Bedside Paediatric Consultation,fuzzy_high,0.96,97.25,35.829
+305,FOCUSED  - UROL NUTR SUPP,focused urologic nutritional support,Focused Urologic Nutritional Support,exact,0.995,100.0,100.0
+306,RTN  INFECT INF THER,routine infectious infusion ther,Routine Infectious Infusion Therapy,fuzzy_high,0.96,95.522,37.644
+307,MONITORING  RTN GERIATRIC TELEM,monitoring routine geriatric telem,Routine Geriatric Telemetry Monitoring,fuzzy_medium,0.89,91.847,10.367
+308,THER - EXTENDED UROL INF,ther extended urologic infusion,Extended Urologic Infusion Therapy,fuzzy_medium,0.89,92.762,20.608
+309,STANDARD  PAED RADIOTHERAPY FRACT /PH-9499,standard paediatric radiotherapy fract ph 9499,Standard Paediatric Radiotherapy Fraction,ai_candidate_selection,0.95,87.498,29.43
+310,EXT UROL INFUSION THER /PH-7222,extended urologic infusion ther ph 7222,Extended Urologic Infusion Therapy,ai_candidate_selection,0.95,87.219,22.973
+311,STD PAED RADIOTHER FRACT,standard paediatric radiotherapy fract,Standard Paediatric Radiotherapy Fraction,fuzzy_high,0.96,96.203,32.781
+312,CONSULT BEDSIDE PAED,consultation bedside paediatric,Bedside Paediatric Consultation,fuzzy_high,0.96,97.25,28.603
+313,ADV CARDIAC VENT SUPPORT,advanced cardiac ventilation support,Advanced Cardiac Ventilation Support,exact,0.995,100.0,100.0
+314,FRACT UROL RADIOTHER,fract urologic radiotherapy,Routine Urologic Radiotherapy Fraction,ai_candidate_selection,0.83,85.094,2.851
+315,IMMUNOLOGIC  RECOV RM OCC /PH-9870,immunologic recovery room occupancy ph 9870,,ai_unresolved,0.52,87.276,0.0
+316,ADV  CARD VENT SUPP,advanced cardiac ventilation support,Advanced Cardiac Ventilation Support,exact,0.995,100.0,100.0
+317,SVC  SUPERVISED IMMUN STERIL /PH-1907,service supervised immunologic steril ph 1907,Supervised Immunologic Sterilisation Service,ai_candidate_selection,0.95,80.86,16.026
+318,COMPR  - ONC TRANSFUSION SVC,comprehensive oncology transfusion service,Comprehensive Oncology Transfusion Service,exact,0.995,100.0,100.0
+319,FRACT - EMER PULM RADIOTHER,fract emergency pulmonary radiotherapy,Emergency Pulmonary Radiotherapy Fraction,fuzzy_medium,0.89,93.557,13.762
+320,SPECIALIST  DERMATOLOGIC NURS OBS /PH-4333,specialist dermatologic nursing obs ph 4333,Specialist Dermatologic Nursing Observation,ai_candidate_selection,0.95,82.47,15.294
+321,ADV DERMATOLOGIC PHARM DISPENSING,advanced dermatologic pharm dispensing,Advanced Dermatologic Pharmaceutical Dispensing,fuzzy_medium,0.89,90.319,26.905
+322,EMER METAB DISCHARGE PLNG,emergency metabolic discharge planning,Emergency Metabolic Discharge Planning,exact,0.995,100.0,100.0
+323,FRACTION STD PAED RADIOTHERAPY /PH-2327,fraction standard paediatric radiotherapy ph 2327,Standard Paediatric Radiotherapy Fraction,fuzzy_high,0.96,97.25,28.021
+324,AMBULATORY  ONC IMG INTERP /PH-7671,ambulatory oncology imaging interp ph 7671,Ambulatory Oncology Imaging Interpretation,ai_candidate_selection,0.95,80.952,14.011
+325,OBS - INPT DERM NURS /PH-5270,obs inpatient dermatologic nursing ph 5270,Inpatient Dermatologic Nursing Observation,ai_candidate_selection,0.95,81.042,16.453
+326,OUTPATIENT HAEM LAB PNL /PH-5820,outpatient haematology laboratory panel ph 5820,Outpatient Haematology Laboratory Panel,fuzzy_high,0.96,97.25,36.533
+327,SUPP ELECTIVE OPHTH NUTR /PH-2997,support elective ophthalmic nutritional ph 2997,Elective Ophthalmic Nutritional Support,fuzzy_high,0.96,97.25,30.059
+328,MSK NUTR SUPP /PH-5455,musculoskeletal nutritional support ph 5455,Preoperative Musculoskeletal Nutritional Support,ai_candidate_selection,0.76,87.276,20.085
+329,SUPERVISED  IMMUN STERIL SERVICE,supervised immunologic steril service,Supervised Immunologic Sterilisation Service,fuzzy_medium,0.89,91.358,13.763
+330,ONC TRANSF SVC COMPR,oncology transfusion service comprehensive,Comprehensive Oncology Transfusion Service,fuzzy_high,0.96,97.25,12.156
+331,EMER  - METAB DISCHARGE PLNG,emergency metabolic discharge planning,Emergency Metabolic Discharge Planning,exact,0.995,100.0,100.0
+332,RTN UROL TRANSPORT SERVICE /PH-3522,routine urologic transport service ph 3522,Routine Urologic Transport Service,fuzzy_high,0.96,97.25,27.483
+333,PLNG OUTPT PSYCH DISCH /PH-1726,planning outpatient psychiatric disch ph 1726,Outpatient Psychiatric Discharge Planning,ai_candidate_selection,0.95,83.743,14.279
+334,COMPR PALL CONSULT /PH-5729,comprehensive palliative consultation ph 5729,Comprehensive Palliative Consultation,fuzzy_high,0.96,97.25,18.768
+335,FOCUSED  - NEURO RADIOTHER FRACT,focused neurological radiotherapy fract,Focused Neurological Radiotherapy Fraction,fuzzy_high,0.96,96.296,18.114
+336,SUPP - PREOP MSK NUTR /PH-2761,support preoperative musculoskeletal nutritional ph 2761,Preoperative Musculoskeletal Nutritional Support,fuzzy_high,0.96,97.25,19.134
+337,ELECTIVE  OPHTH RECOVERY OCC /PH-7463,elective ophthalmic recovery occupancy ph 7463,Elective Ophthalmic Recovery Room Occupancy,fuzzy_medium,0.89,91.247,27.531
+338,PULM RADIOTHER FRACT EMER,pulmonary radiotherapy fract emergency,Emergency Pulmonary Radiotherapy Fraction,fuzzy_medium,0.89,93.557,13.762
+339,CONT - CS CONF,continuous case conference conference,Continuous Pulmonary Case Conference,fuzzy_high,0.96,97.25,26.091
+340,OPHTH TRANSP SVC PREOP,ophthalmic transport service preoperative,Preoperative Ophthalmic Transport Service,fuzzy_high,0.96,97.25,13.465
+341,AMB  METABOLIC IMAGING /PH-2931,ambulatory metabolic imaging ph 2931,Ambulatory Metabolic Imaging Interpretation,ai_candidate_selection,0.95,85.094,20.26
+342,RTN PSYCHIATRIC PHYSIOTHERAPY SESS,routine psychiatric physiotherapy session,Routine Psychiatric Physiotherapy Session,exact,0.995,100.0,100.0
+343,CARD VENT SUPP ASST,cardiac ventilation support assisted,Assisted Cardiac Ventilation Support,fuzzy_high,0.96,97.25,13.507
+344,PREOPERATIVE PAED BIOP PROCEDURE,preoperative paediatric biopsy procedure,Preoperative Paediatric Biopsy Procedure,exact,0.995,100.0,100.0
+345,OUTPT  - DERMATOLOGIC VST,outpatient dermatologic visit,Outpatient Dermatologic Home Visit,fuzzy_high,0.96,97.25,17.25
+346,COMPR  ONC TRANSF SVC,comprehensive oncology transfusion service,Comprehensive Oncology Transfusion Service,exact,0.995,100.0,100.0
+347,COMPR OPHTH ISOL ROOM OCCUPANCY,comprehensive ophthalmic isolation room occupancy,Comprehensive Ophthalmic Isolation Room Occupancy,exact,0.995,100.0,100.0
+348,SUPV ENT SPCM ANLY,supv otolaryngologic specimen analysis,Supervised Otolaryngologic Specimen Analysis,fuzzy_medium,0.89,92.807,28.764
+349,STD PSYCH DISCH PLANNING,standard psychiatric disch planning,Standard Psychiatric Discharge Planning,fuzzy_medium,0.89,94.595,15.647
+350,ELECT - OPHTH RECOV RM OCC,elective ophthalmic recovery room occupancy,Elective Ophthalmic Recovery Room Occupancy,exact,0.995,100.0,100.0
+351,PROC EMER GI ENDOSC /PH-2135,procedure emergency gastrointestinal endoscopic ph 2135,Emergency Gastrointestinal Endoscopic Procedure,fuzzy_high,0.96,97.25,15.472
+352,PLNG STD PSYCH DISCH,planning standard psychiatric disch,Standard Psychiatric Discharge Planning,fuzzy_medium,0.89,91.993,15.217
+353,MONITORING - INTERM VASC TELEMETRY,monitoring intermittent vascular telemetry,Intermittent Vascular Telemetry Monitoring,fuzzy_high,0.96,97.25,30.181
+354,COMPR  - CONSULT,comprehensive consultation,Comprehensive Palliative Consultation,fuzzy_high,0.96,97.25,20.225
+355,CONT - OTOLARYNGOLOGIC TRANSP SVC,continuous otolaryngologic transport service,Continuous Otolaryngologic Transport Service,exact,0.995,100.0,100.0
+356,SUPV  VASC CONSULT /PH-4632,supv vascular consultation ph 4632,Supervised Vascular Consultation,ai_candidate_selection,0.95,78.994,18.553
+357,OUTPATIENT METABOLIC PHYSIO SESSION,outpatient metabolic physiotherapy session,Outpatient Metabolic Physiotherapy Session,exact,0.995,100.0,100.0
+358,COMPR METAB VENT SUPPORT,comprehensive metabolic ventilation support,Comprehensive Metabolic Ventilation Support,exact,0.995,100.0,100.0
+359,ELECT VASCULAR DIAG IMG,elective vascular diagnostic imaging,Elective Vascular Diagnostic Imaging,exact,0.995,100.0,100.0
+360,FRACT STD PAEDIATRIC RADIOTHER,fract standard paediatric radiotherapy,Standard Paediatric Radiotherapy Fraction,fuzzy_medium,0.89,93.557,34.695
+361,ELECT VASC DIAG IMAGING,elective vascular diagnostic imaging,Elective Vascular Diagnostic Imaging,exact,0.995,100.0,100.0
+362,CONFERENCE  - CONT PULMONARY CS,conference continuous pulmonary case conference,Continuous Pulmonary Case Conference,fuzzy_high,0.96,97.25,33.305
+363,IMMUN RECOV RM OCC PREOP,immunologic recovery room occupancy preoperative,Preoperative Immunologic Recovery Room Occupancy,fuzzy_high,0.96,97.25,11.503
+364,OCC AMB PAED RM,occupancy ambulatory paediatric room,Ambulatory Paediatric Isolation Room Occupancy,fuzzy_high,0.96,97.25,34.818
+365,SUPPORT - ADV CARD,support advanced cardiac,Advanced Cardiac Ventilation Support,fuzzy_medium,0.89,92.025,10.385
+366,OUTPT  DERM HOME VST,outpatient dermatologic home visit,Outpatient Dermatologic Home Visit,exact,0.995,100.0,100.0
+367,ASST IMMUN STERIL /PH-1150,assisted immunologic steril ph 1150,Assisted Immunologic Sterilisation Service,ai_candidate_selection,0.95,72.727,12.854
+368,CONT - ENT TRANSP SVC /PH-3583,continuous otolaryngologic transport service ph 3583,Continuous Otolaryngologic Transport Service,fuzzy_high,0.96,97.25,18.83
+369,PALL CONSULT COMPR,palliative consultation comprehensive,Comprehensive Palliative Consultation,fuzzy_high,0.96,97.25,18.768
+370,SUPERVISED METAB DISCH PLNG /PH-5892,supervised metabolic disch planning ph 5892,Supervised Metabolic Discharge Planning,ai_candidate_selection,0.95,85.366,16.23
+371,SUPP  FOCUSED UROL NUTRITIONAL,support focused urologic nutritional,Focused Urologic Nutritional Support,fuzzy_high,0.96,97.25,27.23
+372,CONT PULM CS CONFERENCE /PH-7640,continuous pulmonary case conference conference ph 7640,Continuous Pulmonary Case Conference,fuzzy_medium,0.89,94.5,19.35
+373,EMERGENCY PULM RADIOTHER FRACTION,emergency pulmonary radiotherapy fraction,Emergency Pulmonary Radiotherapy Fraction,exact,0.995,100.0,100.0
+374,AMBULATORY  HEP ENDOSC PROC /PH-2434,ambulatory hepatic endoscopic procedure ph 2434,,ai_unresolved,0.52,67.327,1.004
+375,PREOP PAEDIATRIC BIOP PROCEDURE /PH-3256,preoperative paediatric biopsy procedure ph 3256,Preoperative Paediatric Biopsy Procedure,fuzzy_high,0.96,97.25,28.274
+376,HAEM - LABORATORY PNL,haematology laboratory panel,Outpatient Haematology Laboratory Panel,fuzzy_high,0.96,97.25,26.523
+377,ASST  - HEP PHYSIO SESS /PH-3958,assisted hepatic physiotherapy session ph 3958,Assisted Hepatic Physiotherapy Session,fuzzy_high,0.96,97.25,28.835
+378,EMER PULM RADIOTHER FRACT /PH-2351,emergency pulmonary radiotherapy fract ph 2351,Emergency Pulmonary Radiotherapy Fraction,ai_candidate_selection,0.95,87.498,13.079
+379,THERAPY ROUTINE INFECTIOUS INF,therapy routine infectious infusion,Routine Infectious Infusion Therapy,fuzzy_high,0.96,97.25,32.417
+380,ASST HEP PHYSIO SESS /PH-9888,assisted hepatic physiotherapy session ph 9888,Assisted Hepatic Physiotherapy Session,fuzzy_high,0.96,97.25,28.835
+381,OCC OPHTHALMIC ISOL ROOM,occupancy ophthalmic isolation room,Comprehensive Ophthalmic Isolation Room Occupancy,fuzzy_high,0.96,97.25,16.208
+382,GI ENDOSC PROC COMPR,gastrointestinal endoscopic procedure comprehensive,Comprehensive Gastrointestinal Endoscopic Procedure,fuzzy_high,0.96,97.25,11.577
+383,INTERMITTENT UROL DISCH PLNG,intermittent urologic disch planning,Intermittent Urologic Discharge Planning,fuzzy_medium,0.89,94.737,13.724
+384,COMPREHENSIVE  OPHTH ISOL RM OCCUPANCY /PH-6957,comprehensive ophthalmic isolation room occupancy ph 6957,Comprehensive Ophthalmic Isolation Room Occupancy,fuzzy_high,0.96,97.25,25.331
+385,EMERGENCY PULM RADIOTHERAPY FRACT /PH-7558,emergency pulmonary radiotherapy fract ph 7558,Emergency Pulmonary Radiotherapy Fraction,ai_candidate_selection,0.95,87.498,13.079
+386,FOC  ENDO THTR TM /PH-5137,focused endocrine thtr tm ph 5137,Focused Endocrine Theatre Time,ai_candidate_selection,0.95,79.365,16.865
+387,ELECT  PULM RADIOTHER FRACT,elective pulmonary radiotherapy fract,Elective Pulmonary Radiotherapy Fraction,fuzzy_high,0.96,96.104,14.053
+388,ELECT - VASCULAR DIAGNOSTIC IMG,elective vascular diagnostic imaging,Elective Vascular Diagnostic Imaging,exact,0.995,100.0,100.0
+389,STANDARD PAED RADIOTHERAPY FRACT,standard paediatric radiotherapy fract,Standard Paediatric Radiotherapy Fraction,fuzzy_high,0.96,96.203,32.781
+390,EMER - ONC IMG INTERP,emergency oncology imaging interp,Emergency Oncology Imaging Interpretation,fuzzy_medium,0.89,89.189,17.189
+391,INTERM VASC TELEM MONITORING /PH-6473,intermittent vascular telem monitoring ph 6473,Intermittent Vascular Telemetry Monitoring,ai_candidate_selection,0.95,86.419,29.276
+392,COMPREHENSIVE - METAB VENT SUPPORT,comprehensive metabolic ventilation support,Comprehensive Metabolic Ventilation Support,exact,0.995,100.0,100.0
+393,THER EXTENDED UROLOGIC INF,ther extended urologic infusion,Extended Urologic Infusion Therapy,fuzzy_medium,0.89,92.762,20.608
+394,DERM NURS OBS SPCLST,dermatologic nursing obs spclst,Specialist Dermatologic Nursing Observation,ai_candidate_selection,0.95,81.48,5.205
+395,OUTPT  METAB PHYSIO SESS /PH-1346,outpatient metabolic physiotherapy session ph 1346,Outpatient Metabolic Physiotherapy Session,fuzzy_high,0.96,97.25,27.716
+396,DERM HM VST OUTPT,dermatologic home visit outpatient,Outpatient Dermatologic Home Visit,fuzzy_high,0.96,97.25,10.473
+397,EXT OPHTH TRANSP SERVICE,extended ophthalmic transport service,Extended Ophthalmic Transport Service,exact,0.995,100.0,100.0
+398,OUTPT METAB PHYSIO SESS,outpatient metabolic physiotherapy session,Outpatient Metabolic Physiotherapy Session,exact,0.995,100.0,100.0
+399,COMPR METABOLIC VENT SUPP,comprehensive metabolic ventilation support,Comprehensive Metabolic Ventilation Support,exact,0.995,100.0,100.0
+400,BEDSIDE ONC TRANSF SERVICE /PH-3200,bedside oncology transfusion service ph 3200,Bedside Oncology Transfusion Service,fuzzy_high,0.96,97.25,19.041
+401,INTERPRETATION ASST REN IMG,interpretation assisted renal imaging,Assisted Renal Imaging Interpretation,fuzzy_high,0.96,97.25,24.725
+402,METAB DISCH PLNG EMER,metabolic disch planning emergency,Emergency Metabolic Discharge Planning,fuzzy_medium,0.89,91.847,17.244
+403,EMER ONCOLOGY IMG INTERP /PH-5517,emergency oncology imaging interp ph 5517,Emergency Oncology Imaging Interpretation,ai_candidate_selection,0.95,80.488,15.428
+404,ASST IMMUN STERIL SVC /PH-5225,assisted immunologic steril service ph 5225,Assisted Immunologic Sterilisation Service,ai_candidate_selection,0.95,82.353,11.893
+405,CONSULT  - SUPV VASC /PH-5450,consultation supv vascular ph 5450,Supervised Vascular Consultation,ai_candidate_selection,0.95,77.066,19.538
+406,NEURO BIOP PROC RTN,neurological biopsy procedure routine,Routine Neurological Biopsy Procedure,fuzzy_high,0.96,97.25,11.788
+407,SPECIALIST DERM NURS OBS /PH-3531,specialist dermatologic nursing obs ph 3531,Specialist Dermatologic Nursing Observation,ai_candidate_selection,0.95,82.47,15.294
+408,COMPR  ONC TRANSF SVC /PH-6526,comprehensive oncology transfusion service ph 6526,Comprehensive Oncology Transfusion Service,fuzzy_high,0.96,97.25,12.156
+409,STD INFECT VENT SUPPORT,standard infectious ventilation support,Standard Infectious Ventilation Support,exact,0.995,100.0,100.0
+410,BEDS PAED CONSULT,beds paediatric consultation,Bedside Paediatric Consultation,fuzzy_medium,0.89,94.915,23.566
+411,INFECT  - VENT SUPP /PH-8261,infectious ventilation support ph 8261,Standard Infectious Ventilation Support,ai_candidate_selection,0.9,85.809,18.618
+412,RTN UROLOGIC RADIOTHER FRACT /PH-5813,routine urologic radiotherapy fract ph 5813,Routine Urologic Radiotherapy Fraction,ai_candidate_selection,0.95,86.486,14.604
+413,RTN  GER TELEM MONIT,routine geriatric telem monitoring,Routine Geriatric Telemetry Monitoring,fuzzy_medium,0.89,94.444,10.661
+414,ASST VENT SUPP,assisted ventilation support,Assisted Cardiac Ventilation Support,fuzzy_high,0.96,97.25,13.842
+415,INPT  IMMUN RECOV RM,inpatient immunologic recovery room,Inpatient Immunologic Recovery Room Occupancy,fuzzy_high,0.96,97.25,16.208
+416,PREOPERATIVE OPHTH TRANSP SVC /PH-6669,preoperative ophthalmic transport service ph 6669,Preoperative Ophthalmic Transport Service,fuzzy_high,0.96,97.25,13.465
+417,COMPREHENSIVE ONC TRANSF SERVICE,comprehensive oncology transfusion service,Comprehensive Oncology Transfusion Service,exact,0.995,100.0,100.0
+418,ASST - HEPATIC PHYSIO SESS /PH-8096,assisted hepatic physiotherapy session ph 8096,Assisted Hepatic Physiotherapy Session,fuzzy_high,0.96,97.25,28.835
+419,ASSISTED CARD VENTILATION SUPP /PH-7856,assisted cardiac ventilation support ph 7856,Assisted Cardiac Ventilation Support,fuzzy_high,0.96,97.25,13.893
+420,ASST  METAB PROCEDURE /PH-3748,assisted metabolic procedure ph 3748,Assisted Metabolic Endoscopic Procedure,ai_candidate_selection,0.84,85.094,17.903
+421,ASST CARDIAC VENT SUPP /PH-2315,assisted cardiac ventilation support ph 2315,Assisted Cardiac Ventilation Support,fuzzy_high,0.96,97.25,13.893
+422,ROUTINE PSYCH MONITORING,routine psychiatric monitoring,Routine Psychiatric Telemetry Monitoring,fuzzy_high,0.96,97.25,21.832
+423,ELECT - PULM RADIOTHER FRACT /PH-7464,elective pulmonary radiotherapy fract ph 7464,Elective Pulmonary Radiotherapy Fraction,ai_candidate_selection,0.95,87.178,12.76
+424,PREOP OPHTH TRANSP SERVICE,preoperative ophthalmic transport service,Preoperative Ophthalmic Transport Service,exact,0.995,100.0,100.0
+425,ONC TRANSF SVC BEDS,oncology transfusion service beds,Bedside Oncology Transfusion Service,ai_candidate_selection,0.94,93.022,3.743
+426,RTN  PHYSIOTHERAPY SESS,routine physiotherapy session,Routine Psychiatric Physiotherapy Session,fuzzy_high,0.96,97.25,15.56
+427,INPT - IMMUN RECOV RM OCC,inpatient immunologic recovery room occupancy,Inpatient Immunologic Recovery Room Occupancy,exact,0.995,100.0,100.0
+428,ASSISTED GERIATRIC LAB PNL /PH-5880,assisted geriatric laboratory panel ph 5880,,ai_unresolved,0.52,58.377,1.341
+429,INTERM - UROL DISCH PLNG,intermittent urologic disch planning,Intermittent Urologic Discharge Planning,fuzzy_medium,0.89,94.737,13.724
+430,OBSERVATION  SPCLST DERM NURS,observation spclst dermatologic nursing,Specialist Dermatologic Nursing Observation,ai_candidate_selection,0.95,92.506,4.844
+431,PROCEDURE  COMPR GI ENDOSCOPIC /PH-8431,procedure comprehensive gastrointestinal endoscopic ph 8431,Comprehensive Gastrointestinal Endoscopic Procedure,fuzzy_high,0.96,97.25,11.577
+432,INTERP EMER ONC IMAGING /PH-7410,interp emergency oncology imaging ph 7410,Emergency Oncology Imaging Interpretation,ai_candidate_selection,0.95,78.274,15.003
+433,ASST CARD VENT SUPP /PH-3696,assisted cardiac ventilation support ph 3696,Assisted Cardiac Ventilation Support,fuzzy_high,0.96,97.25,13.893
+434,FOC UROLOGIC NUTR SUPP,focused urologic nutritional support,Focused Urologic Nutritional Support,exact,0.995,100.0,100.0
+435,ASST CARDIAC VENT SUPP,assisted cardiac ventilation support,Assisted Cardiac Ventilation Support,exact,0.995,100.0,100.0
+436,EMERGENCY  - GI ENDOSC PROC /PH-3138,emergency gastrointestinal endoscopic procedure ph 3138,Emergency Gastrointestinal Endoscopic Procedure,fuzzy_high,0.96,97.25,15.472
+437,INTERMITTENT UROLOGIC DISCH PLANNING /PH-9665,intermittent urologic disch planning ph 9665,Intermittent Urologic Discharge Planning,ai_candidate_selection,0.95,85.714,12.151
+438,PROG PREOP ENDOCRINE REHABILITATION,programme preoperative endocrine rehabilitation,Preoperative Endocrine Rehabilitation Programme,fuzzy_high,0.96,97.25,27.148
+439,ELECT  - VASC DIAG IMG /PH-8719,elective vascular diagnostic imaging ph 8719,Elective Vascular Diagnostic Imaging,fuzzy_high,0.96,97.25,16.458
+440,PREOP PAED BIOP PROCEDURE,preoperative paediatric biopsy procedure,Preoperative Paediatric Biopsy Procedure,exact,0.995,100.0,100.0
+441,HEP CS CONF INTENS,hepatic case conference conference intensive,Intensive Hepatic Case Conference,fuzzy_high,0.96,97.25,17.366
+442,PULM RADIOTHER FRACT ELECT,pulmonary radiotherapy fract elective,Elective Pulmonary Radiotherapy Fraction,fuzzy_medium,0.89,93.461,13.666
+443,ENDO THTR TM FOC,endocrine thtr tm focused,Focused Endocrine Theatre Time,ai_candidate_selection,0.95,88.409,17.561
+444,INTERM  VASC TELEMETRY MONITORING,intermittent vascular telemetry monitoring,Intermittent Vascular Telemetry Monitoring,exact,0.995,100.0,100.0
+445,VASC DIAG IMG ELECT,vascular diagnostic imaging elective,Elective Vascular Diagnostic Imaging,fuzzy_high,0.96,97.25,13.893
+446,RTN - NEURO BIOPSY PROC,routine neurological biopsy procedure,Routine Neurological Biopsy Procedure,exact,0.995,100.0,100.0
+447,FOC UROL NUTR /PH-6864,focused urologic nutritional ph 6864,Focused Urologic Nutritional Support,ai_candidate_selection,0.95,85.208,27.388
+448,SPCLST - DERMATOLOGIC NURS OBS,spclst dermatologic nursing obs,Specialist Dermatologic Nursing Observation,ai_candidate_selection,0.95,83.784,7.509
+449,PSYCH  TELEM MONITORING,psychiatric telem monitoring,Routine Psychiatric Telemetry Monitoring,ai_candidate_selection,0.83,85.58,11.555
+450,PLANNING  - OUTPT PSYCH DISCH /PH-6487,planning outpatient psychiatric disch ph 6487,Outpatient Psychiatric Discharge Planning,ai_candidate_selection,0.95,83.743,14.279
+451,EMER  ONC IMG INTERPRETATION,emergency oncology imaging interpretation,Emergency Oncology Imaging Interpretation,exact,0.995,100.0,100.0
+452,CONT OTOLARYNGOLOGIC TRANSP SVC,continuous otolaryngologic transport service,Continuous Otolaryngologic Transport Service,exact,0.995,100.0,100.0
+453,IMMUN STERIL SVC ASST,immunologic steril service assisted,Assisted Immunologic Sterilisation Service,ai_candidate_selection,0.95,88.409,17.01
+454,ELECT  - INFECT WARD BD OCC,elective infectious ward bd occupancy,,ai_unresolved,0.52,63.83,8.418
+455,VST  EMERGENCY UROL HM /PH-9730,visit emergency urologic home ph 9730,Emergency Urologic Home Visit,fuzzy_high,0.96,97.25,39.355
+456,AMB  - ONC IMG INTERP,ambulatory oncology imaging interp,Ambulatory Oncology Imaging Interpretation,fuzzy_medium,0.89,89.474,15.578
+457,ELECT - PULM RADIOTHER FRACT,elective pulmonary radiotherapy fract,Elective Pulmonary Radiotherapy Fraction,fuzzy_high,0.96,96.104,14.053
+458,PLANNING  - SUPV METAB DISCH /PH-3065,planning supv metabolic disch ph 3065,Supervised Metabolic Discharge Planning,ai_candidate_selection,0.95,74.217,9.384
+459,PROCEDURE  - EMER NEURO BIOP,procedure emergency neurological biopsy,Emergency Neurological Biopsy Procedure,fuzzy_high,0.96,97.25,11.788
+460,OUTPT  PSYCHIATRIC DISCHARGE PLNG /PH-6789,outpatient psychiatric discharge planning ph 6789,Outpatient Psychiatric Discharge Planning,fuzzy_high,0.96,97.25,12.685
+461,POSTOPERATIVE  OTOLARYNGOLOGIC DIAG IMG /PH-6206,postoperative otolaryngologic diagnostic imaging ph 6206,,ai_unresolved,0.52,77.025,10.645
+462,PSYCHIATRIC CS CONFERENCE /PH-3349,psychiatric case conference conference ph 3349,Inpatient Psychiatric Case Conference,ai_candidate_selection,0.85,84.702,19.868
+463,BEDSIDE PAED CONSULTATION,bedside paediatric consultation,Bedside Paediatric Consultation,exact,0.995,100.0,100.0
+464,METAB DISCH PLNG SUPV,metabolic disch planning supv,Supervised Metabolic Discharge Planning,ai_candidate_selection,0.95,82.949,8.459
+465,ROUTINE PSYCH PHYSIO SESSION,routine psychiatric physiotherapy session,Routine Psychiatric Physiotherapy Session,exact,0.995,100.0,100.0
+466,PALL CONSULT,palliative consultation,,ai_unresolved,0.52,97.25,2.75
+467,AMB ONC IMG INTERPRETATION /PH-1018,ambulatory oncology imaging interpretation ph 1018,Ambulatory Oncology Imaging Interpretation,fuzzy_high,0.96,97.25,12.796
+468,DISP INPT REN PHARM,dispensing inpatient renal pharm,,ai_unresolved,0.52,74.554,13.133
+469,ASST  PSYCH PHARM DISP /PH-6086,assisted psychiatric pharm dispensing ph 6086,,ai_unresolved,0.52,58.452,2.881
+470,GER  - RECOV ROOM OCC,geriatric recovery room occupancy,,ai_unresolved,0.52,79.884,0.0
+471,EMER - PALL STERIL SVC,emergency palliative steril service,,ai_unresolved,0.52,60.623,1.193
+472,SPCM  STD PULMONARY /PH-7123,specimen standard pulmonary ph 7123,,ai_unresolved,0.52,49.31,0.037
+473,INTERM  REN STERIL SVC,intermittent renal steril service,,ai_unresolved,0.52,65.753,7.087

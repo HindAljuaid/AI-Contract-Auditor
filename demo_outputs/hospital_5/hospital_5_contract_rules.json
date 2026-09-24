@@ -1,0 +1,4456 @@
+{
+  "contract_number": "INS-H5-2024-0731",
+  "provider_name": "Pelham Health Network",
+  "payer_name": "Meridian Health Assurance Group",
+  "currency": "GBP",
+  "effective_from": "2024-01-01",
+  "effective_to": "2025-12-31",
+  "rounding": "half_up_cent",
+  "services": [
+    {
+      "service_name": "Advanced Cardiac Ventilation Support",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 3375,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": 24.0,
+      "daily_cap_unit": "hours",
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Advanced Dermatologic Pharmaceutical Dispensing",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 8175,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": 4.0,
+      "daily_cap_unit": "items",
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Ambulatory Hepatic Case Conference",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 19775,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Ambulatory Metabolic Imaging Interpretation",
+      "unit_basis": "per test",
+      "rates": [
+        {
+          "rate_cents": 3900,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Ambulatory Oncology Imaging Interpretation",
+      "unit_basis": "per test",
+      "rates": [
+        {
+          "rate_cents": 6675,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Ambulatory Paediatric Isolation Room Occupancy",
+      "unit_basis": "per day of service",
+      "rates": [
+        {
+          "rate_cents": 126525,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Assisted Cardiac Ventilation Support",
+      "unit_basis": "per day of service",
+      "rates": [
+        {
+          "rate_cents": 156675,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Assisted Hepatic Physiotherapy Session",
+      "unit_basis": "per visit",
+      "rates": [
+        {
+          "rate_cents": 19025,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": 12.0,
+      "daily_cap_unit": "visits",
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Assisted Immunologic Sterilisation Service",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 24500,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Assisted Metabolic Endoscopic Procedure",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 110150,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Assisted Renal Imaging Interpretation",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 161650,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Bedside Oncology Transfusion Service",
+      "unit_basis": "per unit dispensed",
+      "rates": [
+        {
+          "rate_cents": 3025,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Bedside Paediatric Consultation",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 421875,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Comprehensive Gastrointestinal Endoscopic Procedure",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 141500,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Comprehensive Geriatric Wound Care",
+      "unit_basis": "per visit",
+      "rates": [
+        {
+          "rate_cents": 11725,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Comprehensive Metabolic Ventilation Support",
+      "unit_basis": "per day of service",
+      "rates": [
+        {
+          "rate_cents": 47650,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Comprehensive Oncology Transfusion Service",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 414475,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": 8.0,
+      "daily_cap_unit": "procedures",
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Comprehensive Ophthalmic Isolation Room Occupancy",
+      "unit_basis": "per night of occupancy",
+      "rates": [
+        {
+          "rate_cents": 105950,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Comprehensive Palliative Consultation",
+      "unit_basis": "per visit",
+      "rates": [
+        {
+          "rate_cents": 35050,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Continuous Immunologic Laboratory Panel",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 7025,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Continuous Metabolic Endoscopic Procedure",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 550750,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Continuous Otolaryngologic Transport Service",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 14675,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Continuous Pulmonary Case Conference",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 4300,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Elective Metabolic Pharmaceutical Dispensing",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 28450,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Elective Ophthalmic Nutritional Support",
+      "unit_basis": "per day of service",
+      "rates": [
+        {
+          "rate_cents": 94300,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Elective Ophthalmic Recovery Room Occupancy",
+      "unit_basis": "per night of occupancy",
+      "rates": [
+        {
+          "rate_cents": 195975,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Elective Pulmonary Radiotherapy Fraction",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 353625,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Elective Vascular Diagnostic Imaging",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 284175,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Emergency Gastrointestinal Endoscopic Procedure",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 707500,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Emergency Metabolic Discharge Planning",
+      "unit_basis": "per visit",
+      "rates": [
+        {
+          "rate_cents": 20575,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Emergency Neurological Biopsy Procedure",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 440750,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Emergency Oncology Imaging Interpretation",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 441250,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": 4.0,
+      "daily_cap_unit": "procedures",
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Emergency Pulmonary Radiotherapy Fraction",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 5850,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Emergency Urologic Home Visit",
+      "unit_basis": "per visit",
+      "rates": [
+        {
+          "rate_cents": 17325,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Extended Dermatologic Transport Service",
+      "unit_basis": "per visit",
+      "rates": [
+        {
+          "rate_cents": 14475,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": 4.0,
+      "daily_cap_unit": "visits",
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Extended Endocrine Theatre Time",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 15700,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Extended Neurological Consultation",
+      "unit_basis": "per visit",
+      "rates": [
+        {
+          "rate_cents": 17100,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Extended Ophthalmic Transport Service",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 27750,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Extended Psychiatric Endoscopic Procedure",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 145200,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Extended Urologic Infusion Therapy",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 7400,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Focused Endocrine Theatre Time",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 3925,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Focused Neurological Radiotherapy Fraction",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 1950,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Focused Urologic Nutritional Support",
+      "unit_basis": "per unit dispensed",
+      "rates": [
+        {
+          "rate_cents": 7700,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Inpatient Dermatologic Nursing Observation",
+      "unit_basis": "per day of service",
+      "rates": [
+        {
+          "rate_cents": 132400,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Inpatient Immunologic Recovery Room Occupancy",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 9500,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Inpatient Psychiatric Case Conference",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 12175,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Inpatient Pulmonary Critical Care Occupancy",
+      "unit_basis": "per night of occupancy",
+      "rates": [
+        {
+          "rate_cents": 57800,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Intensive Hepatic Case Conference",
+      "unit_basis": "per visit",
+      "rates": [
+        {
+          "rate_cents": 21375,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Intensive Oncology Sterilisation Service",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 247750,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Intermittent Orthopaedic Discharge Planning",
+      "unit_basis": "per visit",
+      "rates": [
+        {
+          "rate_cents": 37375,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Intermittent Urologic Discharge Planning",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 12125,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Intermittent Vascular Telemetry Monitoring",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 3850,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": 8.0,
+      "daily_cap_unit": "hours",
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Outpatient Dermatologic Home Visit",
+      "unit_basis": "per visit",
+      "rates": [
+        {
+          "rate_cents": 19375,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Outpatient Haematology Laboratory Panel",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 19050,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Outpatient Metabolic Physiotherapy Session",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 16725,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Outpatient Neurological Recovery Room Occupancy",
+      "unit_basis": "per night of occupancy",
+      "rates": [
+        {
+          "rate_cents": 111475,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Outpatient Psychiatric Discharge Planning",
+      "unit_basis": "per visit",
+      "rates": [
+        {
+          "rate_cents": 19300,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Postoperative Musculoskeletal Imaging Interpretation",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 431375,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Preoperative Endocrine Rehabilitation Programme",
+      "unit_basis": "per visit",
+      "rates": [
+        {
+          "rate_cents": 33725,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Preoperative Gastrointestinal Nutritional Support",
+      "unit_basis": "per unit dispensed",
+      "rates": [
+        {
+          "rate_cents": 3750,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Preoperative Immunologic Recovery Room Occupancy",
+      "unit_basis": "per night of occupancy",
+      "rates": [
+        {
+          "rate_cents": 142550,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Preoperative Musculoskeletal Nutritional Support",
+      "unit_basis": "per unit dispensed",
+      "rates": [
+        {
+          "rate_cents": 6675,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Preoperative Ophthalmic Transport Service",
+      "unit_basis": "per visit",
+      "rates": [
+        {
+          "rate_cents": 13975,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": 6.0,
+      "daily_cap_unit": "visits",
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Preoperative Paediatric Biopsy Procedure",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 15675,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Routine Dermatologic Home Visit",
+      "unit_basis": "per visit",
+      "rates": [
+        {
+          "rate_cents": 96875,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Routine Geriatric Telemetry Monitoring",
+      "unit_basis": "per day of service",
+      "rates": [
+        {
+          "rate_cents": 126725,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Routine Infectious Infusion Therapy",
+      "unit_basis": "per unit dispensed",
+      "rates": [
+        {
+          "rate_cents": 7150,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": 24.0,
+      "daily_cap_unit": "units",
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Routine Neurological Biopsy Procedure",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 18625,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Routine Psychiatric Physiotherapy Session",
+      "unit_basis": "per visit",
+      "rates": [
+        {
+          "rate_cents": 30950,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Routine Psychiatric Telemetry Monitoring",
+      "unit_basis": "per hour, per item",
+      "rates": [
+        {
+          "rate_cents": 2950,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Routine Urologic Radiotherapy Fraction",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 5100,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Routine Urologic Transport Service",
+      "unit_basis": "per visit",
+      "rates": [
+        {
+          "rate_cents": 15250,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Specialist Dermatologic Nursing Observation",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 10450,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Specialist Gastrointestinal Pharmaceutical Dispensing",
+      "unit_basis": "per unit dispensed",
+      "rates": [
+        {
+          "rate_cents": 4125,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Specialist Metabolic Sterilisation Service",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 19825,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Standard Infectious Ventilation Support",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 19225,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Standard Paediatric Radiotherapy Fraction",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 117900,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Standard Psychiatric Discharge Planning",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 5200,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Supervised Immunologic Sterilisation Service",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 268575,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Supervised Metabolic Discharge Planning",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 16775,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Supervised Otolaryngologic Specimen Analysis",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 28300,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Supervised Palliative Consultation",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 441425,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Supervised Vascular Consultation",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 156100,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Supervised Vascular Diagnostic Imaging",
+      "unit_basis": "per test",
+      "rates": [
+        {
+          "rate_cents": 20175,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Table 1 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    }
+  ],
+  "facility_multipliers": [
+    {
+      "service_name": "Advanced Cardiac Ventilation Support",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Advanced Cardiac Ventilation Support",
+      "key": "F-NORTH",
+      "multiplier": 1.1
+    },
+    {
+      "service_name": "Advanced Cardiac Ventilation Support",
+      "key": "F-COAST",
+      "multiplier": 0.92
+    },
+    {
+      "service_name": "Advanced Dermatologic Pharmaceutical Dispensing",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Advanced Dermatologic Pharmaceutical Dispensing",
+      "key": "F-NORTH",
+      "multiplier": 1.1
+    },
+    {
+      "service_name": "Advanced Dermatologic Pharmaceutical Dispensing",
+      "key": "F-COAST",
+      "multiplier": 0.95
+    },
+    {
+      "service_name": "Ambulatory Hepatic Case Conference",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Ambulatory Hepatic Case Conference",
+      "key": "F-NORTH",
+      "multiplier": 1.08
+    },
+    {
+      "service_name": "Ambulatory Hepatic Case Conference",
+      "key": "F-COAST",
+      "multiplier": 0.95
+    },
+    {
+      "service_name": "Ambulatory Metabolic Imaging Interpretation",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Ambulatory Metabolic Imaging Interpretation",
+      "key": "F-NORTH",
+      "multiplier": 1.1
+    },
+    {
+      "service_name": "Ambulatory Metabolic Imaging Interpretation",
+      "key": "F-COAST",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Ambulatory Oncology Imaging Interpretation",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Ambulatory Oncology Imaging Interpretation",
+      "key": "F-NORTH",
+      "multiplier": 1.2
+    },
+    {
+      "service_name": "Ambulatory Oncology Imaging Interpretation",
+      "key": "F-COAST",
+      "multiplier": 0.92
+    },
+    {
+      "service_name": "Ambulatory Paediatric Isolation Room Occupancy",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Ambulatory Paediatric Isolation Room Occupancy",
+      "key": "F-NORTH",
+      "multiplier": 1.15
+    },
+    {
+      "service_name": "Ambulatory Paediatric Isolation Room Occupancy",
+      "key": "F-COAST",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Assisted Cardiac Ventilation Support",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Assisted Cardiac Ventilation Support",
+      "key": "F-NORTH",
+      "multiplier": 1.1
+    },
+    {
+      "service_name": "Assisted Cardiac Ventilation Support",
+      "key": "F-COAST",
+      "multiplier": 0.92
+    },
+    {
+      "service_name": "Assisted Hepatic Physiotherapy Session",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Assisted Hepatic Physiotherapy Session",
+      "key": "F-NORTH",
+      "multiplier": 1.2
+    },
+    {
+      "service_name": "Assisted Hepatic Physiotherapy Session",
+      "key": "F-COAST",
+      "multiplier": 0.92
+    },
+    {
+      "service_name": "Assisted Immunologic Sterilisation Service",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Assisted Immunologic Sterilisation Service",
+      "key": "F-NORTH",
+      "multiplier": 1.2
+    },
+    {
+      "service_name": "Assisted Immunologic Sterilisation Service",
+      "key": "F-COAST",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Assisted Metabolic Endoscopic Procedure",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Assisted Metabolic Endoscopic Procedure",
+      "key": "F-NORTH",
+      "multiplier": 1.1
+    },
+    {
+      "service_name": "Assisted Metabolic Endoscopic Procedure",
+      "key": "F-COAST",
+      "multiplier": 0.92
+    },
+    {
+      "service_name": "Assisted Renal Imaging Interpretation",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Assisted Renal Imaging Interpretation",
+      "key": "F-NORTH",
+      "multiplier": 1.2
+    },
+    {
+      "service_name": "Assisted Renal Imaging Interpretation",
+      "key": "F-COAST",
+      "multiplier": 0.92
+    },
+    {
+      "service_name": "Bedside Oncology Transfusion Service",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Bedside Oncology Transfusion Service",
+      "key": "F-NORTH",
+      "multiplier": 1.15
+    },
+    {
+      "service_name": "Bedside Oncology Transfusion Service",
+      "key": "F-COAST",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Bedside Paediatric Consultation",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Bedside Paediatric Consultation",
+      "key": "F-NORTH",
+      "multiplier": 1.15
+    },
+    {
+      "service_name": "Bedside Paediatric Consultation",
+      "key": "F-COAST",
+      "multiplier": 0.92
+    },
+    {
+      "service_name": "Comprehensive Gastrointestinal Endoscopic Procedure",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Comprehensive Gastrointestinal Endoscopic Procedure",
+      "key": "F-NORTH",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Comprehensive Gastrointestinal Endoscopic Procedure",
+      "key": "F-COAST",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Comprehensive Geriatric Wound Care",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Comprehensive Geriatric Wound Care",
+      "key": "F-NORTH",
+      "multiplier": 1.2
+    },
+    {
+      "service_name": "Comprehensive Geriatric Wound Care",
+      "key": "F-COAST",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Comprehensive Metabolic Ventilation Support",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Comprehensive Metabolic Ventilation Support",
+      "key": "F-NORTH",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Comprehensive Metabolic Ventilation Support",
+      "key": "F-COAST",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Comprehensive Oncology Transfusion Service",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Comprehensive Oncology Transfusion Service",
+      "key": "F-NORTH",
+      "multiplier": 1.15
+    },
+    {
+      "service_name": "Comprehensive Oncology Transfusion Service",
+      "key": "F-COAST",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Comprehensive Ophthalmic Isolation Room Occupancy",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Comprehensive Ophthalmic Isolation Room Occupancy",
+      "key": "F-NORTH",
+      "multiplier": 1.2
+    },
+    {
+      "service_name": "Comprehensive Ophthalmic Isolation Room Occupancy",
+      "key": "F-COAST",
+      "multiplier": 0.95
+    },
+    {
+      "service_name": "Comprehensive Palliative Consultation",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Comprehensive Palliative Consultation",
+      "key": "F-NORTH",
+      "multiplier": 1.08
+    },
+    {
+      "service_name": "Comprehensive Palliative Consultation",
+      "key": "F-COAST",
+      "multiplier": 0.92
+    },
+    {
+      "service_name": "Continuous Immunologic Laboratory Panel",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Continuous Immunologic Laboratory Panel",
+      "key": "F-NORTH",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Continuous Immunologic Laboratory Panel",
+      "key": "F-COAST",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Continuous Metabolic Endoscopic Procedure",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Continuous Metabolic Endoscopic Procedure",
+      "key": "F-NORTH",
+      "multiplier": 1.1
+    },
+    {
+      "service_name": "Continuous Metabolic Endoscopic Procedure",
+      "key": "F-COAST",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Continuous Otolaryngologic Transport Service",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Continuous Otolaryngologic Transport Service",
+      "key": "F-NORTH",
+      "multiplier": 1.15
+    },
+    {
+      "service_name": "Continuous Otolaryngologic Transport Service",
+      "key": "F-COAST",
+      "multiplier": 0.92
+    },
+    {
+      "service_name": "Continuous Pulmonary Case Conference",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Continuous Pulmonary Case Conference",
+      "key": "F-NORTH",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Continuous Pulmonary Case Conference",
+      "key": "F-COAST",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Elective Metabolic Pharmaceutical Dispensing",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Elective Metabolic Pharmaceutical Dispensing",
+      "key": "F-NORTH",
+      "multiplier": 1.15
+    },
+    {
+      "service_name": "Elective Metabolic Pharmaceutical Dispensing",
+      "key": "F-COAST",
+      "multiplier": 0.95
+    },
+    {
+      "service_name": "Elective Ophthalmic Nutritional Support",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Elective Ophthalmic Nutritional Support",
+      "key": "F-NORTH",
+      "multiplier": 1.08
+    },
+    {
+      "service_name": "Elective Ophthalmic Nutritional Support",
+      "key": "F-COAST",
+      "multiplier": 0.95
+    },
+    {
+      "service_name": "Elective Ophthalmic Recovery Room Occupancy",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Elective Ophthalmic Recovery Room Occupancy",
+      "key": "F-NORTH",
+      "multiplier": 1.08
+    },
+    {
+      "service_name": "Elective Ophthalmic Recovery Room Occupancy",
+      "key": "F-COAST",
+      "multiplier": 0.95
+    },
+    {
+      "service_name": "Elective Pulmonary Radiotherapy Fraction",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Elective Pulmonary Radiotherapy Fraction",
+      "key": "F-NORTH",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Elective Pulmonary Radiotherapy Fraction",
+      "key": "F-COAST",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Elective Vascular Diagnostic Imaging",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Elective Vascular Diagnostic Imaging",
+      "key": "F-NORTH",
+      "multiplier": 1.15
+    },
+    {
+      "service_name": "Elective Vascular Diagnostic Imaging",
+      "key": "F-COAST",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Emergency Gastrointestinal Endoscopic Procedure",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Emergency Gastrointestinal Endoscopic Procedure",
+      "key": "F-NORTH",
+      "multiplier": 1.1
+    },
+    {
+      "service_name": "Emergency Gastrointestinal Endoscopic Procedure",
+      "key": "F-COAST",
+      "multiplier": 0.92
+    },
+    {
+      "service_name": "Emergency Metabolic Discharge Planning",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Emergency Metabolic Discharge Planning",
+      "key": "F-NORTH",
+      "multiplier": 1.1
+    },
+    {
+      "service_name": "Emergency Metabolic Discharge Planning",
+      "key": "F-COAST",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Emergency Neurological Biopsy Procedure",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Emergency Neurological Biopsy Procedure",
+      "key": "F-NORTH",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Emergency Neurological Biopsy Procedure",
+      "key": "F-COAST",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Emergency Oncology Imaging Interpretation",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Emergency Oncology Imaging Interpretation",
+      "key": "F-NORTH",
+      "multiplier": 1.2
+    },
+    {
+      "service_name": "Emergency Oncology Imaging Interpretation",
+      "key": "F-COAST",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Emergency Pulmonary Radiotherapy Fraction",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Emergency Pulmonary Radiotherapy Fraction",
+      "key": "F-NORTH",
+      "multiplier": 1.08
+    },
+    {
+      "service_name": "Emergency Pulmonary Radiotherapy Fraction",
+      "key": "F-COAST",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Emergency Urologic Home Visit",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Emergency Urologic Home Visit",
+      "key": "F-NORTH",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Emergency Urologic Home Visit",
+      "key": "F-COAST",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Extended Dermatologic Transport Service",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Extended Dermatologic Transport Service",
+      "key": "F-NORTH",
+      "multiplier": 1.2
+    },
+    {
+      "service_name": "Extended Dermatologic Transport Service",
+      "key": "F-COAST",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Extended Endocrine Theatre Time",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Extended Endocrine Theatre Time",
+      "key": "F-NORTH",
+      "multiplier": 1.2
+    },
+    {
+      "service_name": "Extended Endocrine Theatre Time",
+      "key": "F-COAST",
+      "multiplier": 0.92
+    },
+    {
+      "service_name": "Extended Neurological Consultation",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Extended Neurological Consultation",
+      "key": "F-NORTH",
+      "multiplier": 1.2
+    },
+    {
+      "service_name": "Extended Neurological Consultation",
+      "key": "F-COAST",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Extended Ophthalmic Transport Service",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Extended Ophthalmic Transport Service",
+      "key": "F-NORTH",
+      "multiplier": 1.1
+    },
+    {
+      "service_name": "Extended Ophthalmic Transport Service",
+      "key": "F-COAST",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Extended Psychiatric Endoscopic Procedure",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Extended Psychiatric Endoscopic Procedure",
+      "key": "F-NORTH",
+      "multiplier": 1.1
+    },
+    {
+      "service_name": "Extended Psychiatric Endoscopic Procedure",
+      "key": "F-COAST",
+      "multiplier": 0.95
+    },
+    {
+      "service_name": "Extended Urologic Infusion Therapy",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Extended Urologic Infusion Therapy",
+      "key": "F-NORTH",
+      "multiplier": 1.08
+    },
+    {
+      "service_name": "Extended Urologic Infusion Therapy",
+      "key": "F-COAST",
+      "multiplier": 0.95
+    },
+    {
+      "service_name": "Focused Endocrine Theatre Time",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Focused Endocrine Theatre Time",
+      "key": "F-NORTH",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Focused Endocrine Theatre Time",
+      "key": "F-COAST",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Focused Neurological Radiotherapy Fraction",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Focused Neurological Radiotherapy Fraction",
+      "key": "F-NORTH",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Focused Neurological Radiotherapy Fraction",
+      "key": "F-COAST",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Focused Urologic Nutritional Support",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Focused Urologic Nutritional Support",
+      "key": "F-NORTH",
+      "multiplier": 1.2
+    },
+    {
+      "service_name": "Focused Urologic Nutritional Support",
+      "key": "F-COAST",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Inpatient Dermatologic Nursing Observation",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Inpatient Dermatologic Nursing Observation",
+      "key": "F-NORTH",
+      "multiplier": 1.1
+    },
+    {
+      "service_name": "Inpatient Dermatologic Nursing Observation",
+      "key": "F-COAST",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Inpatient Immunologic Recovery Room Occupancy",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Inpatient Immunologic Recovery Room Occupancy",
+      "key": "F-NORTH",
+      "multiplier": 1.1
+    },
+    {
+      "service_name": "Inpatient Immunologic Recovery Room Occupancy",
+      "key": "F-COAST",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Inpatient Psychiatric Case Conference",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Inpatient Psychiatric Case Conference",
+      "key": "F-NORTH",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Inpatient Psychiatric Case Conference",
+      "key": "F-COAST",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Inpatient Pulmonary Critical Care Occupancy",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Inpatient Pulmonary Critical Care Occupancy",
+      "key": "F-NORTH",
+      "multiplier": 1.08
+    },
+    {
+      "service_name": "Inpatient Pulmonary Critical Care Occupancy",
+      "key": "F-COAST",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Intensive Hepatic Case Conference",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Intensive Hepatic Case Conference",
+      "key": "F-NORTH",
+      "multiplier": 1.15
+    },
+    {
+      "service_name": "Intensive Hepatic Case Conference",
+      "key": "F-COAST",
+      "multiplier": 0.92
+    },
+    {
+      "service_name": "Intensive Oncology Sterilisation Service",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Intensive Oncology Sterilisation Service",
+      "key": "F-NORTH",
+      "multiplier": 1.08
+    },
+    {
+      "service_name": "Intensive Oncology Sterilisation Service",
+      "key": "F-COAST",
+      "multiplier": 0.95
+    },
+    {
+      "service_name": "Intermittent Orthopaedic Discharge Planning",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Intermittent Orthopaedic Discharge Planning",
+      "key": "F-NORTH",
+      "multiplier": 1.15
+    },
+    {
+      "service_name": "Intermittent Orthopaedic Discharge Planning",
+      "key": "F-COAST",
+      "multiplier": 0.92
+    },
+    {
+      "service_name": "Intermittent Urologic Discharge Planning",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Intermittent Urologic Discharge Planning",
+      "key": "F-NORTH",
+      "multiplier": 1.2
+    },
+    {
+      "service_name": "Intermittent Urologic Discharge Planning",
+      "key": "F-COAST",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Intermittent Vascular Telemetry Monitoring",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Intermittent Vascular Telemetry Monitoring",
+      "key": "F-NORTH",
+      "multiplier": 1.1
+    },
+    {
+      "service_name": "Intermittent Vascular Telemetry Monitoring",
+      "key": "F-COAST",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Outpatient Dermatologic Home Visit",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Outpatient Dermatologic Home Visit",
+      "key": "F-NORTH",
+      "multiplier": 1.08
+    },
+    {
+      "service_name": "Outpatient Dermatologic Home Visit",
+      "key": "F-COAST",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Outpatient Haematology Laboratory Panel",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Outpatient Haematology Laboratory Panel",
+      "key": "F-NORTH",
+      "multiplier": 1.08
+    },
+    {
+      "service_name": "Outpatient Haematology Laboratory Panel",
+      "key": "F-COAST",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Outpatient Metabolic Physiotherapy Session",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Outpatient Metabolic Physiotherapy Session",
+      "key": "F-NORTH",
+      "multiplier": 1.15
+    },
+    {
+      "service_name": "Outpatient Metabolic Physiotherapy Session",
+      "key": "F-COAST",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Outpatient Neurological Recovery Room Occupancy",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Outpatient Neurological Recovery Room Occupancy",
+      "key": "F-NORTH",
+      "multiplier": 1.1
+    },
+    {
+      "service_name": "Outpatient Neurological Recovery Room Occupancy",
+      "key": "F-COAST",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Outpatient Psychiatric Discharge Planning",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Outpatient Psychiatric Discharge Planning",
+      "key": "F-NORTH",
+      "multiplier": 1.2
+    },
+    {
+      "service_name": "Outpatient Psychiatric Discharge Planning",
+      "key": "F-COAST",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Postoperative Musculoskeletal Imaging Interpretation",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Postoperative Musculoskeletal Imaging Interpretation",
+      "key": "F-NORTH",
+      "multiplier": 1.2
+    },
+    {
+      "service_name": "Postoperative Musculoskeletal Imaging Interpretation",
+      "key": "F-COAST",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Preoperative Endocrine Rehabilitation Programme",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Preoperative Endocrine Rehabilitation Programme",
+      "key": "F-NORTH",
+      "multiplier": 1.1
+    },
+    {
+      "service_name": "Preoperative Endocrine Rehabilitation Programme",
+      "key": "F-COAST",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Preoperative Gastrointestinal Nutritional Support",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Preoperative Gastrointestinal Nutritional Support",
+      "key": "F-NORTH",
+      "multiplier": 1.1
+    },
+    {
+      "service_name": "Preoperative Gastrointestinal Nutritional Support",
+      "key": "F-COAST",
+      "multiplier": 0.95
+    },
+    {
+      "service_name": "Preoperative Immunologic Recovery Room Occupancy",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Preoperative Immunologic Recovery Room Occupancy",
+      "key": "F-NORTH",
+      "multiplier": 1.1
+    },
+    {
+      "service_name": "Preoperative Immunologic Recovery Room Occupancy",
+      "key": "F-COAST",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Preoperative Musculoskeletal Nutritional Support",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Preoperative Musculoskeletal Nutritional Support",
+      "key": "F-NORTH",
+      "multiplier": 1.1
+    },
+    {
+      "service_name": "Preoperative Musculoskeletal Nutritional Support",
+      "key": "F-COAST",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Preoperative Ophthalmic Transport Service",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Preoperative Ophthalmic Transport Service",
+      "key": "F-NORTH",
+      "multiplier": 1.1
+    },
+    {
+      "service_name": "Preoperative Ophthalmic Transport Service",
+      "key": "F-COAST",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Preoperative Paediatric Biopsy Procedure",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Preoperative Paediatric Biopsy Procedure",
+      "key": "F-NORTH",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Preoperative Paediatric Biopsy Procedure",
+      "key": "F-COAST",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Routine Dermatologic Home Visit",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Routine Dermatologic Home Visit",
+      "key": "F-NORTH",
+      "multiplier": 1.1
+    },
+    {
+      "service_name": "Routine Dermatologic Home Visit",
+      "key": "F-COAST",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Routine Geriatric Telemetry Monitoring",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Routine Geriatric Telemetry Monitoring",
+      "key": "F-NORTH",
+      "multiplier": 1.1
+    },
+    {
+      "service_name": "Routine Geriatric Telemetry Monitoring",
+      "key": "F-COAST",
+      "multiplier": 0.95
+    },
+    {
+      "service_name": "Routine Infectious Infusion Therapy",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Routine Infectious Infusion Therapy",
+      "key": "F-NORTH",
+      "multiplier": 1.08
+    },
+    {
+      "service_name": "Routine Infectious Infusion Therapy",
+      "key": "F-COAST",
+      "multiplier": 0.95
+    },
+    {
+      "service_name": "Routine Neurological Biopsy Procedure",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Routine Neurological Biopsy Procedure",
+      "key": "F-NORTH",
+      "multiplier": 1.08
+    },
+    {
+      "service_name": "Routine Neurological Biopsy Procedure",
+      "key": "F-COAST",
+      "multiplier": 0.95
+    },
+    {
+      "service_name": "Routine Psychiatric Physiotherapy Session",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Routine Psychiatric Physiotherapy Session",
+      "key": "F-NORTH",
+      "multiplier": 1.1
+    },
+    {
+      "service_name": "Routine Psychiatric Physiotherapy Session",
+      "key": "F-COAST",
+      "multiplier": 0.92
+    },
+    {
+      "service_name": "Routine Psychiatric Telemetry Monitoring",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Routine Psychiatric Telemetry Monitoring",
+      "key": "F-NORTH",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Routine Psychiatric Telemetry Monitoring",
+      "key": "F-COAST",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Routine Urologic Radiotherapy Fraction",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Routine Urologic Radiotherapy Fraction",
+      "key": "F-NORTH",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Routine Urologic Radiotherapy Fraction",
+      "key": "F-COAST",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Routine Urologic Transport Service",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Routine Urologic Transport Service",
+      "key": "F-NORTH",
+      "multiplier": 1.1
+    },
+    {
+      "service_name": "Routine Urologic Transport Service",
+      "key": "F-COAST",
+      "multiplier": 0.95
+    },
+    {
+      "service_name": "Specialist Dermatologic Nursing Observation",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Specialist Dermatologic Nursing Observation",
+      "key": "F-NORTH",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Specialist Dermatologic Nursing Observation",
+      "key": "F-COAST",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Specialist Gastrointestinal Pharmaceutical Dispensing",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Specialist Gastrointestinal Pharmaceutical Dispensing",
+      "key": "F-NORTH",
+      "multiplier": 1.1
+    },
+    {
+      "service_name": "Specialist Gastrointestinal Pharmaceutical Dispensing",
+      "key": "F-COAST",
+      "multiplier": 0.95
+    },
+    {
+      "service_name": "Specialist Metabolic Sterilisation Service",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Specialist Metabolic Sterilisation Service",
+      "key": "F-NORTH",
+      "multiplier": 1.15
+    },
+    {
+      "service_name": "Specialist Metabolic Sterilisation Service",
+      "key": "F-COAST",
+      "multiplier": 0.95
+    },
+    {
+      "service_name": "Standard Infectious Ventilation Support",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Standard Infectious Ventilation Support",
+      "key": "F-NORTH",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Standard Infectious Ventilation Support",
+      "key": "F-COAST",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Standard Paediatric Radiotherapy Fraction",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Standard Paediatric Radiotherapy Fraction",
+      "key": "F-NORTH",
+      "multiplier": 1.1
+    },
+    {
+      "service_name": "Standard Paediatric Radiotherapy Fraction",
+      "key": "F-COAST",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Standard Psychiatric Discharge Planning",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Standard Psychiatric Discharge Planning",
+      "key": "F-NORTH",
+      "multiplier": 1.08
+    },
+    {
+      "service_name": "Standard Psychiatric Discharge Planning",
+      "key": "F-COAST",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Supervised Immunologic Sterilisation Service",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Supervised Immunologic Sterilisation Service",
+      "key": "F-NORTH",
+      "multiplier": 1.2
+    },
+    {
+      "service_name": "Supervised Immunologic Sterilisation Service",
+      "key": "F-COAST",
+      "multiplier": 0.92
+    },
+    {
+      "service_name": "Supervised Metabolic Discharge Planning",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Supervised Metabolic Discharge Planning",
+      "key": "F-NORTH",
+      "multiplier": 1.08
+    },
+    {
+      "service_name": "Supervised Metabolic Discharge Planning",
+      "key": "F-COAST",
+      "multiplier": 0.95
+    },
+    {
+      "service_name": "Supervised Otolaryngologic Specimen Analysis",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Supervised Otolaryngologic Specimen Analysis",
+      "key": "F-NORTH",
+      "multiplier": 1.15
+    },
+    {
+      "service_name": "Supervised Otolaryngologic Specimen Analysis",
+      "key": "F-COAST",
+      "multiplier": 0.95
+    },
+    {
+      "service_name": "Supervised Palliative Consultation",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Supervised Palliative Consultation",
+      "key": "F-NORTH",
+      "multiplier": 1.15
+    },
+    {
+      "service_name": "Supervised Palliative Consultation",
+      "key": "F-COAST",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Supervised Vascular Consultation",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Supervised Vascular Consultation",
+      "key": "F-NORTH",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Supervised Vascular Consultation",
+      "key": "F-COAST",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Supervised Vascular Diagnostic Imaging",
+      "key": "F-MAIN",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Supervised Vascular Diagnostic Imaging",
+      "key": "F-NORTH",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Supervised Vascular Diagnostic Imaging",
+      "key": "F-COAST",
+      "multiplier": 1.0
+    }
+  ],
+  "plan_multipliers": [
+    {
+      "service_name": "Advanced Cardiac Ventilation Support",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Advanced Cardiac Ventilation Support",
+      "key": "SILVER",
+      "multiplier": 0.98
+    },
+    {
+      "service_name": "Advanced Cardiac Ventilation Support",
+      "key": "GOLD",
+      "multiplier": 0.92
+    },
+    {
+      "service_name": "Advanced Dermatologic Pharmaceutical Dispensing",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Advanced Dermatologic Pharmaceutical Dispensing",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Advanced Dermatologic Pharmaceutical Dispensing",
+      "key": "GOLD",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Ambulatory Hepatic Case Conference",
+      "key": "BRONZE",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Ambulatory Hepatic Case Conference",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Ambulatory Hepatic Case Conference",
+      "key": "GOLD",
+      "multiplier": 0.95
+    },
+    {
+      "service_name": "Ambulatory Metabolic Imaging Interpretation",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Ambulatory Metabolic Imaging Interpretation",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Ambulatory Metabolic Imaging Interpretation",
+      "key": "GOLD",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Ambulatory Oncology Imaging Interpretation",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Ambulatory Oncology Imaging Interpretation",
+      "key": "SILVER",
+      "multiplier": 0.98
+    },
+    {
+      "service_name": "Ambulatory Oncology Imaging Interpretation",
+      "key": "GOLD",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Ambulatory Paediatric Isolation Room Occupancy",
+      "key": "BRONZE",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Ambulatory Paediatric Isolation Room Occupancy",
+      "key": "SILVER",
+      "multiplier": 0.98
+    },
+    {
+      "service_name": "Ambulatory Paediatric Isolation Room Occupancy",
+      "key": "GOLD",
+      "multiplier": 0.95
+    },
+    {
+      "service_name": "Assisted Cardiac Ventilation Support",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Assisted Cardiac Ventilation Support",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Assisted Cardiac Ventilation Support",
+      "key": "GOLD",
+      "multiplier": 0.92
+    },
+    {
+      "service_name": "Assisted Hepatic Physiotherapy Session",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Assisted Hepatic Physiotherapy Session",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Assisted Hepatic Physiotherapy Session",
+      "key": "GOLD",
+      "multiplier": 0.92
+    },
+    {
+      "service_name": "Assisted Immunologic Sterilisation Service",
+      "key": "BRONZE",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Assisted Immunologic Sterilisation Service",
+      "key": "SILVER",
+      "multiplier": 0.98
+    },
+    {
+      "service_name": "Assisted Immunologic Sterilisation Service",
+      "key": "GOLD",
+      "multiplier": 0.92
+    },
+    {
+      "service_name": "Assisted Metabolic Endoscopic Procedure",
+      "key": "BRONZE",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Assisted Metabolic Endoscopic Procedure",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Assisted Metabolic Endoscopic Procedure",
+      "key": "GOLD",
+      "multiplier": 0.95
+    },
+    {
+      "service_name": "Assisted Renal Imaging Interpretation",
+      "key": "BRONZE",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Assisted Renal Imaging Interpretation",
+      "key": "SILVER",
+      "multiplier": 0.98
+    },
+    {
+      "service_name": "Assisted Renal Imaging Interpretation",
+      "key": "GOLD",
+      "multiplier": 0.95
+    },
+    {
+      "service_name": "Bedside Oncology Transfusion Service",
+      "key": "BRONZE",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Bedside Oncology Transfusion Service",
+      "key": "SILVER",
+      "multiplier": 0.98
+    },
+    {
+      "service_name": "Bedside Oncology Transfusion Service",
+      "key": "GOLD",
+      "multiplier": 0.95
+    },
+    {
+      "service_name": "Bedside Paediatric Consultation",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Bedside Paediatric Consultation",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Bedside Paediatric Consultation",
+      "key": "GOLD",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Comprehensive Gastrointestinal Endoscopic Procedure",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Comprehensive Gastrointestinal Endoscopic Procedure",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Comprehensive Gastrointestinal Endoscopic Procedure",
+      "key": "GOLD",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Comprehensive Geriatric Wound Care",
+      "key": "BRONZE",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Comprehensive Geriatric Wound Care",
+      "key": "SILVER",
+      "multiplier": 0.98
+    },
+    {
+      "service_name": "Comprehensive Geriatric Wound Care",
+      "key": "GOLD",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Comprehensive Metabolic Ventilation Support",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Comprehensive Metabolic Ventilation Support",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Comprehensive Metabolic Ventilation Support",
+      "key": "GOLD",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Comprehensive Oncology Transfusion Service",
+      "key": "BRONZE",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Comprehensive Oncology Transfusion Service",
+      "key": "SILVER",
+      "multiplier": 0.98
+    },
+    {
+      "service_name": "Comprehensive Oncology Transfusion Service",
+      "key": "GOLD",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Comprehensive Ophthalmic Isolation Room Occupancy",
+      "key": "BRONZE",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Comprehensive Ophthalmic Isolation Room Occupancy",
+      "key": "SILVER",
+      "multiplier": 0.98
+    },
+    {
+      "service_name": "Comprehensive Ophthalmic Isolation Room Occupancy",
+      "key": "GOLD",
+      "multiplier": 0.95
+    },
+    {
+      "service_name": "Comprehensive Palliative Consultation",
+      "key": "BRONZE",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Comprehensive Palliative Consultation",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Comprehensive Palliative Consultation",
+      "key": "GOLD",
+      "multiplier": 0.95
+    },
+    {
+      "service_name": "Continuous Immunologic Laboratory Panel",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Continuous Immunologic Laboratory Panel",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Continuous Immunologic Laboratory Panel",
+      "key": "GOLD",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Continuous Metabolic Endoscopic Procedure",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Continuous Metabolic Endoscopic Procedure",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Continuous Metabolic Endoscopic Procedure",
+      "key": "GOLD",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Continuous Otolaryngologic Transport Service",
+      "key": "BRONZE",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Continuous Otolaryngologic Transport Service",
+      "key": "SILVER",
+      "multiplier": 0.98
+    },
+    {
+      "service_name": "Continuous Otolaryngologic Transport Service",
+      "key": "GOLD",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Continuous Pulmonary Case Conference",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Continuous Pulmonary Case Conference",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Continuous Pulmonary Case Conference",
+      "key": "GOLD",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Elective Metabolic Pharmaceutical Dispensing",
+      "key": "BRONZE",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Elective Metabolic Pharmaceutical Dispensing",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Elective Metabolic Pharmaceutical Dispensing",
+      "key": "GOLD",
+      "multiplier": 0.92
+    },
+    {
+      "service_name": "Elective Ophthalmic Nutritional Support",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Elective Ophthalmic Nutritional Support",
+      "key": "SILVER",
+      "multiplier": 0.98
+    },
+    {
+      "service_name": "Elective Ophthalmic Nutritional Support",
+      "key": "GOLD",
+      "multiplier": 0.92
+    },
+    {
+      "service_name": "Elective Ophthalmic Recovery Room Occupancy",
+      "key": "BRONZE",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Elective Ophthalmic Recovery Room Occupancy",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Elective Ophthalmic Recovery Room Occupancy",
+      "key": "GOLD",
+      "multiplier": 0.95
+    },
+    {
+      "service_name": "Elective Pulmonary Radiotherapy Fraction",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Elective Pulmonary Radiotherapy Fraction",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Elective Pulmonary Radiotherapy Fraction",
+      "key": "GOLD",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Elective Vascular Diagnostic Imaging",
+      "key": "BRONZE",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Elective Vascular Diagnostic Imaging",
+      "key": "SILVER",
+      "multiplier": 0.98
+    },
+    {
+      "service_name": "Elective Vascular Diagnostic Imaging",
+      "key": "GOLD",
+      "multiplier": 0.92
+    },
+    {
+      "service_name": "Emergency Gastrointestinal Endoscopic Procedure",
+      "key": "BRONZE",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Emergency Gastrointestinal Endoscopic Procedure",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Emergency Gastrointestinal Endoscopic Procedure",
+      "key": "GOLD",
+      "multiplier": 0.95
+    },
+    {
+      "service_name": "Emergency Metabolic Discharge Planning",
+      "key": "BRONZE",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Emergency Metabolic Discharge Planning",
+      "key": "SILVER",
+      "multiplier": 0.98
+    },
+    {
+      "service_name": "Emergency Metabolic Discharge Planning",
+      "key": "GOLD",
+      "multiplier": 0.92
+    },
+    {
+      "service_name": "Emergency Neurological Biopsy Procedure",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Emergency Neurological Biopsy Procedure",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Emergency Neurological Biopsy Procedure",
+      "key": "GOLD",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Emergency Oncology Imaging Interpretation",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Emergency Oncology Imaging Interpretation",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Emergency Oncology Imaging Interpretation",
+      "key": "GOLD",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Emergency Pulmonary Radiotherapy Fraction",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Emergency Pulmonary Radiotherapy Fraction",
+      "key": "SILVER",
+      "multiplier": 0.98
+    },
+    {
+      "service_name": "Emergency Pulmonary Radiotherapy Fraction",
+      "key": "GOLD",
+      "multiplier": 0.92
+    },
+    {
+      "service_name": "Emergency Urologic Home Visit",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Emergency Urologic Home Visit",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Emergency Urologic Home Visit",
+      "key": "GOLD",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Extended Dermatologic Transport Service",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Extended Dermatologic Transport Service",
+      "key": "SILVER",
+      "multiplier": 0.98
+    },
+    {
+      "service_name": "Extended Dermatologic Transport Service",
+      "key": "GOLD",
+      "multiplier": 0.92
+    },
+    {
+      "service_name": "Extended Endocrine Theatre Time",
+      "key": "BRONZE",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Extended Endocrine Theatre Time",
+      "key": "SILVER",
+      "multiplier": 0.98
+    },
+    {
+      "service_name": "Extended Endocrine Theatre Time",
+      "key": "GOLD",
+      "multiplier": 0.92
+    },
+    {
+      "service_name": "Extended Neurological Consultation",
+      "key": "BRONZE",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Extended Neurological Consultation",
+      "key": "SILVER",
+      "multiplier": 0.98
+    },
+    {
+      "service_name": "Extended Neurological Consultation",
+      "key": "GOLD",
+      "multiplier": 0.92
+    },
+    {
+      "service_name": "Extended Ophthalmic Transport Service",
+      "key": "BRONZE",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Extended Ophthalmic Transport Service",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Extended Ophthalmic Transport Service",
+      "key": "GOLD",
+      "multiplier": 0.92
+    },
+    {
+      "service_name": "Extended Psychiatric Endoscopic Procedure",
+      "key": "BRONZE",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Extended Psychiatric Endoscopic Procedure",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Extended Psychiatric Endoscopic Procedure",
+      "key": "GOLD",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Extended Urologic Infusion Therapy",
+      "key": "BRONZE",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Extended Urologic Infusion Therapy",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Extended Urologic Infusion Therapy",
+      "key": "GOLD",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Focused Endocrine Theatre Time",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Focused Endocrine Theatre Time",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Focused Endocrine Theatre Time",
+      "key": "GOLD",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Focused Neurological Radiotherapy Fraction",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Focused Neurological Radiotherapy Fraction",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Focused Neurological Radiotherapy Fraction",
+      "key": "GOLD",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Focused Urologic Nutritional Support",
+      "key": "BRONZE",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Focused Urologic Nutritional Support",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Focused Urologic Nutritional Support",
+      "key": "GOLD",
+      "multiplier": 0.92
+    },
+    {
+      "service_name": "Inpatient Dermatologic Nursing Observation",
+      "key": "BRONZE",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Inpatient Dermatologic Nursing Observation",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Inpatient Dermatologic Nursing Observation",
+      "key": "GOLD",
+      "multiplier": 0.92
+    },
+    {
+      "service_name": "Inpatient Immunologic Recovery Room Occupancy",
+      "key": "BRONZE",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Inpatient Immunologic Recovery Room Occupancy",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Inpatient Immunologic Recovery Room Occupancy",
+      "key": "GOLD",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Inpatient Psychiatric Case Conference",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Inpatient Psychiatric Case Conference",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Inpatient Psychiatric Case Conference",
+      "key": "GOLD",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Inpatient Pulmonary Critical Care Occupancy",
+      "key": "BRONZE",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Inpatient Pulmonary Critical Care Occupancy",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Inpatient Pulmonary Critical Care Occupancy",
+      "key": "GOLD",
+      "multiplier": 0.95
+    },
+    {
+      "service_name": "Intensive Hepatic Case Conference",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Intensive Hepatic Case Conference",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Intensive Hepatic Case Conference",
+      "key": "GOLD",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Intensive Oncology Sterilisation Service",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Intensive Oncology Sterilisation Service",
+      "key": "SILVER",
+      "multiplier": 0.98
+    },
+    {
+      "service_name": "Intensive Oncology Sterilisation Service",
+      "key": "GOLD",
+      "multiplier": 0.92
+    },
+    {
+      "service_name": "Intermittent Orthopaedic Discharge Planning",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Intermittent Orthopaedic Discharge Planning",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Intermittent Orthopaedic Discharge Planning",
+      "key": "GOLD",
+      "multiplier": 0.92
+    },
+    {
+      "service_name": "Intermittent Urologic Discharge Planning",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Intermittent Urologic Discharge Planning",
+      "key": "SILVER",
+      "multiplier": 0.98
+    },
+    {
+      "service_name": "Intermittent Urologic Discharge Planning",
+      "key": "GOLD",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Intermittent Vascular Telemetry Monitoring",
+      "key": "BRONZE",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Intermittent Vascular Telemetry Monitoring",
+      "key": "SILVER",
+      "multiplier": 0.98
+    },
+    {
+      "service_name": "Intermittent Vascular Telemetry Monitoring",
+      "key": "GOLD",
+      "multiplier": 0.95
+    },
+    {
+      "service_name": "Outpatient Dermatologic Home Visit",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Outpatient Dermatologic Home Visit",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Outpatient Dermatologic Home Visit",
+      "key": "GOLD",
+      "multiplier": 0.92
+    },
+    {
+      "service_name": "Outpatient Haematology Laboratory Panel",
+      "key": "BRONZE",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Outpatient Haematology Laboratory Panel",
+      "key": "SILVER",
+      "multiplier": 0.98
+    },
+    {
+      "service_name": "Outpatient Haematology Laboratory Panel",
+      "key": "GOLD",
+      "multiplier": 0.92
+    },
+    {
+      "service_name": "Outpatient Metabolic Physiotherapy Session",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Outpatient Metabolic Physiotherapy Session",
+      "key": "SILVER",
+      "multiplier": 0.98
+    },
+    {
+      "service_name": "Outpatient Metabolic Physiotherapy Session",
+      "key": "GOLD",
+      "multiplier": 0.92
+    },
+    {
+      "service_name": "Outpatient Neurological Recovery Room Occupancy",
+      "key": "BRONZE",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Outpatient Neurological Recovery Room Occupancy",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Outpatient Neurological Recovery Room Occupancy",
+      "key": "GOLD",
+      "multiplier": 0.92
+    },
+    {
+      "service_name": "Outpatient Psychiatric Discharge Planning",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Outpatient Psychiatric Discharge Planning",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Outpatient Psychiatric Discharge Planning",
+      "key": "GOLD",
+      "multiplier": 0.95
+    },
+    {
+      "service_name": "Postoperative Musculoskeletal Imaging Interpretation",
+      "key": "BRONZE",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Postoperative Musculoskeletal Imaging Interpretation",
+      "key": "SILVER",
+      "multiplier": 0.98
+    },
+    {
+      "service_name": "Postoperative Musculoskeletal Imaging Interpretation",
+      "key": "GOLD",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Preoperative Endocrine Rehabilitation Programme",
+      "key": "BRONZE",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Preoperative Endocrine Rehabilitation Programme",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Preoperative Endocrine Rehabilitation Programme",
+      "key": "GOLD",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Preoperative Gastrointestinal Nutritional Support",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Preoperative Gastrointestinal Nutritional Support",
+      "key": "SILVER",
+      "multiplier": 0.98
+    },
+    {
+      "service_name": "Preoperative Gastrointestinal Nutritional Support",
+      "key": "GOLD",
+      "multiplier": 0.95
+    },
+    {
+      "service_name": "Preoperative Immunologic Recovery Room Occupancy",
+      "key": "BRONZE",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Preoperative Immunologic Recovery Room Occupancy",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Preoperative Immunologic Recovery Room Occupancy",
+      "key": "GOLD",
+      "multiplier": 0.95
+    },
+    {
+      "service_name": "Preoperative Musculoskeletal Nutritional Support",
+      "key": "BRONZE",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Preoperative Musculoskeletal Nutritional Support",
+      "key": "SILVER",
+      "multiplier": 0.98
+    },
+    {
+      "service_name": "Preoperative Musculoskeletal Nutritional Support",
+      "key": "GOLD",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Preoperative Ophthalmic Transport Service",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Preoperative Ophthalmic Transport Service",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Preoperative Ophthalmic Transport Service",
+      "key": "GOLD",
+      "multiplier": 0.95
+    },
+    {
+      "service_name": "Preoperative Paediatric Biopsy Procedure",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Preoperative Paediatric Biopsy Procedure",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Preoperative Paediatric Biopsy Procedure",
+      "key": "GOLD",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Routine Dermatologic Home Visit",
+      "key": "BRONZE",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Routine Dermatologic Home Visit",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Routine Dermatologic Home Visit",
+      "key": "GOLD",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Routine Geriatric Telemetry Monitoring",
+      "key": "BRONZE",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Routine Geriatric Telemetry Monitoring",
+      "key": "SILVER",
+      "multiplier": 0.98
+    },
+    {
+      "service_name": "Routine Geriatric Telemetry Monitoring",
+      "key": "GOLD",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Routine Infectious Infusion Therapy",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Routine Infectious Infusion Therapy",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Routine Infectious Infusion Therapy",
+      "key": "GOLD",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Routine Neurological Biopsy Procedure",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Routine Neurological Biopsy Procedure",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Routine Neurological Biopsy Procedure",
+      "key": "GOLD",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Routine Psychiatric Physiotherapy Session",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Routine Psychiatric Physiotherapy Session",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Routine Psychiatric Physiotherapy Session",
+      "key": "GOLD",
+      "multiplier": 0.95
+    },
+    {
+      "service_name": "Routine Psychiatric Telemetry Monitoring",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Routine Psychiatric Telemetry Monitoring",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Routine Psychiatric Telemetry Monitoring",
+      "key": "GOLD",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Routine Urologic Radiotherapy Fraction",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Routine Urologic Radiotherapy Fraction",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Routine Urologic Radiotherapy Fraction",
+      "key": "GOLD",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Routine Urologic Transport Service",
+      "key": "BRONZE",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Routine Urologic Transport Service",
+      "key": "SILVER",
+      "multiplier": 0.98
+    },
+    {
+      "service_name": "Routine Urologic Transport Service",
+      "key": "GOLD",
+      "multiplier": 0.92
+    },
+    {
+      "service_name": "Specialist Dermatologic Nursing Observation",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Specialist Dermatologic Nursing Observation",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Specialist Dermatologic Nursing Observation",
+      "key": "GOLD",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Specialist Gastrointestinal Pharmaceutical Dispensing",
+      "key": "BRONZE",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Specialist Gastrointestinal Pharmaceutical Dispensing",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Specialist Gastrointestinal Pharmaceutical Dispensing",
+      "key": "GOLD",
+      "multiplier": 0.95
+    },
+    {
+      "service_name": "Specialist Metabolic Sterilisation Service",
+      "key": "BRONZE",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Specialist Metabolic Sterilisation Service",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Specialist Metabolic Sterilisation Service",
+      "key": "GOLD",
+      "multiplier": 0.92
+    },
+    {
+      "service_name": "Standard Infectious Ventilation Support",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Standard Infectious Ventilation Support",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Standard Infectious Ventilation Support",
+      "key": "GOLD",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Standard Paediatric Radiotherapy Fraction",
+      "key": "BRONZE",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Standard Paediatric Radiotherapy Fraction",
+      "key": "SILVER",
+      "multiplier": 0.98
+    },
+    {
+      "service_name": "Standard Paediatric Radiotherapy Fraction",
+      "key": "GOLD",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Standard Psychiatric Discharge Planning",
+      "key": "BRONZE",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Standard Psychiatric Discharge Planning",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Standard Psychiatric Discharge Planning",
+      "key": "GOLD",
+      "multiplier": 0.92
+    },
+    {
+      "service_name": "Supervised Immunologic Sterilisation Service",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Supervised Immunologic Sterilisation Service",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Supervised Immunologic Sterilisation Service",
+      "key": "GOLD",
+      "multiplier": 0.9
+    },
+    {
+      "service_name": "Supervised Metabolic Discharge Planning",
+      "key": "BRONZE",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Supervised Metabolic Discharge Planning",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Supervised Metabolic Discharge Planning",
+      "key": "GOLD",
+      "multiplier": 0.92
+    },
+    {
+      "service_name": "Supervised Otolaryngologic Specimen Analysis",
+      "key": "BRONZE",
+      "multiplier": 1.05
+    },
+    {
+      "service_name": "Supervised Otolaryngologic Specimen Analysis",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Supervised Otolaryngologic Specimen Analysis",
+      "key": "GOLD",
+      "multiplier": 0.95
+    },
+    {
+      "service_name": "Supervised Palliative Consultation",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Supervised Palliative Consultation",
+      "key": "SILVER",
+      "multiplier": 0.98
+    },
+    {
+      "service_name": "Supervised Palliative Consultation",
+      "key": "GOLD",
+      "multiplier": 0.92
+    },
+    {
+      "service_name": "Supervised Vascular Consultation",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Supervised Vascular Consultation",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Supervised Vascular Consultation",
+      "key": "GOLD",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Supervised Vascular Diagnostic Imaging",
+      "key": "BRONZE",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Supervised Vascular Diagnostic Imaging",
+      "key": "SILVER",
+      "multiplier": 1.0
+    },
+    {
+      "service_name": "Supervised Vascular Diagnostic Imaging",
+      "key": "GOLD",
+      "multiplier": 1.0
+    }
+  ],
+  "threshold_premiums": [
+    {
+      "service_name": "Assisted Immunologic Sterilisation Service",
+      "threshold_quantity": 10.0,
+      "multiplier": 1.15,
+      "comparison": "gt",
+      "scope": "patient_service_day",
+      "notes": "Aggregate quantity delivered to the Patient on the Service Day, across all line items and invoices."
+    },
+    {
+      "service_name": "Comprehensive Palliative Consultation",
+      "threshold_quantity": 8.0,
+      "multiplier": 1.3,
+      "comparison": "gt",
+      "scope": "patient_service_day",
+      "notes": "Aggregate quantity delivered to the Patient on the Service Day, across all line items and invoices."
+    },
+    {
+      "service_name": "Emergency Pulmonary Radiotherapy Fraction",
+      "threshold_quantity": 8.0,
+      "multiplier": 1.2,
+      "comparison": "gt",
+      "scope": "patient_service_day",
+      "notes": "Aggregate quantity delivered to the Patient on the Service Day, across all line items and invoices."
+    },
+    {
+      "service_name": "Focused Urologic Nutritional Support",
+      "threshold_quantity": 8.0,
+      "multiplier": 1.4,
+      "comparison": "gt",
+      "scope": "patient_service_day",
+      "notes": "Aggregate quantity delivered to the Patient on the Service Day, across all line items and invoices."
+    },
+    {
+      "service_name": "Outpatient Psychiatric Discharge Planning",
+      "threshold_quantity": 10.0,
+      "multiplier": 1.3,
+      "comparison": "gt",
+      "scope": "patient_service_day",
+      "notes": "Aggregate quantity delivered to the Patient on the Service Day, across all line items and invoices."
+    },
+    {
+      "service_name": "Preoperative Musculoskeletal Nutritional Support",
+      "threshold_quantity": 8.0,
+      "multiplier": 1.25,
+      "comparison": "gt",
+      "scope": "patient_service_day",
+      "notes": "Aggregate quantity delivered to the Patient on the Service Day, across all line items and invoices."
+    },
+    {
+      "service_name": "Routine Dermatologic Home Visit",
+      "threshold_quantity": 12.0,
+      "multiplier": 1.3,
+      "comparison": "gt",
+      "scope": "patient_service_day",
+      "notes": "Aggregate quantity delivered to the Patient on the Service Day, across all line items and invoices."
+    },
+    {
+      "service_name": "Routine Geriatric Telemetry Monitoring",
+      "threshold_quantity": 16.0,
+      "multiplier": 1.15,
+      "comparison": "gt",
+      "scope": "patient_service_day",
+      "notes": "Aggregate quantity delivered to the Patient on the Service Day, across all line items and invoices."
+    },
+    {
+      "service_name": "Routine Psychiatric Physiotherapy Session",
+      "threshold_quantity": 12.0,
+      "multiplier": 1.15,
+      "comparison": "gt",
+      "scope": "patient_service_day",
+      "notes": "Aggregate quantity delivered to the Patient on the Service Day, across all line items and invoices."
+    },
+    {
+      "service_name": "Specialist Metabolic Sterilisation Service",
+      "threshold_quantity": 12.0,
+      "multiplier": 1.25,
+      "comparison": "gt",
+      "scope": "patient_service_day",
+      "notes": "Aggregate quantity delivered to the Patient on the Service Day, across all line items and invoices."
+    }
+  ],
+  "weekend_uplifts": [
+    {
+      "service_name": "Ambulatory Metabolic Imaging Interpretation",
+      "multiplier": 1.15,
+      "weekdays": [
+        5,
+        6
+      ],
+      "notes": "Non-Business-Day uplift; Business Day excludes Saturday and Sunday."
+    },
+    {
+      "service_name": "Assisted Cardiac Ventilation Support",
+      "multiplier": 1.2,
+      "weekdays": [
+        5,
+        6
+      ],
+      "notes": "Non-Business-Day uplift; Business Day excludes Saturday and Sunday."
+    },
+    {
+      "service_name": "Elective Vascular Diagnostic Imaging",
+      "multiplier": 1.12,
+      "weekdays": [
+        5,
+        6
+      ],
+      "notes": "Non-Business-Day uplift; Business Day excludes Saturday and Sunday."
+    },
+    {
+      "service_name": "Emergency Gastrointestinal Endoscopic Procedure",
+      "multiplier": 1.2,
+      "weekdays": [
+        5,
+        6
+      ],
+      "notes": "Non-Business-Day uplift; Business Day excludes Saturday and Sunday."
+    },
+    {
+      "service_name": "Extended Neurological Consultation",
+      "multiplier": 1.25,
+      "weekdays": [
+        5,
+        6
+      ],
+      "notes": "Non-Business-Day uplift; Business Day excludes Saturday and Sunday."
+    },
+    {
+      "service_name": "Outpatient Haematology Laboratory Panel",
+      "multiplier": 1.2,
+      "weekdays": [
+        5,
+        6
+      ],
+      "notes": "Non-Business-Day uplift; Business Day excludes Saturday and Sunday."
+    },
+    {
+      "service_name": "Outpatient Metabolic Physiotherapy Session",
+      "multiplier": 1.1,
+      "weekdays": [
+        5,
+        6
+      ],
+      "notes": "Non-Business-Day uplift; Business Day excludes Saturday and Sunday."
+    },
+    {
+      "service_name": "Postoperative Musculoskeletal Imaging Interpretation",
+      "multiplier": 1.2,
+      "weekdays": [
+        5,
+        6
+      ],
+      "notes": "Non-Business-Day uplift; Business Day excludes Saturday and Sunday."
+    },
+    {
+      "service_name": "Preoperative Immunologic Recovery Room Occupancy",
+      "multiplier": 1.12,
+      "weekdays": [
+        5,
+        6
+      ],
+      "notes": "Non-Business-Day uplift; Business Day excludes Saturday and Sunday."
+    }
+  ],
+  "volume_discounts": [
+    {
+      "service_name": "Ambulatory Hepatic Case Conference",
+      "tiers": [
+        {
+          "threshold_quantity": 80.0,
+          "multiplier": 0.88,
+          "comparison": "gt"
+        }
+      ],
+      "scope": "contract_service",
+      "notes": "Cumulative utilisation is across the whole agreement term and all Patients, in Service Date order; applies to subsequent units."
+    },
+    {
+      "service_name": "Continuous Metabolic Endoscopic Procedure",
+      "tiers": [
+        {
+          "threshold_quantity": 80.0,
+          "multiplier": 0.88,
+          "comparison": "gt"
+        }
+      ],
+      "scope": "contract_service",
+      "notes": "Cumulative utilisation is across the whole agreement term and all Patients, in Service Date order; applies to subsequent units."
+    },
+    {
+      "service_name": "Elective Metabolic Pharmaceutical Dispensing",
+      "tiers": [
+        {
+          "threshold_quantity": 100.0,
+          "multiplier": 0.88,
+          "comparison": "gt"
+        },
+        {
+          "threshold_quantity": 300.0,
+          "multiplier": 0.75,
+          "comparison": "gt"
+        }
+      ],
+      "scope": "contract_service",
+      "notes": "Cumulative utilisation is across the whole agreement term and all Patients, in Service Date order; applies to subsequent units. Deeper discount applies where thresholds are met."
+    },
+    {
+      "service_name": "Extended Endocrine Theatre Time",
+      "tiers": [
+        {
+          "threshold_quantity": 100.0,
+          "multiplier": 0.88,
+          "comparison": "gt"
+        },
+        {
+          "threshold_quantity": 300.0,
+          "multiplier": 0.7,
+          "comparison": "gt"
+        }
+      ],
+      "scope": "contract_service",
+      "notes": "Cumulative utilisation is across the whole agreement term and all Patients, in Service Date order; applies to subsequent units. Deeper discount applies where thresholds are met."
+    },
+    {
+      "service_name": "Inpatient Dermatologic Nursing Observation",
+      "tiers": [
+        {
+          "threshold_quantity": 100.0,
+          "multiplier": 0.88,
+          "comparison": "gt"
+        },
+        {
+          "threshold_quantity": 300.0,
+          "multiplier": 0.8,
+          "comparison": "gt"
+        }
+      ],
+      "scope": "contract_service",
+      "notes": "Cumulative utilisation is across the whole agreement term and all Patients, in Service Date order; applies to subsequent units. Deeper discount applies where thresholds are met."
+    },
+    {
+      "service_name": "Intensive Oncology Sterilisation Service",
+      "tiers": [
+        {
+          "threshold_quantity": 120.0,
+          "multiplier": 0.9,
+          "comparison": "gt"
+        }
+      ],
+      "scope": "contract_service",
+      "notes": "Cumulative utilisation is across the whole agreement term and all Patients, in Service Date order; applies to subsequent units."
+    },
+    {
+      "service_name": "Preoperative Gastrointestinal Nutritional Support",
+      "tiers": [
+        {
+          "threshold_quantity": 120.0,
+          "multiplier": 0.9,
+          "comparison": "gt"
+        },
+        {
+          "threshold_quantity": 360.0,
+          "multiplier": 0.75,
+          "comparison": "gt"
+        }
+      ],
+      "scope": "contract_service",
+      "notes": "Cumulative utilisation is across the whole agreement term and all Patients, in Service Date order; applies to subsequent units. Deeper discount applies where thresholds are met."
+    },
+    {
+      "service_name": "Supervised Immunologic Sterilisation Service",
+      "tiers": [
+        {
+          "threshold_quantity": 100.0,
+          "multiplier": 0.85,
+          "comparison": "gt"
+        },
+        {
+          "threshold_quantity": 300.0,
+          "multiplier": 0.75,
+          "comparison": "gt"
+        }
+      ],
+      "scope": "contract_service",
+      "notes": "Cumulative utilisation is across the whole agreement term and all Patients, in Service Date order; applies to subsequent units. Deeper discount applies where thresholds are met."
+    },
+    {
+      "service_name": "Supervised Otolaryngologic Specimen Analysis",
+      "tiers": [
+        {
+          "threshold_quantity": 60.0,
+          "multiplier": 0.9,
+          "comparison": "gt"
+        },
+        {
+          "threshold_quantity": 180.0,
+          "multiplier": 0.8,
+          "comparison": "gt"
+        }
+      ],
+      "scope": "contract_service",
+      "notes": "Cumulative utilisation is across the whole agreement term and all Patients, in Service Date order; applies to subsequent units. Deeper discount applies where thresholds are met."
+    }
+  ],
+  "bundles": [
+    {
+      "service_a": "Elective Ophthalmic Recovery Room Occupancy",
+      "service_b": "Supervised Palliative Consultation",
+      "rate_a_cents": 172450,
+      "rate_b_cents": 388450,
+      "same_patient": true,
+      "same_service_date": true,
+      "notes": "Substituted rates replace Table 1 base rates; facility and plan-tier multipliers then apply."
+    },
+    {
+      "service_a": "Emergency Metabolic Discharge Planning",
+      "service_b": "Specialist Gastrointestinal Pharmaceutical Dispensing",
+      "rate_a_cents": 17500,
+      "rate_b_cents": 3500,
+      "same_patient": true,
+      "same_service_date": true,
+      "notes": "Substituted rates replace Table 1 base rates; facility and plan-tier multipliers then apply."
+    },
+    {
+      "service_a": "Extended Urologic Infusion Therapy",
+      "service_b": "Standard Paediatric Radiotherapy Fraction",
+      "rate_a_cents": 5925,
+      "rate_b_cents": 94325,
+      "same_patient": true,
+      "same_service_date": true,
+      "notes": "Substituted rates replace Table 1 base rates; facility and plan-tier multipliers then apply."
+    }
+  ],
+  "exclusions": [
+    {
+      "trigger_service": "Ambulatory Paediatric Isolation Room Occupancy",
+      "excluded_service": "Comprehensive Ophthalmic Isolation Room Occupancy",
+      "window_days": 30,
+      "direction": "either",
+      "notes": "Comprehensive Ophthalmic Isolation Room Occupancy is not billable within 30 days of Ambulatory Paediatric Isolation Room Occupancy."
+    },
+    {
+      "trigger_service": "Elective Pulmonary Radiotherapy Fraction",
+      "excluded_service": "Elective Ophthalmic Nutritional Support",
+      "window_days": 30,
+      "direction": "either",
+      "notes": "Elective Ophthalmic Nutritional Support is not billable within 30 days of Elective Pulmonary Radiotherapy Fraction."
+    },
+    {
+      "trigger_service": "Ambulatory Oncology Imaging Interpretation",
+      "excluded_service": "Inpatient Immunologic Recovery Room Occupancy",
+      "window_days": 14,
+      "direction": "either",
+      "notes": "Inpatient Immunologic Recovery Room Occupancy is not billable within 14 days of Ambulatory Oncology Imaging Interpretation."
+    },
+    {
+      "trigger_service": "Preoperative Paediatric Biopsy Procedure",
+      "excluded_service": "Intermittent Orthopaedic Discharge Planning",
+      "window_days": 14,
+      "direction": "either",
+      "notes": "Intermittent Orthopaedic Discharge Planning is not billable within 14 days of Preoperative Paediatric Biopsy Procedure."
+    },
+    {
+      "trigger_service": "Continuous Pulmonary Case Conference",
+      "excluded_service": "Intermittent Urologic Discharge Planning",
+      "window_days": 10,
+      "direction": "either",
+      "notes": "Intermittent Urologic Discharge Planning is not billable within 10 days of Continuous Pulmonary Case Conference."
+    },
+    {
+      "trigger_service": "Ambulatory Paediatric Isolation Room Occupancy",
+      "excluded_service": "Preoperative Endocrine Rehabilitation Programme",
+      "window_days": 10,
+      "direction": "either",
+      "notes": "Preoperative Endocrine Rehabilitation Programme is not billable within 10 days of Ambulatory Paediatric Isolation Room Occupancy."
+    },
+    {
+      "trigger_service": "Inpatient Pulmonary Critical Care Occupancy",
+      "excluded_service": "Routine Urologic Transport Service",
+      "window_days": 10,
+      "direction": "either",
+      "notes": "Routine Urologic Transport Service is not billable within 10 days of Inpatient Pulmonary Critical Care Occupancy."
+    }
+  ],
+  "adjustment_order": [
+    "bundle",
+    "facility_multiplier",
+    "plan_multiplier",
+    "threshold_premium",
+    "weekend_uplift",
+    "volume_discount"
+  ],
+  "interpretation_notes": [
+    "Facility code on a line item determines the applicable Table 2 facility multiplier.",
+    "Plan tier on an invoice determines the applicable Table 3 multiplier for every line item on that invoice.",
+    "After each multiplier, premium, uplift, or discount step, round to the nearest whole cent using half-up rounding.",
+    "For cumulative utilisation, quantities are aggregated across all Patients for the entire agreement term and are not reset by facility or plan-tier changes. Same-date line items are counted in ascending line-identifier order.",
+    "Threshold premiums apply to the aggregate quantity of the Service for the Patient and Service Day across all line items and invoices."
+  ],
+  "ambiguities": [
+    "The exclusion-window wording \"within [N] days\" does not state whether the endpoints are inclusive; represented as an either-side N-day window, but endpoint inclusivity is not specified.",
+    "The daily-cap provisions state only a quantity and unit; they do not expressly state whether the cap is aggregated across all line items/invoices for a patient and Service Day or applied independently to each line item."
+  ],
+  "unsupported_rules": [
+    "Section 10.3: The same Service may not be billed twice for the same Patient and the same Service Date, whether on one invoice or across several. This duplicate-billing prohibition is not representable by the supplied schema.",
+    "Section 10.2: Every Service Date must fall within the agreement term and may not fall after the invoice date. The invoice-date validation requirement is not representable by the supplied schema."
+  ],
+  "extraction_confidence": 0.99
+}

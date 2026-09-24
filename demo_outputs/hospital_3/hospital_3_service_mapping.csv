@@ -1,0 +1,545 @@
+item_id,description,normalized_description,service_name,mapping_method,mapping_confidence,top_score,score_gap
+0,procedure - spclst pulmonary /RM-4002,procedure spclst pulmonary room 4002,Specialist Pulmonary Biopsy Procedure,ai_candidate_selection,0.72,74.603,7.412
+1,sess - foc neurological physio /RM-5693,session focused neurological physiotherapy room 5693,Focused Neurological Physiotherapy Session,fuzzy_high,0.96,97.25,26.155
+2,elective - pulm consult /RM-7049,elective pulmonary consultation room 7049,Elective Pulmonary Consultation,fuzzy_high,0.96,97.25,23.112
+3,prog outpt metab rehab /RM-2764,programme outpatient metabolic rehabilitation room 2764,Outpatient Metabolic Rehabilitation Programme,fuzzy_high,0.96,97.25,25.397
+4,analysis - inpatient infect spcm /RM-2183,analysis inpatient infectious specimen room 2183,Inpatient Infectious Specimen Analysis,fuzzy_high,0.96,97.25,26.6
+5,interp - ambulatory ophth img /RM-7217,interp ambulatory ophthalmic imaging room 7217,Ambulatory Ophthalmic Imaging Interpretation,ai_candidate_selection,0.95,82.122,16.606
+6,ext endoscopic proc,extended endoscopic procedure,Extended Musculoskeletal Endoscopic Procedure,ai_candidate_selection,0.84,92.025,8.265
+7,focused obstetric nutritional supp /RM-1566,focused obstetric nutritional support room 1566,Focused Obstetric Nutritional Support,fuzzy_high,0.96,97.25,26.848
+8,img  - postop neuro diag /RM-6337,imaging postoperative neurological diagnostic room 6337,Postoperative Neurological Diagnostic Imaging,fuzzy_high,0.96,97.25,20.225
+9,elect palliative physio sess /RM-2050,elective palliative physiotherapy session room 2050,Elective Palliative Physiotherapy Session,fuzzy_high,0.96,97.25,27.148
+10,beds metab inf ther /RM-4788,beds metabolic infusion ther room 4788,Bedside Metabolic Infusion Therapy,ai_candidate_selection,0.95,77.778,10.21
+11,postop - pulm consultation /RM-8223,postoperative pulmonary consultation room 8223,Postoperative Pulmonary Consultation,fuzzy_high,0.96,97.25,16.514
+12,beds - renal imaging interp,beds renal imaging interp,Bedside Renal Imaging Interpretation,ai_candidate_selection,0.95,81.967,7.551
+13,supv hep steril service,supv hepatic steril service,Supervised Hepatic Sterilisation Service,ai_candidate_selection,0.95,80.597,6.572
+14,compr haem radiother fraction /RM-6441,comprehensive haematology radiotherapy fraction room 6441,Comprehensive Haematology Radiotherapy Fraction,fuzzy_high,0.96,97.25,11.67
+15,inpt - metab inf ther,inpatient metabolic infusion ther,Inpatient Metabolic Infusion Therapy,fuzzy_high,0.96,95.652,18.04
+16,tm - interm infect thtr /RM-6706,tm intermittent infectious thtr room 6706,Intermittent Infectious Theatre Time,ai_candidate_selection,0.95,79.091,22.082
+17,postoperative card wd occ /RM-8367,postoperative cardiac wd occupancy room 8367,Postoperative Cardiac Ward Bed Occupancy,ai_candidate_selection,0.95,84.923,14.775
+18,cont - ren isol occ /RM-7098,continuous renal isolation occupancy room 7098,Continuous Renal Isolation Room Occupancy,fuzzy_high,0.96,97.25,13.207
+19,outpt - ren spcm analysis /RM-8203,outpatient renal specimen analysis room 8203,Outpatient Renal Specimen Analysis,fuzzy_high,0.96,97.25,31.396
+20,vst  - preop psych hm,visit preoperative psychiatric home,Preoperative Psychiatric Home Visit,fuzzy_high,0.96,97.25,18.131
+21,postop psych endosc proc /RM-5173,postoperative psychiatric endoscopic procedure room 5173,Postoperative Psychiatric Endoscopic Procedure,fuzzy_high,0.96,97.25,25.064
+22,cont  immunologic crit care occupancy /RM-9793,continuous immunologic critical care occupancy room 9793,Continuous Immunologic Critical Care Occupancy,fuzzy_high,0.96,97.25,11.577
+23,ophth nutr supp spclst,ophthalmic nutritional support spclst,Specialist Ophthalmic Nutritional Support,ai_candidate_selection,0.95,92.263,5.173
+24,asst urol endoscopic proc,assisted urologic endoscopic procedure,Assisted Urologic Endoscopic Procedure,exact,0.995,100.0,100.0
+25,postop ger nutr supp /RM-3180,postoperative geriatric nutritional support room 3180,Postoperative Geriatric Nutritional Support,fuzzy_high,0.96,97.25,13.063
+26,postop - derm physio session /RM-3052,postoperative dermatologic physiotherapy session room 3052,Postoperative Dermatologic Physiotherapy Session,fuzzy_high,0.96,97.25,15.608
+27,administration intens infectious anaes,administration intensive infectious anaes,Intensive Infectious Anaesthesia Administration,fuzzy_medium,0.89,90.619,11.945
+28,disp  advanced rheum pharm /RM-4765,dispensing advanced rheum pharm room 4765,Advanced Rheumatologic Pharmaceutical Dispensing,ai_candidate_selection,0.95,72.118,14.409
+29,intens  paed biop procedure,intensive paediatric biopsy procedure,Intensive Paediatric Biopsy Procedure,exact,0.995,100.0,100.0
+30,preop - endo dial sess,preoperative endocrine dialysis session,Preoperative Endocrine Dialysis Session,exact,0.995,100.0,100.0
+31,supv - hep steril svc /RM-4469,supv hepatic steril service room 4469,Supervised Hepatic Sterilisation Service,ai_candidate_selection,0.95,70.13,14.901
+32,wound - cont pulm,wound continuous pulmonary,Continuous Pulmonary Wound Care,fuzzy_high,0.96,97.25,25.225
+33,fract gastrointestinal radiotherapy,fract gastrointestinal radiotherapy,Preoperative Gastrointestinal Radiotherapy Fraction,ai_candidate_selection,0.84,88.133,24.842
+34,ther extended ger infusion,ther extended geriatric infusion,Extended Geriatric Infusion Therapy,fuzzy_medium,0.89,92.896,12.317
+35,pulm biop proc spclst,pulmonary biopsy procedure spclst,Specialist Pulmonary Biopsy Procedure,ai_candidate_selection,0.95,91.693,5.981
+36,outpt haematology transp service /RM-6818,outpatient haematology transport service room 6818,Outpatient Haematology Transport Service,fuzzy_high,0.96,97.25,14.735
+37,procedure emer vasc biop /RM-5984,procedure emergency vascular biopsy room 5984,Emergency Vascular Biopsy Procedure,fuzzy_high,0.96,97.25,14.348
+38,ophth img interp amb,ophthalmic imaging interp ambulatory,Ambulatory Ophthalmic Imaging Interpretation,ai_candidate_selection,0.95,87.525,14.301
+39,beds urologic lab pnl /RM-4923,beds urologic laboratory panel room 4923,Bedside Urologic Laboratory Panel,ai_candidate_selection,0.95,83.999,16.249
+40,occ - assisted ophthalmic recov rm /RM-1000,occupancy assisted ophthalmic recovery room room 1000,Assisted Ophthalmic Recovery Room Occupancy,fuzzy_high,0.96,97.25,25.097
+41,interpretation beds ren imaging,interpretation beds renal imaging,Bedside Renal Imaging Interpretation,fuzzy_medium,0.89,93.022,15.222
+42,specialist derm infusion ther /RM-3880,specialist dermatologic infusion ther room 3880,Specialist Dermatologic Infusion Therapy,ai_candidate_selection,0.95,86.782,17.218
+43,onc biop proc,oncology biopsy procedure,Emergency Oncology Biopsy Procedure,fuzzy_high,0.96,97.25,15.103
+44,cont crit cr occ /RM-2927,continuous critical cr occupancy room 2927,Continuous Immunologic Critical Care Occupancy,ai_candidate_selection,0.86,79.444,5.769
+45,spclst - ophth nutr support,spclst ophthalmic nutritional support,Specialist Ophthalmic Nutritional Support,ai_candidate_selection,0.95,94.872,6.625
+46,cont immunologic critical care occ,continuous immunologic critical care occupancy,Continuous Immunologic Critical Care Occupancy,exact,0.995,100.0,100.0
+47,infect  telemetry monit,infectious telemetry monitoring,Extended Infectious Telemetry Monitoring,fuzzy_high,0.96,97.25,20.975
+48,interm otolaryngologic wnd cr /RM-8687,intermittent otolaryngologic wound cr room 8687,Intermittent Otolaryngologic Wound Care,fuzzy_medium,0.89,90.589,17.85
+49,beds laboratory pnl,beds laboratory panel,Bedside Urologic Laboratory Panel,ai_candidate_selection,0.78,85.944,0.0
+50,beds - pulm sterilisation svc /RM-6248,beds pulmonary sterilisation service room 6248,Bedside Pulmonary Sterilisation Service,ai_candidate_selection,0.95,86.445,19.486
+51,obs postoperative haem nurs /RM-1861,obs postoperative haematology nursing room 1861,Postoperative Haematology Nursing Observation,ai_candidate_selection,0.95,82.451,24.662
+52,card disch plng /RM-1761,cardiac disch planning room 1761,Preoperative Cardiac Discharge Planning,ai_candidate_selection,0.77,68.486,2.175
+53,foc - obst nutr supp /RM-5370,focused obst nutritional support room 5370,Focused Obstetric Nutritional Support,ai_candidate_selection,0.95,82.526,17.692
+54,inpatient  infect spcm analysis /RM-2724,inpatient infectious specimen analysis room 2724,Inpatient Infectious Specimen Analysis,fuzzy_high,0.96,97.25,26.6
+55,occ - postoperative cardiac wd bd /RM-6316,occupancy postoperative cardiac wd bd room 6316,Postoperative Cardiac Ward Bed Occupancy,ai_candidate_selection,0.95,84.923,14.775
+56,foc - obstetric nutritional support /RM-9352,focused obstetric nutritional support room 9352,Focused Obstetric Nutritional Support,fuzzy_high,0.96,97.25,26.848
+57,ext - msk endosc proc,extended musculoskeletal endoscopic procedure,Extended Musculoskeletal Endoscopic Procedure,exact,0.995,100.0,100.0
+58,consultation elect pulm /RM-9046,consultation elective pulmonary room 9046,Elective Pulmonary Consultation,fuzzy_high,0.96,97.25,23.474
+59,foc neuro physio sess /RM-5481,focused neurological physiotherapy session room 5481,Focused Neurological Physiotherapy Session,fuzzy_high,0.96,97.25,26.155
+60,beds urol ventilation supp /RM-2947,beds urologic ventilation support room 2947,Bedside Urologic Ventilation Support,ai_candidate_selection,0.95,85.324,22.348
+61,assisted  paed dialysis sess /RM-7695,assisted paediatric dialysis session room 7695,Assisted Paediatric Dialysis Session,fuzzy_high,0.96,97.25,33.274
+62,spclst psych discharge plng /RM-3782,spclst psychiatric discharge planning room 3782,Specialist Psychiatric Discharge Planning,ai_candidate_selection,0.95,84.278,18.691
+63,adv musculoskeletal radiother fract /RM-5856,advanced musculoskeletal radiotherapy fract room 5856,Advanced Musculoskeletal Radiotherapy Fraction,fuzzy_medium,0.89,89.009,31.009
+64,infect anaes admin intens,infectious anaes administration intensive,Intensive Infectious Anaesthesia Administration,fuzzy_medium,0.89,90.619,11.945
+65,spclst - psych discharge plng,spclst psychiatric discharge planning,Specialist Psychiatric Discharge Planning,fuzzy_medium,0.89,94.872,23.819
+66,supv - ent wound care /RM-4788,supv otolaryngologic wound care room 4788,Supervised Otolaryngologic Wound Care,ai_candidate_selection,0.95,80.861,3.061
+67,pnl - supv lab,panel supv laboratory,,ai_unresolved,0.52,85.944,0.0
+68,interm immun isol rm occ /RM-3506,intermittent immunologic isolation room occupancy room 3506,Intermittent Immunologic Isolation Room Occupancy,fuzzy_high,0.96,97.25,12.889
+69,derm inf ther spclst,dermatologic infusion ther spclst,Specialist Dermatologic Infusion Therapy,ai_candidate_selection,0.95,87.925,10.601
+70,inpatient - metab theatre tm,inpatient metabolic theatre tm,Inpatient Metabolic Theatre Time,fuzzy_high,0.96,96.774,20.304
+71,amb ophth imaging interp,ambulatory ophthalmic imaging interp,Ambulatory Ophthalmic Imaging Interpretation,fuzzy_medium,0.89,90.0,14.706
+72,derm inf ther ext,dermatologic infusion ther extended,Extended Dermatologic Infusion Therapy,fuzzy_medium,0.89,93.253,12.675
+73,inpt wnd care /RM-7406,inpatient wound care room 7406,,ai_unresolved,0.52,77.8,9.175
+74,ent wnd cr supv,otolaryngologic wound cr supv,Supervised Otolaryngologic Wound Care,ai_candidate_selection,0.95,85.462,3.772
+75,cr intens immun wnd /RM-2044,cr intensive immunologic wound room 2044,Intensive Immunologic Wound Care,fuzzy_medium,0.89,89.008,27.323
+76,bedside  urol vent supp /RM-7062,bedside urologic ventilation support room 7062,Bedside Urologic Ventilation Support,fuzzy_high,0.96,97.25,28.625
+77,inpt infect spcm /RM-2707,inpatient infectious specimen room 2707,Inpatient Infectious Specimen Analysis,ai_candidate_selection,0.95,84.187,21.653
+78,pnl cont gi lab,panel continuous gastrointestinal laboratory,Continuous Gastrointestinal Laboratory Panel,fuzzy_high,0.96,97.25,33.74
+79,occ - postoperative card wd bd,occupancy postoperative cardiac wd bd,Postoperative Cardiac Ward Bed Occupancy,fuzzy_medium,0.89,93.461,26.922
+80,programme  rtn vasc rehab,programme routine vascular rehabilitation,Routine Vascular Rehabilitation Programme,fuzzy_high,0.96,97.25,25.435
+81,intermittent - gi endosc proc /RM-4870,intermittent gastrointestinal endoscopic procedure room 4870,Intermittent Gastrointestinal Endoscopic Procedure,fuzzy_high,0.96,97.25,19.191
+82,beds - pulm svc /RM-4889,beds pulmonary service room 4889,Bedside Pulmonary Sterilisation Service,ai_candidate_selection,0.75,68.486,1.006
+83,emer vasc biop procedure /RM-4693,emergency vascular biopsy procedure room 4693,Emergency Vascular Biopsy Procedure,fuzzy_high,0.96,97.25,14.348
+84,outpatient ren spcm anly /RM-2741,outpatient renal specimen analysis room 2741,Outpatient Renal Specimen Analysis,fuzzy_high,0.96,97.25,31.396
+85,admin  - postoperative rheum anaes,administration postoperative rheum anaes,Postoperative Rheumatologic Anaesthesia Administration,ai_candidate_selection,0.95,82.766,16.226
+86,advanced  - paed telem monit /RM-2176,advanced paediatric telem monitoring room 2176,Advanced Paediatric Telemetry Monitoring,ai_candidate_selection,0.95,84.618,19.401
+87,tm - ext neurological theatre,tm extended neurological theatre,Extended Neurological Theatre Time,fuzzy_medium,0.89,94.303,31.446
+88,spclst pulm sess /RM-7065,spclst pulmonary session room 7065,Specialist Pulmonary Physiotherapy Session,ai_candidate_selection,0.82,66.539,1.724
+89,spclst pulmonary biop proc,spclst pulmonary biopsy procedure,Specialist Pulmonary Biopsy Procedure,ai_candidate_selection,0.95,94.286,8.574
+90,ext - infectious telemetry monitoring,extended infectious telemetry monitoring,Extended Infectious Telemetry Monitoring,exact,0.995,100.0,100.0
+91,beds - pall care,beds palliative care,,ai_unresolved,0.52,83.469,6.444
+92,specialist - physio sess /RM-7734,specialist physiotherapy session room 7734,Specialist Pulmonary Physiotherapy Session,ai_candidate_selection,0.77,84.108,14.229
+93,postoperative ent laboratory pnl,postoperative otolaryngologic laboratory panel,Postoperative Otolaryngologic Laboratory Panel,exact,0.995,100.0,100.0
+94,monit - foc telemetry,monitoring focused telemetry,Focused Urologic Telemetry Monitoring,fuzzy_high,0.96,97.25,12.725
+95,elective pall physio sess /RM-4993,elective palliative physiotherapy session room 4993,Elective Palliative Physiotherapy Session,fuzzy_high,0.96,97.25,27.148
+96,bedside - neuro radiother fract,bedside neurological radiotherapy fract,Bedside Neurological Radiotherapy Fraction,fuzzy_high,0.96,96.296,27.16
+97,beds  - card recov rm occupancy,beds cardiac recovery room occupancy,Bedside Cardiac Recovery Room Occupancy,fuzzy_high,0.96,96.0,19.143
+98,inpt infect spcm analysis /RM-1777,inpatient infectious specimen analysis room 1777,Inpatient Infectious Specimen Analysis,fuzzy_high,0.96,97.25,26.6
+99,bedside - neuro pharmaceutical disp /RM-5321,bedside neurological pharmaceutical dispensing room 5321,Bedside Neurological Pharmaceutical Dispensing,fuzzy_high,0.96,97.25,25.225
+100,cont gastrointestinal lab pnl,continuous gastrointestinal laboratory panel,Continuous Gastrointestinal Laboratory Panel,exact,0.995,100.0,100.0
+101,emer ren isol rm occ /RM-3800,emergency renal isolation room occupancy room 3800,Emergency Renal Isolation Room Occupancy,fuzzy_high,0.96,97.25,15.067
+102,postoperative cardiac ward bd occ /RM-7848,postoperative cardiac ward bd occupancy room 7848,Postoperative Cardiac Ward Bed Occupancy,fuzzy_medium,0.89,92.132,21.984
+103,std ent disch plng /RM-8711,standard otolaryngologic disch planning room 8711,Standard Otolaryngologic Discharge Planning,ai_candidate_selection,0.95,85.761,29.102
+104,preoperative - ophth imaging interp /RM-5132,preoperative ophthalmic imaging interp room 5132,Preoperative Ophthalmic Imaging Interpretation,ai_candidate_selection,0.95,85.106,17.454
+105,postop psych endosc procedure,postoperative psychiatric endoscopic procedure,Postoperative Psychiatric Endoscopic Procedure,exact,0.995,100.0,100.0
+106,time inpt msk theatre /RM-4594,time inpatient musculoskeletal theatre room 4594,Inpatient Musculoskeletal Theatre Time,fuzzy_high,0.96,97.25,13.558
+107,inpt - hepatic biop procedure /RM-8381,inpatient hepatic biopsy procedure room 8381,Inpatient Hepatic Biopsy Procedure,fuzzy_high,0.96,97.25,31.396
+108,spclst gastrointestinal specimen analysis,spclst gastrointestinal specimen analysis,Specialist Gastrointestinal Specimen Analysis,fuzzy_high,0.96,95.349,21.882
+109,ambulatory - ophth img interp /RM-5201,ambulatory ophthalmic imaging interp room 5201,Ambulatory Ophthalmic Imaging Interpretation,ai_candidate_selection,0.95,84.444,14.76
+110,specialist obst dial sess /RM-3060,specialist obst dialysis session room 3060,Specialist Obstetric Dialysis Session,ai_candidate_selection,0.95,82.526,20.186
+111,emergency - ren isol rm occ,emergency renal isolation room occupancy,Emergency Renal Isolation Room Occupancy,exact,0.995,100.0,100.0
+112,rheum - pharm disp /RM-5213,rheum pharm dispensing room 5213,,ai_unresolved,0.52,75.15,0.686
+113,preop psych hm vst,preoperative psychiatric home visit,Preoperative Psychiatric Home Visit,exact,0.995,100.0,100.0
+114,cont pulm wnd cr,continuous pulmonary wound cr,Continuous Pulmonary Wound Care,fuzzy_high,0.96,96.667,24.442
+115,inpt - metab infusion therapy /RM-6761,inpatient metabolic infusion therapy room 6761,Inpatient Metabolic Infusion Therapy,fuzzy_high,0.96,97.25,12.967
+116,procedure - emer oncology biopsy,procedure emergency oncology biopsy,Emergency Oncology Biopsy Procedure,fuzzy_high,0.96,97.25,14.348
+117,spclst ophth nutritional supp,spclst ophthalmic nutritional support,Specialist Ophthalmic Nutritional Support,ai_candidate_selection,0.95,94.872,6.625
+118,comprehensive - pall diag img /RM-8883,comprehensive palliative diagnostic imaging room 8883,Comprehensive Palliative Diagnostic Imaging,fuzzy_high,0.96,97.25,27.148
+119,adv - telemetry monit /RM-3459,advanced telemetry monitoring room 3459,,ai_unresolved,0.52,82.949,0.0
+120,metab inf ther inpt,metabolic infusion ther inpatient,Inpatient Metabolic Infusion Therapy,fuzzy_medium,0.89,93.022,17.544
+121,spclst obstetric dial sess,spclst obstetric dialysis session,Specialist Obstetric Dialysis Session,fuzzy_medium,0.89,94.286,21.532
+122,postop - geriatric nutr supp /RM-2358,postoperative geriatric nutritional support room 2358,Postoperative Geriatric Nutritional Support,fuzzy_high,0.96,97.25,13.063
+123,adv - metab disch,advanced metabolic disch,Advanced Metabolic Discharge Planning,ai_candidate_selection,0.95,88.071,14.796
+124,outpatient  gastrointestinal isol rm occ /RM-4839,outpatient gastrointestinal isolation room occupancy room 4839,Outpatient Gastrointestinal Isolation Room Occupancy,fuzzy_high,0.96,97.25,16.475
+125,postop ent lab pnl /RM-3650,postoperative otolaryngologic laboratory panel room 3650,Postoperative Otolaryngologic Laboratory Panel,fuzzy_high,0.96,97.25,20.837
+126,cr beds pall wnd,cr beds palliative wound,Bedside Palliative Wound Care,ai_candidate_selection,0.95,88.075,14.58
+127,inpt - metabolic inf therapy /RM-9755,inpatient metabolic infusion therapy room 9755,Inpatient Metabolic Infusion Therapy,fuzzy_high,0.96,97.25,12.967
+128,session - elective pall physio /RM-2982,session elective palliative physiotherapy room 2982,Elective Palliative Physiotherapy Session,fuzzy_high,0.96,97.25,27.148
+129,intermittent - isolation rm occ /RM-6947,intermittent isolation room occupancy room 6947,Intermittent Immunologic Isolation Room Occupancy,fuzzy_medium,0.89,91.095,18.157
+130,spclst psychiatric disch plng,spclst psychiatric disch planning,Specialist Psychiatric Discharge Planning,fuzzy_medium,0.89,89.189,27.8
+131,supp  - intens onc nutr /RM-3710,support intensive oncology nutritional room 3710,Intensive Oncology Nutritional Support,fuzzy_high,0.96,97.25,27.725
+132,rtn vasc rehab prog /RM-7540,routine vascular rehabilitation programme room 7540,Routine Vascular Rehabilitation Programme,fuzzy_high,0.96,97.25,27.454
+133,adv - geriatric nutritional supp /RM-9294,advanced geriatric nutritional support room 9294,Advanced Geriatric Nutritional Support,fuzzy_high,0.96,97.25,17.47
+134,preop derm dialysis sess /RM-5623,preoperative dermatologic dialysis session room 5623,Preoperative Dermatologic Dialysis Session,fuzzy_high,0.96,97.25,14.301
+135,ext infect telem monitoring,extended infectious telem monitoring,Extended Infectious Telemetry Monitoring,fuzzy_medium,0.89,94.737,29.872
+136,disp outpt rheum pharmaceutical,dispensing outpatient rheum pharmaceutical,Outpatient Rheumatologic Pharmaceutical Dispensing,fuzzy_medium,0.89,89.769,16.291
+137,spclst - derm inf therapy,spclst dermatologic infusion therapy,Specialist Dermatologic Infusion Therapy,ai_candidate_selection,0.95,94.737,7.96
+138,rtn psychiatric consult /RM-4665,routine psychiatric consultation room 4665,Routine Psychiatric Consultation,fuzzy_high,0.96,97.25,40.432
+139,tm standard ortho thtr /RM-4366,tm standard orthopaedic thtr room 4366,Standard Orthopaedic Theatre Time,ai_candidate_selection,0.95,77.324,30.013
+140,sess elect pall physio,session elective palliative physiotherapy,Elective Palliative Physiotherapy Session,fuzzy_high,0.96,97.25,26.949
+141,intermittent - ent cr /RM-1347,intermittent otolaryngologic cr room 1347,Intermittent Otolaryngologic Wound Care,ai_candidate_selection,0.94,81.284,18.944
+142,compr pall img /RM-7888,comprehensive palliative imaging room 7888,Comprehensive Palliative Diagnostic Imaging,ai_candidate_selection,0.95,84.108,30.262
+143,ger nutr supp adv,geriatric nutritional support advanced,Advanced Geriatric Nutritional Support,fuzzy_high,0.96,97.25,11.079
+144,interm  - infectious theatre time /RM-2343,intermittent infectious theatre time room 2343,Intermittent Infectious Theatre Time,fuzzy_high,0.96,97.25,24.172
+145,anly - outpatient ren spcm /RM-1650,analysis outpatient renal specimen room 1650,Outpatient Renal Specimen Analysis,fuzzy_high,0.96,97.25,33.207
+146,focused - metab time /RM-1678,focused metabolic time room 1678,Focused Metabolic Theatre Time,ai_candidate_selection,0.95,82.288,17.049
+147,panel postoperative ent laboratory,panel postoperative otolaryngologic laboratory,Postoperative Otolaryngologic Laboratory Panel,fuzzy_high,0.96,97.25,22.043
+148,adv gi telem monitoring /RM-5162,advanced gastrointestinal telem monitoring room 5162,Advanced Gastrointestinal Telemetry Monitoring,ai_candidate_selection,0.95,86.655,20.459
+149,plng advanced metabolic disch /RM-9001,planning advanced metabolic disch room 9001,Advanced Metabolic Discharge Planning,ai_candidate_selection,0.95,82.662,28.108
+150,admin - rheumatologic anaes /RM-8208,administration rheumatologic anaes room 8208,Postoperative Rheumatologic Anaesthesia Administration,ai_candidate_selection,0.72,75.639,10.077
+151,proc spclst pulmonary biop,procedure spclst pulmonary biopsy,Specialist Pulmonary Biopsy Procedure,ai_candidate_selection,0.95,91.693,5.981
+152,ambulatory - ren cs conf /RM-6484,ambulatory renal case conference conference room 6484,Ambulatory Renal Case Conference,fuzzy_medium,0.89,94.5,18.752
+153,preoperative - rheum transp svc /RM-4064,preoperative rheum transport service room 4064,Preoperative Rheumatologic Transport Service,ai_candidate_selection,0.95,82.122,16.765
+154,inpatient - gi pharm disp,inpatient gastrointestinal pharm dispensing,Inpatient Gastrointestinal Pharmaceutical Dispensing,fuzzy_medium,0.89,91.414,23.851
+155,spclst obst dialysis sess /RM-6355,spclst obst dialysis session room 6355,Specialist Obstetric Dialysis Session,ai_candidate_selection,0.95,75.867,15.472
+156,svc supv hep steril,service supv hepatic steril,Supervised Hepatic Sterilisation Service,ai_candidate_selection,0.95,78.381,4.356
+157,emer - ren room occ /RM-9004,emergency renal room occupancy room 9004,Emergency Renal Isolation Room Occupancy,fuzzy_medium,0.89,89.769,19.042
+158,elect - pulmonary consult /RM-1017,elective pulmonary consultation room 1017,Elective Pulmonary Consultation,fuzzy_high,0.96,97.25,23.112
+159,conference - onc cs /RM-3304,conference oncology case conference room 3304,Bedside Oncology Case Conference,ai_candidate_selection,0.87,83.357,21.283
+160,intens - onc nutr supp,intensive oncology nutritional support,Intensive Oncology Nutritional Support,exact,0.995,100.0,100.0
+161,cr - intermittent ent wound,cr intermittent otolaryngologic wound,Intermittent Otolaryngologic Wound Care,fuzzy_medium,0.89,94.691,18.468
+162,rtn - vasc rehab prog /RM-2327,routine vascular rehabilitation programme room 2327,Routine Vascular Rehabilitation Programme,fuzzy_high,0.96,97.25,27.454
+163,std ortho theatre tm /RM-8947,standard orthopaedic theatre tm room 8947,Standard Orthopaedic Theatre Time,fuzzy_medium,0.89,89.279,37.145
+164,visit preop psychiatric hm,visit preoperative psychiatric home,Preoperative Psychiatric Home Visit,fuzzy_high,0.96,97.25,18.131
+165,compr pall diagnostic img /RM-6310,comprehensive palliative diagnostic imaging room 6310,Comprehensive Palliative Diagnostic Imaging,fuzzy_high,0.96,97.25,27.148
+166,rtn - obst diagnostic imaging /RM-3292,routine obst diagnostic imaging room 3292,Routine Obstetric Diagnostic Imaging,ai_candidate_selection,0.95,82.028,14.812
+167,foc - obstetric nutr supp /RM-1215,focused obstetric nutritional support room 1215,Focused Obstetric Nutritional Support,fuzzy_high,0.96,97.25,26.848
+168,rheum img interp,rheum imaging interp,Standard Rheumatologic Imaging Interpretation,ai_candidate_selection,0.86,74.717,0.371
+169,outpt - renal spcm anly /RM-8837,outpatient renal specimen analysis room 8837,Outpatient Renal Specimen Analysis,fuzzy_high,0.96,97.25,31.396
+170,bedside - vasc crit care occ /RM-4097,bedside vascular critical care occupancy room 4097,Bedside Vascular Critical Care Occupancy,fuzzy_high,0.96,97.25,23.884
+171,outpt haem transport svc,outpatient haematology transport service,Outpatient Haematology Transport Service,exact,0.995,100.0,100.0
+172,disp - adv rheumatologic pharm /RM-5520,dispensing advanced rheumatologic pharm room 5520,Advanced Rheumatologic Pharmaceutical Dispensing,ai_candidate_selection,0.95,79.241,14.407
+173,interm - derm physio sess /RM-8971,intermittent dermatologic physiotherapy session room 8971,Intermittent Dermatologic Physiotherapy Session,fuzzy_high,0.96,97.25,16.604
+174,support adv ger nutr /RM-4444,support advanced geriatric nutritional room 4444,Advanced Geriatric Nutritional Support,fuzzy_high,0.96,97.25,18.322
+175,postop ent rehab prog,postoperative otolaryngologic rehabilitation programme,Postoperative Otolaryngologic Rehabilitation Programme,exact,0.995,100.0,100.0
+176,inpt haem img interpretation,inpatient haematology imaging interpretation,Inpatient Haematology Imaging Interpretation,exact,0.995,100.0,100.0
+177,emer - derm steril /RM-6305,emergency dermatologic steril room 6305,Emergency Dermatologic Sterilisation Service,ai_candidate_selection,0.95,74.699,13.723
+178,rheum pharm disp adv,rheum pharm dispensing advanced,Advanced Rheumatologic Pharmaceutical Dispensing,ai_candidate_selection,0.95,82.341,7.539
+179,beds - neuro radiother fraction,beds neurological radiotherapy fraction,Bedside Neurological Radiotherapy Fraction,fuzzy_high,0.96,96.296,22.222
+180,preop card disch plng /RM-2885,preoperative cardiac disch planning room 2885,Preoperative Cardiac Discharge Planning,ai_candidate_selection,0.95,84.405,24.911
+181,admin outpt infect anaes /RM-4440,administration outpatient infectious anaes room 4440,Outpatient Infectious Anaesthesia Administration,ai_candidate_selection,0.95,83.357,12.262
+182,occupancy - interm immunologic isol rm /RM-4830,occupancy intermittent immunologic isolation room room 4830,Intermittent Immunologic Isolation Room Occupancy,fuzzy_high,0.96,97.25,12.889
+183,specialist hep case conference /RM-8911,specialist hepatic case conference room 8911,Specialist Hepatic Case Conference,fuzzy_high,0.96,97.25,35.176
+184,paed biop proc intens,paediatric biopsy procedure intensive,Intensive Paediatric Biopsy Procedure,fuzzy_high,0.96,97.25,15.195
+185,interp amb ent img,interp ambulatory otolaryngologic imaging,Ambulatory Otolaryngologic Imaging Interpretation,ai_candidate_selection,0.95,88.606,15.382
+186,bedside - urol lab panel,bedside urologic laboratory panel,Bedside Urologic Laboratory Panel,exact,0.995,100.0,100.0
+187,interm - endosc proc /RM-8678,intermittent endoscopic procedure room 8678,Intermittent Gastrointestinal Endoscopic Procedure,ai_candidate_selection,0.83,84.454,17.219
+188,beds pall wnd cr,beds palliative wound cr,Bedside Palliative Wound Care,fuzzy_medium,0.89,90.566,17.07
+189,outpt - pulmonary transp svc /RM-9113,outpatient pulmonary transport service room 9113,Outpatient Pulmonary Transport Service,fuzzy_high,0.96,97.25,17.162
+190,postoperative haem nurs obs,postoperative haematology nursing obs,Postoperative Haematology Nursing Observation,fuzzy_medium,0.89,92.063,28.533
+191,intermittent - gi endosc proc,intermittent gastrointestinal endoscopic procedure,Intermittent Gastrointestinal Endoscopic Procedure,exact,0.995,100.0,100.0
+192,ext derm svc,extended dermatologic service,Extended Dermatologic Sterilisation Service,fuzzy_high,0.96,97.25,13.49
+193,amb cs conf /RM-3664,ambulatory case conference conference room 3664,Ambulatory Renal Case Conference,ai_candidate_selection,0.84,87.19,25.115
+194,adv - musculoskeletal radiother fraction /RM-2833,advanced musculoskeletal radiotherapy fraction room 2833,Advanced Musculoskeletal Radiotherapy Fraction,fuzzy_high,0.96,97.25,30.87
+195,preop - rheum transp service /RM-2873,preoperative rheum transport service room 2873,Preoperative Rheumatologic Transport Service,ai_candidate_selection,0.95,82.122,16.765
+196,disp - advanced rheum pharm,dispensing advanced rheum pharm,Advanced Rheumatologic Pharmaceutical Dispensing,ai_candidate_selection,0.95,82.341,7.539
+197,inpt gastrointestinal pharm disp /RM-8161,inpatient gastrointestinal pharm dispensing room 8161,Inpatient Gastrointestinal Pharmaceutical Dispensing,ai_candidate_selection,0.95,82.463,13.714
+198,care bedside pall,care bedside palliative,Bedside Palliative Wound Care,fuzzy_high,0.96,97.25,19.368
+199,foc metabolic thtr tm,focused metabolic thtr tm,Focused Metabolic Theatre Time,fuzzy_medium,0.89,90.909,19.705
+200,outpatient gi isol rm occ /RM-2429,outpatient gastrointestinal isolation room occupancy room 2429,Outpatient Gastrointestinal Isolation Room Occupancy,fuzzy_high,0.96,97.25,16.475
+201,continuous  - pulmonary wnd cr,continuous pulmonary wound cr,Continuous Pulmonary Wound Care,fuzzy_high,0.96,96.667,24.442
+202,ext - haem radiotherapy fract,extended haematology radiotherapy fract,Extended Haematology Radiotherapy Fraction,fuzzy_high,0.96,96.296,14.901
+203,imaging inpt obstetric /RM-6043,imaging inpatient obstetric room 6043,Inpatient Obstetric Diagnostic Imaging,ai_candidate_selection,0.95,82.055,6.636
+204,procedure specialist haem endosc,procedure specialist haematology endoscopic,Specialist Haematology Endoscopic Procedure,fuzzy_high,0.96,97.25,29.004
+205,preoperative  - psych radiother fract,preoperative psychiatric radiotherapy fract,Preoperative Psychiatric Radiotherapy Fraction,fuzzy_high,0.96,96.629,17.511
+206,emer vasc biopsy procedure /RM-9358,emergency vascular biopsy procedure room 9358,Emergency Vascular Biopsy Procedure,fuzzy_high,0.96,97.25,14.348
+207,bedside pulm steril svc /RM-1543,bedside pulmonary steril service room 1543,Bedside Pulmonary Sterilisation Service,ai_candidate_selection,0.95,79.012,18.894
+208,std  rheum img interpretation,standard rheum imaging interpretation,Standard Rheumatologic Imaging Interpretation,fuzzy_medium,0.89,90.664,14.334
+209,supv ophth nutr supp /RM-8781,supv ophthalmic nutritional support room 8781,Supervised Ophthalmic Nutritional Support,ai_candidate_selection,0.95,82.796,0.613
+210,beds - imaging interpretation /RM-1489,beds imaging interpretation room 1489,Bedside Renal Imaging Interpretation,ai_candidate_selection,0.79,77.267,4.742
+211,routine - vascular rehab prog,routine vascular rehabilitation programme,Routine Vascular Rehabilitation Programme,exact,0.995,100.0,100.0
+212,ther - specialist derm inf /RM-1951,ther specialist dermatologic infusion room 1951,Specialist Dermatologic Infusion Therapy,ai_candidate_selection,0.95,86.444,17.216
+213,ext haem radiother fraction,extended haematology radiotherapy fraction,Extended Haematology Radiotherapy Fraction,exact,0.995,100.0,100.0
+214,dispensing - adv rheum pharmaceutical /RM-6524,dispensing advanced rheum pharmaceutical room 6524,Advanced Rheumatologic Pharmaceutical Dispensing,ai_candidate_selection,0.95,83.357,13.337
+215,rheum pharm disp outpt,rheum pharm dispensing outpatient,Outpatient Rheumatologic Pharmaceutical Dispensing,ai_candidate_selection,0.95,82.808,6.136
+216,interp std rheum imaging /RM-5766,interp standard rheum imaging room 5766,Standard Rheumatologic Imaging Interpretation,ai_candidate_selection,0.95,71.78,15.861
+217,foc urol telem monit /RM-2847,focused urologic telem monitoring room 2847,Focused Urologic Telemetry Monitoring,ai_candidate_selection,0.95,83.344,26.597
+218,inpt msk theatre tm /RM-8470,inpatient musculoskeletal theatre tm room 8470,Inpatient Musculoskeletal Theatre Time,fuzzy_medium,0.89,90.401,20.876
+219,std orthopaedic thtr time /RM-2069,standard orthopaedic thtr time room 2069,Standard Orthopaedic Theatre Time,ai_candidate_selection,0.95,83.999,33.863
+220,outpt metab rehabilitation prog /RM-6180,outpatient metabolic rehabilitation programme room 6180,Outpatient Metabolic Rehabilitation Programme,fuzzy_high,0.96,97.25,25.397
+221,beds metabolic inf therapy,beds metabolic infusion therapy,Bedside Metabolic Infusion Therapy,fuzzy_high,0.96,95.385,6.665
+222,bedside urologic laboratory pnl,bedside urologic laboratory panel,Bedside Urologic Laboratory Panel,exact,0.995,100.0,100.0
+223,postop - psych endosc procedure /RM-5030,postoperative psychiatric endoscopic procedure room 5030,Postoperative Psychiatric Endoscopic Procedure,fuzzy_high,0.96,97.25,25.064
+224,compr - ortho cr,comprehensive orthopaedic cr,Comprehensive Orthopaedic Wound Care,fuzzy_medium,0.89,91.745,16.184
+225,std otolaryngologic discharge plng,standard otolaryngologic discharge planning,Standard Otolaryngologic Discharge Planning,exact,0.995,100.0,100.0
+226,bedside ren img interpretation,bedside renal imaging interpretation,Bedside Renal Imaging Interpretation,exact,0.995,100.0,100.0
+227,foc - metab theatre /RM-4359,focused metabolic theatre room 4359,Focused Metabolic Theatre Time,ai_candidate_selection,0.95,88.409,20.929
+228,preoperative dermatologic dial sess,preoperative dermatologic dialysis session,Preoperative Dermatologic Dialysis Session,exact,0.995,100.0,100.0
+229,obst diag img inpt,obst diagnostic imaging inpatient,Inpatient Obstetric Diagnostic Imaging,fuzzy_medium,0.89,90.401,19.93
+230,intensive - ophth laboratory panel,intensive ophthalmic laboratory panel,Intensive Ophthalmic Laboratory Panel,exact,0.995,100.0,100.0
+231,inpt - haem imaging interp /RM-1583,inpatient haematology imaging interp room 1583,Inpatient Haematology Imaging Interpretation,ai_candidate_selection,0.95,84.444,16.104
+232,ther ext derm inf /RM-2306,ther extended dermatologic infusion room 2306,Extended Dermatologic Infusion Therapy,ai_candidate_selection,0.95,85.809,15.303
+233,supp adv nutr,support advanced nutritional,,ai_unresolved,0.52,97.25,0.0
+234,paed biop proc spclst,paediatric biopsy procedure spclst,Specialist Paediatric Biopsy Procedure,ai_candidate_selection,0.95,91.847,5.757
+235,derm physiotherapy sess /RM-1399,dermatologic physiotherapy session room 1399,,ai_unresolved,0.52,84.782,0.0
+236,intens otolaryngologic anaesthesia admin /RM-6836,intensive otolaryngologic anaesthesia administration room 6836,Intensive Otolaryngologic Anaesthesia Administration,fuzzy_high,0.96,97.25,12.889
+237,std - ent disch plng,standard otolaryngologic disch planning,Standard Otolaryngologic Discharge Planning,fuzzy_high,0.96,95.122,32.622
+238,postop - rheum anaes administration /RM-2939,postoperative rheum anaes administration room 2939,Postoperative Rheumatologic Anaesthesia Administration,ai_candidate_selection,0.95,78.654,16.91
+239,time  standard orthopaedic thtr /RM-7653,time standard orthopaedic thtr room 7653,Standard Orthopaedic Theatre Time,ai_candidate_selection,0.95,83.836,35.211
+240,preop - rheumatologic transport svc,preoperative rheumatologic transport service,Preoperative Rheumatologic Transport Service,exact,0.995,100.0,100.0
+241,session spclst pulm physio /RM-2478,session spclst pulmonary physiotherapy room 2478,Specialist Pulmonary Physiotherapy Session,ai_candidate_selection,0.95,82.596,13.925
+242,intensive - laboratory pnl /RM-3168,intensive laboratory panel room 3168,,ai_unresolved,0.52,81.565,11.094
+243,interm derm physio sess /RM-3176,intermittent dermatologic physiotherapy session room 3176,Intermittent Dermatologic Physiotherapy Session,fuzzy_high,0.96,97.25,16.604
+244,supv - neuro lab /RM-9260,supv neurological laboratory room 9260,Supervised Neurological Laboratory Panel,ai_candidate_selection,0.95,74.832,12.86
+245,beds neurological pharmaceutical dispensing,beds neurological pharmaceutical dispensing,Bedside Neurological Pharmaceutical Dispensing,fuzzy_high,0.96,96.629,15.311
+246,preop - ophth img interp /RM-1493,preoperative ophthalmic imaging interp room 1493,Preoperative Ophthalmic Imaging Interpretation,ai_candidate_selection,0.95,85.106,17.454
+247,preop - paed lab pnl /RM-6230,preoperative paediatric laboratory panel room 6230,Preoperative Paediatric Laboratory Panel,fuzzy_high,0.96,97.25,20.837
+248,emer onc biop proc /RM-2100,emergency oncology biopsy procedure room 2100,Emergency Oncology Biopsy Procedure,fuzzy_high,0.96,97.25,14.348
+249,inpt - obstetric wound care,inpatient obstetric wound care,Inpatient Obstetric Wound Care,exact,0.995,100.0,100.0
+250,derm physio sess interm,dermatologic physiotherapy session intermittent,Intermittent Dermatologic Physiotherapy Session,fuzzy_high,0.96,97.25,15.355
+251,focused neuro physiotherapy sess /RM-7015,focused neurological physiotherapy session room 7015,Focused Neurological Physiotherapy Session,fuzzy_high,0.96,97.25,26.155
+252,pulm consult elect,pulmonary consultation elective,Elective Pulmonary Consultation,fuzzy_high,0.96,97.25,15.966
+253,beds oncology cs conf,beds oncology case conference conference,Bedside Oncology Case Conference,fuzzy_medium,0.89,92.467,26.16
+254,asst - urol endosc procedure,assisted urologic endoscopic procedure,Assisted Urologic Endoscopic Procedure,exact,0.995,100.0,100.0
+255,spclst - gi spcm anly,spclst gastrointestinal specimen analysis,Specialist Gastrointestinal Specimen Analysis,fuzzy_high,0.96,95.349,21.882
+256,inpatient hepatic biop proc /RM-8856,inpatient hepatic biopsy procedure room 8856,Inpatient Hepatic Biopsy Procedure,fuzzy_high,0.96,97.25,31.396
+257,fract compr haematology radiother /RM-9731,fract comprehensive haematology radiotherapy room 9731,Comprehensive Haematology Radiotherapy Fraction,ai_candidate_selection,0.95,86.953,14.015
+258,emer - renal isol rm occupancy /RM-9791,emergency renal isolation room occupancy room 9791,Emergency Renal Isolation Room Occupancy,fuzzy_high,0.96,97.25,15.067
+259,sess assisted paed /RM-2967,session assisted paediatric room 2967,Assisted Paediatric Dialysis Session,ai_candidate_selection,0.78,83.357,28.557
+260,proc emer onc biop,procedure emergency oncology biopsy,Emergency Oncology Biopsy Procedure,fuzzy_high,0.96,97.25,14.348
+261,foc nutr supp /RM-8954,focused nutritional support room 8954,Focused Obstetric Nutritional Support,ai_candidate_selection,0.79,82.055,14.728
+262,amb - metabolic isol room occ /RM-9073,ambulatory metabolic isolation room occupancy room 9073,Ambulatory Metabolic Isolation Room Occupancy,fuzzy_high,0.96,97.25,24.312
+263,inpt  obst diagnostic img,inpatient obst diagnostic imaging,Inpatient Obstetric Diagnostic Imaging,fuzzy_medium,0.89,92.958,17.306
+264,intens - onc nutr supp /RM-4038,intensive oncology nutritional support room 4038,Intensive Oncology Nutritional Support,fuzzy_high,0.96,97.25,27.725
+265,prog postop ent rehab /RM-9036,programme postoperative otolaryngologic rehabilitation room 9036,Postoperative Otolaryngologic Rehabilitation Programme,fuzzy_high,0.96,97.25,16.994
+266,preoperative - gi radiother fraction /RM-6541,preoperative gastrointestinal radiotherapy fraction room 6541,Preoperative Gastrointestinal Radiotherapy Fraction,fuzzy_high,0.96,97.25,14.588
+267,inpatient - musculoskeletal thtr tm /RM-5356,inpatient musculoskeletal thtr tm room 5356,Inpatient Musculoskeletal Theatre Time,ai_candidate_selection,0.95,81.481,20.148
+268,emergency - steril service /RM-6059,emergency steril service room 6059,Emergency Dermatologic Sterilisation Service,ai_candidate_selection,0.78,69.821,7.098
+269,postop - rheumatologic anaesthesia admin,postoperative rheumatologic anaesthesia administration,Postoperative Rheumatologic Anaesthesia Administration,exact,0.995,100.0,100.0
+270,bedside  urol vent support /RM-4017,bedside urologic ventilation support room 4017,Bedside Urologic Ventilation Support,fuzzy_high,0.96,97.25,28.625
+271,amb metab isol rm occ /RM-5812,ambulatory metabolic isolation room occupancy room 5812,Ambulatory Metabolic Isolation Room Occupancy,fuzzy_high,0.96,97.25,24.312
+272,intens - immun wnd care,intensive immunologic wound care,Intensive Immunologic Wound Care,exact,0.995,100.0,100.0
+273,tm - ext neuro thtr /RM-3527,tm extended neurological thtr room 3527,Extended Neurological Theatre Time,ai_candidate_selection,0.95,77.945,19.848
+274,service  - outpt pulm transport,service outpatient pulmonary transport,Outpatient Pulmonary Transport Service,fuzzy_high,0.96,97.25,14.735
+275,ext ger inf ther,extended geriatric infusion ther,Extended Geriatric Infusion Therapy,fuzzy_high,0.96,95.522,12.665
+276,occ asst ophthalmic recovery rm /RM-9815,occupancy assisted ophthalmic recovery room room 9815,Assisted Ophthalmic Recovery Room Occupancy,fuzzy_high,0.96,97.25,25.097
+277,beds  urol vent supp,beds urologic ventilation support,Bedside Urologic Ventilation Support,fuzzy_high,0.96,95.652,25.382
+278,specialist psych disch planning,specialist psychiatric disch planning,Specialist Psychiatric Discharge Planning,fuzzy_medium,0.89,94.872,31.451
+279,amb otolaryngologic img interp /RM-1387,ambulatory otolaryngologic imaging interp room 1387,Ambulatory Otolaryngologic Imaging Interpretation,ai_candidate_selection,0.95,86.0,16.316
+280,compr haem radiother fraction,comprehensive haematology radiotherapy fraction,Comprehensive Haematology Radiotherapy Fraction,exact,0.995,100.0,100.0
+281,preop - paed lab panel,preoperative paediatric laboratory panel,Preoperative Paediatric Laboratory Panel,exact,0.995,100.0,100.0
+282,preop - dermatologic dial sess /RM-4276,preoperative dermatologic dialysis session room 4276,Preoperative Dermatologic Dialysis Session,fuzzy_high,0.96,97.25,14.301
+283,dispensing inpt pharm /RM-6838,dispensing inpatient pharm room 6838,Inpatient Gastrointestinal Pharmaceutical Dispensing,ai_candidate_selection,0.75,69.464,6.139
+284,inpatient - metab thtr tm /RM-7070,inpatient metabolic thtr tm room 7070,Inpatient Metabolic Theatre Time,ai_candidate_selection,0.95,78.261,11.07
+285,disp outpt rheumatologic pharmaceutical /RM-6582,dispensing outpatient rheumatologic pharmaceutical room 6582,Outpatient Rheumatologic Pharmaceutical Dispensing,fuzzy_high,0.96,97.25,10.06
+286,bedside oncology cs conf,bedside oncology case conference conference,Bedside Oncology Case Conference,fuzzy_high,0.96,97.25,35.176
+287,pulm biop proc emer,pulmonary biopsy procedure emergency,Emergency Pulmonary Biopsy Procedure,fuzzy_high,0.96,97.25,12.327
+288,outpt - pulm transport /RM-4112,outpatient pulmonary transport room 4112,Outpatient Pulmonary Transport Service,ai_candidate_selection,0.95,85.809,20.059
+289,foc urol telem monit /RM-4291,focused urologic telem monitoring room 4291,Focused Urologic Telemetry Monitoring,ai_candidate_selection,0.95,83.344,26.597
+290,vst - preop psych home /RM-5529,visit preoperative psychiatric home room 5529,Preoperative Psychiatric Home Visit,fuzzy_high,0.96,97.25,29.598
+291,spclst - gi specimen anly /RM-3384,spclst gastrointestinal specimen analysis room 3384,Specialist Gastrointestinal Specimen Analysis,ai_candidate_selection,0.95,85.713,8.688
+292,preop - rheum transp svc /RM-1270,preoperative rheum transport service room 1270,Preoperative Rheumatologic Transport Service,ai_candidate_selection,0.95,82.122,16.765
+293,svc ext dermatologic steril /RM-5564,service extended dermatologic steril room 5564,Extended Dermatologic Sterilisation Service,ai_candidate_selection,0.95,78.674,9.445
+294,procedure intens paed /RM-3709,procedure intensive paediatric room 3709,,review,0.52,87.09,20.021
+295,spclst haematology endosc proc,spclst haematology endoscopic procedure,Specialist Haematology Endoscopic Procedure,fuzzy_high,0.96,95.122,20.966
+296,interm immun isol rm occ,intermittent immunologic isolation room occupancy,Intermittent Immunologic Isolation Room Occupancy,exact,0.995,100.0,100.0
+297,cont - ren isolation room occ,continuous renal isolation room occupancy,Continuous Renal Isolation Room Occupancy,exact,0.995,100.0,100.0
+298,intens - immun wound cr /RM-7855,intensive immunologic wound cr room 7855,Intensive Immunologic Wound Care,fuzzy_medium,0.89,89.008,27.323
+299,beds - neuro pharm dispensing,beds neurological pharm dispensing,Bedside Neurological Pharmaceutical Dispensing,ai_candidate_selection,0.95,85.0,13.905
+300,conference - spclst hep cs,conference spclst hepatic case conference,Specialist Hepatic Case Conference,fuzzy_medium,0.89,91.172,25.293
+301,rtn endo spcm analysis /RM-8343,routine endocrine specimen analysis room 8343,Routine Endocrine Specimen Analysis,fuzzy_high,0.96,97.25,31.047
+302,foc urol telemetry monitoring /RM-1810,focused urologic telemetry monitoring room 1810,Focused Urologic Telemetry Monitoring,fuzzy_high,0.96,97.25,28.017
+303,immun isol rm occ interm,immunologic isolation room occupancy intermittent,Intermittent Immunologic Isolation Room Occupancy,fuzzy_high,0.96,97.25,12.889
+304,preop - psych radiotherapy fract /RM-3260,preoperative psychiatric radiotherapy fract room 3260,Preoperative Psychiatric Radiotherapy Fraction,ai_candidate_selection,0.95,89.009,5.374
+305,gi - endosc proc,gastrointestinal endoscopic procedure,Intermittent Gastrointestinal Endoscopic Procedure,fuzzy_high,0.96,97.25,25.25
+306,sess - specialist obst dial,session specialist obst dialysis,Specialist Obstetric Dialysis Session,fuzzy_medium,0.89,90.203,18.428
+307,preop card disch plng,preoperative cardiac disch planning,Preoperative Cardiac Discharge Planning,fuzzy_medium,0.89,94.595,29.761
+308,conf spclst hep cs /RM-6883,conference spclst hepatic case conference room 6883,Specialist Hepatic Case Conference,ai_candidate_selection,0.95,83.511,7.763
+309,proc - ext musculoskeletal endoscopic,procedure extended musculoskeletal endoscopic,Extended Musculoskeletal Endoscopic Procedure,fuzzy_high,0.96,97.25,30.181
+310,rtn endo spcm anly /RM-3340,routine endocrine specimen analysis room 3340,Routine Endocrine Specimen Analysis,fuzzy_high,0.96,97.25,31.047
+311,metab inf ther beds,metabolic infusion ther beds,Bedside Metabolic Infusion Therapy,ai_candidate_selection,0.95,87.839,11.73
+312,emer pulm biopsy proc,emergency pulmonary biopsy procedure,Emergency Pulmonary Biopsy Procedure,exact,0.995,100.0,100.0
+313,spclst haematology endosc proc /RM-6838,spclst haematology endoscopic procedure room 6838,Specialist Haematology Endoscopic Procedure,ai_candidate_selection,0.95,85.03,17.329
+314,spclst derm inf ther,spclst dermatologic infusion ther,Specialist Dermatologic Infusion Therapy,fuzzy_medium,0.89,90.411,11.538
+315,postop otolaryngologic rehab prog /RM-8020,postoperative otolaryngologic rehabilitation programme room 8020,Postoperative Otolaryngologic Rehabilitation Programme,fuzzy_high,0.96,97.25,16.994
+316,postoperative - psych endosc proc,postoperative psychiatric endoscopic procedure,Postoperative Psychiatric Endoscopic Procedure,exact,0.995,100.0,100.0
+317,service emer dermatologic steril,service emergency dermatologic steril,Emergency Dermatologic Sterilisation Service,ai_candidate_selection,0.95,88.846,13.477
+318,adv - msk radiother,advanced musculoskeletal radiotherapy,Advanced Musculoskeletal Radiotherapy Fraction,fuzzy_high,0.96,97.25,35.917
+319,inpt - obstetric wnd care /RM-9635,inpatient obstetric wound care room 9635,Inpatient Obstetric Wound Care,fuzzy_high,0.96,97.25,32.417
+320,interm derm physio /RM-4730,intermittent dermatologic physiotherapy room 4730,Intermittent Dermatologic Physiotherapy Session,ai_candidate_selection,0.95,88.203,18.025
+321,postop - neurological diagnostic img /RM-3157,postoperative neurological diagnostic imaging room 3157,Postoperative Neurological Diagnostic Imaging,fuzzy_high,0.96,97.25,20.225
+322,ophth img interp preop,ophthalmic imaging interp preoperative,,review,0.52,87.988,14.817
+323,supv otolaryngologic wnd cr,supv otolaryngologic wound cr,Supervised Otolaryngologic Wound Care,ai_candidate_selection,0.95,87.879,6.189
+324,supv ophth nutr supp,supv ophthalmic nutritional support,Supervised Ophthalmic Nutritional Support,ai_candidate_selection,0.95,92.196,2.427
+325,emer - pulm biopsy proc /RM-3811,emergency pulmonary biopsy procedure room 3811,Emergency Pulmonary Biopsy Procedure,fuzzy_high,0.96,97.25,14.348
+326,occ - beds card recovery room /RM-5894,occupancy beds cardiac recovery room room 5894,Bedside Cardiac Recovery Room Occupancy,ai_candidate_selection,0.95,87.525,17.627
+327,preoperative paed laboratory pnl,preoperative paediatric laboratory panel,Preoperative Paediatric Laboratory Panel,exact,0.995,100.0,100.0
+328,intens ophth lab pnl /RM-4675,intensive ophthalmic laboratory panel room 4675,Intensive Ophthalmic Laboratory Panel,fuzzy_high,0.96,97.25,32.112
+329,ext - ger inf ther /RM-8934,extended geriatric infusion ther room 8934,Extended Geriatric Infusion Therapy,ai_candidate_selection,0.95,84.908,12.408
+330,immun isol rm occ cont,immunologic isolation room occupancy continuous,Continuous Immunologic Isolation Room Occupancy,fuzzy_high,0.96,97.25,7.678
+331,conf - amb ren /RM-2011,conference ambulatory renal room 2011,Ambulatory Renal Case Conference,fuzzy_medium,0.89,89.008,32.903
+332,cont - pulm wnd care,continuous pulmonary wound care,Continuous Pulmonary Wound Care,exact,0.995,100.0,100.0
+333,adv - gi telem monitoring,advanced gastrointestinal telem monitoring,Advanced Gastrointestinal Telemetry Monitoring,fuzzy_high,0.96,95.455,22.284
+334,postop  rheumatologic anaes administration,postoperative rheumatologic anaes administration,Postoperative Rheumatologic Anaesthesia Administration,fuzzy_medium,0.89,94.118,25.218
+335,procedure specialist paed biop /RM-7208,procedure specialist paediatric biopsy room 7208,Specialist Paediatric Biopsy Procedure,fuzzy_high,0.96,97.25,15.195
+336,sess intermittent dermatologic physio,session intermittent dermatologic physiotherapy,Intermittent Dermatologic Physiotherapy Session,fuzzy_high,0.96,97.25,15.355
+337,beds card recovery room occupancy /RM-2538,beds cardiac recovery room occupancy room 2538,Bedside Cardiac Recovery Room Occupancy,ai_candidate_selection,0.95,87.525,17.627
+338,intens onc nutr support /RM-7166,intensive oncology nutritional support room 7166,Intensive Oncology Nutritional Support,fuzzy_high,0.96,97.25,27.725
+339,room - amb metab isol,room ambulatory metabolic isolation,Ambulatory Metabolic Isolation Room Occupancy,fuzzy_high,0.96,97.25,37.603
+340,asst - ophth recov room occ /RM-9070,assisted ophthalmic recovery room occupancy room 9070,Assisted Ophthalmic Recovery Room Occupancy,fuzzy_high,0.96,97.25,25.097
+341,care - compr orthopaedic wnd /RM-4641,care comprehensive orthopaedic wound room 4641,Comprehensive Orthopaedic Wound Care,fuzzy_high,0.96,97.25,26.541
+342,intens - nutr supp,intensive nutritional support,Intensive Oncology Nutritional Support,fuzzy_high,0.96,97.25,20.26
+343,inpt haem imaging interp /RM-8352,inpatient haematology imaging interp room 8352,Inpatient Haematology Imaging Interpretation,ai_candidate_selection,0.95,84.444,16.104
+344,occ - cont renal isol room,occupancy continuous renal isolation room,Continuous Renal Isolation Room Occupancy,fuzzy_high,0.96,97.25,7.678
+345,inpt - metab infusion ther,inpatient metabolic infusion ther,Inpatient Metabolic Infusion Therapy,fuzzy_high,0.96,95.652,18.04
+346,supv neuro lab pnl,supv neurological laboratory panel,Supervised Neurological Laboratory Panel,fuzzy_medium,0.89,91.969,12.715
+347,interp  - preoperative ophth img,interp preoperative ophthalmic imaging,Preoperative Ophthalmic Imaging Interpretation,ai_candidate_selection,0.95,87.988,16.83
+348,amb metab isolation rm occ,ambulatory metabolic isolation room occupancy,Ambulatory Metabolic Isolation Room Occupancy,exact,0.995,100.0,100.0
+349,proc - inpatient hep biop,procedure inpatient hepatic biopsy,Inpatient Hepatic Biopsy Procedure,fuzzy_high,0.96,97.25,24.312
+350,advanced - paed telem monit,advanced paediatric telem monitoring,Advanced Paediatric Telemetry Monitoring,fuzzy_medium,0.89,94.737,21.566
+351,cont - pulm wound cr /RM-5579,continuous pulmonary wound cr room 5579,Continuous Pulmonary Wound Care,ai_candidate_selection,0.95,88.719,32.179
+352,postoperative - derm physio sess,postoperative dermatologic physiotherapy session,Postoperative Dermatologic Physiotherapy Session,exact,0.995,100.0,100.0
+353,tm - ext neuro theatre /RM-2741,tm extended neurological theatre room 2741,Extended Neurological Theatre Time,fuzzy_medium,0.89,89.532,31.182
+354,fraction compr haem radiother /RM-9837,fraction comprehensive haematology radiotherapy room 9837,Comprehensive Haematology Radiotherapy Fraction,fuzzy_high,0.96,97.25,11.67
+355,beds  - geriatric telem,beds geriatric telem,Bedside Geriatric Telemetry Monitoring,ai_candidate_selection,0.95,78.059,3.103
+356,supv ophthalmic nutr supp /RM-7732,supv ophthalmic nutritional support room 7732,Supervised Ophthalmic Nutritional Support,ai_candidate_selection,0.95,82.796,0.613
+357,bedside vasc critical cr occ /RM-5031,bedside vascular critical cr occupancy room 5031,Bedside Vascular Critical Care Occupancy,fuzzy_medium,0.89,90.767,20.619
+358,admin - intensive infect anaes,administration intensive infectious anaes,Intensive Infectious Anaesthesia Administration,fuzzy_medium,0.89,90.619,11.945
+359,proc urologic endosc,procedure urologic endoscopic,Assisted Urologic Endoscopic Procedure,fuzzy_high,0.96,97.25,13.49
+360,asst - paed dial sess /RM-6430,assisted paediatric dialysis session room 6430,Assisted Paediatric Dialysis Session,fuzzy_high,0.96,97.25,33.274
+361,amb ent img interp,ambulatory otolaryngologic imaging interp,Ambulatory Otolaryngologic Imaging Interpretation,fuzzy_medium,0.89,91.111,15.817
+362,emergency  onc biop proc /RM-3148,emergency oncology biopsy procedure room 3148,Emergency Oncology Biopsy Procedure,fuzzy_high,0.96,97.25,14.348
+363,proc - emergency pulm biop,procedure emergency pulmonary biopsy,Emergency Pulmonary Biopsy Procedure,fuzzy_high,0.96,97.25,12.327
+364,plng preop card disch /RM-4078,planning preoperative cardiac disch room 4078,Preoperative Cardiac Discharge Planning,ai_candidate_selection,0.95,83.357,23.863
+365,rtn - obst diag img /RM-6616,routine obst diagnostic imaging room 6616,Routine Obstetric Diagnostic Imaging,ai_candidate_selection,0.95,82.028,14.812
+366,bedside - vasc critical cr occ,bedside vascular critical cr occupancy,Bedside Vascular Critical Care Occupancy,fuzzy_high,0.96,97.436,31.072
+367,intens  paed biop proc,intensive paediatric biopsy procedure,Intensive Paediatric Biopsy Procedure,exact,0.995,100.0,100.0
+368,spclst obstetric dialysis session,spclst obstetric dialysis session,Specialist Obstetric Dialysis Session,fuzzy_medium,0.89,94.286,21.532
+369,supv - ophth nutr supp,supv ophthalmic nutritional support,Supervised Ophthalmic Nutritional Support,ai_candidate_selection,0.95,92.196,2.427
+370,assisted paed dial sess /RM-8098,assisted paediatric dialysis session room 8098,Assisted Paediatric Dialysis Session,fuzzy_high,0.96,97.25,33.274
+371,inpt  metab inf ther /RM-9992,inpatient metabolic infusion ther room 9992,,review,0.52,85.324,12.864
+372,outpt metab rehab programme /RM-2803,outpatient metabolic rehabilitation programme room 2803,Outpatient Metabolic Rehabilitation Programme,fuzzy_high,0.96,97.25,25.397
+373,postop - pulm,postoperative pulmonary,Postoperative Pulmonary Consultation,fuzzy_medium,0.89,94.5,14.975
+374,adv gastrointestinal telem monit /RM-6600,advanced gastrointestinal telem monitoring room 6600,Advanced Gastrointestinal Telemetry Monitoring,ai_candidate_selection,0.95,86.655,20.459
+375,admin - intens otolaryngologic anaesthesia /RM-6575,administration intensive otolaryngologic anaesthesia room 6575,Intensive Otolaryngologic Anaesthesia Administration,fuzzy_high,0.96,97.25,12.889
+376,pulm - postoperative,pulmonary postoperative,Postoperative Pulmonary Consultation,fuzzy_medium,0.89,92.025,12.5
+377,preop derm dial sess /RM-5322,preoperative dermatologic dialysis session room 5322,Preoperative Dermatologic Dialysis Session,fuzzy_high,0.96,97.25,14.301
+378,bedside - metab infusion,bedside metabolic infusion,Bedside Metabolic Infusion Therapy,fuzzy_high,0.96,97.25,17.682
+379,ren isol rm occ emer,renal isolation room occupancy emergency,Emergency Renal Isolation Room Occupancy,fuzzy_high,0.96,97.25,13.893
+380,comprehensive ortho wnd cr,comprehensive orthopaedic wound cr,Comprehensive Orthopaedic Wound Care,fuzzy_high,0.96,97.143,40.821
+381,outpt infect anaes admin,outpatient infectious anaes administration,Outpatient Infectious Anaesthesia Administration,fuzzy_medium,0.89,93.333,13.67
+382,beds - geriatric telem monit,beds geriatric telem monitoring,Bedside Geriatric Telemetry Monitoring,fuzzy_medium,0.89,89.855,13.799
+383,fraction - ext haem radiother,fraction extended haematology radiotherapy,Extended Haematology Radiotherapy Fraction,fuzzy_high,0.96,97.25,11.67
+384,supv ent wnd care,supv otolaryngologic wound care,Supervised Otolaryngologic Wound Care,ai_candidate_selection,0.95,91.2,2.48
+385,admin - outpt infectious anaesthesia /RM-9929,administration outpatient infectious anaesthesia room 9929,Outpatient Infectious Anaesthesia Administration,fuzzy_high,0.96,97.25,11.577
+386,cont - immunologic isol rm occ,continuous immunologic isolation room occupancy,Continuous Immunologic Isolation Room Occupancy,exact,0.995,100.0,100.0
+387,postop derm physio session,postoperative dermatologic physiotherapy session,Postoperative Dermatologic Physiotherapy Session,exact,0.995,100.0,100.0
+388,asst - ophth recov room occ /RM-6321,assisted ophthalmic recovery room occupancy room 6321,Assisted Ophthalmic Recovery Room Occupancy,fuzzy_high,0.96,97.25,25.097
+389,intens - ent anaes admin /RM-7561,intensive otolaryngologic anaes administration room 7561,Intensive Otolaryngologic Anaesthesia Administration,ai_candidate_selection,0.95,85.982,12.996
+390,service - ext derm steril,service extended dermatologic steril,Extended Dermatologic Sterilisation Service,ai_candidate_selection,0.95,88.633,13.264
+391,postoperative neuro diagnostic /RM-6927,postoperative neurological diagnostic room 6927,Postoperative Neurological Diagnostic Imaging,ai_candidate_selection,0.88,87.762,27.251
+392,spclst pulm biop /RM-1381,spclst pulmonary biopsy room 1381,Specialist Pulmonary Biopsy Procedure,ai_candidate_selection,0.95,74.286,10.32
+393,postop - derm physio session /RM-3024,postoperative dermatologic physiotherapy session room 3024,Postoperative Dermatologic Physiotherapy Session,fuzzy_high,0.96,97.25,15.608
+394,outpt pharm disp,outpatient pharm dispensing,Outpatient Rheumatologic Pharmaceutical Dispensing,ai_candidate_selection,0.81,86.4,9.755
+395,elect - pall physiotherapy sess,elective palliative physiotherapy session,Elective Palliative Physiotherapy Session,exact,0.995,100.0,100.0
+396,ther beds metab,ther beds metabolic,Bedside Metabolic Infusion Therapy,ai_candidate_selection,0.82,79.289,1.04
+397,adv gi telemetry monit,advanced gastrointestinal telemetry monitoring,Advanced Gastrointestinal Telemetry Monitoring,exact,0.995,100.0,100.0
+398,bedside onc cs conf,bedside oncology case conference conference,Bedside Oncology Case Conference,fuzzy_high,0.96,97.25,35.176
+399,session focused neuro physiotherapy /RM-5282,session focused neurological physiotherapy room 5282,Focused Neurological Physiotherapy Session,fuzzy_high,0.96,97.25,26.155
+400,bedside - urol ventilation support /RM-2302,bedside urologic ventilation support room 2302,Bedside Urologic Ventilation Support,fuzzy_high,0.96,97.25,28.625
+401,ambulatory otolaryngologic img interp /RM-6883,ambulatory otolaryngologic imaging interp room 6883,Ambulatory Otolaryngologic Imaging Interpretation,ai_candidate_selection,0.95,86.0,16.316
+402,img  - rtn obst diagnostic,imaging routine obst diagnostic,Routine Obstetric Diagnostic Imaging,fuzzy_medium,0.89,89.993,18.544
+403,svc - extended derm steril /RM-6515,service extended dermatologic steril room 6515,Extended Dermatologic Sterilisation Service,ai_candidate_selection,0.95,78.674,9.445
+404,cont gastrointestinal lab panel,continuous gastrointestinal laboratory panel,Continuous Gastrointestinal Laboratory Panel,exact,0.995,100.0,100.0
+405,interm - ent wnd cr /RM-9924,intermittent otolaryngologic wound cr room 9924,Intermittent Otolaryngologic Wound Care,fuzzy_medium,0.89,90.589,17.85
+406,intensive paed biop procedure /RM-5129,intensive paediatric biopsy procedure room 5129,Intensive Paediatric Biopsy Procedure,fuzzy_high,0.96,97.25,16.458
+407,inpt thtr tm,inpatient thtr tm,,ai_unresolved,0.52,78.249,0.071
+408,occupancy continuous isol room /RM-3671,occupancy continuous isolation room room 3671,,ai_unresolved,0.52,90.767,0.0
+409,emer - ren isolation rm occupancy,emergency renal isolation room occupancy,Emergency Renal Isolation Room Occupancy,exact,0.995,100.0,100.0
+410,inpt - obstetric diag img /RM-1111,inpatient obstetric diagnostic imaging room 1111,Inpatient Obstetric Diagnostic Imaging,fuzzy_high,0.96,97.25,12.156
+411,pulm consult postop,pulmonary consultation postoperative,Postoperative Pulmonary Consultation,fuzzy_high,0.96,97.25,15.966
+412,psych rtn /RM-8308,psychiatric routine room 8308,Routine Psychiatric Consultation,ai_candidate_selection,0.94,76.99,5.215
+413,spclst - paed biop procedure,spclst paediatric biopsy procedure,Specialist Paediatric Biopsy Procedure,ai_candidate_selection,0.95,94.444,8.354
+414,postop - neuro diagnostic img /RM-6108,postoperative neurological diagnostic imaging room 6108,Postoperative Neurological Diagnostic Imaging,fuzzy_high,0.96,97.25,20.225
+415,time std orthopaedic thtr,time standard orthopaedic thtr,Standard Orthopaedic Theatre Time,fuzzy_medium,0.89,92.619,25.194
+416,extended  derm inf ther /RM-2122,extended dermatologic infusion ther room 2122,Extended Dermatologic Infusion Therapy,ai_candidate_selection,0.95,86.091,13.591
+417,outpt  haem transp svc,outpatient haematology transport service,Outpatient Haematology Transport Service,exact,0.995,100.0,100.0
+418,preop - gi radiother fraction,preoperative gastrointestinal radiotherapy fraction,Preoperative Gastrointestinal Radiotherapy Fraction,exact,0.995,100.0,100.0
+419,radiother beds neuro /RM-9011,radiotherapy beds neurological room 9011,Bedside Neurological Radiotherapy Fraction,ai_candidate_selection,0.92,78.274,14.232
+420,outpt - metabolic rehab prog,outpatient metabolic rehabilitation programme,Outpatient Metabolic Rehabilitation Programme,exact,0.995,100.0,100.0
+421,therapy ext derm inf /RM-6254,therapy extended dermatologic infusion room 6254,Extended Dermatologic Infusion Therapy,fuzzy_high,0.96,97.25,15.504
+422,asst urologic endoscopic proc,assisted urologic endoscopic procedure,Assisted Urologic Endoscopic Procedure,exact,0.995,100.0,100.0
+423,adv geriatric nutr support /RM-3476,advanced geriatric nutritional support room 3476,Advanced Geriatric Nutritional Support,fuzzy_high,0.96,97.25,17.47
+424,beds - card recov room occupancy /RM-3081,beds cardiac recovery room occupancy room 3081,Bedside Cardiac Recovery Room Occupancy,ai_candidate_selection,0.95,87.525,17.627
+425,preop endocrine dial sess,preoperative endocrine dialysis session,Preoperative Endocrine Dialysis Session,exact,0.995,100.0,100.0
+426,routine  psych consult /RM-6049,routine psychiatric consultation room 6049,Routine Psychiatric Consultation,fuzzy_high,0.96,97.25,40.432
+427,rtn endo specimen,routine endocrine specimen,Routine Endocrine Specimen Analysis,fuzzy_high,0.96,97.25,22.533
+428,beds  geriatric telem monitoring,beds geriatric telem monitoring,Bedside Geriatric Telemetry Monitoring,fuzzy_medium,0.89,89.855,13.799
+429,intens paed biop proc /RM-7128,intensive paediatric biopsy procedure room 7128,Intensive Paediatric Biopsy Procedure,fuzzy_high,0.96,97.25,16.458
+430,emergency steril service /RM-4697,emergency steril service room 4697,,ai_unresolved,0.52,69.821,7.098
+431,inpt metabolic thtr tm,inpatient metabolic thtr tm,Inpatient Metabolic Theatre Time,fuzzy_medium,0.89,91.525,11.188
+432,obst - diag img,obst diagnostic imaging,,ai_unresolved,0.52,86.537,0.0
+433,cont - renal isol room occupancy /RM-4639,continuous renal isolation room occupancy room 4639,Continuous Renal Isolation Room Occupancy,fuzzy_high,0.96,97.25,13.207
+434,intens - ophth lab pnl /RM-6200,intensive ophthalmic laboratory panel room 6200,Intensive Ophthalmic Laboratory Panel,fuzzy_high,0.96,97.25,32.112
+435,monit - foc urol telemetry,monitoring focused urologic telemetry,Focused Urologic Telemetry Monitoring,fuzzy_high,0.96,97.25,26.523
+436,ent wnd cr interm,otolaryngologic wound cr intermittent,Intermittent Otolaryngologic Wound Care,fuzzy_medium,0.89,94.691,18.468
+437,preop endo dial session,preoperative endocrine dialysis session,Preoperative Endocrine Dialysis Session,exact,0.995,100.0,100.0
+438,adv metab discharge,advanced metabolic discharge,Advanced Metabolic Discharge Planning,fuzzy_high,0.96,97.25,22.988
+439,outpt  - haem transp svc /RM-2980,outpatient haematology transport service room 2980,Outpatient Haematology Transport Service,fuzzy_high,0.96,97.25,14.735
+440,adv - metab discharge plng,advanced metabolic discharge planning,Advanced Metabolic Discharge Planning,exact,0.995,100.0,100.0
+441,consult routine psychiatric,consultation routine psychiatric,Routine Psychiatric Consultation,fuzzy_high,0.96,97.25,37.184
+442,administration - inpt hepatic anaes /RM-1221,administration inpatient hepatic anaes room 1221,,review,0.52,70.65,0.548
+443,postop - haem nursing obs /RM-9788,postoperative haematology nursing obs room 9788,Postoperative Haematology Nursing Observation,ai_candidate_selection,0.95,84.783,25.835
+444,postop pulm consult,postoperative pulmonary consultation,Postoperative Pulmonary Consultation,exact,0.995,100.0,100.0
+445,extended haem radiother fract /RM-4727,extended haematology radiotherapy fract room 4727,Extended Haematology Radiotherapy Fraction,ai_candidate_selection,0.95,87.952,12.952
+446,beds  - pall wound cr,beds palliative wound cr,Bedside Palliative Wound Care,fuzzy_medium,0.89,90.566,17.07
+447,assisted - ophthalmic recov rm occ,assisted ophthalmic recovery room occupancy,Assisted Ophthalmic Recovery Room Occupancy,exact,0.995,100.0,100.0
+448,supv ophth nutr support /RM-2635,supv ophthalmic nutritional support room 2635,Supervised Ophthalmic Nutritional Support,ai_candidate_selection,0.95,82.796,0.613
+449,supv neurological lab pnl /RM-6081,supv neurological laboratory panel room 6081,Supervised Neurological Laboratory Panel,ai_candidate_selection,0.95,82.35,13.389
+450,supp postop ger nutritional /RM-2705,support postoperative geriatric nutritional room 2705,Postoperative Geriatric Nutritional Support,fuzzy_high,0.96,97.25,13.063
+451,adv - gi telemetry /RM-2615,advanced gastrointestinal telemetry room 2615,Advanced Gastrointestinal Telemetry Monitoring,ai_candidate_selection,0.95,85.309,23.074
+452,advanced - msk radiother fract /RM-9976,advanced musculoskeletal radiotherapy fract room 9976,Advanced Musculoskeletal Radiotherapy Fraction,fuzzy_medium,0.89,89.009,31.009
+453,analysis - rtn endo spcm /RM-1395,analysis routine endocrine specimen room 1395,Routine Endocrine Specimen Analysis,fuzzy_high,0.96,97.25,32.417
+454,specialist - pulm biop proc,specialist pulmonary biopsy procedure,Specialist Pulmonary Biopsy Procedure,exact,0.995,100.0,100.0
+455,emergency pulm biop proc /RM-6522,emergency pulmonary biopsy procedure room 6522,Emergency Pulmonary Biopsy Procedure,fuzzy_high,0.96,97.25,14.348
+456,haem radiother fract compr,haematology radiotherapy fract comprehensive,Comprehensive Haematology Radiotherapy Fraction,fuzzy_medium,0.89,94.044,14.887
+457,extended haematology radiother fract /RM-4826,extended haematology radiotherapy fract room 4826,Extended Haematology Radiotherapy Fraction,ai_candidate_selection,0.95,87.952,12.952
+458,intermittent  infect thtr tm /RM-6496,intermittent infectious thtr tm room 6496,Intermittent Infectious Theatre Time,ai_candidate_selection,0.95,80.519,23.511
+459,rtn - obst diagnostic img /RM-4754,routine obst diagnostic imaging room 4754,Routine Obstetric Diagnostic Imaging,ai_candidate_selection,0.95,82.028,14.812
+460,preoperative derm dialysis sess /RM-9688,preoperative dermatologic dialysis session room 9688,Preoperative Dermatologic Dialysis Session,fuzzy_high,0.96,97.25,14.301
+461,neuro - pharm dispensing /RM-3736,neurological pharm dispensing room 3736,Bedside Neurological Pharmaceutical Dispensing,ai_candidate_selection,0.78,72.153,15.487
+462,outpatient pulm transport svc /RM-2790,outpatient pulmonary transport service room 2790,Outpatient Pulmonary Transport Service,fuzzy_high,0.96,97.25,17.162
+463,postop - endoscopic proc,postoperative endoscopic procedure,Postoperative Psychiatric Endoscopic Procedure,fuzzy_high,0.96,97.25,23.634
+464,advanced msk radiother fract /RM-4972,advanced musculoskeletal radiotherapy fract room 4972,Advanced Musculoskeletal Radiotherapy Fraction,fuzzy_medium,0.89,89.009,31.009
+465,interp inpt haem img,interp inpatient haematology imaging,Inpatient Haematology Imaging Interpretation,ai_candidate_selection,0.95,87.525,24.444
+466,foc metabolic theatre time /RM-1948,focused metabolic theatre time room 1948,Focused Metabolic Theatre Time,fuzzy_high,0.96,97.25,18.009
+467,consult  - elect pulm /RM-9705,consultation elective pulmonary room 9705,Elective Pulmonary Consultation,fuzzy_high,0.96,97.25,23.474
+468,beds neuro radiother fraction,beds neurological radiotherapy fraction,Bedside Neurological Radiotherapy Fraction,fuzzy_high,0.96,96.296,22.222
+469,preop  - psych radiother fract /RM-5688,preoperative psychiatric radiotherapy fract room 5688,Preoperative Psychiatric Radiotherapy Fraction,ai_candidate_selection,0.95,89.009,5.374
+470,focused metab thtr time /RM-9055,focused metabolic thtr time room 9055,Focused Metabolic Theatre Time,ai_candidate_selection,0.95,82.405,21.536
+471,advanced  paediatric telem monitoring /RM-4581,advanced paediatric telem monitoring room 4581,Advanced Paediatric Telemetry Monitoring,ai_candidate_selection,0.95,84.618,19.401
+472,interm - immun isol rm occ,intermittent immunologic isolation room occupancy,Intermittent Immunologic Isolation Room Occupancy,exact,0.995,100.0,100.0
+473,extended neuro thtr time,extended neurological thtr time,Extended Neurological Theatre Time,fuzzy_high,0.96,95.385,34.439
+474,outpatient  - gi isol rm occ,outpatient gastrointestinal isolation room occupancy,Outpatient Gastrointestinal Isolation Room Occupancy,exact,0.995,100.0,100.0
+475,beds - pulm steril /RM-3745,beds pulmonary steril room 3745,Bedside Pulmonary Sterilisation Service,ai_candidate_selection,0.95,65.714,1.34
+476,inpatient metab thtr time /RM-2722,inpatient metabolic thtr time room 2722,Inpatient Metabolic Theatre Time,ai_candidate_selection,0.95,83.501,16.31
+477,postoperative - geriatric nutritional supp /RM-8934,postoperative geriatric nutritional support room 8934,Postoperative Geriatric Nutritional Support,fuzzy_high,0.96,97.25,13.063
+478,anaesthesia  outpatient infect /RM-6395,anaesthesia outpatient infectious room 6395,Outpatient Infectious Anaesthesia Administration,ai_candidate_selection,0.95,84.454,18.623
+479,tm extended neuro theatre,tm extended neurological theatre,Extended Neurological Theatre Time,fuzzy_medium,0.89,94.303,31.446
+480,pnl intensive ophthalmic lab,panel intensive ophthalmic laboratory,Intensive Ophthalmic Laboratory Panel,fuzzy_high,0.96,97.25,25.007
+481,derm physio sess postop,dermatologic physiotherapy session postoperative,Postoperative Dermatologic Physiotherapy Session,fuzzy_high,0.96,97.25,15.355
+482,cont lab panel /RM-6683,continuous laboratory panel room 6683,Continuous Gastrointestinal Laboratory Panel,ai_candidate_selection,0.82,82.055,17.221
+483,adv paediatric telem monit /RM-1506,advanced paediatric telem monitoring room 1506,Advanced Paediatric Telemetry Monitoring,ai_candidate_selection,0.95,84.618,19.401
+484,occ - cont immun isol rm /RM-8194,occupancy continuous immunologic isolation room room 8194,Continuous Immunologic Isolation Room Occupancy,fuzzy_high,0.96,97.25,7.678
+485,care - inpatient obst wound /RM-4163,care inpatient obst wound room 4163,Inpatient Obstetric Wound Care,ai_candidate_selection,0.95,77.8,14.719
+486,metab diagnostic img /RM-3735,metabolic diagnostic imaging room 3735,,review,0.52,68.338,4.672
+487,occupancy beds cardiac recov rm,occupancy beds cardiac recovery room,Bedside Cardiac Recovery Room Occupancy,fuzzy_medium,0.89,93.36,17.538
+488,specialist ophthalmic nutritional supp /RM-9241,specialist ophthalmic nutritional support room 9241,Specialist Ophthalmic Nutritional Support,fuzzy_high,0.96,97.25,15.067
+489,intensive - infectious anaes admin,intensive infectious anaes administration,Intensive Infectious Anaesthesia Administration,fuzzy_medium,0.89,93.182,13.519
+490,metab thtr tm foc,metabolic thtr tm focused,,review,0.52,88.409,17.205
+491,fraction bedside neuro radiother,fraction bedside neurological radiotherapy,Bedside Neurological Radiotherapy Fraction,fuzzy_high,0.96,97.25,25.47
+492,ger nutr supp postop,geriatric nutritional support postoperative,Postoperative Geriatric Nutritional Support,fuzzy_high,0.96,97.25,13.063
+493,supv ent wnd /RM-5245,supv otolaryngologic wound room 5245,Supervised Otolaryngologic Wound Care,ai_candidate_selection,0.95,76.712,3.217
+494,outpt rheum pharm dispensing /RM-4051,outpatient rheum pharm dispensing room 4051,Outpatient Rheumatologic Pharmaceutical Dispensing,ai_candidate_selection,0.95,73.199,15.409
+495,outpt - metab rehab programme,outpatient metabolic rehabilitation programme,Outpatient Metabolic Rehabilitation Programme,exact,0.995,100.0,100.0
+496,supv neuro laboratory pnl /RM-9437,supv neurological laboratory panel room 9437,Supervised Neurological Laboratory Panel,ai_candidate_selection,0.95,82.35,13.389
+497,amb - ent img interp /RM-4132,ambulatory otolaryngologic imaging interp room 4132,Ambulatory Otolaryngologic Imaging Interpretation,ai_candidate_selection,0.95,86.0,16.316
+498,postop ent rehab,postoperative otolaryngologic rehabilitation,Postoperative Otolaryngologic Rehabilitation Programme,fuzzy_high,0.96,97.25,17.25
+499,interp - preop ophth img /RM-9185,interp preoperative ophthalmic imaging room 9185,Preoperative Ophthalmic Imaging Interpretation,ai_candidate_selection,0.95,82.766,15.114
+500,obst diag img rtn,obst diagnostic imaging routine,Routine Obstetric Diagnostic Imaging,fuzzy_medium,0.89,89.993,18.544
+501,intermittent - infect thtr tm,intermittent infectious thtr tm,Intermittent Infectious Theatre Time,fuzzy_medium,0.89,92.537,19.637
+502,adv metab disch planning,advanced metabolic disch planning,Advanced Metabolic Discharge Planning,fuzzy_medium,0.89,94.286,31.786
+503,prog - rtn vasc rehab /RM-6319,programme routine vascular rehabilitation room 6319,Routine Vascular Rehabilitation Programme,fuzzy_high,0.96,97.25,27.454
+504,metab thtr tm inpt,metabolic thtr tm inpatient,Inpatient Metabolic Theatre Time,ai_candidate_selection,0.95,89.008,8.672
+505,derm steril svc ext,dermatologic steril service extended,Extended Dermatologic Sterilisation Service,ai_candidate_selection,0.95,88.633,13.264
+506,amb ren cs conf /RM-5619,ambulatory renal case conference conference room 5619,Ambulatory Renal Case Conference,fuzzy_medium,0.89,94.5,18.752
+507,elect - gastrointestinal disch plng /RM-9438,elective gastrointestinal disch planning room 9438,,review,0.52,70.358,5.652
+508,inpt - metab theatre tm /RM-7245,inpatient metabolic theatre tm room 7245,Inpatient Metabolic Theatre Time,fuzzy_medium,0.89,89.008,18.657
+509,beds oncology case conf,beds oncology case conference,Bedside Oncology Case Conference,fuzzy_high,0.96,95.082,28.335
+510,postop - pulmonary consultation,postoperative pulmonary consultation,Postoperative Pulmonary Consultation,exact,0.995,100.0,100.0
+511,fract psych radiotherapy,fract psychiatric radiotherapy,Preoperative Psychiatric Radiotherapy Fraction,ai_candidate_selection,0.94,87.025,13.333
+512,ren isol rm occ cont,renal isolation room occupancy continuous,Continuous Renal Isolation Room Occupancy,fuzzy_high,0.96,97.25,7.678
+513,svc - ext dermatologic steril /RM-8168,service extended dermatologic steril room 8168,,review,0.52,78.674,9.445
+514,emer - derm steril service,emergency dermatologic steril service,Emergency Dermatologic Sterilisation Service,fuzzy_medium,0.89,91.358,13.858
+515,monit  bedside ger telem,monitoring bedside geriatric telem,Bedside Geriatric Telemetry Monitoring,fuzzy_medium,0.89,91.847,20.881
+516,derm steril svc emer,dermatologic steril service emergency,Emergency Dermatologic Sterilisation Service,ai_candidate_selection,0.95,88.846,13.477
+517,proc spclst paediatric biop /RM-4661,procedure spclst paediatric biopsy room 4661,Specialist Paediatric Biopsy Procedure,ai_candidate_selection,0.95,82.055,1.262
+518,ophth nutr supp supv,ophthalmic nutritional support supv,Supervised Ophthalmic Nutritional Support,ai_candidate_selection,0.95,89.769,0.0
+519,preop ophthalmic img interp,preoperative ophthalmic imaging interp,Preoperative Ophthalmic Imaging Interpretation,fuzzy_medium,0.89,90.476,19.318
+520,haem radiother fract ext,haematology radiotherapy fract extended,Extended Haematology Radiotherapy Fraction,fuzzy_medium,0.89,93.648,14.491
+521,beds vascular crit cr occ,beds vascular critical cr occupancy,Bedside Vascular Critical Care Occupancy,fuzzy_medium,0.89,93.333,27.277
+522,infect anaes admin outpt,infectious anaes administration outpatient,Outpatient Infectious Anaesthesia Administration,fuzzy_medium,0.89,90.767,12.093
+523,intermittent infect cs conf /RM-4829,intermittent infectious case conference conference room 4829,,review,0.52,82.11,6.361
+524,inpt musculoskeletal theatre tm /RM-4552,inpatient musculoskeletal theatre tm room 4552,Inpatient Musculoskeletal Theatre Time,fuzzy_medium,0.89,90.401,20.876
+525,care supv ent wound /RM-2463,care supv otolaryngologic wound room 2463,,review,0.52,80.27,2.47
+526,support adv derm nutr,support advanced dermatologic nutritional,Advanced Dermatologic Nutritional Support,fuzzy_high,0.96,97.25,11.079
+527,interp - elect img,interp elective imaging,Elective Pulmonary Imaging Interpretation,ai_candidate_selection,0.75,83.948,9.465
+528,elect - pulm img interpretation,elective pulmonary imaging interpretation,Elective Pulmonary Imaging Interpretation,exact,0.995,100.0,100.0
+529,cont ren isolation occupancy /RM-8586,continuous renal isolation occupancy room 8586,Continuous Renal Isolation Room Occupancy,fuzzy_high,0.96,97.25,13.207
+530,adv derm nutr supp,advanced dermatologic nutritional support,Advanced Dermatologic Nutritional Support,exact,0.995,100.0,100.0
+531,advanced dermatologic nutr supp /RM-9491,advanced dermatologic nutritional support room 9491,Advanced Dermatologic Nutritional Support,fuzzy_high,0.96,97.25,14.735
+532,elective pulm img interpretation /RM-7746,elective pulmonary imaging interpretation room 7746,Elective Pulmonary Imaging Interpretation,fuzzy_high,0.96,97.25,17.164
+533,foc - rheum consult /RM-2110,focused rheum consultation room 2110,,review,0.52,56.806,1.234
+534,adv dermatologic nutritional supp,advanced dermatologic nutritional support,Advanced Dermatologic Nutritional Support,exact,0.995,100.0,100.0
+535,compr oncology wnd cr /RM-4911,comprehensive oncology wound cr room 4911,,review,0.52,67.191,10.373
+536,monitoring - outpt metabolic telem,monitoring outpatient metabolic telem,,review,0.52,69.565,1.32
+537,conf  preop paed,conference preoperative paediatric,,review,0.52,78.482,4.987
+538,vst - intens infectious home,visit intensive infectious home,,review,0.52,82.319,11.37
+539,amb msk disch planning /RM-1463,ambulatory musculoskeletal disch planning room 1463,,review,0.52,68.712,9.233
+540,emer  - msk inf therapy,emergency musculoskeletal infusion therapy,,review,0.52,68.517,2.728
+541,cont - rheum critical cr occ,continuous rheum critical cr occupancy,,review,0.52,84.187,10.769
+542,elect vascular physio sess /RM-8458,elective vascular physiotherapy session room 8458,,review,0.52,82.183,12.658
+543,intens - steril svc,intensive steril service,,review,0.52,74.168,0.277

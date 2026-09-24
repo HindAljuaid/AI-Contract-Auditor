@@ -1,0 +1,535 @@
+item_id,description,normalized_description,service_name,mapping_method,mapping_confidence,top_score,score_gap
+0,fract - INTENSIVE rheum RADIOTHERAPY /CW-4214,fract intensive rheum radiotherapy cw 4214,Intensive Rheumatologic Radiotherapy Fraction,ai_candidate_selection,0.95,76.011,17.427
+1,anly INTENS spcm,analysis intensive specimen,Intensive Urologic Specimen Analysis,fuzzy_high,0.96,97.25,15.452
+2,OCC advanced ORTHO wd,occupancy advanced orthopaedic wd,Advanced Orthopaedic Ward Bed Occupancy,fuzzy_medium,0.89,92.619,16.98
+3,intens - VASC steril SVC /CW-4993,intensive vascular steril service cw 4993,,ai_unresolved,0.52,62.24,5.613
+4,PREOP - haem IMG interpretation /CW-4475,preoperative haematology imaging interpretation cw 4475,Preoperative Haematology Imaging Interpretation,fuzzy_high,0.96,97.25,22.74
+5,foc UROL cs CONF /CW-7956,focused urologic case conference conference cw 7956,Focused Urologic Case Conference,fuzzy_medium,0.89,94.5,19.502
+6,ASST urol NURS obs /CW-5982,assisted urologic nursing obs cw 5982,Assisted Urologic Nursing Observation,ai_candidate_selection,0.95,79.398,21.171
+7,hep DISCH plng spclst,hepatic disch planning spclst,Specialist Hepatic Discharge Planning,ai_candidate_selection,0.95,85.462,12.525
+8,amb - IMMUN ward BD occupancy /CW-2184,ambulatory immunologic ward bd occupancy cw 2184,Ambulatory Immunologic Ward Bed Occupancy,fuzzy_medium,0.89,92.263,13.835
+9,SUPERVISED pulmonary HM visit /CW-7640,supervised pulmonary home visit cw 7640,Supervised Pulmonary Home Visit,fuzzy_high,0.96,97.25,25.225
+10,ASST - obst SPCM anly /CW-7565,assisted obst specimen analysis cw 7565,Assisted Obstetric Specimen Analysis,ai_candidate_selection,0.95,83.209,20.607
+11,CONTINUOUS infectious CRITICAL occ,continuous infectious critical occupancy,Continuous Infectious Critical Care Occupancy,fuzzy_high,0.96,97.25,36.888
+12,cont PSYCHIATRIC rehabilitation PROG,continuous psychiatric rehabilitation programme,Continuous Psychiatric Rehabilitation Programme,exact,0.995,100.0,100.0
+13,amb MSK spcm ANLY,ambulatory musculoskeletal specimen analysis,Ambulatory Musculoskeletal Specimen Analysis,exact,0.995,100.0,100.0
+14,interm ONC home VST /CW-1380,intermittent oncology home visit cw 1380,Intermittent Oncology Home Visit,fuzzy_high,0.96,97.25,25.225
+15,vst - INTERM onc HM,visit intermittent oncology home,Intermittent Oncology Home Visit,fuzzy_high,0.96,97.25,25.68
+16,VST supv PULMONARY home /CW-3675,visit supv pulmonary home cw 3675,Supervised Pulmonary Home Visit,ai_candidate_selection,0.95,76.275,22.07
+17,CARDIAC physio SESS /CW-4455,cardiac physiotherapy session cw 4455,,ai_unresolved,0.52,85.462,0.0
+18,ext - OBST cs CONFERENCE /CW-3448,extended obst case conference conference cw 3448,Extended Obstetric Case Conference,ai_candidate_selection,0.95,80.483,4.734
+19,monit - EXT urol TELEM /CW-7204,monitoring extended urologic telem cw 7204,Extended Urologic Telemetry Monitoring,ai_candidate_selection,0.95,82.662,13.198
+20,ext HEPATIC disch PLNG,extended hepatic disch planning,Extended Hepatic Discharge Planning,fuzzy_medium,0.89,93.939,20.41
+21,SPCLST - immunologic CONSULT,spclst immunologic consultation,Specialist Immunologic Consultation,fuzzy_medium,0.89,93.939,36.197
+22,POSTOP - ger IMG interpretation /CW-5101,postoperative geriatric imaging interpretation cw 5101,Postoperative Geriatric Imaging Interpretation,fuzzy_high,0.96,97.25,10.121
+23,PROC - foc METABOLIC biopsy /CW-1566,procedure focused metabolic biopsy cw 1566,Focused Metabolic Biopsy Procedure,fuzzy_high,0.96,97.25,41.009
+24,EXT renal WD bed OCC,extended renal wd bed occupancy,Extended Renal Ward Bed Occupancy,fuzzy_high,0.96,96.875,26.452
+25,inpatient - ORTHOPAEDIC anaes ADMIN /CW-3173,inpatient orthopaedic anaes administration cw 3173,Inpatient Orthopaedic Anaesthesia Administration,ai_candidate_selection,0.95,85.714,18.388
+26,INTERM  - urol TELEM monit /CW-1964,intermittent urologic telem monitoring cw 1964,,review,0.52,86.419,14.99
+27,conf - UROL cs /CW-3094,conference urologic case conference cw 3094,Focused Urologic Case Conference,ai_candidate_selection,0.94,83.357,20.348
+28,ASSISTED spcm ANALYSIS /CW-2232,assisted specimen analysis cw 2232,,ai_unresolved,0.52,84.283,16.328
+29,standard - ONC bd OCC,standard oncology bd occupancy,Standard Oncology Ward Bed Occupancy,fuzzy_medium,0.89,92.632,13.844
+30,paed THTR tm asst,paediatric thtr tm assisted,Assisted Paediatric Theatre Time,ai_candidate_selection,0.95,89.008,4.81
+31,POSTOPERATIVE card CR,postoperative cardiac cr,Postoperative Cardiac Wound Care,fuzzy_medium,0.89,90.767,12.12
+32,EXT ren BD occupancy /CW-7024,extended renal bd occupancy cw 7024,Extended Renal Ward Bed Occupancy,ai_candidate_selection,0.95,82.949,25.343
+33,onc DIAG img preop,oncology diagnostic imaging preoperative,Preoperative Oncology Diagnostic Imaging,fuzzy_high,0.96,97.25,6.003
+34,CONSULT intens PAED /CW-3137,consultation intensive paediatric cw 3137,Intensive Paediatric Consultation,fuzzy_high,0.96,97.25,35.829
+35,supervised  RHEUM dial SESSION /CW-9091,supervised rheum dialysis session cw 9091,Supervised Rheumatologic Dialysis Session,ai_candidate_selection,0.95,80.488,19.416
+36,monit EXT urol TELEM,monitoring extended urologic telem,Extended Urologic Telemetry Monitoring,fuzzy_medium,0.89,91.847,15.071
+37,ASST - urol NURS obs /CW-2623,assisted urologic nursing obs cw 2623,Assisted Urologic Nursing Observation,ai_candidate_selection,0.95,79.398,21.171
+38,adv  - PAED thtr /CW-9651,advanced paediatric thtr cw 9651,Advanced Paediatric Theatre Time,ai_candidate_selection,0.95,76.719,15.625
+39,panel  INTERM neuro LAB,panel intermittent neurological laboratory,Intermittent Neurological Laboratory Panel,fuzzy_high,0.96,97.25,32.964
+40,RTN cardiac HM visit,routine cardiac home visit,Routine Cardiac Home Visit,exact,0.995,100.0,100.0
+41,OCC  - ambulatory PAEDIATRIC critical CR,occupancy ambulatory paediatric critical cr,Ambulatory Paediatric Critical Care Occupancy,fuzzy_high,0.96,95.04,24.534
+42,PROG - amb RHEUM rehabilitation /CW-6302,programme ambulatory rheum rehabilitation cw 6302,Ambulatory Rheumatologic Rehabilitation Programme,ai_candidate_selection,0.95,81.372,13.197
+43,OUTPT recov RM occ,outpatient recovery room occupancy,Outpatient Orthopaedic Recovery Room Occupancy,fuzzy_high,0.96,97.25,13.909
+44,asst - PAEDIATRIC physio SESS /CW-1557,assisted paediatric physiotherapy session cw 1557,Assisted Paediatric Physiotherapy Session,fuzzy_high,0.96,97.25,16.696
+45,AMB - rheumatologic REHAB prog,ambulatory rheumatologic rehabilitation programme,Ambulatory Rheumatologic Rehabilitation Programme,exact,0.995,100.0,100.0
+46,SUPP amb MSK vent /CW-8558,support ambulatory musculoskeletal ventilation cw 8558,Ambulatory Musculoskeletal Ventilation Support,fuzzy_high,0.96,97.25,19.134
+47,spclst - CARDIAC vent SUPPORT /CW-5757,spclst cardiac ventilation support cw 5757,Specialist Cardiac Ventilation Support,ai_candidate_selection,0.95,85.0,1.643
+48,POSTOP  - rheumatologic NURSING observation /CW-6924,postoperative rheumatologic nursing observation cw 6924,Postoperative Rheumatologic Nursing Observation,fuzzy_high,0.96,97.25,11.67
+49,STD - orthopaedic CRIT care OCC /CW-2102,standard orthopaedic critical care occupancy cw 2102,Standard Orthopaedic Critical Care Occupancy,fuzzy_high,0.96,97.25,27.725
+50,occ  - AMB card WD bd,occupancy ambulatory cardiac wd bd,Ambulatory Cardiac Ward Bed Occupancy,fuzzy_medium,0.89,93.141,17.934
+51,PROC - ext PSYCH /CW-9029,procedure extended psychiatric cw 9029,Extended Psychiatric Endoscopic Procedure,ai_candidate_selection,0.95,85.809,29.08
+52,OUTPT - obst DIAL sess /CW-9914,outpatient obst dialysis session cw 9914,,review,0.52,83.683,15.608
+53,FOC - metab BIOP procedure /CW-1579,focused metabolic biopsy procedure cw 1579,Focused Metabolic Biopsy Procedure,fuzzy_high,0.96,97.25,39.419
+54,SPCLST  - hep DISCH planning /CW-7438,spclst hepatic disch planning cw 7438,Specialist Hepatic Discharge Planning,ai_candidate_selection,0.95,78.378,11.712
+55,intermittent - REN anaes,intermittent renal anaes,Intermittent Renal Anaesthesia Administration,ai_candidate_selection,0.95,88.071,11.046
+56,compr - OPHTH lab PANEL /CW-3670,comprehensive ophthalmic laboratory panel cw 3670,Comprehensive Ophthalmic Laboratory Panel,fuzzy_high,0.96,97.25,13.893
+57,OCCUPANCY adv ONC wd BD,occupancy advanced oncology wd bd,Advanced Oncology Ward Bed Occupancy,fuzzy_medium,0.89,93.022,16.913
+58,PREOP geriatric IMG /CW-3234,preoperative geriatric imaging cw 3234,Preoperative Geriatric Diagnostic Imaging,ai_candidate_selection,0.95,85.809,15.69
+59,occ  - AMB card WARD bed /CW-8690,occupancy ambulatory cardiac ward bed cw 8690,Ambulatory Cardiac Ward Bed Occupancy,fuzzy_high,0.96,97.25,16.671
+60,compr - OPHTH lab PNL,comprehensive ophthalmic laboratory panel,Comprehensive Ophthalmic Laboratory Panel,exact,0.995,100.0,100.0
+61,ADVANCED - onc WARD bd OCC,advanced oncology ward bd occupancy,Advanced Oncology Ward Bed Occupancy,fuzzy_high,0.96,98.592,13.803
+62,comprehensive - OPHTH lab PNL /CW-3198,comprehensive ophthalmic laboratory panel cw 3198,Comprehensive Ophthalmic Laboratory Panel,fuzzy_high,0.96,97.25,13.893
+63,rheum NURS obs ext,rheum nursing obs extended,Extended Rheumatologic Nursing Observation,ai_candidate_selection,0.95,81.437,9.754
+64,SPCLST - immunologic CONSULTATION /CW-3950,spclst immunologic consultation cw 3950,Specialist Immunologic Consultation,ai_candidate_selection,0.95,83.784,30.159
+65,sess - SUPV rheum DIALYSIS,session supv rheum dialysis,Supervised Rheumatologic Dialysis Session,ai_candidate_selection,0.95,82.76,2.247
+66,asst REN nutr SUPP /CW-3943,assisted renal nutritional support cw 3943,Assisted Renal Nutritional Support,fuzzy_high,0.96,97.25,29.173
+67,MONIT  interm UROLOGIC telemetry /CW-1251,monitoring intermittent urologic telemetry cw 1251,Intermittent Urologic Telemetry Monitoring,fuzzy_high,0.96,97.25,13.063
+68,vst STD vasc HM /CW-9701,visit standard vascular home cw 9701,Standard Vascular Home Visit,fuzzy_high,0.96,97.25,40.782
+69,PROCEDURE - beds GI biopsy /CW-5425,procedure beds gastrointestinal biopsy cw 5425,Bedside Gastrointestinal Biopsy Procedure,ai_candidate_selection,0.95,86.736,24.496
+70,ext - HEP transf SVC /CW-9407,extended hepatic transfusion service cw 9407,Extended Hepatic Transfusion Service,fuzzy_high,0.96,97.25,28.957
+71,postop GERIATRIC cs CONF /CW-2720,postoperative geriatric case conference conference cw 2720,Postoperative Geriatric Case Conference,fuzzy_high,0.96,97.25,12.725
+72,OCC  - amb PAED crit CR,occupancy ambulatory paediatric critical cr,Ambulatory Paediatric Critical Care Occupancy,fuzzy_high,0.96,95.04,24.534
+73,EMERGENCY - card PHYSIOTHERAPY sess,emergency cardiac physiotherapy session,Emergency Cardiac Physiotherapy Session,exact,0.995,100.0,100.0
+74,conf - EXT obstetric CS,conference extended obstetric case conference,Extended Obstetric Case Conference,fuzzy_high,0.96,97.25,14.835
+75,ADV ortho WD bd OCCUPANCY,advanced orthopaedic wd bd occupancy,Advanced Orthopaedic Ward Bed Occupancy,fuzzy_high,0.96,96.0,21.0
+76,urol TELEM monit interm,urologic telem monitoring intermittent,Intermittent Urologic Telemetry Monitoring,fuzzy_medium,0.89,92.388,15.611
+77,occ PALLIATIVE recov RM,occupancy palliative recovery room,Postoperative Palliative Recovery Room Occupancy,fuzzy_high,0.96,97.25,13.909
+78,OUTPT rheum ANAES admin /CW-4096,outpatient rheum anaes administration cw 4096,Outpatient Rheumatologic Anaesthesia Administration,ai_candidate_selection,0.95,77.083,8.266
+79,gi - IMG interp,gastrointestinal imaging interp,Specialist Gastrointestinal Imaging Interpretation,ai_candidate_selection,0.91,88.773,11.109
+80,PROG - interm PSYCH rehabilitation /CW-1715,programme intermittent psychiatric rehabilitation cw 1715,Intermittent Psychiatric Rehabilitation Programme,fuzzy_high,0.96,97.25,12.889
+81,FRACT - elect OPHTH radiotherapy /CW-2057,fract elective ophthalmic radiotherapy cw 2057,Elective Ophthalmic Radiotherapy Fraction,ai_candidate_selection,0.95,85.26,22.663
+82,POSTOP - ger INTERP /CW-6488,postoperative geriatric interp cw 6488,Postoperative Geriatric Imaging Interpretation,ai_candidate_selection,0.95,73.934,0.598
+83,POSTOP paed IMG interpretation /CW-2645,postoperative paediatric imaging interpretation cw 2645,Postoperative Paediatric Imaging Interpretation,fuzzy_high,0.96,97.25,9.817
+84,ext - RHEUMATOLOGIC observation /CW-5150,extended rheumatologic observation cw 5150,Extended Rheumatologic Nursing Observation,ai_candidate_selection,0.95,87.013,14.439
+85,beds CARD hm /CW-4363,beds cardiac home cw 4363,,review,0.52,70.588,3.876
+86,ASST  urol OBSERVATION /CW-2070,assisted urologic observation cw 2070,Assisted Urologic Nursing Observation,ai_candidate_selection,0.95,85.462,26.095
+87,OUTPT urol ENDOSC proc /CW-9583,outpatient urologic endoscopic procedure cw 9583,Outpatient Urologic Endoscopic Procedure,fuzzy_high,0.96,97.25,16.696
+88,PREOPERATIVE ger DIAG img /CW-7580,preoperative geriatric diagnostic imaging cw 7580,Preoperative Geriatric Diagnostic Imaging,fuzzy_high,0.96,97.25,12.327
+89,supervised PULM anaes ADMIN,supervised pulmonary anaes administration,Supervised Pulmonary Anaesthesia Administration,fuzzy_medium,0.89,93.182,16.907
+90,SPCLST - hep DISCHARGE plng,spclst hepatic discharge planning,Specialist Hepatic Discharge Planning,ai_candidate_selection,0.95,94.286,8.574
+91,gi NURS obs elect,gastrointestinal nursing obs elective,Elective Gastrointestinal Nursing Observation,fuzzy_medium,0.89,91.693,15.168
+92,STD - hep INF ther /CW-6477,standard hepatic infusion ther cw 6477,Standard Hepatic Infusion Therapy,ai_candidate_selection,0.95,85.272,27.704
+93,INTERMITTENT - rheum DIAL sess /CW-4841,intermittent rheum dialysis session cw 4841,Intermittent Rheumatologic Dialysis Session,ai_candidate_selection,0.95,81.395,18.183
+94,IMMUN - spclst /CW-9956,immunologic spclst cw 9956,Specialist Immunologic Consultation,ai_candidate_selection,0.93,73.782,0.0
+95,RHEUM dial SESS SUPV,rheum dialysis session supv,Supervised Rheumatologic Dialysis Session,ai_candidate_selection,0.95,82.76,2.247
+96,SPCLST - consult,spclst consultation,Specialist Immunologic Consultation,ai_candidate_selection,0.82,81.864,0.0
+97,FOC - metab BIOPSY proc /CW-9462,focused metabolic biopsy procedure cw 9462,Focused Metabolic Biopsy Procedure,fuzzy_high,0.96,97.25,39.419
+98,img  COMPREHENSIVE urologic /CW-6158,imaging comprehensive urologic cw 6158,Comprehensive Urologic Imaging Interpretation,ai_candidate_selection,0.95,85.809,26.985
+99,svc FOC vasc TRANSPORT,service focused vascular transport,Focused Vascular Transport Service,fuzzy_high,0.96,97.25,27.578
+100,intens - RHEUM radiotherapy /CW-4273,intensive rheum radiotherapy cw 4273,Intensive Rheumatologic Radiotherapy Fraction,ai_candidate_selection,0.95,74.879,17.736
+101,ASST obst SPCM anly,assisted obst specimen analysis,Assisted Obstetric Specimen Analysis,fuzzy_medium,0.89,92.537,22.741
+102,OCC  - standard ORTHO cr /CW-6124,occupancy standard orthopaedic cr cw 6124,Standard Orthopaedic Critical Care Occupancy,ai_candidate_selection,0.95,82.183,14.108
+103,OBS postop RHEUMATOLOGIC nurs,obs postoperative rheumatologic nursing,Postoperative Rheumatologic Nursing Observation,fuzzy_medium,0.89,91.993,19.956
+104,SUPERVISED  - vasc RADIOTHER,supervised vascular radiotherapy,Supervised Vascular Radiotherapy Fraction,fuzzy_high,0.96,97.25,32.019
+105,ADMIN - outpt RHEUM anaes /CW-8338,administration outpatient rheum anaes cw 8338,Outpatient Rheumatologic Anaesthesia Administration,ai_candidate_selection,0.95,74.964,8.039
+106,SUPERVISED pulm HM vst /CW-7359,supervised pulmonary home visit cw 7359,Supervised Pulmonary Home Visit,fuzzy_high,0.96,97.25,25.225
+107,amb - HAEMATOLOGY transf SVC /CW-5136,ambulatory haematology transfusion service cw 5136,Ambulatory Haematology Transfusion Service,fuzzy_high,0.96,97.25,30.059
+108,spclst GI img INTERP /CW-5639,spclst gastrointestinal imaging interp cw 5639,Specialist Gastrointestinal Imaging Interpretation,ai_candidate_selection,0.95,79.167,21.102
+109,supp SPCLST card VENT /CW-2599,support spclst cardiac ventilation cw 2599,Specialist Cardiac Ventilation Support,ai_candidate_selection,0.93,83.357,0.695
+110,HEP - inf THERAPY,hepatic infusion therapy,Standard Hepatic Infusion Therapy,fuzzy_high,0.96,97.25,19.45
+111,ther - FOC vasc INF /CW-4721,ther focused vascular infusion cw 4721,Focused Vascular Infusion Therapy,ai_candidate_selection,0.95,83.836,21.425
+112,AMBULATORY - obst CS conf,ambulatory obst case conference conference,Ambulatory Obstetric Case Conference,fuzzy_medium,0.89,89.993,24.162
+113,IMG - preop GER diag /CW-8799,imaging preoperative geriatric diagnostic cw 8799,Preoperative Geriatric Diagnostic Imaging,fuzzy_high,0.96,97.25,12.327
+114,AMB musculoskeletal VENT supp /CW-8775,ambulatory musculoskeletal ventilation support cw 8775,Ambulatory Musculoskeletal Ventilation Support,fuzzy_high,0.96,97.25,19.134
+115,SUPV vascular RADIOTHER fract /CW-1727,supv vascular radiotherapy fract cw 1727,Supervised Vascular Radiotherapy Fraction,ai_candidate_selection,0.95,79.012,21.111
+116,hep DISCH plng ext,hepatic disch planning extended,Extended Hepatic Discharge Planning,fuzzy_medium,0.89,91.356,19.849
+117,NURS - elect GASTROINTESTINAL /CW-1281,nursing elective gastrointestinal cw 1281,Elective Gastrointestinal Nursing Observation,ai_candidate_selection,0.95,86.736,14.921
+118,fract EMER metabolic RADIOTHER,fract emergency metabolic radiotherapy,Emergency Metabolic Radiotherapy Fraction,fuzzy_medium,0.89,93.557,24.62
+119,COMPR neurological ENDOSC proc /CW-4675,comprehensive neurological endoscopic procedure cw 4675,Comprehensive Neurological Endoscopic Procedure,fuzzy_high,0.96,97.25,25.671
+120,OUTPT - obst DIALYSIS sess,outpatient obst dialysis session,Outpatient Obstetric Dialysis Session,fuzzy_medium,0.89,92.754,19.816
+121,img - POSTOP onc DIAG,imaging postoperative oncology diagnostic,Postoperative Oncology Diagnostic Imaging,fuzzy_high,0.96,97.25,6.003
+122,PSYCH rehab PROG CONT,psychiatric rehabilitation programme continuous,Continuous Psychiatric Rehabilitation Programme,fuzzy_high,0.96,97.25,12.889
+123,occ - POSTOP pall RECOVERY rm,occupancy postoperative palliative recovery room,Postoperative Palliative Recovery Room Occupancy,fuzzy_high,0.96,97.25,23.34
+124,IMG - preop ONC diag /CW-7126,imaging preoperative oncology diagnostic cw 7126,Preoperative Oncology Diagnostic Imaging,fuzzy_high,0.96,97.25,13.507
+125,AMB  - gi NUTRITIONAL support /CW-3607,ambulatory gastrointestinal nutritional support cw 3607,Ambulatory Gastrointestinal Nutritional Support,fuzzy_high,0.96,97.25,17.961
+126,ext RHEUM nurs OBS,extended rheum nursing obs,Extended Rheumatologic Nursing Observation,ai_candidate_selection,0.95,81.437,9.754
+127,ophth LAB pnl std,ophthalmic laboratory panel standard,Standard Ophthalmic Laboratory Panel,fuzzy_high,0.96,97.25,13.893
+128,AMB - rheum REHAB programme /CW-8508,ambulatory rheum rehabilitation programme cw 8508,Ambulatory Rheumatologic Rehabilitation Programme,ai_candidate_selection,0.95,83.673,13.57
+129,OCC amb PAED crit CARE /CW-9108,occupancy ambulatory paediatric critical care cw 9108,Ambulatory Paediatric Critical Care Occupancy,fuzzy_high,0.96,97.25,28.248
+130,AMBULATORY obst CS conf /CW-4745,ambulatory obst case conference conference cw 4745,Ambulatory Obstetric Case Conference,ai_candidate_selection,0.95,81.565,5.816
+131,foc - VASC inf THERAPY /CW-8936,focused vascular infusion therapy cw 8936,Focused Vascular Infusion Therapy,fuzzy_high,0.96,97.25,33.25
+132,intermittent - NEURO laboratory PNL,intermittent neurological laboratory panel,Intermittent Neurological Laboratory Panel,exact,0.995,100.0,100.0
+133,ELECT - ophthalmic RADIOTHERAPY fract /CW-3532,elective ophthalmic radiotherapy fract cw 3532,Elective Ophthalmic Radiotherapy Fraction,ai_candidate_selection,0.95,87.498,23.13
+134,ASST - gastrointestinal ANAES admin /CW-6527,assisted gastrointestinal anaes administration cw 6527,Assisted Gastrointestinal Anaesthesia Administration,ai_candidate_selection,0.95,86.866,15.772
+135,outpatient  - GER diag /CW-5691,outpatient geriatric diagnostic cw 5691,,review,0.52,86.136,16.136
+136,std - VASC hm VST /CW-7377,standard vascular home visit cw 7377,Standard Vascular Home Visit,fuzzy_high,0.96,97.25,39.185
+137,POSTOP ger IMG interpretation,postoperative geriatric imaging interpretation,Postoperative Geriatric Imaging Interpretation,exact,0.995,100.0,100.0
+138,postoperative CS conference /CW-1435,postoperative case conference conference cw 1435,,ai_unresolved,0.52,85.462,9.714
+139,outpt CARD sess,outpatient cardiac session,Outpatient Cardiac Physiotherapy Session,fuzzy_medium,0.89,92.025,12.073
+140,admin - INPATIENT ortho ANAES,administration inpatient orthopaedic anaes,Inpatient Orthopaedic Anaesthesia Administration,fuzzy_medium,0.89,90.767,19.659
+141,administration INTERM ren ANAES /CW-3269,administration intermittent renal anaes cw 3269,Intermittent Renal Anaesthesia Administration,ai_candidate_selection,0.95,82.451,16.956
+142,ADMIN - outpt RHEUM,administration outpatient rheum,Outpatient Rheumatologic Anaesthesia Administration,ai_candidate_selection,0.9,87.204,9.419
+143,assisted - NUTR supp,assisted nutritional support,Assisted Renal Nutritional Support,fuzzy_high,0.96,97.25,13.842
+144,EXT - psychiatric ENDOSC procedure,extended psychiatric endoscopic procedure,Extended Psychiatric Endoscopic Procedure,exact,0.995,100.0,100.0
+145,OCC adv ONC ward BD /CW-1103,occupancy advanced oncology ward bd cw 1103,Advanced Oncology Ward Bed Occupancy,fuzzy_medium,0.89,91.529,15.707
+146,SESS - emergency CARDIAC physio,session emergency cardiac physiotherapy,Emergency Cardiac Physiotherapy Session,fuzzy_high,0.96,97.25,14.301
+147,OBST cs CONF EXT,obst case conference conference extended,Extended Obstetric Case Conference,fuzzy_medium,0.89,89.532,23.225
+148,ASST - paediatric THEATRE tm /CW-7535,assisted paediatric theatre tm cw 7535,Assisted Paediatric Theatre Time,fuzzy_medium,0.89,89.008,17.323
+149,SPCLST - hep DISCH planning,spclst hepatic disch planning,Specialist Hepatic Discharge Planning,ai_candidate_selection,0.95,87.879,12.879
+150,ADMIN - outpt RHEUM anaes,administration outpatient rheum anaes,Outpatient Rheumatologic Anaesthesia Administration,ai_candidate_selection,0.95,81.778,8.555
+151,AMB paed CRIT cr OCCUPANCY /CW-5795,ambulatory paediatric critical cr occupancy cw 5795,Ambulatory Paediatric Critical Care Occupancy,fuzzy_medium,0.89,91.624,23.17
+152,POSTOP  paed IMG interp,postoperative paediatric imaging interp,Postoperative Paediatric Imaging Interpretation,fuzzy_medium,0.89,90.698,10.227
+153,SUPP - amb MSK vent /CW-6725,support ambulatory musculoskeletal ventilation cw 6725,Ambulatory Musculoskeletal Ventilation Support,fuzzy_high,0.96,97.25,19.134
+154,foc VASCULAR transport SVC,focused vascular transport service,Focused Vascular Transport Service,exact,0.995,100.0,100.0
+155,ASSISTED  - paed THTR tm /CW-7552,assisted paediatric thtr tm cw 7552,Assisted Paediatric Theatre Time,ai_candidate_selection,0.95,80.597,12.162
+156,extended  HEP transfusion SVC,extended hepatic transfusion service,Extended Hepatic Transfusion Service,exact,0.995,100.0,100.0
+157,POSTOP - card WND care /CW-5796,postoperative cardiac wound care cw 5796,Postoperative Cardiac Wound Care,fuzzy_high,0.96,97.25,29.77
+158,tm OUTPT urol THTR,tm outpatient urologic thtr,Outpatient Urologic Theatre Time,ai_candidate_selection,0.95,89.008,8.672
+159,TM asst PAEDIATRIC thtr /CW-4279,tm assisted paediatric thtr cw 4279,Assisted Paediatric Theatre Time,ai_candidate_selection,0.95,78.381,9.945
+160,adv  - PAED thtr TM,advanced paediatric thtr tm,Advanced Paediatric Theatre Time,fuzzy_medium,0.89,91.525,16.949
+161,urol TELEM monit ext,urologic telem monitoring extended,Extended Urologic Telemetry Monitoring,fuzzy_medium,0.89,91.847,15.071
+162,spclst - CARD ventilation SUPP /CW-4904,spclst cardiac ventilation support cw 4904,Specialist Cardiac Ventilation Support,ai_candidate_selection,0.95,85.0,1.643
+163,FOCUSED biop PROC,focused biopsy procedure,Focused Metabolic Biopsy Procedure,fuzzy_high,0.96,97.25,14.225
+164,ASST - gi ANAES admin,assisted gastrointestinal anaes administration,Assisted Gastrointestinal Anaesthesia Administration,fuzzy_medium,0.89,93.878,22.695
+165,INTERP preoperative HAEM img,interp preoperative haematology imaging,Preoperative Haematology Imaging Interpretation,ai_candidate_selection,0.95,88.203,19.267
+166,AMB  msk VENT supp,ambulatory musculoskeletal ventilation support,Ambulatory Musculoskeletal Ventilation Support,exact,0.995,100.0,100.0
+167,haematology - TRANSF svc,haematology transfusion service,Ambulatory Haematology Transfusion Service,fuzzy_high,0.96,97.25,16.025
+168,INPT - psych HM visit /CW-4170,inpatient psychiatric home visit cw 4170,Inpatient Psychiatric Home Visit,fuzzy_high,0.96,97.25,24.316
+169,ASSISTED gi ANAES admin /CW-1036,assisted gastrointestinal anaes administration cw 1036,Assisted Gastrointestinal Anaesthesia Administration,ai_candidate_selection,0.95,86.866,15.772
+170,INPT psych HOME vst /CW-1371,inpatient psychiatric home visit cw 1371,Inpatient Psychiatric Home Visit,fuzzy_high,0.96,97.25,24.316
+171,OCC  - outpt ORTHOPAEDIC recov ROOM,occupancy outpatient orthopaedic recovery room,Outpatient Orthopaedic Recovery Room Occupancy,fuzzy_high,0.96,97.25,24.83
+172,elective - OBST transf SERVICE /CW-5652,elective obst transfusion service cw 5652,Elective Obstetric Transfusion Service,ai_candidate_selection,0.95,84.131,16.94
+173,INTERMITTENT rheum DIALYSIS session /CW-3359,intermittent rheum dialysis session cw 3359,Intermittent Rheumatologic Dialysis Session,ai_candidate_selection,0.95,81.395,18.183
+174,beds CARD hm VST,beds cardiac home visit,Bedside Cardiac Home Visit,ai_candidate_selection,0.95,93.878,8.487
+175,SUPV - vascular RADIOTHERAPY fract,supv vascular radiotherapy fract,Supervised Vascular Radiotherapy Fraction,ai_candidate_selection,0.95,87.671,24.748
+176,PREOP - msk RECOVERY room OCCUPANCY /CW-7703,preoperative musculoskeletal recovery room occupancy cw 7703,Preoperative Musculoskeletal Recovery Room Occupancy,fuzzy_high,0.96,97.25,26.88
+177,elective - NEURO wd BD occ,elective neurological wd bd occupancy,Elective Neurological Ward Bed Occupancy,fuzzy_high,0.96,96.104,27.532
+178,POSTOP - rheum NURS obs,postoperative rheum nursing obs,Postoperative Rheumatologic Nursing Observation,ai_candidate_selection,0.95,83.371,9.679
+179,pnl - INTERM neuro LABORATORY /CW-8821,panel intermittent neurological laboratory cw 8821,Intermittent Neurological Laboratory Panel,fuzzy_high,0.96,97.25,25.68
+180,INTENS - paed CONSULT,intensive paediatric consultation,Intensive Paediatric Consultation,exact,0.995,100.0,100.0
+181,emer METAB radiother FRACT,emergency metabolic radiotherapy fract,Emergency Metabolic Radiotherapy Fraction,fuzzy_high,0.96,96.203,25.316
+182,tm - OUTPT urol THEATRE /CW-3657,tm outpatient urologic theatre cw 3657,Outpatient Urologic Theatre Time,fuzzy_medium,0.89,89.008,24.175
+183,OUTPT  urol ENDOSCOPIC proc,outpatient urologic endoscopic procedure,Outpatient Urologic Endoscopic Procedure,exact,0.995,100.0,100.0
+184,CARD hm VST RTN,cardiac home visit routine,Routine Cardiac Home Visit,fuzzy_high,0.96,97.25,17.682
+185,INTERM - rheum SESS /CW-7476,intermittent rheum session cw 7476,Intermittent Rheumatologic Dialysis Session,ai_candidate_selection,0.95,72.037,16.533
+186,elect OBSTETRIC transf SVC /CW-6737,elective obstetric transfusion service cw 6737,Elective Obstetric Transfusion Service,fuzzy_high,0.96,97.25,28.598
+187,std - PAED dial SESS /CW-6582,standard paediatric dialysis session cw 6582,Standard Paediatric Dialysis Session,fuzzy_high,0.96,97.25,28.975
+188,RTN - card HM vst /CW-5145,routine cardiac home visit cw 5145,Routine Cardiac Home Visit,fuzzy_high,0.96,97.25,17.682
+189,OCC - std CRIT cr /CW-1779,occupancy standard critical cr cw 1779,,ai_unresolved,0.52,80.792,15.959
+190,ELECT - nurs OBS,elective nursing obs,Elective Gastrointestinal Nursing Observation,ai_candidate_selection,0.8,87.025,14.286
+191,OCCUPANCY - supv IMMUN wd BD /CW-8876,occupancy supv immunologic wd bd cw 8876,Supervised Immunologic Ward Bed Occupancy,ai_candidate_selection,0.95,76.84,9.605
+192,SPECIALIST immunologic CONSULT /CW-1309,specialist immunologic consultation cw 1309,Specialist Immunologic Consultation,fuzzy_high,0.96,97.25,40.803
+193,GER diag IMG OUTPT,geriatric diagnostic imaging outpatient,Outpatient Geriatric Diagnostic Imaging,fuzzy_high,0.96,97.25,12.156
+194,INPT - psych HOME vst,inpatient psychiatric home visit,Inpatient Psychiatric Home Visit,exact,0.995,100.0,100.0
+195,CONF intens GER cs /CW-3922,conference intensive geriatric case conference cw 3922,Intensive Geriatric Case Conference,fuzzy_medium,0.89,94.5,18.523
+196,postop - PALLIATIVE recov RM occ /CW-4182,postoperative palliative recovery room occupancy cw 4182,Postoperative Palliative Recovery Room Occupancy,fuzzy_high,0.96,97.25,24.225
+197,OBST cs CONF AMB,obst case conference conference ambulatory,Ambulatory Obstetric Case Conference,fuzzy_medium,0.89,89.993,24.162
+198,ONC wd BD occ ADV,oncology wd bd occupancy advanced,Advanced Oncology Ward Bed Occupancy,fuzzy_medium,0.89,93.022,16.913
+199,PREOP - musculoskeletal RECOV rm OCC,preoperative musculoskeletal recovery room occupancy,Preoperative Musculoskeletal Recovery Room Occupancy,exact,0.995,100.0,100.0
+200,OCCUPANCY - adv ORTHO wd BD /CW-5531,occupancy advanced orthopaedic wd bd cw 5531,,review,0.52,84.565,16.49
+201,GER cs CONF INTENS,geriatric case conference conference intensive,Intensive Geriatric Case Conference,fuzzy_high,0.96,97.25,15.77
+202,ASST - card VENT supp,assisted cardiac ventilation support,Assisted Cardiac Ventilation Support,exact,0.995,100.0,100.0
+203,monit  - POSTOP otolaryngologic TELEM /CW-5715,monitoring postoperative otolaryngologic telem cw 5715,Postoperative Otolaryngologic Telemetry Monitoring,ai_candidate_selection,0.95,86.444,13.419
+204,OCC supv IMMUN wd BED /CW-7552,occupancy supv immunologic wd bed cw 7552,Supervised Immunologic Ward Bed Occupancy,ai_candidate_selection,0.95,78.274,4.6
+205,prog CONT rehab /CW-3359,programme continuous rehabilitation cw 3359,Continuous Psychiatric Rehabilitation Programme,ai_candidate_selection,0.95,87.276,17.604
+206,std - DIAL sess /CW-2606,standard dialysis session cw 2606,Standard Paediatric Dialysis Session,ai_candidate_selection,0.77,83.836,20.326
+207,emer  - METAB radiother,emergency metabolic radiotherapy,Emergency Metabolic Radiotherapy Fraction,fuzzy_high,0.96,97.25,25.475
+208,CARE - postop CARDIAC wnd /CW-2116,care postoperative cardiac wound cw 2116,Postoperative Cardiac Wound Care,fuzzy_high,0.96,97.25,29.77
+209,CONTINUOUS gi TRANSF svc,continuous gastrointestinal transfusion service,Continuous Gastrointestinal Transfusion Service,exact,0.995,100.0,100.0
+210,focused UROL cs CONFERENCE,focused urologic case conference conference,Focused Urologic Case Conference,fuzzy_high,0.96,97.25,30.607
+211,supp - ASSISTED renal NUTR /CW-6071,support assisted renal nutritional cw 6071,Assisted Renal Nutritional Support,fuzzy_high,0.96,97.25,32.417
+212,INTENS - geriatric CS conference /CW-7622,intensive geriatric case conference conference cw 7622,Intensive Geriatric Case Conference,fuzzy_medium,0.89,94.5,18.523
+213,INPATIENT - psych HM vst /CW-9305,inpatient psychiatric home visit cw 9305,Inpatient Psychiatric Home Visit,fuzzy_high,0.96,97.25,24.316
+214,postop  - PALLIATIVE recov ROOM occupancy /CW-6043,postoperative palliative recovery room occupancy cw 6043,Postoperative Palliative Recovery Room Occupancy,fuzzy_high,0.96,97.25,24.225
+215,svc - INTENS vasc STERILISATION,service intensive vascular sterilisation,,ai_unresolved,0.52,66.959,3.878
+216,ORTHOPAEDIC recov RM occupancy /CW-4525,orthopaedic recovery room occupancy cw 4525,Outpatient Orthopaedic Recovery Room Occupancy,ai_candidate_selection,0.84,87.276,18.439
+217,assisted - PAED physio SESS /CW-5564,assisted paediatric physiotherapy session cw 5564,Assisted Paediatric Physiotherapy Session,fuzzy_high,0.96,97.25,16.696
+218,CARD physio SESS EMER,cardiac physiotherapy session emergency,Emergency Cardiac Physiotherapy Session,fuzzy_high,0.96,97.25,14.301
+219,prog CONT psych REHAB /CW-9206,programme continuous psychiatric rehabilitation cw 9206,Continuous Psychiatric Rehabilitation Programme,fuzzy_high,0.96,97.25,14.874
+220,TRANSF - cont GI,transfusion continuous gastrointestinal,Continuous Gastrointestinal Transfusion Service,fuzzy_high,0.96,97.25,30.101
+221,ortho - ANAES administration,orthopaedic anaes administration,Inpatient Orthopaedic Anaesthesia Administration,ai_candidate_selection,0.88,87.37,9.983
+222,COMPR neuro ENDOSCOPIC proc,comprehensive neurological endoscopic procedure,Comprehensive Neurological Endoscopic Procedure,exact,0.995,100.0,100.0
+223,STD - ophthalmic LAB pnl,standard ophthalmic laboratory panel,Standard Ophthalmic Laboratory Panel,exact,0.995,100.0,100.0
+224,prog - EMER rheum REHAB /CW-5035,programme emergency rheum rehabilitation cw 5035,Emergency Rheumatologic Rehabilitation Programme,ai_candidate_selection,0.95,81.042,12.866
+225,PREOP - haematology IMG,preoperative haematology imaging,Preoperative Haematology Imaging Interpretation,fuzzy_high,0.96,97.25,21.611
+226,STD - orthopaedic CRIT cr OCC /CW-7769,standard orthopaedic critical cr occupancy cw 7769,Standard Orthopaedic Critical Care Occupancy,fuzzy_medium,0.89,91.438,22.726
+227,supervised RHEUM dial SESS,supervised rheum dialysis session,Supervised Rheumatologic Dialysis Session,fuzzy_medium,0.89,89.554,21.087
+228,PROC compr NEURO endoscopic /CW-6452,procedure comprehensive neurological endoscopic cw 6452,Comprehensive Neurological Endoscopic Procedure,fuzzy_high,0.96,97.25,26.967
+229,AMBULATORY - paed CRITICAL cr OCC,ambulatory paediatric critical cr occupancy,Ambulatory Paediatric Critical Care Occupancy,fuzzy_high,0.96,97.727,25.227
+230,foc UROL cs CONF /CW-2324,focused urologic case conference conference cw 2324,Focused Urologic Case Conference,fuzzy_medium,0.89,94.5,19.502
+231,PREOP - haem INTERP,preoperative haematology interp,Preoperative Haematology Imaging Interpretation,ai_candidate_selection,0.95,86.298,14.156
+232,rheum - RADIOTHERAPY fract /CW-5238,rheum radiotherapy fract cw 5238,Intensive Rheumatologic Radiotherapy Fraction,ai_candidate_selection,0.78,62.338,1.057
+233,elect  OBSTETRIC transf SVC /CW-6472,elective obstetric transfusion service cw 6472,Elective Obstetric Transfusion Service,fuzzy_high,0.96,97.25,28.598
+234,hm - ADV palliative,home advanced palliative,Advanced Palliative Home Visit,fuzzy_high,0.96,97.25,23.754
+235,elective - NEURO ward BED occ,elective neurological ward bed occupancy,Elective Neurological Ward Bed Occupancy,exact,0.995,100.0,100.0
+236,POSTOP - ger IMG interp,postoperative geriatric imaging interp,Postoperative Geriatric Imaging Interpretation,fuzzy_medium,0.89,90.476,11.064
+237,AMB - gastrointestinal NUTR supp /CW-3413,ambulatory gastrointestinal nutritional support cw 3413,Ambulatory Gastrointestinal Nutritional Support,fuzzy_high,0.96,97.25,17.961
+238,therapy  - FOC vasc INFUSION /CW-1063,therapy focused vascular infusion cw 1063,Focused Vascular Infusion Therapy,fuzzy_high,0.96,97.25,33.74
+239,REN - wd BD occ /CW-4382,renal wd bd occupancy cw 4382,Extended Renal Ward Bed Occupancy,ai_candidate_selection,0.76,70.133,0.916
+240,visit BEDS cardiac HM,visit beds cardiac home,,review,0.52,91.296,5.906
+241,postop - PALL recovery RM occupancy,postoperative palliative recovery room occupancy,Postoperative Palliative Recovery Room Occupancy,exact,0.995,100.0,100.0
+242,adv PALL hm VST /CW-7657,advanced palliative home visit cw 7657,Advanced Palliative Home Visit,fuzzy_high,0.96,97.25,39.508
+243,OUTPATIENT - obst DIAL sess,outpatient obst dialysis session,Outpatient Obstetric Dialysis Session,fuzzy_medium,0.89,92.754,19.816
+244,STD - ophth LAB pnl /CW-8684,standard ophthalmic laboratory panel cw 8684,Standard Ophthalmic Laboratory Panel,fuzzy_high,0.96,97.25,20.022
+245,amb IMMUN wd BD occ /CW-7522,ambulatory immunologic wd bd occupancy cw 7522,Ambulatory Immunologic Ward Bed Occupancy,ai_candidate_selection,0.95,87.498,16.534
+246,INTERM - urol TELEM monit,intermittent urologic telem monitoring,Intermittent Urologic Telemetry Monitoring,fuzzy_high,0.96,95.0,16.053
+247,postop ONC img /CW-9715,postoperative oncology imaging cw 9715,Postoperative Oncology Diagnostic Imaging,ai_candidate_selection,0.95,85.809,13.495
+248,rheum NURS obs postop,rheum nursing obs postoperative,Postoperative Rheumatologic Nursing Observation,ai_candidate_selection,0.95,83.371,9.679
+249,standard - VASC home VST /CW-2287,standard vascular home visit cw 2287,Standard Vascular Home Visit,fuzzy_high,0.96,97.25,39.185
+250,occ - AMBULATORY immun WD bd,occupancy ambulatory immunologic wd bd,Ambulatory Immunologic Ward Bed Occupancy,fuzzy_medium,0.89,93.557,18.35
+251,postop  PAED sterilisation SVC,postoperative paediatric sterilisation service,Postoperative Paediatric Sterilisation Service,exact,0.995,100.0,100.0
+252,admin - SUPV pulm ANAES,administration supv pulmonary anaes,Supervised Pulmonary Anaesthesia Administration,ai_candidate_selection,0.95,83.018,24.434
+253,THER - standard HEP inf /CW-8309,ther standard hepatic infusion cw 8309,Standard Hepatic Infusion Therapy,ai_candidate_selection,0.95,83.836,27.755
+254,conf  - EXT obst CS /CW-8663,conference extended obst case conference cw 8663,Extended Obstetric Case Conference,ai_candidate_selection,0.95,80.483,4.734
+255,intens  UROLOGIC spcm ANALYSIS /CW-5532,intensive urologic specimen analysis cw 5532,Intensive Urologic Specimen Analysis,fuzzy_high,0.96,97.25,32.25
+256,CONF  intens GER case,conference intensive geriatric case,Intensive Geriatric Case Conference,fuzzy_high,0.96,97.25,15.77
+257,AMB gi NUTR supp,ambulatory gastrointestinal nutritional support,Ambulatory Gastrointestinal Nutritional Support,exact,0.995,100.0,100.0
+258,outpt GER diag IMG /CW-6232,outpatient geriatric diagnostic imaging cw 6232,Outpatient Geriatric Diagnostic Imaging,fuzzy_high,0.96,97.25,16.978
+259,ADV - ortho WD bd OCC,advanced orthopaedic wd bd occupancy,Advanced Orthopaedic Ward Bed Occupancy,fuzzy_high,0.96,96.0,21.0
+260,THER std HEP inf /CW-1052,ther standard hepatic infusion cw 1052,Standard Hepatic Infusion Therapy,ai_candidate_selection,0.95,83.836,27.755
+261,INTERM  - rheum DIAL sess /CW-1055,intermittent rheum dialysis session cw 1055,Intermittent Rheumatologic Dialysis Session,ai_candidate_selection,0.95,81.395,18.183
+262,GER cs CONF POSTOP,geriatric case conference conference postoperative,Postoperative Geriatric Case Conference,fuzzy_high,0.96,97.25,15.77
+263,postop ONCOLOGY imaging /CW-3721,postoperative oncology imaging cw 3721,Postoperative Oncology Diagnostic Imaging,ai_candidate_selection,0.95,85.809,13.495
+264,PLANNING spclst HEP disch,planning spclst hepatic disch,Specialist Hepatic Discharge Planning,ai_candidate_selection,0.95,85.462,12.525
+265,rheum REHAB prog amb,rheum rehabilitation programme ambulatory,Ambulatory Rheumatologic Rehabilitation Programme,fuzzy_medium,0.89,89.572,15.269
+266,OBS - gi NURS /CW-2992,obs gastrointestinal nursing cw 2992,,ai_unresolved,0.52,77.8,0.0
+267,CR std ORTHOPAEDIC crit,cr standard orthopaedic critical,Standard Orthopaedic Critical Care Occupancy,fuzzy_medium,0.89,92.467,21.817
+268,conference - POSTOPERATIVE ger CS /CW-6353,conference postoperative geriatric case conference cw 6353,Postoperative Geriatric Case Conference,fuzzy_high,0.96,97.25,12.725
+269,admin REN anaesthesia,administration renal anaesthesia,Intermittent Renal Anaesthesia Administration,fuzzy_high,0.96,97.25,9.88
+270,PROG - interm PSYCH,programme intermittent psychiatric,Intermittent Psychiatric Rehabilitation Programme,fuzzy_high,0.96,97.25,22.986
+271,BEDS  gi BIOPSY proc /CW-1241,beds gastrointestinal biopsy procedure cw 1241,Bedside Gastrointestinal Biopsy Procedure,ai_candidate_selection,0.95,88.181,25.941
+272,ONC wd BD occ STD,oncology wd bd occupancy standard,Standard Oncology Ward Bed Occupancy,fuzzy_medium,0.89,93.022,16.913
+273,OBSERVATION  postop RHEUM nurs,observation postoperative rheum nursing,Postoperative Rheumatologic Nursing Observation,fuzzy_medium,0.89,89.146,19.51
+274,interp - COMPR urol IMG /CW-7467,interp comprehensive urologic imaging cw 7467,,review,0.52,79.961,22.461
+275,ortho  - ANAES admin /CW-7356,orthopaedic anaes administration cw 7356,Inpatient Orthopaedic Anaesthesia Administration,ai_candidate_selection,0.86,76.621,15.083
+276,monit  POSTOPERATIVE otolaryngologic TELEMETRY,monitoring postoperative otolaryngologic telemetry,Postoperative Otolaryngologic Telemetry Monitoring,fuzzy_high,0.96,97.25,24.225
+277,POSTOPERATIVE rheum NURS obs /CW-2573,postoperative rheum nursing obs cw 2573,Postoperative Rheumatologic Nursing Observation,ai_candidate_selection,0.95,72.093,14.487
+278,AMBULATORY obst CS conf /CW-8021,ambulatory obst case conference conference cw 8021,Ambulatory Obstetric Case Conference,ai_candidate_selection,0.95,81.565,5.816
+279,AMB obst CONF /CW-5695,ambulatory obst conference cw 5695,Ambulatory Obstetric Case Conference,ai_candidate_selection,0.95,77.8,24.512
+280,PREOP msk RECOV rm OCC,preoperative musculoskeletal recovery room occupancy,Preoperative Musculoskeletal Recovery Room Occupancy,exact,0.995,100.0,100.0
+281,outpt CARDIAC physiotherapy SESS /CW-3911,outpatient cardiac physiotherapy session cw 3911,Outpatient Cardiac Physiotherapy Session,fuzzy_high,0.96,97.25,14.301
+282,adv - PALL hm VST /CW-2046,advanced palliative home visit cw 2046,Advanced Palliative Home Visit,fuzzy_high,0.96,97.25,39.508
+283,foc UROLOGIC cs CONFERENCE,focused urologic case conference conference,Focused Urologic Case Conference,fuzzy_high,0.96,97.25,30.607
+284,ext HEPATIC transfusion SVC /CW-8250,extended hepatic transfusion service cw 8250,Extended Hepatic Transfusion Service,fuzzy_high,0.96,97.25,28.957
+285,CARE postop CARDIAC wnd,care postoperative cardiac wound,Postoperative Cardiac Wound Care,fuzzy_high,0.96,97.25,24.225
+286,STD - ophth LAB pnl,standard ophthalmic laboratory panel,Standard Ophthalmic Laboratory Panel,exact,0.995,100.0,100.0
+287,EXT psych ENDOSC proc,extended psychiatric endoscopic procedure,Extended Psychiatric Endoscopic Procedure,exact,0.995,100.0,100.0
+288,outpt - CARDIAC physio,outpatient cardiac physiotherapy,Outpatient Cardiac Physiotherapy Session,fuzzy_high,0.96,97.25,20.184
+289,STD ophthalmic LAB pnl,standard ophthalmic laboratory panel,Standard Ophthalmic Laboratory Panel,exact,0.995,100.0,100.0
+290,visit STD vasc,visit standard vascular,Standard Vascular Home Visit,fuzzy_high,0.96,97.25,25.818
+291,ext - HEPATIC transfusion SVC /CW-2178,extended hepatic transfusion service cw 2178,Extended Hepatic Transfusion Service,fuzzy_high,0.96,97.25,28.957
+292,amb - MSK spcm ANLY,ambulatory musculoskeletal specimen analysis,Ambulatory Musculoskeletal Specimen Analysis,exact,0.995,100.0,100.0
+293,CARD physio SESS OUTPT,cardiac physiotherapy session outpatient,Outpatient Cardiac Physiotherapy Session,fuzzy_high,0.96,97.25,14.301
+294,RHEUM rehabilitation PROGRAMME /CW-4700,rheum rehabilitation programme cw 4700,,ai_unresolved,0.52,75.29,0.0
+295,IMMUN wd BD occ AMB,immunologic wd bd occupancy ambulatory,Ambulatory Immunologic Ward Bed Occupancy,fuzzy_medium,0.89,93.557,18.35
+296,msk - SPCM analysis,musculoskeletal specimen analysis,Ambulatory Musculoskeletal Specimen Analysis,fuzzy_high,0.96,97.25,22.1
+297,OUTPT - obst DIAL sess /CW-7015,outpatient obst dialysis session cw 7015,Outpatient Obstetric Dialysis Session,ai_candidate_selection,0.95,83.683,15.608
+298,ENDOSC - outpatient UROLOGIC /CW-5618,endoscopic outpatient urologic cw 5618,Outpatient Urologic Endoscopic Procedure,ai_candidate_selection,0.95,85.809,13.348
+299,occ AMB cardiac WD bd,occupancy ambulatory cardiac wd bd,Ambulatory Cardiac Ward Bed Occupancy,fuzzy_medium,0.89,93.141,17.934
+300,OUTPATIENT - rheum ADMINISTRATION /CW-5971,outpatient rheum administration cw 5971,Outpatient Rheumatologic Anaesthesia Administration,ai_candidate_selection,0.95,75.977,15.172
+301,PROC - outpt UROL endosc /CW-2734,procedure outpatient urologic endoscopic cw 2734,Outpatient Urologic Endoscopic Procedure,fuzzy_high,0.96,97.25,16.696
+302,FRACT - elect OPHTH radiother /CW-4974,fract elective ophthalmic radiotherapy cw 4974,Elective Ophthalmic Radiotherapy Fraction,ai_candidate_selection,0.95,85.26,22.663
+303,SESS  outpt OBST dial /CW-7039,session outpatient obst dialysis cw 7039,,review,0.52,82.055,13.98
+304,supv RHEUM sess /CW-6316,supv rheum session cw 6316,Supervised Rheumatologic Dialysis Session,ai_candidate_selection,0.84,72.547,4.753
+305,SESS interm RHEUM dial /CW-5468,session intermittent rheum dialysis cw 5468,Intermittent Rheumatologic Dialysis Session,ai_candidate_selection,0.95,79.157,15.944
+306,OCC - supv IMMUN wd BED /CW-6089,occupancy supv immunologic wd bed cw 6089,Supervised Immunologic Ward Bed Occupancy,ai_candidate_selection,0.95,78.274,4.6
+307,STD - ophth LAB pnl /CW-2452,standard ophthalmic laboratory panel cw 2452,Standard Ophthalmic Laboratory Panel,fuzzy_high,0.96,97.25,20.022
+308,spclst - GI img INTERP /CW-7861,spclst gastrointestinal imaging interp cw 7861,Specialist Gastrointestinal Imaging Interpretation,ai_candidate_selection,0.95,79.167,21.102
+309,SUPERVISED - pulmonary HM vst /CW-3719,supervised pulmonary home visit cw 3719,Supervised Pulmonary Home Visit,fuzzy_high,0.96,97.25,25.225
+310,foc - VASC transp SVC,focused vascular transport service,Focused Vascular Transport Service,exact,0.995,100.0,100.0
+311,SUPP  ambulatory GI nutr /CW-8509,support ambulatory gastrointestinal nutritional cw 8509,Ambulatory Gastrointestinal Nutritional Support,fuzzy_high,0.96,97.25,17.961
+312,outpt - GER diagnostic IMG,outpatient geriatric diagnostic imaging,Outpatient Geriatric Diagnostic Imaging,exact,0.995,100.0,100.0
+313,amb MSK spcm,ambulatory musculoskeletal specimen,Ambulatory Musculoskeletal Specimen Analysis,fuzzy_high,0.96,97.25,14.348
+314,INTENS - ger CASE conf,intensive geriatric case conference,Intensive Geriatric Case Conference,exact,0.995,100.0,100.0
+315,AMB obst CS conf,ambulatory obst case conference conference,Ambulatory Obstetric Case Conference,fuzzy_medium,0.89,89.993,24.162
+316,amb  - HAEM transfusion SVC /CW-5631,ambulatory haematology transfusion service cw 5631,Ambulatory Haematology Transfusion Service,fuzzy_high,0.96,97.25,30.059
+317,adv - VASC endosc PROCEDURE /CW-2084,advanced vascular endoscopic procedure cw 2084,Advanced Vascular Endoscopic Procedure,fuzzy_high,0.96,97.25,29.549
+318,sess  - STD paediatric DIAL /CW-3203,session standard paediatric dialysis cw 3203,Standard Paediatric Dialysis Session,fuzzy_high,0.96,97.25,28.975
+319,interm NEURO lab PNL,intermittent neurological laboratory panel,Intermittent Neurological Laboratory Panel,exact,0.995,100.0,100.0
+320,SPCLST immunologic /CW-6493,spclst immunologic cw 6493,Specialist Immunologic Consultation,ai_candidate_selection,0.94,73.782,0.0
+321,postop ONC diagnostic IMG,postoperative oncology diagnostic imaging,Postoperative Oncology Diagnostic Imaging,exact,0.995,100.0,100.0
+322,supv  NURSING obs,supv nursing obs,,ai_unresolved,0.52,74.416,0.0
+323,IMG - preoperative ONC,imaging preoperative oncology,Preoperative Oncology Diagnostic Imaging,fuzzy_high,0.96,97.25,13.49
+324,beds - OBST img INTERPRETATION,beds obst imaging interpretation,Bedside Obstetric Imaging Interpretation,ai_candidate_selection,0.95,88.889,5.197
+325,supv  - GASTROINTESTINAL nurs OBS,supv gastrointestinal nursing obs,Supervised Gastrointestinal Nursing Observation,ai_candidate_selection,0.95,83.27,1.375
+326,img - OUTPT ger,imaging outpatient geriatric,Outpatient Geriatric Diagnostic Imaging,fuzzy_high,0.96,97.25,16.225
+327,interm - ONCOLOGY hm VST /CW-7658,intermittent oncology home visit cw 7658,Intermittent Oncology Home Visit,fuzzy_high,0.96,97.25,25.225
+328,PREOP - onc DIAGNOSTIC img /CW-1315,preoperative oncology diagnostic imaging cw 1315,Preoperative Oncology Diagnostic Imaging,fuzzy_high,0.96,97.25,11.857
+329,service - POSTOP paed STERIL,service postoperative paediatric steril,Postoperative Paediatric Sterilisation Service,fuzzy_medium,0.89,89.241,15.146
+330,PREOP - onc DIAG /CW-5837,preoperative oncology diagnostic cw 5837,Preoperative Oncology Diagnostic Imaging,ai_candidate_selection,0.95,86.444,9.901
+331,obs SUPERVISED gi NURSING /CW-4223,obs supervised gastrointestinal nursing cw 4223,Supervised Gastrointestinal Nursing Observation,ai_candidate_selection,0.95,83.018,11.138
+332,adv PAED thtr TM,advanced paediatric thtr tm,Advanced Paediatric Theatre Time,fuzzy_medium,0.89,91.525,16.949
+333,supp  SPCLST cardiac VENT /CW-8694,support spclst cardiac ventilation cw 8694,Specialist Cardiac Ventilation Support,ai_candidate_selection,0.95,83.357,0.695
+334,intens - UROL spcm ANALYSIS /CW-2272,intensive urologic specimen analysis cw 2272,Intensive Urologic Specimen Analysis,fuzzy_high,0.96,97.25,32.25
+335,beds - OBST img INTERP,beds obst imaging interp,Bedside Obstetric Imaging Interpretation,ai_candidate_selection,0.95,80.775,8.036
+336,svc - EXT hep TRANSF,service extended hepatic transfusion,Extended Hepatic Transfusion Service,fuzzy_high,0.96,97.25,23.655
+337,elective - NEURO wd BED occ,elective neurological wd bed occupancy,Elective Neurological Ward Bed Occupancy,fuzzy_high,0.96,97.436,27.013
+338,outpt - GERIATRIC diagnostic IMG /CW-5122,outpatient geriatric diagnostic imaging cw 5122,Outpatient Geriatric Diagnostic Imaging,fuzzy_high,0.96,97.25,16.978
+339,ASST  card VENT supp /CW-7623,assisted cardiac ventilation support cw 7623,Assisted Cardiac Ventilation Support,fuzzy_high,0.96,97.25,16.458
+340,compr UROL img INTERPRETATION,comprehensive urologic imaging interpretation,Comprehensive Urologic Imaging Interpretation,exact,0.995,100.0,100.0
+341,monit POSTOP otolaryngologic TELEM /CW-4406,monitoring postoperative otolaryngologic telem cw 4406,Postoperative Otolaryngologic Telemetry Monitoring,ai_candidate_selection,0.95,86.444,13.419
+342,gi NURS obs supv,gastrointestinal nursing obs supv,Supervised Gastrointestinal Nursing Observation,ai_candidate_selection,0.95,81.895,0.0
+343,advanced VASC endosc PROC /CW-6163,advanced vascular endoscopic procedure cw 6163,Advanced Vascular Endoscopic Procedure,fuzzy_high,0.96,97.25,29.549
+344,sess ASSISTED paed PHYSIO /CW-7619,session assisted paediatric physiotherapy cw 7619,Assisted Paediatric Physiotherapy Session,fuzzy_high,0.96,97.25,16.696
+345,CONT - gi TRANSFUSION svc,continuous gastrointestinal transfusion service,Continuous Gastrointestinal Transfusion Service,exact,0.995,100.0,100.0
+346,SUPV - vascular RADIOTHER fract /CW-4865,supv vascular radiotherapy fract cw 4865,Supervised Vascular Radiotherapy Fraction,ai_candidate_selection,0.95,79.012,21.111
+347,CONF ger CS,conference geriatric case conference,,ai_unresolved,0.52,97.25,0.0
+348,PREOPERATIVE - haematology IMG interp /CW-7886,preoperative haematology imaging interp cw 7886,Preoperative Haematology Imaging Interpretation,ai_candidate_selection,0.95,82.979,18.145
+349,supv PULM anaes ADMINISTRATION,supv pulmonary anaes administration,Supervised Pulmonary Anaesthesia Administration,ai_candidate_selection,0.95,85.366,24.668
+350,occupancy ONC wd BD,occupancy oncology wd bd,,ai_unresolved,0.52,85.596,0.0
+351,foc  - VASC transport SVC /CW-9116,focused vascular transport service cw 9116,Focused Vascular Transport Service,fuzzy_high,0.96,97.25,27.082
+352,intens - UROL specimen ANLY /CW-8319,intensive urologic specimen analysis cw 8319,Intensive Urologic Specimen Analysis,fuzzy_high,0.96,97.25,32.25
+353,occ ELECTIVE neuro WARD bd,occupancy elective neurological ward bd,Elective Neurological Ward Bed Occupancy,fuzzy_high,0.96,96.019,25.783
+354,emer METABOLIC radiotherapy FRACTION /CW-3320,emergency metabolic radiotherapy fraction cw 3320,Emergency Metabolic Radiotherapy Fraction,fuzzy_high,0.96,97.25,28.361
+355,obs - EXT rheum NURS /CW-3692,obs extended rheum nursing cw 3692,Extended Rheumatologic Nursing Observation,ai_candidate_selection,0.95,66.539,12.194
+356,IMG preoperative ONCOLOGY /CW-9430,imaging preoperative oncology cw 9430,Preoperative Oncology Diagnostic Imaging,ai_candidate_selection,0.95,85.462,13.148
+357,asst - PAED physio SESS,assisted paediatric physiotherapy session,Assisted Paediatric Physiotherapy Session,exact,0.995,100.0,100.0
+358,occupancy  - AMBULATORY card WD bd,occupancy ambulatory cardiac wd bd,Ambulatory Cardiac Ward Bed Occupancy,fuzzy_medium,0.89,93.141,17.934
+359,PREOP - msk RECOVERY rm OCCUPANCY /CW-6079,preoperative musculoskeletal recovery room occupancy cw 6079,Preoperative Musculoskeletal Recovery Room Occupancy,fuzzy_high,0.96,97.25,26.88
+360,supervised - PULM admin,supervised pulmonary administration,Supervised Pulmonary Anaesthesia Administration,fuzzy_high,0.96,97.25,20.289
+361,spclst  - CARD vent SUPP,spclst cardiac ventilation support,,review,0.52,94.444,5.873
+362,interp - BEDSIDE obst IMG,interp bedside obst imaging,Bedside Obstetric Imaging Interpretation,ai_candidate_selection,0.95,78.381,5.106
+363,AMB - paed CRIT cr OCC /CW-3496,ambulatory paediatric critical cr occupancy cw 3496,Ambulatory Paediatric Critical Care Occupancy,fuzzy_medium,0.89,91.624,23.17
+364,ASST - gi ANAES administration,assisted gastrointestinal anaes administration,Assisted Gastrointestinal Anaesthesia Administration,fuzzy_medium,0.89,93.878,22.695
+365,ext - UROL telem MONIT /CW-1191,extended urologic telem monitoring cw 1191,Extended Urologic Telemetry Monitoring,ai_candidate_selection,0.95,85.0,13.571
+366,ASSISTED card VENTILATION supp /CW-6226,assisted cardiac ventilation support cw 6226,Assisted Cardiac Ventilation Support,fuzzy_high,0.96,97.25,16.458
+367,interp BEDSIDE obst IMG /CW-4098,interp bedside obst imaging cw 4098,Bedside Obstetric Imaging Interpretation,ai_candidate_selection,0.95,70.02,17.193
+368,INTERPRETATION - postop PAED imaging /CW-8171,interpretation postoperative paediatric imaging cw 8171,Postoperative Paediatric Imaging Interpretation,fuzzy_high,0.96,97.25,11.86
+369,service - INTENS steril /CW-8257,service intensive steril cw 8257,,ai_unresolved,0.52,58.06,3.201
+370,asst RENAL nutr /CW-4158,assisted renal nutritional cw 4158,Assisted Renal Nutritional Support,ai_candidate_selection,0.95,84.283,13.189
+371,EMER - card PHYSIO sess /CW-1742,emergency cardiac physiotherapy session cw 1742,Emergency Cardiac Physiotherapy Session,fuzzy_high,0.96,97.25,15.504
+372,intens - VASCULAR steril SVC /CW-7067,intensive vascular steril service cw 7067,,ai_unresolved,0.52,62.24,5.613
+373,SUPP asst VENTILATION /CW-3888,support assisted ventilation cw 3888,,ai_unresolved,0.52,85.094,17.903
+374,bedside OBST img,bedside obst imaging,Bedside Obstetric Imaging Interpretation,ai_candidate_selection,0.95,85.596,15.238
+375,ADVANCED - ortho WD bd OCCUPANCY /CW-3359,advanced orthopaedic wd bd occupancy cw 3359,Advanced Orthopaedic Ward Bed Occupancy,ai_candidate_selection,0.95,86.841,18.216
+376,INTENSIVE  - paediatric CONSULT /CW-8569,intensive paediatric consultation cw 8569,Intensive Paediatric Consultation,fuzzy_high,0.96,97.25,35.539
+377,supervised  PULMONARY anaes ADMIN,supervised pulmonary anaes administration,Supervised Pulmonary Anaesthesia Administration,fuzzy_medium,0.89,93.182,16.907
+378,INFECT - critical CARE occ,infectious critical care occupancy,Continuous Infectious Critical Care Occupancy,fuzzy_high,0.96,97.25,18.768
+379,std - ONC wd BED occ /CW-1173,standard oncology wd bed occupancy cw 1173,Standard Oncology Ward Bed Occupancy,fuzzy_medium,0.89,89.993,13.069
+380,elect OBST transf SVC /CW-1798,elective obst transfusion service cw 1798,Elective Obstetric Transfusion Service,ai_candidate_selection,0.95,84.131,16.94
+381,SPCM  - asst OBST /CW-9843,specimen assisted obst cw 9843,Assisted Obstetric Specimen Analysis,ai_candidate_selection,0.89,70.351,4.379
+382,INTERMITTENT psych REHAB prog,intermittent psychiatric rehabilitation programme,Intermittent Psychiatric Rehabilitation Programme,exact,0.995,100.0,100.0
+383,ger - CASE conf,geriatric case conference,,ai_unresolved,0.52,97.25,2.75
+384,adv - PALLIATIVE hm VISIT /CW-4841,advanced palliative home visit cw 4841,Advanced Palliative Home Visit,fuzzy_high,0.96,97.25,39.508
+385,interm - NEUROLOGICAL lab PNL /CW-3443,intermittent neurological laboratory panel cw 3443,Intermittent Neurological Laboratory Panel,fuzzy_high,0.96,97.25,25.68
+386,SVC - ortho STERILISATION,service orthopaedic sterilisation,,review,0.52,75.639,12.552
+387,CONSULT rtn NEURO /CW-8916,consultation routine neurological cw 8916,,review,0.52,67.174,8.312
+388,postop  - ONC img,postoperative oncology imaging,Postoperative Oncology Diagnostic Imaging,fuzzy_high,0.96,97.25,13.166
+389,postop PAED steril SVC,postoperative paediatric steril service,Postoperative Paediatric Sterilisation Service,fuzzy_medium,0.89,91.765,17.669
+390,ext - OBSTETRIC conf,extended obstetric conference,Extended Obstetric Case Conference,fuzzy_high,0.96,97.25,17.862
+391,OCCUPANCY - outpt ORTHO recov ROOM /CW-9263,occupancy outpatient orthopaedic recovery room cw 9263,Outpatient Orthopaedic Recovery Room Occupancy,fuzzy_high,0.96,97.25,28.225
+392,compr - OPHTH laboratory PNL /CW-7966,comprehensive ophthalmic laboratory panel cw 7966,Comprehensive Ophthalmic Laboratory Panel,fuzzy_high,0.96,97.25,13.893
+393,VST - supv PULMONARY /CW-3511,visit supv pulmonary cw 3511,Supervised Pulmonary Home Visit,ai_candidate_selection,0.79,69.229,0.312
+394,adv - VASC proc,advanced vascular procedure,Advanced Vascular Endoscopic Procedure,fuzzy_high,0.96,97.25,25.078
+395,INPT  psych HM vst /CW-4923,inpatient psychiatric home visit cw 4923,Inpatient Psychiatric Home Visit,fuzzy_high,0.96,97.25,24.316
+396,ELECT - ophthalmic RADIOTHER fract /CW-9522,elective ophthalmic radiotherapy fract cw 9522,Elective Ophthalmic Radiotherapy Fraction,ai_candidate_selection,0.95,87.498,23.13
+397,emergency - RHEUM rehabilitation PROG /CW-2482,emergency rheum rehabilitation programme cw 2482,Emergency Rheumatologic Rehabilitation Programme,ai_candidate_selection,0.95,83.333,13.23
+398,amb MSK spcm ANLY /CW-5350,ambulatory musculoskeletal specimen analysis cw 5350,Ambulatory Musculoskeletal Specimen Analysis,fuzzy_high,0.96,97.25,27.014
+399,OUTPT - urologic ENDOSC proc,outpatient urologic endoscopic procedure,Outpatient Urologic Endoscopic Procedure,exact,0.995,100.0,100.0
+400,foc VASC infusion THER,focused vascular infusion ther,Focused Vascular Infusion Therapy,fuzzy_high,0.96,95.238,24.402
+401,occ AMB card WARD /CW-1077,occupancy ambulatory cardiac ward cw 1077,Ambulatory Cardiac Ward Bed Occupancy,fuzzy_medium,0.89,91.693,18.019
+402,onc DIAG img postop,oncology diagnostic imaging postoperative,Postoperative Oncology Diagnostic Imaging,fuzzy_high,0.96,97.25,6.003
+403,supv  - DIAL sess /CW-1782,supv dialysis session cw 1782,,ai_unresolved,0.52,69.156,0.0
+404,tm - OUTPT urol THTR /CW-8902,tm outpatient urologic thtr cw 8902,Outpatient Urologic Theatre Time,ai_candidate_selection,0.95,78.381,9.945
+405,supv - GI nurs OBS /CW-9063,supv gastrointestinal nursing obs cw 9063,Supervised Gastrointestinal Nursing Observation,ai_candidate_selection,0.95,75.0,3.185
+406,vst BEDS card HM,visit beds cardiac home,,review,0.52,91.296,5.906
+407,POSTOP paed IMG interp /CW-2275,postoperative paediatric imaging interp cw 2275,,review,0.52,82.979,7.495
+408,adv VASC endosc PROC /CW-8230,advanced vascular endoscopic procedure cw 8230,Advanced Vascular Endoscopic Procedure,fuzzy_high,0.96,97.25,29.549
+409,prog  - CONT psych REHABILITATION /CW-5824,programme continuous psychiatric rehabilitation cw 5824,Continuous Psychiatric Rehabilitation Programme,fuzzy_high,0.96,97.25,14.874
+410,specialist - GI imaging INTERPRETATION /CW-3195,specialist gastrointestinal imaging interpretation cw 3195,Specialist Gastrointestinal Imaging Interpretation,fuzzy_high,0.96,97.25,25.85
+411,SUPV immun WD bd OCC /CW-1811,supv immunologic wd bd occupancy cw 1811,Supervised Immunologic Ward Bed Occupancy,ai_candidate_selection,0.95,79.012,8.519
+412,RTN card HM vst /CW-6536,routine cardiac home visit cw 6536,Routine Cardiac Home Visit,fuzzy_high,0.96,97.25,17.682
+413,AMB - rheum REHAB prog /CW-9454,ambulatory rheum rehabilitation programme cw 9454,Ambulatory Rheumatologic Rehabilitation Programme,ai_candidate_selection,0.95,83.673,13.57
+414,postoperative - PALL recov ROOM occupancy,postoperative palliative recovery room occupancy,Postoperative Palliative Recovery Room Occupancy,exact,0.995,100.0,100.0
+415,ortho - ANAES admin /CW-8548,orthopaedic anaes administration cw 8548,Inpatient Orthopaedic Anaesthesia Administration,ai_candidate_selection,0.95,76.621,15.083
+416,SESS intermittent RHEUM dial,session intermittent rheum dialysis,Intermittent Rheumatologic Dialysis Session,ai_candidate_selection,0.95,88.133,17.897
+417,SUPV - immun WARD bd OCC,supv immunologic ward bd occupancy,,review,0.52,90.667,6.2
+418,adv  VASC endosc PROC /CW-5904,advanced vascular endoscopic procedure cw 5904,Advanced Vascular Endoscopic Procedure,fuzzy_high,0.96,97.25,29.549
+419,intensive  - VASCULAR steril SVC /CW-1594,intensive vascular steril service cw 1594,,ai_unresolved,0.52,62.24,5.613
+420,BEDSIDE - gi BIOP proc /CW-7056,bedside gastrointestinal biopsy procedure cw 7056,Bedside Gastrointestinal Biopsy Procedure,fuzzy_high,0.96,97.25,31.025
+421,card VENT supp asst,cardiac ventilation support assisted,Assisted Cardiac Ventilation Support,fuzzy_high,0.96,97.25,13.142
+422,ext RHEUM obs,extended rheum obs,,ai_unresolved,0.52,74.717,0.0
+423,PREOP msk ROOM occ,preoperative musculoskeletal room occupancy,Preoperative Musculoskeletal Recovery Room Occupancy,fuzzy_high,0.96,97.25,33.514
+424,inpt - ORTHO anaes ADMINISTRATION,inpatient orthopaedic anaes administration,Inpatient Orthopaedic Anaesthesia Administration,fuzzy_medium,0.89,93.333,20.215
+425,amb IMMUN ward BD occ,ambulatory immunologic ward bd occupancy,Ambulatory Immunologic Ward Bed Occupancy,fuzzy_high,0.96,98.765,18.189
+426,ext  UROLOGIC telem,extended urologic telem,Extended Urologic Telemetry Monitoring,ai_candidate_selection,0.95,87.75,14.417
+427,foc - VASC transport SERVICE,focused vascular transport service,Focused Vascular Transport Service,exact,0.995,100.0,100.0
+428,OCCUPANCY - advanced ONC wd BD /CW-2874,occupancy advanced oncology wd bd cw 2874,Advanced Oncology Ward Bed Occupancy,ai_candidate_selection,0.95,83.357,15.156
+429,paed THTR tm adv,paediatric thtr tm advanced,Advanced Paediatric Theatre Time,fuzzy_medium,0.89,89.008,16.483
+430,POSTOP - paediatric IMAGING interp,postoperative paediatric imaging interp,Postoperative Paediatric Imaging Interpretation,fuzzy_medium,0.89,90.698,10.227
+431,INTERM - psych REHAB prog,intermittent psychiatric rehabilitation programme,Intermittent Psychiatric Rehabilitation Programme,exact,0.995,100.0,100.0
+432,assisted - REN nutr SUPP /CW-6761,assisted renal nutritional support cw 6761,Assisted Renal Nutritional Support,fuzzy_high,0.96,97.25,29.173
+433,tm OUTPATIENT urol /CW-9136,tm outpatient urologic cw 9136,Outpatient Urologic Theatre Time,ai_candidate_selection,0.91,75.418,0.0
+434,ext  HEP disch PLNG /CW-1975,extended hepatic disch planning cw 1975,,review,0.52,83.784,17.994
+435,plng EXT disch /CW-9928,planning extended disch cw 9928,,review,0.52,68.885,16.632
+436,emer - RHEUMATOLOGIC prog /CW-1178,emergency rheumatologic programme cw 1178,Emergency Rheumatologic Rehabilitation Programme,ai_candidate_selection,0.95,86.736,16.838
+437,std - VASC vst,standard vascular visit,Standard Vascular Home Visit,fuzzy_high,0.96,97.25,25.818
+438,ELECT ophth RADIOTHER fract /CW-4480,elective ophthalmic radiotherapy fract cw 4480,Elective Ophthalmic Radiotherapy Fraction,ai_candidate_selection,0.95,87.498,23.13
+439,EXT  - psych ENDOSC proc /CW-4756,extended psychiatric endoscopic procedure cw 4756,Extended Psychiatric Endoscopic Procedure,fuzzy_high,0.96,97.25,27.202
+440,OCCUPANCY - std ORTHOPAEDIC crit CR /CW-7040,occupancy standard orthopaedic critical cr cw 7040,Standard Orthopaedic Critical Care Occupancy,fuzzy_medium,0.89,91.392,22.68
+441,ASSISTED urol NURS obs /CW-3340,assisted urologic nursing obs cw 3340,Assisted Urologic Nursing Observation,ai_candidate_selection,0.95,79.398,21.171
+442,PSYCH rehab PROG INTERM,psychiatric rehabilitation programme intermittent,Intermittent Psychiatric Rehabilitation Programme,fuzzy_high,0.96,97.25,12.889
+443,svc AMB haem TRANSFUSION /CW-4630,service ambulatory haematology transfusion cw 4630,Ambulatory Haematology Transfusion Service,fuzzy_high,0.96,97.25,30.059
+444,standard - ONC ward BD occ /CW-4538,standard oncology ward bd occupancy cw 4538,Standard Oncology Ward Bed Occupancy,fuzzy_medium,0.89,91.529,13.28
+445,sess STANDARD paed DIAL,session standard paediatric dialysis,Standard Paediatric Dialysis Session,fuzzy_high,0.96,97.25,27.976
+446,intermittent  NEURO lab PNL /CW-9905,intermittent neurological laboratory panel cw 9905,Intermittent Neurological Laboratory Panel,fuzzy_high,0.96,97.25,25.68
+447,POSTOP ger IMG interp /CW-1229,postoperative geriatric imaging interp cw 1229,Postoperative Geriatric Imaging Interpretation,ai_candidate_selection,0.95,82.609,10.028
+448,interp - BEDS obst IMG /CW-9860,interp beds obst imaging cw 9860,,review,0.52,68.976,4.143
+449,fract - INTENS rheum RADIOTHER /CW-1555,fract intensive rheum radiotherapy cw 1555,Intensive Rheumatologic Radiotherapy Fraction,ai_candidate_selection,0.95,76.011,17.427
+450,outpt CARD physio SESSION /CW-1340,outpatient cardiac physiotherapy session cw 1340,Outpatient Cardiac Physiotherapy Session,fuzzy_high,0.96,97.25,14.301
+451,ANLY assisted OBST spcm,analysis assisted obst specimen,Assisted Obstetric Specimen Analysis,fuzzy_medium,0.89,89.993,20.196
+452,EXT ren WD occ /CW-7113,extended renal wd occupancy cw 7113,Extended Renal Ward Bed Occupancy,ai_candidate_selection,0.95,81.895,24.367
+453,prog EMER rheum REHABILITATION /CW-3222,programme emergency rheum rehabilitation cw 3222,Emergency Rheumatologic Rehabilitation Programme,ai_candidate_selection,0.95,81.042,12.866
+454,ELECT - ophth RADIOTHER /CW-6461,elective ophthalmic radiotherapy cw 6461,,review,0.52,86.444,27.185
+455,CONT infectious CRIT cr OCCUPANCY,continuous infectious critical cr occupancy,Continuous Infectious Critical Care Occupancy,fuzzy_high,0.96,97.727,34.091
+456,PROCEDURE - comprehensive NEURO endosc,procedure comprehensive neurological endoscopic,Comprehensive Neurological Endoscopic Procedure,fuzzy_high,0.96,97.25,21.239
+457,admin - INTERM ren ANAES /CW-9520,administration intermittent renal anaes cw 9520,Intermittent Renal Anaesthesia Administration,ai_candidate_selection,0.95,82.451,16.956
+458,asst - RENAL nutritional SUPP,assisted renal nutritional support,Assisted Renal Nutritional Support,exact,0.995,100.0,100.0
+459,THER std HEP inf,ther standard hepatic infusion,Standard Hepatic Infusion Therapy,fuzzy_medium,0.89,92.619,32.257
+460,interpretation - COMPR img /CW-2951,interpretation comprehensive imaging cw 2951,Comprehensive Urologic Imaging Interpretation,ai_candidate_selection,0.78,87.525,18.509
+461,OCCUPANCY  adv ONC bd /CW-4545,occupancy advanced oncology bd cw 4545,Advanced Oncology Ward Bed Occupancy,ai_candidate_selection,0.95,84.108,15.77
+462,ext - HEP disch PLANNING,extended hepatic disch planning,Extended Hepatic Discharge Planning,fuzzy_medium,0.89,93.939,20.41
+463,SUPPORT - amb MSK vent,support ambulatory musculoskeletal ventilation,Ambulatory Musculoskeletal Ventilation Support,fuzzy_high,0.96,97.25,25.007
+464,CONT  infect CRIT care OCC,continuous infectious critical care occupancy,Continuous Infectious Critical Care Occupancy,exact,0.995,100.0,100.0
+465,ext - HEP disch PLANNING /CW-9770,extended hepatic disch planning cw 9770,,review,0.52,83.784,17.994
+466,ENDOSC - ext PSYCHIATRIC /CW-9075,endoscopic extended psychiatric cw 9075,Extended Psychiatric Endoscopic Procedure,ai_candidate_selection,0.95,86.136,32.848
+467,advanced PAED thtr TM /CW-5259,advanced paediatric thtr tm cw 5259,,review,0.52,80.597,14.925
+468,FOCUSED metabolic BIOP proc /CW-3860,focused metabolic biopsy procedure cw 3860,Focused Metabolic Biopsy Procedure,fuzzy_high,0.96,97.25,39.419
+469,proc ADV vasc ENDOSC /CW-8189,procedure advanced vascular endoscopic cw 8189,Advanced Vascular Endoscopic Procedure,fuzzy_high,0.96,97.25,29.549
+470,PROC - beds GASTROINTESTINAL biop /CW-9191,procedure beds gastrointestinal biopsy cw 9191,Bedside Gastrointestinal Biopsy Procedure,ai_candidate_selection,0.95,86.736,24.496
+471,GER diag IMG PREOP,geriatric diagnostic imaging preoperative,Preoperative Geriatric Diagnostic Imaging,fuzzy_high,0.96,97.25,12.156
+472,interm - ONC hm VST,intermittent oncology home visit,Intermittent Oncology Home Visit,exact,0.995,100.0,100.0
+473,VST - supv PULMONARY hm /CW-6997,visit supv pulmonary home cw 6997,Supervised Pulmonary Home Visit,ai_candidate_selection,0.95,76.275,22.07
+474,renal ANAES admin,renal anaes administration,Intermittent Renal Anaesthesia Administration,ai_candidate_selection,0.89,86.155,7.63
+475,postop PAED steril SVC /CW-1683,postoperative paediatric steril service cw 1683,,review,0.52,83.871,18.124
+476,ext - HEP transf SVC /CW-5339,extended hepatic transfusion service cw 5339,Extended Hepatic Transfusion Service,fuzzy_high,0.96,97.25,28.957
+477,INTERM urologic TELEM monit /CW-6015,intermittent urologic telem monitoring cw 6015,,review,0.52,86.419,14.99
+478,RTN - card HM visit,routine cardiac home visit,Routine Cardiac Home Visit,exact,0.995,100.0,100.0
+479,INTERP - postop PAEDIATRIC img /CW-8778,interp postoperative paediatric imaging cw 8778,Postoperative Paediatric Imaging Interpretation,ai_candidate_selection,0.95,80.697,9.589
+480,amb WD bed OCC /CW-2964,ambulatory wd bed occupancy cw 2964,,ai_unresolved,0.52,79.119,0.0
+481,PREOP - ger DIAG /CW-2259,preoperative geriatric diagnostic cw 2259,Preoperative Geriatric Diagnostic Imaging,ai_candidate_selection,0.95,86.736,15.729
+482,OCC  - outpt ORTHO recov ROOM /CW-6062,occupancy outpatient orthopaedic recovery room cw 6062,Outpatient Orthopaedic Recovery Room Occupancy,fuzzy_high,0.96,97.25,28.225
+483,interp COMPR img /CW-6998,interp comprehensive imaging cw 6998,,ai_unresolved,0.52,71.658,20.056
+484,card  - HOME vst,cardiac home visit,,ai_unresolved,0.52,97.25,0.0
+485,PREOP ger DIAGNOSTIC img,preoperative geriatric diagnostic imaging,Preoperative Geriatric Diagnostic Imaging,exact,0.995,100.0,100.0
+486,postoperative - ENT telem MONIT /CW-9058,postoperative otolaryngologic telem monitoring cw 9058,Postoperative Otolaryngologic Telemetry Monitoring,ai_candidate_selection,0.95,88.654,15.629
+487,OUTPT - obst DIAL /CW-3474,outpatient obst dialysis cw 3474,Outpatient Obstetric Dialysis Session,ai_candidate_selection,0.95,73.384,4.931
+488,FOCUSED metab BIOP proc /CW-3728,focused metabolic biopsy procedure cw 3728,Focused Metabolic Biopsy Procedure,fuzzy_high,0.96,97.25,39.419
+489,INTERM - urol TELEMETRY /CW-3304,intermittent urologic telemetry cw 3304,Intermittent Urologic Telemetry Monitoring,ai_candidate_selection,0.95,86.136,20.58
+490,INTENS  - paed CONSULTATION /CW-2377,intensive paediatric consultation cw 2377,Intensive Paediatric Consultation,fuzzy_high,0.96,97.25,35.539
+491,ADMIN spclst NEURO anaes /CW-6871,administration spclst neurological anaes cw 6871,,review,0.52,59.374,0.434
+492,foc VASCULAR transp SERVICE /CW-7821,focused vascular transport service cw 7821,Focused Vascular Transport Service,fuzzy_high,0.96,97.25,27.082
+493,occ - ELECT neuro WD bd /CW-9688,occupancy elective neurological wd bd cw 9688,,review,0.52,84.923,25.076
+494,OCC adv ONC wd BD /CW-8074,occupancy advanced oncology wd bd cw 8074,,review,0.52,83.357,15.156
+495,RTN - ortho TRANSF service /CW-3818,routine orthopaedic transfusion service cw 3818,,review,0.52,70.45,0.925
+496,imaging  OUTPT ger DIAG /CW-9918,imaging outpatient geriatric diagnostic cw 9918,Outpatient Geriatric Diagnostic Imaging,fuzzy_high,0.96,97.25,18.322
+497,visit - BEDSIDE card HM,visit bedside cardiac home,Bedside Cardiac Home Visit,fuzzy_high,0.96,97.25,17.682
+498,SVC cont GI transfusion /CW-1126,service continuous gastrointestinal transfusion cw 1126,Continuous Gastrointestinal Transfusion Service,fuzzy_high,0.96,97.25,19.134
+499,occ - ELECT neuro WD bd /CW-3182,occupancy elective neurological wd bd cw 3182,Elective Neurological Ward Bed Occupancy,ai_candidate_selection,0.95,84.923,25.076
+500,ASST - obstetric TRANSP svc /CW-7850,assisted obstetric transport service cw 7850,,review,0.52,65.854,1.02
+501,VST  foc NEURO /CW-8682,visit focused neurological cw 8682,,review,0.52,58.939,6.372
+502,rheum REHAB prog emer,rheum rehabilitation programme emergency,Emergency Rheumatologic Rehabilitation Programme,fuzzy_medium,0.89,89.365,15.061
+503,compr - UROL img INTERP,comprehensive urologic imaging interp,Comprehensive Urologic Imaging Interpretation,fuzzy_medium,0.89,90.244,27.03
+504,ASST - paed TM /CW-5883,assisted paediatric tm cw 5883,Assisted Paediatric Theatre Time,ai_candidate_selection,0.78,75.418,0.0
+505,card VENT support,cardiac ventilation support,,ai_unresolved,0.52,97.25,0.0
+506,INTERM urol TELEM monit,intermittent urologic telem monitoring,Intermittent Urologic Telemetry Monitoring,fuzzy_high,0.96,95.0,16.053
+507,adv - PALL hm VST /CW-4754,advanced palliative home visit cw 4754,Advanced Palliative Home Visit,fuzzy_high,0.96,97.25,39.508
+508,PROCEDURE  - outpt UROL endosc /CW-5587,procedure outpatient urologic endoscopic cw 5587,Outpatient Urologic Endoscopic Procedure,fuzzy_high,0.96,97.25,16.696
+509,card VENT supp spclst,cardiac ventilation support spclst,,review,0.52,91.847,5.712
+510,hep - DISCHARGE plng /CW-2290,hepatic discharge planning cw 2290,,review,0.52,84.283,0.0
+511,ELECTIVE gi NURS obs /CW-7280,elective gastrointestinal nursing obs cw 7280,Elective Gastrointestinal Nursing Observation,ai_candidate_selection,0.95,83.299,13.734
+512,SESS - emergency CARD physio /CW-9661,session emergency cardiac physiotherapy cw 9661,Emergency Cardiac Physiotherapy Session,fuzzy_high,0.96,97.25,15.504
+513,IMMUN wd BD occ SUPV,immunologic wd bd occupancy supv,,review,0.52,85.26,8.194
+514,PREOP - haem IMG interp /CW-1749,preoperative haematology imaging interp cw 1749,Preoperative Haematology Imaging Interpretation,ai_candidate_selection,0.95,82.979,18.145
+515,PROG - intermittent PSYCH rehab /CW-3340,programme intermittent psychiatric rehabilitation cw 3340,Intermittent Psychiatric Rehabilitation Programme,fuzzy_high,0.96,97.25,12.889
+516,CARD hm VST BEDS,cardiac home visit beds,,review,0.52,91.296,5.906
+517,GI - transfusion SVC /CW-9161,gastrointestinal transfusion service cw 9161,,review,0.52,87.525,20.334
+518,ophth LAB pnl compr,ophthalmic laboratory panel comprehensive,Comprehensive Ophthalmic Laboratory Panel,fuzzy_high,0.96,97.25,13.893
+519,OCC cont INFECTIOUS crit CR /CW-4807,occupancy continuous infectious critical cr cw 4807,Continuous Infectious Critical Care Occupancy,fuzzy_medium,0.89,91.529,24.147
+520,INTERM  psych REHAB prog /CW-7902,intermittent psychiatric rehabilitation programme cw 7902,Intermittent Psychiatric Rehabilitation Programme,fuzzy_high,0.96,97.25,12.889
+521,INPATIENT psychiatric HM visit /CW-6666,inpatient psychiatric home visit cw 6666,Inpatient Psychiatric Home Visit,fuzzy_high,0.96,97.25,24.316
+522,RHEUM dial SESS INTERM,rheum dialysis session intermittent,,review,0.52,88.133,17.897
+523,POSTOP ger IMAGING interp,postoperative geriatric imaging interp,Postoperative Geriatric Imaging Interpretation,fuzzy_medium,0.89,90.476,11.064
+524,ADMIN  - gi ANAES /CW-1500,administration gastrointestinal anaes cw 1500,,review,0.52,79.336,14.502
+525,OUTPT metabolic PHARM disp,outpatient metabolic pharm dispensing,,review,0.52,60.526,0.671
+526,foc - UROL cs CONF,focused urologic case conference conference,Focused Urologic Case Conference,fuzzy_high,0.96,97.25,30.607
+527,SPCLST wnd CR /CW-6542,spclst wound cr cw 6542,,review,0.52,49.509,4.4
+528,PLNG cont OTOLARYNGOLOGIC disch,planning continuous otolaryngologic disch,,review,0.52,55.571,4.736
+529,service POSTOP paediatric STERIL,service postoperative paediatric steril,Postoperative Paediatric Sterilisation Service,fuzzy_medium,0.89,89.241,15.146
+530,LAB  - emer DERM /CW-2124,laboratory emergency dermatologic cw 2124,,review,0.52,56.927,3.029
+531,BEDS - oncology TRANSF /CW-9855,beds oncology transfusion cw 9855,,review,0.52,53.6,1.426
+532,INTENS  neurological DIAG img /CW-9312,intensive neurological diagnostic imaging cw 9312,,review,0.52,64.124,0.351
+533,AMB haem ENDOSC proc /CW-9607,ambulatory haematology endoscopic procedure cw 9607,,review,0.52,70.319,3.25
