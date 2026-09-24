@@ -55,7 +55,7 @@ Invoices + line items                        │
 ## Project layout
 
 ```text
-insurance_auditor_app/
+AI-Contract-Auditor/
 ├── app.py
 ├── requirements.txt
 ├── run_app.sh
@@ -86,9 +86,28 @@ insurance_auditor_app/
 │   └── rebuild_offline_h2_spec.py
 ├── offline_specs/
 │   └── hospital_2.json
+├── validation/
+│   └── hospital_1/
+│       ├── README.md
+│       ├── hospital_1_validation_development.ipynb
+│       ├── hospital_1_validation_reference.py
+│       └── outputs/
+│           ├── hospital_1_category_evaluation.csv
+│           ├── hospital_1_category_predictions.csv
+│           └── hospital_1_line_mapping.csv
+├── demo_outputs/
+│   ├── README.md
+│   ├── hospital_2/
+│   ├── hospital_3/
+│   ├── hospital_4/
+│   └── hospital_5/
 └── exercise_data/
     └── insurance_auditing-main/
 ```
+
+`validation/hospital_1/` contains the labeled Hospital 1 benchmark evidence and the original development implementation used to verify the deterministic rule logic.
+
+`demo_outputs/` contains reproducibility artifacts generated from the deployed application for Hospitals 2–5, including contract rules, final submission CSVs, review queues, service mappings, and line-level audit evidence.
 
 `offline_specs/` and `src/offline_specs.py` are retained as development/regression assets for Hospital 2. They are not exposed as special Hospital 2 buttons in the final UI.
 
@@ -279,6 +298,30 @@ The contract-rules JSON is intentionally downloaded separately instead of being 
 
 The H1 validation runs `src/hospital1_reference.py`, the frozen labelled-development implementation. It reaches 18/18 perfect category detection on Hospital 1. This should be described as **development/calibration performance**, not as out-of-sample performance on Hospitals 2–5.
 
+The repository also preserves the original Hospital 1 validation work under `validation/hospital_1/`:
+
+- `hospital_1_validation_development.ipynb` — the development notebook with validation output;
+- `hospital_1_validation_reference.py` — standalone Python version of the validator;
+- `outputs/hospital_1_category_evaluation.csv` — per-category precision, recall, F1, TP, FP, and FN;
+- `outputs/hospital_1_category_predictions.csv` — predicted error categories by invoice;
+- `outputs/hospital_1_line_mapping.csv` — line-level service mapping evidence.
+
+This folder is kept separate from the normal demo-generated submission files so the labeled benchmark evidence is not confused with application outputs.
+
+## Demo-generated outputs
+
+The repository includes `demo_outputs/` with outputs produced by the deployed application for Hospitals 2–5.
+
+Each hospital folder contains:
+
+- `hospital_X_contract_rules.json` — structured contract rules used by the audit;
+- `hospital_X_submission.csv` — final invoice-level audit output;
+- `hospital_X_review_queue.csv` — invoices requiring manual review;
+- `hospital_X_service_mapping.csv` — service-description mapping evidence;
+- `hospital_X_line_audit.csv` — line-level deterministic audit evidence.
+
+Hospitals 2–5 are unlabeled challenge datasets, so these files are **system outputs and reproducibility artifacts**, not verified ground-truth results. Hospital 1 remains the labeled benchmark used to measure precision and recall.
+
 ## Hospital 2 offline parser — development asset
 
 `src/offline_specs.py` and `offline_specs/hospital_2.json` are retained for regression testing and reproducibility. The parser extracts explicit repeated Hospital 2 contract clauses, including services/rates, caps, non-Business-Day uplifts, threshold premiums, volume tiers, bundles, and exclusions.
@@ -303,16 +346,17 @@ The test suite covers core deterministic pricing/mapping behavior, the Hospital 
 
 ## Suggested exercise-submission workflow
 
-1. Run and save the Hospital 1 validation result.
+1. Run Hospital 1 validation and keep the benchmark evidence under `validation/hospital_1/`.
 2. For each scored hospital, extract contract rules or load a previously reviewed contract-rules JSON file.
 3. Verify rates, unit bases, amendments, premiums, discounts, bundles, caps, and exclusions against the source contract.
 4. Record important interpretation choices in `DECISION_LOG.md`.
 5. Run service mapping and deterministic auditing.
 6. Review low-confidence mappings and invoices in **Needs review**.
 7. Inspect invoice details for important or uncertain findings.
-8. Download the contract rules JSON and audit-results ZIP for reproducibility.
-9. Combine final Hospital 2–5 submission CSVs with `combine_submissions.py` when needed.
-10. Complete the short report using `REPORT_TEMPLATE.md`.
+8. Download the contract rules JSON and audit-results ZIP.
+9. Store the Hospitals 2–5 reproducibility artifacts under `demo_outputs/`.
+10. Combine final Hospital 2–5 submission CSVs with `combine_submissions.py` when needed.
+11. Complete the short report using `REPORT_TEMPLATE.md`.
 
 ## Privacy note
 
