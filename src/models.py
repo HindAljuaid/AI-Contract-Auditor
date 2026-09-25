@@ -55,6 +55,7 @@ class VolumeDiscountRule(BaseModel):
     service_name: str
     tiers: list[VolumeTier]
     scope: Literal["contract_service", "patient_service", "invoice_service"] = "contract_service"
+    reset_period: Literal["none", "calendar_year"] = "none"
     notes: str = ""
 
 

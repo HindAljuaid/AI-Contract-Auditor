@@ -1,8 +1,23 @@
+from __future__ import annotations
+
+import sys
 from pathlib import Path
-from src.offline_specs import build_hospital_2_spec
 
 ROOT = Path(__file__).resolve().parents[1]
-source = ROOT / "exercise_data" / "insurance_auditing-main" / "contracts" / "hospital_2" / "master_services_agreement.md"
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
+from src.offline_specs import build_hospital_2_spec
+
+
+source = (
+    ROOT
+    / "exercise_data"
+    / "insurance_auditing-main"
+    / "contracts"
+    / "hospital_2"
+    / "master_services_agreement.md"
+)
 out = ROOT / "offline_specs" / "hospital_2.json"
 out.parent.mkdir(parents=True, exist_ok=True)
 spec = build_hospital_2_spec(source)

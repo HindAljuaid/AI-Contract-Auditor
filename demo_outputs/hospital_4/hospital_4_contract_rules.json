@@ -40,7 +40,7 @@
       "aliases": [],
       "daily_cap": 12.0,
       "daily_cap_unit": "nights",
-      "notes": "Maximum per Patient per Service Day.",
+      "notes": "Maximum units per Patient per Service Day.",
       "confidence": 1.0
     },
     {
@@ -112,7 +112,7 @@
       "aliases": [],
       "daily_cap": 4.0,
       "daily_cap_unit": "days",
-      "notes": "Maximum per Patient per Service Day.",
+      "notes": "Maximum units per Patient per Service Day.",
       "confidence": 1.0
     },
     {
@@ -166,7 +166,7 @@
       "aliases": [],
       "daily_cap": 4.0,
       "daily_cap_unit": "days",
-      "notes": "Maximum per Patient per Service Day.",
+      "notes": "Maximum units per Patient per Service Day.",
       "confidence": 1.0
     },
     {
@@ -292,7 +292,7 @@
       "aliases": [],
       "daily_cap": 24.0,
       "daily_cap_unit": "hours",
-      "notes": "Maximum per Patient per Service Day.",
+      "notes": "Maximum units per Patient per Service Day.",
       "confidence": 1.0
     },
     {
@@ -382,7 +382,7 @@
       "aliases": [],
       "daily_cap": 4.0,
       "daily_cap_unit": "days",
-      "notes": "Maximum per Patient per Service Day.",
+      "notes": "Maximum units per Patient per Service Day.",
       "confidence": 1.0
     },
     {
@@ -418,7 +418,7 @@
       "aliases": [],
       "daily_cap": 8.0,
       "daily_cap_unit": "items",
-      "notes": "Maximum per Patient per Service Day.",
+      "notes": "Maximum units per Patient per Service Day.",
       "confidence": 1.0
     },
     {
@@ -562,7 +562,7 @@
       "aliases": [],
       "daily_cap": 6.0,
       "daily_cap_unit": "days",
-      "notes": "Maximum per Patient per Service Day.",
+      "notes": "Maximum units per Patient per Service Day.",
       "confidence": 1.0
     },
     {
@@ -706,7 +706,7 @@
       "aliases": [],
       "daily_cap": 8.0,
       "daily_cap_unit": "units",
-      "notes": "Maximum per Patient per Service Day.",
+      "notes": "Maximum units per Patient per Service Day.",
       "confidence": 1.0
     },
     {
@@ -796,7 +796,7 @@
       "aliases": [],
       "daily_cap": 12.0,
       "daily_cap_unit": "days",
-      "notes": "Maximum per Patient per Service Day.",
+      "notes": "Maximum units per Patient per Service Day.",
       "confidence": 1.0
     },
     {
@@ -814,7 +814,7 @@
       "aliases": [],
       "daily_cap": 8.0,
       "daily_cap_unit": "items",
-      "notes": "Maximum per Patient per Service Day.",
+      "notes": "Maximum units per Patient per Service Day.",
       "confidence": 1.0
     },
     {
@@ -886,7 +886,7 @@
       "aliases": [],
       "daily_cap": 8.0,
       "daily_cap_unit": "procedures",
-      "notes": "Maximum per Patient per Service Day.",
+      "notes": "Maximum units per Patient per Service Day.",
       "confidence": 1.0
     },
     {
@@ -922,7 +922,7 @@
       "aliases": [],
       "daily_cap": 8.0,
       "daily_cap_unit": "visits",
-      "notes": "Maximum per Patient per Service Day.",
+      "notes": "Maximum units per Patient per Service Day.",
       "confidence": 1.0
     },
     {
@@ -976,7 +976,25 @@
       "aliases": [],
       "daily_cap": 24.0,
       "daily_cap_unit": "items",
-      "notes": "Maximum per Patient per Service Day.",
+      "notes": "Maximum units per Patient per Service Day.",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Intensive Vascular Sterilisation Service",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 25350,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Section 3 base rate",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
       "confidence": 1.0
     },
     {
@@ -1282,7 +1300,7 @@
       "aliases": [],
       "daily_cap": 12.0,
       "daily_cap_unit": "items",
-      "notes": "Maximum per Patient per Service Day.",
+      "notes": "Maximum units per Patient per Service Day.",
       "confidence": 1.0
     },
     {
@@ -1300,7 +1318,7 @@
       "aliases": [],
       "daily_cap": 24.0,
       "daily_cap_unit": "hours",
-      "notes": "Maximum per Patient per Service Day.",
+      "notes": "Maximum units per Patient per Service Day.",
       "confidence": 1.0
     },
     {
@@ -1336,7 +1354,7 @@
       "aliases": [],
       "daily_cap": 8.0,
       "daily_cap_unit": "items",
-      "notes": "Maximum per Patient per Service Day.",
+      "notes": "Maximum units per Patient per Service Day.",
       "confidence": 1.0
     },
     {
@@ -1372,7 +1390,7 @@
       "aliases": [],
       "daily_cap": 6.0,
       "daily_cap_unit": "days",
-      "notes": "Maximum per Patient per Service Day.",
+      "notes": "Maximum units per Patient per Service Day.",
       "confidence": 1.0
     },
     {
@@ -1444,7 +1462,7 @@
       "aliases": [],
       "daily_cap": 8.0,
       "daily_cap_unit": "procedures",
-      "notes": "Maximum per Patient per Service Day.",
+      "notes": "Maximum units per Patient per Service Day.",
       "confidence": 1.0
     },
     {
@@ -1763,7 +1781,7 @@
       "multiplier": 1.25,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": "Aggregate quantity delivered to a Patient on a single Service Day."
+      "notes": "Aggregate per Patient per Service Day."
     },
     {
       "service_name": "Ambulatory Gastrointestinal Nutritional Support",
@@ -1771,7 +1789,7 @@
       "multiplier": 1.15,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": "Aggregate quantity delivered to a Patient on a single Service Day."
+      "notes": "Aggregate per Patient per Service Day."
     },
     {
       "service_name": "Assisted Cardiac Ventilation Support",
@@ -1779,7 +1797,7 @@
       "multiplier": 1.3,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": "Aggregate quantity delivered to a Patient on a single Service Day."
+      "notes": "Aggregate per Patient per Service Day."
     },
     {
       "service_name": "Continuous Infectious Critical Care Occupancy",
@@ -1787,7 +1805,7 @@
       "multiplier": 1.4,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": "Aggregate quantity delivered to a Patient on a single Service Day."
+      "notes": "Aggregate per Patient per Service Day."
     },
     {
       "service_name": "Elective Ophthalmic Radiotherapy Fraction",
@@ -1795,7 +1813,7 @@
       "multiplier": 1.3,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": "Aggregate quantity delivered to a Patient on a single Service Day."
+      "notes": "Aggregate per Patient per Service Day."
     },
     {
       "service_name": "Emergency Rheumatologic Rehabilitation Programme",
@@ -1803,7 +1821,7 @@
       "multiplier": 1.3,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": "Aggregate quantity delivered to a Patient on a single Service Day."
+      "notes": "Aggregate per Patient per Service Day."
     },
     {
       "service_name": "Extended Psychiatric Endoscopic Procedure",
@@ -1811,7 +1829,7 @@
       "multiplier": 1.25,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": "Aggregate quantity delivered to a Patient on a single Service Day."
+      "notes": "Aggregate per Patient per Service Day."
     },
     {
       "service_name": "Intensive Paediatric Consultation",
@@ -1819,7 +1837,7 @@
       "multiplier": 1.2,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": "Aggregate quantity delivered to a Patient on a single Service Day."
+      "notes": "Aggregate per Patient per Service Day."
     },
     {
       "service_name": "Intermittent Psychiatric Rehabilitation Programme",
@@ -1827,7 +1845,7 @@
       "multiplier": 1.3,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": "Aggregate quantity delivered to a Patient on a single Service Day."
+      "notes": "Aggregate per Patient per Service Day."
     },
     {
       "service_name": "Outpatient Geriatric Diagnostic Imaging",
@@ -1835,7 +1853,7 @@
       "multiplier": 1.15,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": "Aggregate quantity delivered to a Patient on a single Service Day."
+      "notes": "Aggregate per Patient per Service Day."
     },
     {
       "service_name": "Preoperative Geriatric Diagnostic Imaging",
@@ -1843,7 +1861,7 @@
       "multiplier": 1.4,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": "Aggregate quantity delivered to a Patient on a single Service Day."
+      "notes": "Aggregate per Patient per Service Day."
     },
     {
       "service_name": "Preoperative Haematology Imaging Interpretation",
@@ -1851,7 +1869,7 @@
       "multiplier": 1.15,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": "Aggregate quantity delivered to a Patient on a single Service Day."
+      "notes": "Aggregate per Patient per Service Day."
     },
     {
       "service_name": "Routine Cardiac Home Visit",
@@ -1859,7 +1877,7 @@
       "multiplier": 1.25,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": "Aggregate quantity delivered to a Patient on a single Service Day."
+      "notes": "Aggregate per Patient per Service Day."
     },
     {
       "service_name": "Specialist Hepatic Discharge Planning",
@@ -1867,7 +1885,7 @@
       "multiplier": 1.15,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": "Aggregate quantity delivered to a Patient on a single Service Day."
+      "notes": "Aggregate per Patient per Service Day."
     },
     {
       "service_name": "Standard Hepatic Infusion Therapy",
@@ -1875,7 +1893,7 @@
       "multiplier": 1.15,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": "Aggregate quantity delivered to a Patient on a single Service Day."
+      "notes": "Aggregate per Patient per Service Day."
     },
     {
       "service_name": "Supervised Immunologic Ward Bed Occupancy",
@@ -1883,7 +1901,7 @@
       "multiplier": 1.25,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": "Aggregate quantity delivered to a Patient on a single Service Day."
+      "notes": "Aggregate per Patient per Service Day."
     },
     {
       "service_name": "Supervised Pulmonary Home Visit",
@@ -1891,7 +1909,7 @@
       "multiplier": 1.3,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": "Aggregate quantity delivered to a Patient on a single Service Day."
+      "notes": "Aggregate per Patient per Service Day."
     },
     {
       "service_name": "Supervised Vascular Radiotherapy Fraction",
@@ -1899,11 +1917,56 @@
       "multiplier": 1.15,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": "Aggregate quantity delivered to a Patient on a single Service Day."
+      "notes": "Aggregate per Patient per Service Day."
     }
   ],
   "weekend_uplifts": [],
-  "volume_discounts": [],
+  "volume_discounts": [
+    {
+      "service_name": "Ambulatory Musculoskeletal Ventilation Support",
+      "tiers": [
+        {
+          "threshold_quantity": 80.0,
+          "multiplier": 0.85,
+          "comparison": "gt"
+        },
+        {
+          "threshold_quantity": 240.0,
+          "multiplier": 0.7,
+          "comparison": "gt"
+        }
+      ],
+      "scope": "contract_service",
+      "reset_period": "none",
+      "notes": "Discount applies only where cumulative utilisation prior to the line item exceeds the threshold; applies to subsequent instances. Counted in Service Date order, then ascending line identifier for the same date."
+    },
+    {
+      "service_name": "Standard Oncology Ward Bed Occupancy",
+      "tiers": [
+        {
+          "threshold_quantity": 120.0,
+          "multiplier": 0.9,
+          "comparison": "gt"
+        }
+      ],
+      "scope": "contract_service",
+      "reset_period": "none",
+      "notes": "Discount applies only where cumulative utilisation prior to the line item exceeds the threshold; applies to subsequent instances. Counted in Service Date order, then ascending line identifier for the same date."
+    },
+    {
+      "service_name": "Standard Orthopaedic Critical Care Occupancy",
+      "tiers": [
+        {
+          "threshold_quantity": 120.0,
+          "multiplier": 0.9,
+          "comparison": "gt"
+        }
+      ],
+      "scope": "contract_service",
+      "reset_period": "none",
+      "notes": "Discount applies only where cumulative utilisation prior to the line item exceeds the threshold; applies to subsequent instances. Counted in Service Date order, then ascending line identifier for the same date."
+    }
+  ],
   "bundles": [
     {
       "service_a": "Ambulatory Obstetric Case Conference",
@@ -1912,7 +1975,7 @@
       "rate_b_cents": 4900,
       "same_patient": true,
       "same_service_date": true,
-      "notes": "Substituted rates apply when both services are delivered."
+      "notes": "Substituted rates apply where both services are delivered."
     },
     {
       "service_a": "Ambulatory Paediatric Critical Care Occupancy",
@@ -1921,7 +1984,7 @@
       "rate_b_cents": 28750,
       "same_patient": true,
       "same_service_date": true,
-      "notes": "Substituted rates apply when both services are delivered."
+      "notes": "Substituted rates apply where both services are delivered."
     },
     {
       "service_a": "Assisted Paediatric Physiotherapy Session",
@@ -1930,7 +1993,7 @@
       "rate_b_cents": 9375,
       "same_patient": true,
       "same_service_date": true,
-      "notes": "Substituted rates apply when both services are delivered."
+      "notes": "Substituted rates apply where both services are delivered."
     },
     {
       "service_a": "Continuous Psychiatric Rehabilitation Programme",
@@ -1939,7 +2002,7 @@
       "rate_b_cents": 70975,
       "same_patient": true,
       "same_service_date": true,
-      "notes": "Substituted rates apply when both services are delivered."
+      "notes": "Substituted rates apply where both services are delivered."
     },
     {
       "service_a": "Elective Obstetric Transfusion Service",
@@ -1948,7 +2011,7 @@
       "rate_b_cents": 111675,
       "same_patient": true,
       "same_service_date": true,
-      "notes": "Substituted rates apply when both services are delivered."
+      "notes": "Substituted rates apply where both services are delivered."
     },
     {
       "service_a": "Emergency Cardiac Physiotherapy Session",
@@ -1957,7 +2020,7 @@
       "rate_b_cents": 35200,
       "same_patient": true,
       "same_service_date": true,
-      "notes": "Substituted rates apply when both services are delivered."
+      "notes": "Substituted rates apply where both services are delivered."
     },
     {
       "service_a": "Specialist Immunologic Consultation",
@@ -1966,7 +2029,7 @@
       "rate_b_cents": 13900,
       "same_patient": true,
       "same_service_date": true,
-      "notes": "Substituted rates apply when both services are delivered."
+      "notes": "Substituted rates apply where both services are delivered."
     }
   ],
   "exclusions": [
@@ -1975,105 +2038,105 @@
       "excluded_service": "Advanced Paediatric Theatre Time",
       "window_days": 30,
       "direction": "either",
-      "notes": "Same Patient; measured in either direction from the excluded Service Date."
+      "notes": "Same Patient."
     },
     {
       "trigger_service": "Postoperative Geriatric Imaging Interpretation",
       "excluded_service": "Ambulatory Haematology Transfusion Service",
       "window_days": 7,
       "direction": "either",
-      "notes": "Same Patient; measured in either direction from the excluded Service Date."
+      "notes": "Same Patient."
     },
     {
       "trigger_service": "Outpatient Cardiac Physiotherapy Session",
       "excluded_service": "Assisted Paediatric Theatre Time",
       "window_days": 10,
       "direction": "either",
-      "notes": "Same Patient; measured in either direction from the excluded Service Date."
+      "notes": "Same Patient."
     },
     {
       "trigger_service": "Ambulatory Musculoskeletal Specimen Analysis",
       "excluded_service": "Comprehensive Ophthalmic Laboratory Panel",
       "window_days": 7,
       "direction": "either",
-      "notes": "Same Patient; measured in either direction from the excluded Service Date."
+      "notes": "Same Patient."
     },
     {
       "trigger_service": "Postoperative Geriatric Case Conference",
       "excluded_service": "Continuous Gastrointestinal Transfusion Service",
       "window_days": 10,
       "direction": "either",
-      "notes": "Same Patient; measured in either direction from the excluded Service Date."
+      "notes": "Same Patient."
     },
     {
       "trigger_service": "Outpatient Urologic Endoscopic Procedure",
       "excluded_service": "Focused Urologic Case Conference",
       "window_days": 21,
       "direction": "either",
-      "notes": "Same Patient; measured in either direction from the excluded Service Date."
+      "notes": "Same Patient."
     },
     {
       "trigger_service": "Bedside Cardiac Home Visit",
       "excluded_service": "Focused Vascular Transport Service",
       "window_days": 14,
       "direction": "either",
-      "notes": "Same Patient; measured in either direction from the excluded Service Date."
+      "notes": "Same Patient."
     },
     {
       "trigger_service": "Extended Hepatic Discharge Planning",
       "excluded_service": "Inpatient Psychiatric Home Visit",
       "window_days": 14,
       "direction": "either",
-      "notes": "Same Patient; measured in either direction from the excluded Service Date."
+      "notes": "Same Patient."
     },
     {
       "trigger_service": "Standard Paediatric Dialysis Session",
       "excluded_service": "Intensive Rheumatologic Radiotherapy Fraction",
       "window_days": 10,
       "direction": "either",
-      "notes": "Same Patient; measured in either direction from the excluded Service Date."
+      "notes": "Same Patient."
     },
     {
       "trigger_service": "Intermittent Urologic Telemetry Monitoring",
       "excluded_service": "Intermittent Neurological Laboratory Panel",
       "window_days": 30,
       "direction": "either",
-      "notes": "Same Patient; measured in either direction from the excluded Service Date."
+      "notes": "Same Patient."
     },
     {
       "trigger_service": "Standard Vascular Home Visit",
       "excluded_service": "Postoperative Cardiac Wound Care",
       "window_days": 30,
       "direction": "either",
-      "notes": "Same Patient; measured in either direction from the excluded Service Date."
+      "notes": "Same Patient."
     },
     {
       "trigger_service": "Outpatient Obstetric Dialysis Session",
       "excluded_service": "Postoperative Paediatric Imaging Interpretation",
       "window_days": 14,
       "direction": "either",
-      "notes": "Same Patient; measured in either direction from the excluded Service Date."
+      "notes": "Same Patient."
     },
     {
       "trigger_service": "Bedside Cardiac Home Visit",
       "excluded_service": "Specialist Cardiac Ventilation Support",
       "window_days": 30,
       "direction": "either",
-      "notes": "Same Patient; measured in either direction from the excluded Service Date."
+      "notes": "Same Patient."
     },
     {
       "trigger_service": "Extended Renal Ward Bed Occupancy",
       "excluded_service": "Standard Ophthalmic Laboratory Panel",
       "window_days": 30,
       "direction": "either",
-      "notes": "Same Patient; measured in either direction from the excluded Service Date."
+      "notes": "Same Patient."
     },
     {
       "trigger_service": "Comprehensive Neurological Endoscopic Procedure",
       "excluded_service": "Supervised Gastrointestinal Nursing Observation",
       "window_days": 7,
       "direction": "either",
-      "notes": "Same Patient; measured in either direction from the excluded Service Date."
+      "notes": "Same Patient."
     }
   ],
   "adjustment_order": [
@@ -2085,17 +2148,18 @@
     "volume_discount"
   ],
   "interpretation_notes": [
-    "All services are delivered from Main Campus (F-MAIN); the agreement states that no facility differential arises and plan tier does not affect rate.",
-    "Rates are base rates. The resulting unit rate is multiplied by billed quantity after applicable adjustments.",
-    "Apply half-up rounding to the nearest whole cent after each individual multiplier, premium, or discount step.",
-    "Daily caps are per Patient per Service Day and apply irrespective of line items or invoices."
+    "All rates are base rates until applicable adjustments are applied. Rounding is to the nearest whole cent with exact halves away from zero, after each individual multiplier, premium, or discount step.",
+    "No facility differential arises: all services are delivered from Main Campus (F-MAIN). Plan tier does not affect rates.",
+    "Daily caps apply per Patient per Service Day irrespective of line items or invoices; excess is not payable and cannot be re-presented on a later invoice.",
+    "Only the deeper qualifying cumulative volume discount applies; volume discounts are not compounded.",
+    "Section 10 specifies no non-business-day uplifts."
   ],
   "ambiguities": [
-    "Section 8 cumulative-utilisation discounts do not state whether utilisation is accumulated per contract, per patient, or per invoice. The required volume-discount scope cannot be determined safely from the available schema values."
+    "Section 8 cumulative-utilisation discounts do not explicitly identify the aggregation population (for example, per patient, invoice, provider, or agreement). They have been represented as contract_service as required for unspecified population."
   ],
   "unsupported_rules": [
-    "Section 8.3-8.5: cumulative discounts are 15% after cumulative Ambulatory Musculoskeletal Ventilation Support exceeds 80 instances, 30% after it exceeds 240; 10% after Standard Oncology Ward Bed Occupancy exceeds 120; and 10% after Standard Orthopaedic Critical Care Occupancy exceeds 120. Discount applies only where utilisation before the line item already exceeds the threshold, not to the line crossing it; count in Service Date order then ascending line identifier. Aggregation population is unspecified.",
-    "Section 11.3: the same Service may not be billed twice for the same Patient and Service Date, whether on one invoice or across several."
+    "A Service may not be billed twice for the same Patient and the same Service Date, whether on one invoice or across invoices.",
+    "Each invoice must carry a unique invoice number across the term; service dates must fall within the term and may not fall after the invoice date."
   ],
-  "extraction_confidence": 0.96
+  "extraction_confidence": 0.97
 }

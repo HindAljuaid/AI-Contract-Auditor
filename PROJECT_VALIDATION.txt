@@ -1,39 +1,59 @@
 Final project validation
 ========================
 
-Validated after the final UI/documentation updates:
+Validated after the final robustness, reproducibility, documentation, and cleanup updates:
 
 - Python source syntax compilation: PASS
 - Automated test suite: PASS
-  - 6 tests passed
+  - 14 tests passed
+  - includes generic service-table enrichment
+  - includes generic cumulative-volume enrichment
+  - includes generic facility/plan multiplier enrichment
+  - includes reviewed mapping snapshot validation for Hospitals 2-5
+  - includes final submission/demo-output consistency
 - Frozen Hospital 1 reference pipeline: PASS
   - Perfect categories: 18/18
+  - True positives: 105
+  - False positives: 0
+  - False negatives: 0
   - Mean precision: 1.000
   - Mean recall: 1.000
   - Mean F1: 1.000
-- Reusable contract-rules JSON schema path: PASS
-  - app imports ContractSpec explicitly
-  - previously downloaded contract rules can be validated and loaded through Advanced settings
+  - regenerated CSV evidence matches sample_outputs/hospital_1
+- Final Hospitals 2-5 artifact integrity: PASS
+  - 3,942 submission rows
+  - 3,942 unique invoice IDs
+  - 568 flagged invoices total
+  - H2: 137 flagged
+  - H3: 98 flagged
+  - H4: 156 flagged
+  - H5: 177 flagged
+  - combined submission matches the four demo submission CSVs
+  - required six submission columns are exact
+- Final bundled contract-rule snapshots: PASS
+  - H2: 76 services, 8 volume-discount rules
+  - H3: 120 services, 12 volume-discount rules
+  - H4: 98 services, 3 volume-discount rules
+  - H5: 84 services, 9 volume-discount rules, 252 facility multipliers, 252 plan multipliers
 - Hospital 2 offline parser regression asset: PASS
+  - rebuild tool runs directly from the repository root
   - 76 services
   - 8 non-Business-Day uplifts
   - 9 threshold premiums
   - 8 volume-discount services
   - 3 unique bundle pairs
   - 6 exclusion rules
-- Hospital 2 local-mapping/audit smoke run: PASS
-  - 1,132 source invoice rows
-  - 1,125 unique audited invoice IDs
-  - known duplicate INV-H2-000104 resolves to two physical source records
-  - source rows 104 and 497 retain separate patient/header context
-  - canonical submission record is source row 497
-  - duplicate source records are not summed together for the submission total
+- Offline regeneration CLI import/startup: PASS
+  - tool starts directly from the repository root and exposes its CLI help
+  - it applies the same generic text/Markdown enrichment used by the application before deterministic reruns
 - Deterministic invoice explanation module: covered by automated tests
 - GitHub hygiene review: PASS
-  - API secrets are ignored
-  - .venv, caches, Python bytecode, macOS metadata and logs are ignored/removed from the clean package
+  - no OpenAI secret token pattern found in project files or existing Git history scan
+  - .venv, caches, Python bytecode, macOS metadata, local secrets, and logs are ignored
+  - final clean archive excludes .git metadata, .venv, caches, macOS metadata, and the editable DOCX source
 
 Environment-dependent checks:
 
-- Successful live OpenAI contract extraction / AI explanation requires a valid API key with available credit.
-- Final browser appearance should be confirmed once after cloning/running on the target machine because Streamlit rendering is environment-dependent.
+- Successful live OpenAI contract extraction, ambiguous AI mapping, and optional AI explanations require a valid API key with available credit.
+- A no-credit or unavailable-AI mapping run can fall back to local matching and may differ from the reviewed bundled baseline; the UI displays a warning in that case.
+- Browser rendering can vary slightly by Streamlit/runtime version, so the deployed UI should still receive one final visual check after the repository is pushed.

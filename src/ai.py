@@ -5,6 +5,11 @@ import json
 from pathlib import Path
 from typing import Iterable
 
+from .contract_enrichment import (
+    enrich_multiplier_tables_from_texts,
+    enrich_volume_discounts_from_texts,
+    text_sources_from_descriptors,
+)
 from .data_utils import contract_file_descriptor
 from .models import ContractSpec, MappingBatch
 
@@ -112,8 +117,10 @@ def extract_contract_spec(
     ]
 
     count = 0
+    descriptors: list[tuple[str, bytes]] = []
     for file_obj in contract_files:
         name, data = contract_file_descriptor(file_obj)
+        descriptors.append((name, data))
         content.append(_file_content_item(name, data))
         count += 1
 
@@ -135,6 +142,25 @@ def extract_contract_spec(
     parsed = response.output_parsed
     if parsed is None:
         raise AIServiceError("The model did not return a structured contract specification.")
+
+    # Generic deterministic enrichment: if an explicit cumulative-discount table
+    # is present in text/Markdown but the model omitted it, recover those rules
+    # without relying on a hospital identifier. Existing extracted rules win.
+    contract_texts = text_sources_from_descriptors(descriptors)
+
+    parsed = enrich_volume_discounts_from_texts(
+        parsed,
+        contract_texts,
+    )
+
+    # Generic deterministic enrichment for large explicit multiplier tables.
+    # Structured model output can omit hundreds of facility/plan rows even when
+    # the source contract contains them. Recover only missing rows from explicit
+    # text/Markdown tables; existing model-extracted rules are preserved.
+    parsed = enrich_multiplier_tables_from_texts(
+        parsed,
+        contract_texts,
+    )
     return parsed
 
 

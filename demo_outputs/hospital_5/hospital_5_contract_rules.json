@@ -4051,7 +4051,7 @@
       "multiplier": 1.15,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": "Aggregate quantity delivered to the Patient on the Service Day, across all line items and invoices."
+      "notes": "Aggregate quantity delivered to the Patient on the Service Day across all line items and invoices."
     },
     {
       "service_name": "Comprehensive Palliative Consultation",
@@ -4059,7 +4059,7 @@
       "multiplier": 1.3,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": "Aggregate quantity delivered to the Patient on the Service Day, across all line items and invoices."
+      "notes": "Aggregate quantity delivered to the Patient on the Service Day across all line items and invoices."
     },
     {
       "service_name": "Emergency Pulmonary Radiotherapy Fraction",
@@ -4067,7 +4067,7 @@
       "multiplier": 1.2,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": "Aggregate quantity delivered to the Patient on the Service Day, across all line items and invoices."
+      "notes": "Aggregate quantity delivered to the Patient on the Service Day across all line items and invoices."
     },
     {
       "service_name": "Focused Urologic Nutritional Support",
@@ -4075,7 +4075,7 @@
       "multiplier": 1.4,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": "Aggregate quantity delivered to the Patient on the Service Day, across all line items and invoices."
+      "notes": "Aggregate quantity delivered to the Patient on the Service Day across all line items and invoices."
     },
     {
       "service_name": "Outpatient Psychiatric Discharge Planning",
@@ -4083,7 +4083,7 @@
       "multiplier": 1.3,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": "Aggregate quantity delivered to the Patient on the Service Day, across all line items and invoices."
+      "notes": "Aggregate quantity delivered to the Patient on the Service Day across all line items and invoices."
     },
     {
       "service_name": "Preoperative Musculoskeletal Nutritional Support",
@@ -4091,7 +4091,7 @@
       "multiplier": 1.25,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": "Aggregate quantity delivered to the Patient on the Service Day, across all line items and invoices."
+      "notes": "Aggregate quantity delivered to the Patient on the Service Day across all line items and invoices."
     },
     {
       "service_name": "Routine Dermatologic Home Visit",
@@ -4099,7 +4099,7 @@
       "multiplier": 1.3,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": "Aggregate quantity delivered to the Patient on the Service Day, across all line items and invoices."
+      "notes": "Aggregate quantity delivered to the Patient on the Service Day across all line items and invoices."
     },
     {
       "service_name": "Routine Geriatric Telemetry Monitoring",
@@ -4107,7 +4107,7 @@
       "multiplier": 1.15,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": "Aggregate quantity delivered to the Patient on the Service Day, across all line items and invoices."
+      "notes": "Aggregate quantity delivered to the Patient on the Service Day across all line items and invoices."
     },
     {
       "service_name": "Routine Psychiatric Physiotherapy Session",
@@ -4115,7 +4115,7 @@
       "multiplier": 1.15,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": "Aggregate quantity delivered to the Patient on the Service Day, across all line items and invoices."
+      "notes": "Aggregate quantity delivered to the Patient on the Service Day across all line items and invoices."
     },
     {
       "service_name": "Specialist Metabolic Sterilisation Service",
@@ -4123,7 +4123,7 @@
       "multiplier": 1.25,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": "Aggregate quantity delivered to the Patient on the Service Day, across all line items and invoices."
+      "notes": "Aggregate quantity delivered to the Patient on the Service Day across all line items and invoices."
     }
   ],
   "weekend_uplifts": [
@@ -4134,7 +4134,7 @@
         5,
         6
       ],
-      "notes": "Non-Business-Day uplift; Business Day excludes Saturday and Sunday."
+      "notes": "Non-Business-Day uplift; Saturday and Sunday are non-Business Days."
     },
     {
       "service_name": "Assisted Cardiac Ventilation Support",
@@ -4143,7 +4143,7 @@
         5,
         6
       ],
-      "notes": "Non-Business-Day uplift; Business Day excludes Saturday and Sunday."
+      "notes": "Non-Business-Day uplift; Saturday and Sunday are non-Business Days."
     },
     {
       "service_name": "Elective Vascular Diagnostic Imaging",
@@ -4152,7 +4152,7 @@
         5,
         6
       ],
-      "notes": "Non-Business-Day uplift; Business Day excludes Saturday and Sunday."
+      "notes": "Non-Business-Day uplift; Saturday and Sunday are non-Business Days."
     },
     {
       "service_name": "Emergency Gastrointestinal Endoscopic Procedure",
@@ -4161,7 +4161,7 @@
         5,
         6
       ],
-      "notes": "Non-Business-Day uplift; Business Day excludes Saturday and Sunday."
+      "notes": "Non-Business-Day uplift; Saturday and Sunday are non-Business Days."
     },
     {
       "service_name": "Extended Neurological Consultation",
@@ -4170,7 +4170,7 @@
         5,
         6
       ],
-      "notes": "Non-Business-Day uplift; Business Day excludes Saturday and Sunday."
+      "notes": "Non-Business-Day uplift; Saturday and Sunday are non-Business Days."
     },
     {
       "service_name": "Outpatient Haematology Laboratory Panel",
@@ -4179,7 +4179,7 @@
         5,
         6
       ],
-      "notes": "Non-Business-Day uplift; Business Day excludes Saturday and Sunday."
+      "notes": "Non-Business-Day uplift; Saturday and Sunday are non-Business Days."
     },
     {
       "service_name": "Outpatient Metabolic Physiotherapy Session",
@@ -4188,7 +4188,7 @@
         5,
         6
       ],
-      "notes": "Non-Business-Day uplift; Business Day excludes Saturday and Sunday."
+      "notes": "Non-Business-Day uplift; Saturday and Sunday are non-Business Days."
     },
     {
       "service_name": "Postoperative Musculoskeletal Imaging Interpretation",
@@ -4197,7 +4197,7 @@
         5,
         6
       ],
-      "notes": "Non-Business-Day uplift; Business Day excludes Saturday and Sunday."
+      "notes": "Non-Business-Day uplift; Saturday and Sunday are non-Business Days."
     },
     {
       "service_name": "Preoperative Immunologic Recovery Room Occupancy",
@@ -4206,7 +4206,7 @@
         5,
         6
       ],
-      "notes": "Non-Business-Day uplift; Business Day excludes Saturday and Sunday."
+      "notes": "Non-Business-Day uplift; Saturday and Sunday are non-Business Days."
     }
   ],
   "volume_discounts": [
@@ -4220,7 +4220,8 @@
         }
       ],
       "scope": "contract_service",
-      "notes": "Cumulative utilisation is across the whole agreement term and all Patients, in Service Date order; applies to subsequent units."
+      "reset_period": "none",
+      "notes": "Cumulative utilisation is across all Patients for the whole Agreement term, in Service Date order; applies to subsequent units."
     },
     {
       "service_name": "Continuous Metabolic Endoscopic Procedure",
@@ -4232,7 +4233,8 @@
         }
       ],
       "scope": "contract_service",
-      "notes": "Cumulative utilisation is across the whole agreement term and all Patients, in Service Date order; applies to subsequent units."
+      "reset_period": "none",
+      "notes": "Cumulative utilisation is across all Patients for the whole Agreement term, in Service Date order; applies to subsequent units."
     },
     {
       "service_name": "Elective Metabolic Pharmaceutical Dispensing",
@@ -4249,7 +4251,8 @@
         }
       ],
       "scope": "contract_service",
-      "notes": "Cumulative utilisation is across the whole agreement term and all Patients, in Service Date order; applies to subsequent units. Deeper discount applies where thresholds are met."
+      "reset_period": "none",
+      "notes": "Cumulative utilisation is across all Patients for the whole Agreement term, in Service Date order; deeper discount applies where both thresholds are met."
     },
     {
       "service_name": "Extended Endocrine Theatre Time",
@@ -4266,7 +4269,8 @@
         }
       ],
       "scope": "contract_service",
-      "notes": "Cumulative utilisation is across the whole agreement term and all Patients, in Service Date order; applies to subsequent units. Deeper discount applies where thresholds are met."
+      "reset_period": "none",
+      "notes": "Cumulative utilisation is across all Patients for the whole Agreement term, in Service Date order; deeper discount applies where both thresholds are met."
     },
     {
       "service_name": "Inpatient Dermatologic Nursing Observation",
@@ -4283,7 +4287,8 @@
         }
       ],
       "scope": "contract_service",
-      "notes": "Cumulative utilisation is across the whole agreement term and all Patients, in Service Date order; applies to subsequent units. Deeper discount applies where thresholds are met."
+      "reset_period": "none",
+      "notes": "Cumulative utilisation is across all Patients for the whole Agreement term, in Service Date order; deeper discount applies where both thresholds are met."
     },
     {
       "service_name": "Intensive Oncology Sterilisation Service",
@@ -4295,7 +4300,8 @@
         }
       ],
       "scope": "contract_service",
-      "notes": "Cumulative utilisation is across the whole agreement term and all Patients, in Service Date order; applies to subsequent units."
+      "reset_period": "none",
+      "notes": "Cumulative utilisation is across all Patients for the whole Agreement term, in Service Date order; applies to subsequent units."
     },
     {
       "service_name": "Preoperative Gastrointestinal Nutritional Support",
@@ -4312,7 +4318,8 @@
         }
       ],
       "scope": "contract_service",
-      "notes": "Cumulative utilisation is across the whole agreement term and all Patients, in Service Date order; applies to subsequent units. Deeper discount applies where thresholds are met."
+      "reset_period": "none",
+      "notes": "Cumulative utilisation is across all Patients for the whole Agreement term, in Service Date order; deeper discount applies where both thresholds are met."
     },
     {
       "service_name": "Supervised Immunologic Sterilisation Service",
@@ -4329,7 +4336,8 @@
         }
       ],
       "scope": "contract_service",
-      "notes": "Cumulative utilisation is across the whole agreement term and all Patients, in Service Date order; applies to subsequent units. Deeper discount applies where thresholds are met."
+      "reset_period": "none",
+      "notes": "Cumulative utilisation is across all Patients for the whole Agreement term, in Service Date order; deeper discount applies where both thresholds are met."
     },
     {
       "service_name": "Supervised Otolaryngologic Specimen Analysis",
@@ -4346,7 +4354,8 @@
         }
       ],
       "scope": "contract_service",
-      "notes": "Cumulative utilisation is across the whole agreement term and all Patients, in Service Date order; applies to subsequent units. Deeper discount applies where thresholds are met."
+      "reset_period": "none",
+      "notes": "Cumulative utilisation is across all Patients for the whole Agreement term, in Service Date order; deeper discount applies where both thresholds are met."
     }
   ],
   "bundles": [
@@ -4438,19 +4447,18 @@
     "volume_discount"
   ],
   "interpretation_notes": [
-    "Facility code on a line item determines the applicable Table 2 facility multiplier.",
-    "Plan tier on an invoice determines the applicable Table 3 multiplier for every line item on that invoice.",
-    "After each multiplier, premium, uplift, or discount step, round to the nearest whole cent using half-up rounding.",
-    "For cumulative utilisation, quantities are aggregated across all Patients for the entire agreement term and are not reset by facility or plan-tier changes. Same-date line items are counted in ascending line-identifier order.",
-    "Threshold premiums apply to the aggregate quantity of the Service for the Patient and Service Day across all line items and invoices."
+    "Apply half-up rounding to the nearest whole cent after each individual adjustment step.",
+    "Facility multiplier is determined by facility code on the line item; F-MAIN, F-NORTH, and F-COAST are the specified facility keys.",
+    "Plan-tier multiplier is determined by the plan tier on the invoice: BRONZE, SILVER, or GOLD.",
+    "The threshold-premium and weekend-uplift rules occupy the shared premium/uplift position after plan multiplier; the agreement does not specify precedence if both apply, but both are multiplicative.",
+    "For volume discounts, line items on the same Service Date are counted in ascending line identifier order.",
+    "The same Service may not be billed twice for the same Patient and the same Service Date, whether on one invoice or across several.",
+    "Recovered 252 facility multiplier rule(s) and 252 plan-tier multiplier rule(s) from explicit contract multiplier tables using deterministic table parsing."
   ],
   "ambiguities": [
-    "The exclusion-window wording \"within [N] days\" does not state whether the endpoints are inclusive; represented as an either-side N-day window, but endpoint inclusivity is not specified.",
-    "The daily-cap provisions state only a quantity and unit; they do not expressly state whether the cap is aggregated across all line items/invoices for a patient and Service Day or applied independently to each line item."
+    "Table 2 facility multipliers and Table 3 plan-tier multipliers are explicitly supplied for every Service but have not been expanded into individual MultiplierRule records in this specification; deterministic implementation must consume the source tables or add those records before calculating facility- or plan-adjusted reimbursement.",
+    "Section 3 specifies one shared 'premium or uplift' step but does not explicitly state whether threshold premium precedes non-Business-Day uplift when both apply. Because both are multiplicative and rounding occurs after each step, order can affect a result."
   ],
-  "unsupported_rules": [
-    "Section 10.3: The same Service may not be billed twice for the same Patient and the same Service Date, whether on one invoice or across several. This duplicate-billing prohibition is not representable by the supplied schema.",
-    "Section 10.2: Every Service Date must fall within the agreement term and may not fall after the invoice date. The invoice-date validation requirement is not representable by the supplied schema."
-  ],
-  "extraction_confidence": 0.99
+  "unsupported_rules": [],
+  "extraction_confidence": 0.78
 }

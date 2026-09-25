@@ -1385,7 +1385,7 @@
       "multiplier": 1.3,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": "Article 4.5"
+      "notes": "Article 4.5; aggregate quantity delivered to a Patient on a single Service Day."
     },
     {
       "service_name": "Supervised Metabolic Laboratory Panel",
@@ -1393,7 +1393,7 @@
       "multiplier": 1.15,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": "Article 10.4"
+      "notes": "Article 10.4; aggregate quantity delivered to a Patient on a single Service Day."
     },
     {
       "service_name": "Focused Vascular Transfusion Service",
@@ -1401,7 +1401,7 @@
       "multiplier": 1.15,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": "Article 12.3"
+      "notes": "Article 12.3; aggregate quantity delivered to a Patient on a single Service Day."
     },
     {
       "service_name": "Elective Cardiac Nursing Observation",
@@ -1409,7 +1409,7 @@
       "multiplier": 1.4,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": "Article 14.6"
+      "notes": "Article 14.6; aggregate quantity delivered to a Patient on a single Service Day."
     },
     {
       "service_name": "Preoperative Neurological Isolation Room Occupancy",
@@ -1417,7 +1417,7 @@
       "multiplier": 1.25,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": "Article 20.4"
+      "notes": "Article 20.4; aggregate quantity delivered to a Patient on a single Service Day."
     },
     {
       "service_name": "Ambulatory Vascular Infusion Therapy",
@@ -1425,7 +1425,7 @@
       "multiplier": 1.25,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": "Article 22.2"
+      "notes": "Article 22.2; aggregate quantity delivered to a Patient on a single Service Day."
     },
     {
       "service_name": "Standard Musculoskeletal Recovery Room Occupancy",
@@ -1433,7 +1433,7 @@
       "multiplier": 1.15,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": "Article 24.5"
+      "notes": "Article 24.5; aggregate quantity delivered to a Patient on a single Service Day."
     },
     {
       "service_name": "Ambulatory Haematology Nutritional Support",
@@ -1441,7 +1441,7 @@
       "multiplier": 1.4,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": "Article 26.1"
+      "notes": "Article 26.1; aggregate quantity delivered to a Patient on a single Service Day."
     },
     {
       "service_name": "Inpatient Paediatric Isolation Room Occupancy",
@@ -1449,7 +1449,7 @@
       "multiplier": 1.15,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": "Article 26.5"
+      "notes": "Article 26.5; aggregate quantity delivered to a Patient on a single Service Day."
     }
   ],
   "weekend_uplifts": [
@@ -1460,7 +1460,7 @@
         5,
         6
       ],
-      "notes": "Article 4.4; non-Business Days are Saturday and Sunday."
+      "notes": "Article 4.4; Service Date not falling on a Business Day."
     },
     {
       "service_name": "Intermittent Ophthalmic Anaesthesia Administration",
@@ -1469,7 +1469,7 @@
         5,
         6
       ],
-      "notes": "Article 6.1; non-Business Days are Saturday and Sunday."
+      "notes": "Article 6.1; Service Date not falling on a Business Day."
     },
     {
       "service_name": "Supervised Haematology Biopsy Procedure",
@@ -1478,7 +1478,7 @@
         5,
         6
       ],
-      "notes": "Article 6.5; non-Business Days are Saturday and Sunday."
+      "notes": "Article 6.5; Service Date not falling on a Business Day."
     },
     {
       "service_name": "Continuous Renal Ventilation Support",
@@ -1487,7 +1487,7 @@
         5,
         6
       ],
-      "notes": "Article 8.2; non-Business Days are Saturday and Sunday."
+      "notes": "Article 8.2; Service Date not falling on a Business Day."
     },
     {
       "service_name": "Standard Neurological Isolation Room Occupancy",
@@ -1496,7 +1496,7 @@
         5,
         6
       ],
-      "notes": "Article 10.3; non-Business Days are Saturday and Sunday."
+      "notes": "Article 10.3; Service Date not falling on a Business Day."
     },
     {
       "service_name": "Extended Orthopaedic Radiotherapy Fraction",
@@ -1505,7 +1505,7 @@
         5,
         6
       ],
-      "notes": "Article 12.2; non-Business Days are Saturday and Sunday."
+      "notes": "Article 12.2; Service Date not falling on a Business Day."
     },
     {
       "service_name": "Extended Otolaryngologic Nutritional Support",
@@ -1514,7 +1514,7 @@
         5,
         6
       ],
-      "notes": "Article 16.1; non-Business Days are Saturday and Sunday."
+      "notes": "Article 16.1; Service Date not falling on a Business Day."
     },
     {
       "service_name": "Preoperative Orthopaedic Ventilation Support",
@@ -1523,7 +1523,7 @@
         5,
         6
       ],
-      "notes": "Article 24.3; non-Business Days are Saturday and Sunday."
+      "notes": "Article 24.3; Service Date not falling on a Business Day."
     }
   ],
   "volume_discounts": [
@@ -1542,7 +1542,8 @@
         }
       ],
       "scope": "contract_service",
-      "notes": "Whole contract term; all Patients; prior cumulative utilisation only."
+      "reset_period": "none",
+      "notes": "Article 8.3; cumulative across the whole Agreement term and all Patients; applies to each subsequent Unit."
     },
     {
       "service_name": "Preoperative Obstetric Home Visit",
@@ -1559,7 +1560,8 @@
         }
       ],
       "scope": "contract_service",
-      "notes": "Whole contract term; all Patients; prior cumulative utilisation only."
+      "reset_period": "none",
+      "notes": "Article 10.2; cumulative across the whole Agreement term and all Patients; applies to each subsequent Unit."
     },
     {
       "service_name": "Advanced Gastrointestinal Endoscopic Procedure",
@@ -1571,7 +1573,8 @@
         }
       ],
       "scope": "contract_service",
-      "notes": "Whole contract term; all Patients; prior cumulative utilisation only."
+      "reset_period": "none",
+      "notes": "Article 14.4; cumulative across the whole Agreement term and all Patients; applies to each subsequent Unit."
     },
     {
       "service_name": "Elective Cardiac Transport Service",
@@ -1583,7 +1586,8 @@
         }
       ],
       "scope": "contract_service",
-      "notes": "Whole contract term; all Patients; prior cumulative utilisation only."
+      "reset_period": "none",
+      "notes": "Article 18.5; cumulative across the whole Agreement term and all Patients; applies to each subsequent Unit."
     },
     {
       "service_name": "Inpatient Orthopaedic Recovery Room Occupancy",
@@ -1595,7 +1599,8 @@
         }
       ],
       "scope": "contract_service",
-      "notes": "Whole contract term; all Patients; prior cumulative utilisation only."
+      "reset_period": "none",
+      "notes": "Article 22.6; cumulative across the whole Agreement term and all Patients; applies to each subsequent Unit."
     },
     {
       "service_name": "Postoperative Ophthalmic Anaesthesia Administration",
@@ -1612,7 +1617,8 @@
         }
       ],
       "scope": "contract_service",
-      "notes": "Whole contract term; all Patients; prior cumulative utilisation only."
+      "reset_period": "none",
+      "notes": "Article 24.2; cumulative across the whole Agreement term and all Patients; applies to each subsequent Unit."
     },
     {
       "service_name": "Focused Pulmonary Pharmaceutical Dispensing",
@@ -1629,7 +1635,8 @@
         }
       ],
       "scope": "contract_service",
-      "notes": "Whole contract term; all Patients; prior cumulative utilisation only."
+      "reset_period": "none",
+      "notes": "Article 26.4; cumulative across the whole Agreement term and all Patients; applies to each subsequent Unit."
     },
     {
       "service_name": "Routine Neurological Imaging Interpretation",
@@ -1641,7 +1648,8 @@
         }
       ],
       "scope": "contract_service",
-      "notes": "Whole contract term; all Patients; prior cumulative utilisation only."
+      "reset_period": "none",
+      "notes": "Article 28.3; cumulative across the whole Agreement term and all Patients; applies to each subsequent Unit."
     }
   ],
   "bundles": [
@@ -1652,7 +1660,7 @@
       "rate_b_cents": 5200,
       "same_patient": true,
       "same_service_date": true,
-      "notes": "Substitutes standalone rates."
+      "notes": "Articles 6.2 and 14.5; substituted rates apply when both Services are delivered."
     },
     {
       "service_a": "Standard Orthopaedic Isolation Room Occupancy",
@@ -1661,7 +1669,7 @@
       "rate_b_cents": 73625,
       "same_patient": true,
       "same_service_date": true,
-      "notes": "Substitutes standalone rates."
+      "notes": "Articles 14.2 and 16.4; substituted rates apply when both Services are delivered."
     },
     {
       "service_a": "Bedside Pulmonary Pharmaceutical Dispensing",
@@ -1670,7 +1678,7 @@
       "rate_b_cents": 14150,
       "same_patient": true,
       "same_service_date": true,
-      "notes": "Substitutes standalone rates."
+      "notes": "Articles 22.3 and 26.2; substituted rates apply when both Services are delivered."
     }
   ],
   "exclusions": [
@@ -1679,42 +1687,42 @@
       "excluded_service": "Intermittent Psychiatric Laboratory Panel",
       "window_days": 7,
       "direction": "either",
-      "notes": "Article 8.6."
+      "notes": "Article 8.6; exclusion measured in either direction under Article 3.6."
     },
     {
       "trigger_service": "Routine Ophthalmic Laboratory Panel",
       "excluded_service": "Intensive Infectious Physiotherapy Session",
       "window_days": 10,
       "direction": "either",
-      "notes": "Article 16.3."
+      "notes": "Article 16.3; exclusion measured in either direction under Article 3.6."
     },
     {
       "trigger_service": "Routine Geriatric Physiotherapy Session",
       "excluded_service": "Standard Metabolic Telemetry Monitoring",
       "window_days": 14,
       "direction": "either",
-      "notes": "Article 18.1."
+      "notes": "Article 18.1; exclusion measured in either direction under Article 3.6."
     },
     {
       "trigger_service": "Advanced Endocrine Case Conference",
       "excluded_service": "Extended Dermatologic Specimen Analysis",
       "window_days": 7,
       "direction": "either",
-      "notes": "Article 18.6."
+      "notes": "Article 18.6; exclusion measured in either direction under Article 3.6."
     },
     {
       "trigger_service": "Bedside Ophthalmic Radiotherapy Fraction",
       "excluded_service": "Postoperative Neurological Rehabilitation Programme",
       "window_days": 7,
       "direction": "either",
-      "notes": "Article 20.3."
+      "notes": "Article 20.3; exclusion measured in either direction under Article 3.6."
     },
     {
       "trigger_service": "Routine Geriatric Physiotherapy Session",
       "excluded_service": "Emergency Paediatric Theatre Time",
       "window_days": 7,
       "direction": "either",
-      "notes": "Article 26.3."
+      "notes": "Article 26.3; exclusion measured in either direction under Article 3.6."
     }
   ],
   "adjustment_order": [
@@ -1726,18 +1734,18 @@
     "volume_discount"
   ],
   "interpretation_notes": [
-    "No facility differential applies; rates apply irrespective of Patient plan tier.",
-    "A Service Day runs from 07:00 to 06:59 the following day. Business Days exclude Saturday and Sunday.",
-    "Round to whole cents half up after each individual calculation step.",
-    "Cumulative utilisation is prior billed Units in Service Date order, with same-date line items ordered by ascending line identifier; deepest applicable discount applies and discounts do not compound.",
-    "The stated line total is the resulting effective unit rate multiplied by billed quantity."
+    "No facility differential applies; rates apply irrespective of Patient plan tier (Article 1.3).",
+    "A Service Day runs from 07:00 to 06:59; a service delivered wholly within one calendar day belongs to the Service Day bearing that calendar date (Article 2.2).",
+    "Rounding is to the nearest cent with exact halves away from zero, after each calculation step (Article 3.1).",
+    "Cumulative utilisation is measured before the line item, in Service Date order; same-date lines use ascending line identifier. The deepest qualifying volume discount applies and discounts do not compound (Articles 2.7 and 3.5)."
   ],
-  "ambiguities": [],
+  "ambiguities": [
+    "Article 3.2 groups threshold premiums and non-Business-Day uplifts together as a single adjustment stage and does not specify their relative sequence. No listed Service has both a threshold premium and a weekend uplift, so this does not affect an expressly defined combined case."
+  ],
   "unsupported_rules": [
-    "Rates are inclusive of consumables, staffing and overhead where stated; no separate charge may be raised for them.",
-    "Services presented on a different unit basis are incorrectly presented and must be returned to the Provider.",
-    "Invoice descriptions must sufficiently identify the actual Service and cannot vary the applicable rate.",
-    "Invoices must be submitted no later than 60 days after the Episode of Care discharge date, subject to written agreement otherwise."
+    "Rates stated as inclusive of consumables, staffing and overhead prohibit separate charges for those components where stated; the schema has no component-charge inclusion/exclusion representation.",
+    "An invoice must be submitted no later than 60 days after discharge from the relevant Episode of Care (Article 13.1); the schema has no invoice-submission deadline field.",
+    "Services billed on a unit basis other than the specified contractual unit basis are to be returned as incorrectly presented where stated; the schema captures the unit basis but has no presentation-disposition field."
   ],
   "extraction_confidence": 0.99
 }

@@ -1,56 +1,128 @@
 # AI Contract Auditor
 
-A Streamlit application for the insurance-auditing technical exercise. It combines AI-assisted contract interpretation with deterministic invoice auditing.
+A Streamlit application for the insurance-auditing technical exercise. The project combines AI-assisted contract interpretation with deterministic invoice auditing.
 
-## Live Demo
+## Live demo
 
-🚀 **Try the deployed application:** [AI Contract Auditor](https://ai-contract-auditor.streamlit.app)
+**Application:** https://ai-contract-auditor.streamlit.app
 
-The project deliberately separates **language interpretation** from **financial decisions**:
+The system deliberately separates **language interpretation** from **financial decisions**:
 
-- OpenAI can extract heterogeneous contract documents into a typed `ContractSpec` and optionally help resolve ambiguous service descriptions.
-- Python performs all monetary calculations, totals, rate-period checks, premiums, discounts, bundles, caps, exclusions, dates, duplicate handling, and final audit findings.
-- Unresolved mappings remain visible as uncertainty and review cases rather than being forced into confident errors.
-- Hospital 1 remains a frozen labelled-development benchmark for validating the deterministic logic.
+- OpenAI converts heterogeneous contract documents into a typed `ContractSpec` and can help resolve ambiguous service descriptions.
+- Deterministic Python performs monetary calculations, rate-period checks, premiums, discounts, bundles, caps, exclusions, date rules, duplicate handling, and final audit findings.
+- Generic local enrichment recovers explicit structured contract tables when the AI omits rows from long outputs.
+- Unresolved mappings remain visible as uncertainty and review cases instead of being forced into confident errors.
+- Hospital 1 is retained only as a labeled development/calibration benchmark.
 
-## Final application workflow
-
-The Streamlit UI has four tabs:
-
-1. **Workflow** — analyze the contract and run the invoice audit.
-2. **Contract** — review extracted services, rates, pricing rules, ambiguities, and unsupported clauses.
-3. **Results** — inspect findings, review cases, invoice-level evidence, optional AI summaries, and downloads.
-4. **H1 Validation** — run the frozen Hospital 1 benchmark offline.
-
-The normal workflow is:
+## Final architecture
 
 ```text
 Contract documents
-      │
-      ├── OpenAI structured extraction ──────┐
-      │                                      │
-      └── uploaded contract-rules JSON ──────┤
-                                             ▼
-                                   reviewed ContractSpec
-                                             │
-Invoices + line items                        │
-      │                                      │
-      └── local service mapping ─────────────┘
-                    │
-                    ├── optional AI help for unclear mappings
-                    ▼
-            deterministic Python audit
-                    │
-          ┌─────────┴─────────┐
-          ▼                   ▼
- contract rules JSON     audit results ZIP
-                         ├── submission CSV
-                         ├── review queue CSV
-                         ├── service mapping CSV
-                         └── line audit CSV
+        │
+        ├── OpenAI structured extraction
+        │
+        └── reviewed contract-rules JSON
+        │
+        ▼
+Typed ContractSpec
+        │
+        ├── generic explicit-table enrichment
+        │      ├── missing service/rate rows
+        │      ├── cumulative volume-discount tables
+        │      └── facility / plan-tier multiplier tables
+        │
+        ▼
+Reviewed contract rules
+        │
+Invoices + line items
+        │
+        ├── validated reviewed mapping snapshot
+        │      └── bundled datasets only, when still compatible
+        │
+        └── otherwise local matching + optional AI candidate selection
+        │
+        ▼
+Deterministic Python audit
+        │
+        ├── submission CSV
+        ├── review queue CSV
+        ├── service mapping CSV
+        └── line audit CSV
 ```
 
-**Design principle:** AI interprets language and may summarize deterministic evidence; Python decides money and audit findings.
+**Design principle:** AI interprets language; deterministic code decides money and audit findings.
+
+## Final challenge outputs
+
+Hospitals 2–5 are unlabeled challenge datasets. The following are the **final system outputs**, not verified ground truth:
+
+| Hospital | Predictions | Flagged |
+|---|---:|---:|
+| H2 | 1,125 | 137 |
+| H3 | 932 | 98 |
+| H4 | 835 | 156 |
+| H5 | 1,050 | 177 |
+| **Total** | **3,942** | **568** |
+
+The combined `submission.csv` contains exactly **3,942 unique invoice IDs**.
+
+## Hospital 1 development benchmark
+
+Hospital 1 is the only labeled dataset and is used strictly for development/calibration.
+
+Final development benchmark:
+
+```text
+Perfect categories: 18/18
+True positives:      105
+False positives:       0
+False negatives:       0
+Mean precision:     1.000
+Mean recall:        1.000
+Mean F1:            1.000
+```
+
+This result should not be described as out-of-sample performance on Hospitals 2–5.
+
+## Robustness improvements
+
+The final implementation includes three generic safeguards discovered during repeated fresh end-to-end runs.
+
+### 1. Service/rate table enrichment
+
+`src/contract_enrichment.py` can recover a service row that is explicitly present in a text/Markdown rate table but missing from the AI-generated `ContractSpec`.
+
+This prevents one omitted table row from cascading into unresolved mappings and incorrect downstream rate checks.
+
+### 2. Cumulative volume-discount enrichment
+
+Explicit text/Markdown volume-discount tables can be recovered when structured AI extraction omits them.
+
+`VolumeDiscountRule` also supports:
+
+- `scope`: contract-service, patient-service, or invoice-service;
+- `reset_period`: `none` or `calendar_year`.
+
+The enrichment does not overwrite an already extracted rule.
+
+### 3. Facility and plan-tier multiplier enrichment
+
+Large explicit multiplier matrices can exceed practical structured-output limits. The local enrichment layer can reconstruct missing facility and plan-tier multiplier rules directly from explicit text/Markdown tables.
+
+The parser is generic and does not branch on hospital IDs, provider names, service names, or fixed rates.
+
+## Mapping reproducibility
+
+Ambiguous descriptions can receive slightly different AI decisions across fresh runs. To make bundled examples reproducible, the app can reuse a reviewed `*_service_mapping.csv` snapshot from `demo_outputs/`.
+
+A snapshot is used only when:
+
+1. the current unique billing descriptions exactly match the snapshot; and
+2. every mapped service still exists in the current `ContractSpec`.
+
+If either validation fails, the app falls back to the normal local + optional AI mapping pipeline.
+
+Uploaded/custom datasets do not use bundled mapping snapshots.
 
 ## Project layout
 
@@ -62,7 +134,6 @@ AI-Contract-Auditor/
 ├── README.md
 ├── RUN_ME_FIRST.md
 ├── DECISION_LOG.md
-├── REPORT_TEMPLATE.md
 ├── PROJECT_VALIDATION.txt
 ├── combine_submissions.py
 ├── prompts/
@@ -72,60 +143,57 @@ AI-Contract-Auditor/
 │   ├── ai.py
 │   ├── audit_engine.py
 │   ├── cache_utils.py
+│   ├── contract_enrichment.py
 │   ├── data_utils.py
 │   ├── explain.py
 │   ├── h1_benchmark.py
 │   ├── hospital1_reference.py
 │   ├── mapping.py
+│   ├── mapping_snapshots.py
 │   ├── models.py
 │   └── offline_specs.py
 ├── tests/
 │   ├── test_core.py
 │   └── test_stage2.py
 ├── tools/
-│   └── rebuild_offline_h2_spec.py
+│   ├── rebuild_offline_h2_spec.py
+│   └── regenerate_outputs_offline.py
 ├── offline_specs/
 │   └── hospital_2.json
 ├── validation/
 │   └── hospital_1/
 │       ├── README.md
 │       ├── hospital_1_validation_development.ipynb
-│       ├── hospital_1_validation_reference.py
-│       └── outputs/
-│           ├── hospital_1_category_evaluation.csv
-│           ├── hospital_1_category_predictions.csv
-│           └── hospital_1_line_mapping.csv
+│       └── hospital_1_validation_reference.py
+├── sample_outputs/
+│   └── hospital_1/
+│       ├── hospital_1_category_evaluation.csv
+│       ├── hospital_1_category_predictions.csv
+│       └── hospital_1_line_mapping.csv
 ├── demo_outputs/
 │   ├── README.md
 │   ├── hospital_2/
 │   ├── hospital_3/
 │   ├── hospital_4/
 │   └── hospital_5/
+├── submission/
+│   ├── submission.csv
+│   └── AI_Contract_Auditor_Technical_Exercise_Writeup.pdf
 └── exercise_data/
     └── insurance_auditing-main/
 ```
-
-`validation/hospital_1/` contains the labeled Hospital 1 benchmark evidence and the original development implementation used to verify the deterministic rule logic.
-
-`demo_outputs/` contains reproducibility artifacts generated from the deployed application for Hospitals 2–5, including contract rules, final submission CSVs, review queues, service mappings, and line-level audit evidence.
-
-`offline_specs/` and `src/offline_specs.py` are retained as development/regression assets for Hospital 2. They are not exposed as special Hospital 2 buttons in the final UI.
 
 ## Run locally on macOS
 
 Python 3.10+ is required.
 
 ```bash
-cd insurance_auditor_app
+cd AI-Contract-Auditor
 chmod +x run_app.sh
 ./run_app.sh
 ```
 
-The script creates `.venv`, installs the pinned dependencies, and starts Streamlit. The app normally opens at:
-
-```text
-http://localhost:8501
-```
+The script creates `.venv`, installs the pinned dependencies, and starts Streamlit.
 
 Manual setup:
 
@@ -139,92 +207,57 @@ streamlit run app.py
 
 ## OpenAI API key
 
-You can provide an API key in any of these ways:
+You can provide the API key as an environment variable:
 
 ```bash
 export OPENAI_API_KEY="your-api-key-here"
 ./run_app.sh
 ```
 
-or:
+or use a local Streamlit secret:
 
 ```bash
 cp .streamlit/secrets.toml.example .streamlit/secrets.toml
 ```
 
-You can also paste the key into the password field in the sidebar for a local session.
+You can also paste a key into the app for the current local session.
 
-The real `.streamlit/secrets.toml` file is ignored by Git. Never commit an API key.
+Never commit a real API key.
 
-If OpenAI is unavailable, Hospital 1 Validation still works fully offline. For auditing another hospital without repeating contract extraction, upload a previously downloaded **contract rules JSON** file under **Advanced settings → Reuse contract rules**.
+If OpenAI is unavailable or the API balance is exhausted:
 
-## Recommended test sequence
+- Hospital 1 Validation remains fully offline.
+- A previously downloaded contract-rules JSON can be reused without another extraction call.
+- The mapping stage can fall back to local matching, but the app warns when AI mapping was unavailable because this can change coverage and final findings.
 
-### 1. Validate Hospital 1
+## Run an audit
 
-1. In the sidebar choose **Provided hospital data**.
-2. Select **Hospital 1**.
-3. Open **H1 Validation**.
-4. Click **Run validation**.
+1. Select **Provided hospital data** or upload your own files.
+2. Select the hospital/data source.
+3. Either analyze the contract with AI or reuse a previously saved contract-rules JSON for that same source.
+4. Review the extracted services, rates, pricing rules, ambiguities, and unsupported clauses.
+5. Mark **I reviewed the contract rules**.
+6. Click **Run audit**.
+7. Open **Results** to inspect findings, review cases, mapping evidence, and line-level details.
+8. Download the contract-rules JSON and audit-results ZIP.
 
-Expected labelled-development result:
-
-```text
-Perfect categories: 18/18
-Mean precision: 1.000
-Mean recall: 1.000
-```
-
-The validation is fully offline. The raw execution log is hidden by default and can be shown with **Show raw execution log**.
-
-### 2. Analyze a contract and run an audit
-
-1. Choose a hospital under **Provided hospital data**, or upload your own contract, invoice CSV, and line-item CSV.
-2. Make sure **Use AI to read contract** is enabled.
-3. Add an OpenAI API key in the sidebar.
-4. In **Workflow**, click **Analyze contract**.
-5. Open **Contract** and review services, rates, special pricing rules, ambiguities, and unsupported clauses.
-6. Mark **I reviewed the contract rules**.
-7. Return to **Workflow** and click **Run audit**.
-8. Open **Results** to inspect findings, review cases, and invoice evidence.
-
-### 3. Reuse reviewed contract rules
-
-After a successful audit, download **Contract rules (JSON)** from the Results tab. In a later session, open **Advanced settings → Reuse contract rules** and upload that JSON file. This restores the typed contract rules without another contract-extraction call.
-
-## Contract review
-
-The Contract tab shows:
-
-- contract number, currency, effective period, and service count;
-- service names and unit bases;
-- base and date-bounded rates;
-- daily caps;
-- source notes and rule confidence;
-- threshold premiums and weekend/non-business-day uplifts;
-- volume discounts;
-- bundles;
-- exclusion windows;
-- interpretation notes;
-- ambiguities and unsupported clauses.
-
-The review checkbox is intentionally separate from extraction. It records that the user has inspected the current rules before treating the audit results as final.
+For bundled hospitals with a compatible reviewed mapping snapshot, the validated snapshot is reused automatically. Otherwise the normal mapping pipeline runs.
 
 ## Service mapping
 
-The mapping pipeline is conservative:
+The normal mapping pipeline is conservative:
 
 1. normalized exact matching;
 2. local fuzzy/token matching;
-3. stable billing-code propagation only where trusted mappings agree;
+3. stable billing-code propagation where trusted mappings agree;
 4. optional OpenAI candidate selection for unresolved/ambiguous descriptions;
 5. unresolved when evidence remains insufficient.
 
-An unresolved mapping is **not automatically treated as `unknown_service`**. Instead, it lowers mapping coverage/confidence and can place the invoice in the review queue. A likely truly unknown service is flagged only when the available evidence supports that conclusion.
+The optional AI mapper chooses only among candidate contract services. Billed price is not used to infer service identity.
 
-This implements the exercise principle that a confidently wrong answer is worse than explicit uncertainty.
+An unresolved mapping is **not automatically treated as `unknown_service`**. It lowers coverage/confidence and can place the invoice in the review queue.
 
-## Deterministic rules supported
+## Deterministic audit rules
 
 The generic audit engine supports:
 
@@ -238,7 +271,7 @@ The generic audit engine supports:
 - cross-invoice duplicate lines;
 - unknown service;
 - unit-basis mismatch;
-- base rates and date-bounded rate periods/amendments;
+- base and date-bounded rates/amendments;
 - facility multipliers;
 - plan-tier multipliers;
 - threshold premiums;
@@ -249,90 +282,52 @@ The generic audit engine supports:
 - exclusion windows;
 - generic unit-price mismatch.
 
-If a clause cannot be represented safely, it belongs in `unsupported_rules` and lowers confidence instead of being silently ignored.
+Rules that cannot be represented safely remain in `unsupported_rules` and lower confidence rather than being silently invented.
 
 ## Duplicate invoice IDs
 
-The source invoice CSV can contain multiple physical records with the same `invoice_id`. The engine preserves the source-row context and, when the line ID encodes a source invoice row, attaches each line to the correct physical invoice record.
+The source data can contain multiple physical rows with the same `invoice_id`.
 
-For a duplicated ID, the final submission still contains one row for that `invoice_id`. The latest physical source record is used as the canonical submission record, while all source records remain visible in **Results → Invoice details** and are shown separately rather than being summed together. Duplicate IDs always remain review-worthy.
-
-Because of this, the **Invoices** count in Workflow can be larger than **Audited** in Results: Workflow counts source invoice rows, while Results contains one prediction per unique invoice ID.
-
-## Results and explainability
-
-The Results tab contains:
-
-- audited, flagged, review, confidence, and mapping-coverage summaries;
-- error-category counts;
-- invoice-level results;
-- a **Needs review** table;
-- low-confidence service mappings when present;
-- **Invoice details** with line-level billed vs expected evidence;
-- separate source-record evidence for duplicate invoice IDs;
-- a deterministic explanation generated directly from Python audit evidence;
-- an optional AI plain-language summary that cannot recalculate or change the finding.
+The engine preserves source-row context and uses line identifiers to attach lines to the correct physical invoice record when possible. The final submission still contains one row per unique `invoice_id`; the latest physical record is used as the canonical submission record while duplicate source records remain available as evidence and are never summed together.
 
 ## Downloads
 
-The final UI exposes two downloads:
-
-### Contract rules (JSON)
+### Contract rules JSON
 
 `<hospital>_contract_rules.json`
 
-This is the reviewed typed contract rule set and can be uploaded later under **Advanced settings → Reuse contract rules**.
+This is the typed rule set and can be reused for the same data source in a later session.
 
-### Audit results (ZIP)
+### Audit results ZIP
 
 `<hospital>_audit_results.zip` contains:
 
-- `<hospital>_submission.csv` — final invoice-level predictions;
-- `<hospital>_review_queue.csv` — invoices requiring additional review;
-- `<hospital>_service_mapping.csv` — description-to-contract-service mapping evidence;
-- `<hospital>_line_audit.csv` — line-level deterministic audit evidence.
+- `<hospital>_submission.csv`
+- `<hospital>_review_queue.csv`
+- `<hospital>_service_mapping.csv`
+- `<hospital>_line_audit.csv`
 
-The contract-rules JSON is intentionally downloaded separately instead of being duplicated inside the ZIP.
+The contract-rules JSON is downloaded separately.
 
-## Hospital 1 benchmark
+## Reproducibility assets
 
-The H1 validation runs `src/hospital1_reference.py`, the frozen labelled-development implementation. It reaches 18/18 perfect category detection on Hospital 1. This should be described as **development/calibration performance**, not as out-of-sample performance on Hospitals 2–5.
+`demo_outputs/` contains the final Hospitals 2–5 audit artifacts, including the reviewed mapping snapshots used for reproducible bundled runs.
 
-The repository also preserves the original Hospital 1 validation work under `validation/hospital_1/`:
+The final mapping snapshots correspond to:
 
-- `hospital_1_validation_development.ipynb` — the development notebook with validation output;
-- `hospital_1_validation_reference.py` — standalone Python version of the validator;
-- `outputs/hospital_1_category_evaluation.csv` — per-category precision, recall, F1, TP, FP, and FN;
-- `outputs/hospital_1_category_predictions.csv` — predicted error categories by invoice;
-- `outputs/hospital_1_line_mapping.csv` — line-level service mapping evidence.
-
-This folder is kept separate from the normal demo-generated submission files so the labeled benchmark evidence is not confused with application outputs.
-
-## Demo-generated outputs
-
-The repository includes `demo_outputs/` with outputs produced by the deployed application for Hospitals 2–5.
-
-Each hospital folder contains:
-
-- `hospital_X_contract_rules.json` — structured contract rules used by the audit;
-- `hospital_X_submission.csv` — final invoice-level audit output;
-- `hospital_X_review_queue.csv` — invoices requiring manual review;
-- `hospital_X_service_mapping.csv` — service-description mapping evidence;
-- `hospital_X_line_audit.csv` — line-level deterministic audit evidence.
-
-Hospitals 2–5 are unlabeled challenge datasets, so these files are **system outputs and reproducibility artifacts**, not verified ground-truth results. Hospital 1 remains the labeled benchmark used to measure precision and recall.
-
-## Hospital 2 offline parser — development asset
-
-`src/offline_specs.py` and `offline_specs/hospital_2.json` are retained for regression testing and reproducibility. The parser extracts explicit repeated Hospital 2 contract clauses, including services/rates, caps, non-Business-Day uplifts, threshold premiums, volume tiers, bundles, and exclusions.
-
-Rebuild the development JSON with:
-
-```bash
-python tools/rebuild_offline_h2_spec.py
+```text
+H2 = 137 flagged
+H3 =  98 flagged
+H4 = 156 flagged
+H5 = 177 flagged
+Total = 568 flagged
 ```
 
-The final Streamlit UI does not expose a Hospital-2-specific offline starter button.
+These are challenge-system outputs, not labeled accuracy measurements.
+
+`validation/hospital_1/` preserves the frozen Hospital 1 validation implementation and development notebook. The static benchmark CSV evidence is kept under `sample_outputs/hospital_1/` so it is versioned without depending on generated cache folders.
+
+`offline_specs/` and `src/offline_specs.py` remain development/regression assets for the Hospital 2 repeated-prose parser; they are not special-case UI shortcuts.
 
 ## Tests
 
@@ -342,22 +337,8 @@ Run:
 pytest -q
 ```
 
-The test suite covers core deterministic pricing/mapping behavior, the Hospital 2 parser, bundled rule-schema validity, and deterministic invoice explanations.
-
-## Suggested exercise-submission workflow
-
-1. Run Hospital 1 validation and keep the benchmark evidence under `validation/hospital_1/`.
-2. For each scored hospital, extract contract rules or load a previously reviewed contract-rules JSON file.
-3. Verify rates, unit bases, amendments, premiums, discounts, bundles, caps, and exclusions against the source contract.
-4. Record important interpretation choices in `DECISION_LOG.md`.
-5. Run service mapping and deterministic auditing.
-6. Review low-confidence mappings and invoices in **Needs review**.
-7. Inspect invoice details for important or uncertain findings.
-8. Download the contract rules JSON and audit-results ZIP.
-9. Store the Hospitals 2–5 reproducibility artifacts under `demo_outputs/`.
-10. Combine final Hospital 2–5 submission CSVs with `combine_submissions.py` when needed.
-11. Complete the short report using `REPORT_TEMPLATE.md`.
+The test suite covers deterministic pricing and mapping behavior, rule-schema validity, contract enrichment, reviewed mapping snapshots, the Hospital 2 regression parser, and deterministic explanations.
 
 ## Privacy note
 
-The bundled exercise data is synthetic. For real healthcare data, appropriate privacy, security, contractual, and regulatory controls would be required before sending any content to an external API.
+The bundled exercise data is synthetic. Real healthcare data would require appropriate privacy, security, contractual, and regulatory controls before any content is sent to an external API.

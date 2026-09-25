@@ -1542,6 +1542,7 @@
         }
       ],
       "scope": "contract_service",
+      "reset_period": "none",
       "notes": "Clause 8.3: cumulative utilisation across all patients."
     },
     {
@@ -1559,6 +1560,7 @@
         }
       ],
       "scope": "contract_service",
+      "reset_period": "none",
       "notes": "Clause 10.2: cumulative utilisation across all patients."
     },
     {
@@ -1571,6 +1573,7 @@
         }
       ],
       "scope": "contract_service",
+      "reset_period": "none",
       "notes": "Clause 14.4: cumulative utilisation across all patients."
     },
     {
@@ -1583,6 +1586,7 @@
         }
       ],
       "scope": "contract_service",
+      "reset_period": "none",
       "notes": "Clause 18.5: cumulative utilisation across all patients."
     },
     {
@@ -1595,6 +1599,7 @@
         }
       ],
       "scope": "contract_service",
+      "reset_period": "none",
       "notes": "Clause 22.6: cumulative utilisation across all patients."
     },
     {
@@ -1612,6 +1617,7 @@
         }
       ],
       "scope": "contract_service",
+      "reset_period": "none",
       "notes": "Clause 24.2: cumulative utilisation across all patients."
     },
     {
@@ -1629,6 +1635,7 @@
         }
       ],
       "scope": "contract_service",
+      "reset_period": "none",
       "notes": "Clause 26.4: cumulative utilisation across all patients."
     },
     {
@@ -1641,6 +1648,7 @@
         }
       ],
       "scope": "contract_service",
+      "reset_period": "none",
       "notes": "Clause 28.3: cumulative utilisation across all patients."
     }
   ],

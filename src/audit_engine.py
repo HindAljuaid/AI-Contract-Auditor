@@ -334,9 +334,7 @@ def _volume_context(df: pd.DataFrame, index: ContractIndex) -> dict[int, tuple[f
         return result
 
     ordered = df.sort_values(["service_date_parsed", "line_id"], na_position="last")
-    accum_contract: dict[str, float] = {}
-    accum_patient: dict[tuple[str, str], float] = {}
-    accum_invoice: dict[tuple[str, str], float] = {}
+    accumulated: dict[tuple, float] = {}
 
     for idx_row, row in ordered.iterrows():
         service = row["service_name"]
@@ -344,15 +342,22 @@ def _volume_context(df: pd.DataFrame, index: ContractIndex) -> dict[int, tuple[f
         if rule is None:
             continue
 
+        # The accumulation population and reset period come from the contract
+        # rule itself. Existing rules remain backward compatible because the
+        # defaults are contract-wide accumulation with no reset.
+        period_key = None
+        if rule.reset_period == "calendar_year":
+            service_date = row["service_date_parsed"]
+            period_key = int(service_date.year) if not pd.isna(service_date) else None
+
         if rule.scope == "patient_service":
-            key = (str(row["patient_id"]), service)
-            prior = accum_patient.get(key, 0.0)
+            key = ("patient_service", str(row["patient_id"]), service, period_key)
         elif rule.scope == "invoice_service":
-            key = (str(row["invoice_record_key"]), service)
-            prior = accum_invoice.get(key, 0.0)
+            key = ("invoice_service", str(row["invoice_record_key"]), service, period_key)
         else:
-            key = service
-            prior = accum_contract.get(key, 0.0)
+            key = ("contract_service", service, period_key)
+
+        prior = accumulated.get(key, 0.0)
 
         chosen = 1.0
         for tier in sorted(rule.tiers, key=lambda x: x.threshold_quantity, reverse=True):
@@ -362,12 +367,7 @@ def _volume_context(df: pd.DataFrame, index: ContractIndex) -> dict[int, tuple[f
 
         result[int(idx_row)] = (chosen, True)
         qty = float(row["quantity"] or 0.0) if not pd.isna(row["quantity"]) else 0.0
-        if rule.scope == "patient_service":
-            accum_patient[key] = prior + qty
-        elif rule.scope == "invoice_service":
-            accum_invoice[key] = prior + qty
-        else:
-            accum_contract[key] = prior + qty
+        accumulated[key] = prior + qty
     return result
 
 

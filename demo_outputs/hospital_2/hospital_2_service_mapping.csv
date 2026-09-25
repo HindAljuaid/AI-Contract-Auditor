@@ -1,7 +1,7 @@
 item_id,description,normalized_description,service_name,mapping_method,mapping_confidence,top_score,score_gap
 0,INTENS PALL WD BD OCC /SA-8184,intensive palliative wd bd occupancy sa 8184,Intensive Palliative Ward Bed Occupancy,ai_candidate_selection,0.95,86.841,24.099
 1,RTN PHYSIO SESS,routine physiotherapy session,Routine Geriatric Physiotherapy Session,fuzzy_high,0.96,97.25,12.425
-2,PNL FOC LAB /SA-4377,panel focused laboratory sa 4377,Focused Ophthalmic Laboratory Panel,ai_candidate_selection,0.76,83.357,18.524
+2,PNL FOC LAB /SA-4377,panel focused laboratory sa 4377,,review,0.52,83.357,18.524
 3,PROC OUTPT HAEM BIOPSY /SA-9926,procedure outpatient haematology biopsy sa 9926,Outpatient Haematology Biopsy Procedure,fuzzy_high,0.96,97.25,15.966
 4,SVC - ELECT CARDIAC TRANSP,service elective cardiac transport,Elective Cardiac Transport Service,fuzzy_high,0.96,97.25,32.417
 5,PROC ADV GI ENDOSCOPIC /SA-3753,procedure advanced gastrointestinal endoscopic sa 3753,Advanced Gastrointestinal Endoscopic Procedure,fuzzy_high,0.96,97.25,22.882
@@ -16,7 +16,7 @@ item_id,description,normalized_description,service_name,mapping_method,mapping_c
 14,PNL INTERM PSYCH LAB /SA-5413,panel intermittent psychiatric laboratory sa 5413,Intermittent Psychiatric Laboratory Panel,fuzzy_high,0.96,97.25,36.23
 15,OCC INPATIENT ORTHO RECOV RM /SA-7665,occupancy inpatient orthopaedic recovery room sa 7665,Inpatient Orthopaedic Recovery Room Occupancy,fuzzy_high,0.96,97.25,13.893
 16,REHABILITATION POSTOP NEURO /SA-3507,rehabilitation postoperative neurological sa 3507,Postoperative Neurological Rehabilitation Programme,ai_candidate_selection,0.95,88.606,17.639
-17,EMER HAEM SVC /SA-3156,emergency haematology service sa 3156,Emergency Haematology Transport Service,ai_candidate_selection,0.86,85.462,19.471
+17,EMER HAEM SVC /SA-3156,emergency haematology service sa 3156,Emergency Haematology Transport Service,ai_candidate_selection,0.95,85.462,19.471
 18,PREOPERATIVE ORTHOPAEDIC VENTILATION SUPP /SA-9857,preoperative orthopaedic ventilation support sa 9857,Preoperative Orthopaedic Ventilation Support,fuzzy_high,0.96,97.25,25.872
 19,EXTENDED  DERM SPCM ANLY,extended dermatologic specimen analysis,Extended Dermatologic Specimen Analysis,exact,0.995,100.0,100.0
 20,INTERMITTENT OPHTH ANAES ADMIN,intermittent ophthalmic anaes administration,Intermittent Ophthalmic Anaesthesia Administration,fuzzy_medium,0.89,93.617,15.722
@@ -28,7 +28,7 @@ item_id,description,normalized_description,service_name,mapping_method,mapping_c
 26,SUPV METAB LABORATORY PANEL /SA-8571,supv metabolic laboratory panel sa 8571,Supervised Metabolic Laboratory Panel,ai_candidate_selection,0.95,82.011,17.146
 27,SESS CARD DIAL,session cardiac dialysis,Focused Cardiac Dialysis Session,fuzzy_high,0.96,97.25,15.61
 28,POSTOP  ORTHO ISOL OCC,postoperative orthopaedic isolation occupancy,Postoperative Orthopaedic Isolation Room Occupancy,fuzzy_high,0.96,97.25,17.762
-29,SVC FOC VASC /SA-2989,service focused vascular sa 2989,Focused Vascular Transfusion Service,ai_candidate_selection,0.75,83.357,18.524
+29,SVC FOC VASC /SA-2989,service focused vascular sa 2989,Focused Vascular Transfusion Service,ai_candidate_selection,0.71,83.357,18.524
 30,SVC STD PSYCH TRANSF,service standard psychiatric transfusion,Standard Psychiatric Transfusion Service,fuzzy_high,0.96,97.25,30.059
 31,MONIT STD METAB TELEM,monitoring standard metabolic telem,Standard Metabolic Telemetry Monitoring,fuzzy_medium,0.89,91.993,34.94
 32,FOCUSED PULMONARY PHARM DISP,focused pulmonary pharm dispensing,Focused Pulmonary Pharmaceutical Dispensing,fuzzy_medium,0.89,89.217,13.892
@@ -52,7 +52,7 @@ item_id,description,normalized_description,service_name,mapping_method,mapping_c
 50,STD ORTHO ISOL RM OCC /SA-8236,standard orthopaedic isolation room occupancy sa 8236,Standard Orthopaedic Isolation Room Occupancy,fuzzy_high,0.96,97.25,15.831
 51,OCC  INPATIENT ORTHO RECOV RM /SA-2313,occupancy inpatient orthopaedic recovery room sa 2313,Inpatient Orthopaedic Recovery Room Occupancy,fuzzy_high,0.96,97.25,13.893
 52,PREOP OBSTETRIC HM VISIT,preoperative obstetric home visit,Preoperative Obstetric Home Visit,exact,0.995,100.0,100.0
-53,ASST DIAG IMG /SA-7926,assisted diagnostic imaging sa 7926,Assisted Musculoskeletal Diagnostic Imaging,ai_candidate_selection,0.84,84.702,18.645
+53,ASST DIAG IMG /SA-7926,assisted diagnostic imaging sa 7926,Assisted Musculoskeletal Diagnostic Imaging,ai_candidate_selection,0.82,84.702,18.645
 54,STD  NEURO ISOL RM OCC,standard neurological isolation room occupancy,Standard Neurological Isolation Room Occupancy,exact,0.995,100.0,100.0
 55,NEURO  REHAB PROG,neurological rehabilitation programme,,ai_unresolved,0.52,97.25,0.0
 56,STD NEURO ISOL RM OCCUPANCY /SA-5454,standard neurological isolation room occupancy sa 5454,Standard Neurological Isolation Room Occupancy,fuzzy_high,0.96,97.25,14.532
@@ -73,18 +73,18 @@ item_id,description,normalized_description,service_name,mapping_method,mapping_c
 71,STD METAB TELEM MONIT,standard metabolic telem monitoring,Standard Metabolic Telemetry Monitoring,fuzzy_medium,0.89,94.595,32.995
 72,OCC PREOP NEUROLOGICAL ISOL RM,occupancy preoperative neurological isolation room,Preoperative Neurological Isolation Room Occupancy,fuzzy_high,0.96,97.25,10.545
 73,SVC EMER TRANSP,service emergency transport,Emergency Haematology Transport Service,fuzzy_high,0.96,97.25,15.452
-74,ADV ENDOSCOPIC PROC /SA-6974,advanced endoscopic procedure sa 6974,Advanced Gastrointestinal Endoscopic Procedure,ai_candidate_selection,0.9,85.462,17.217
+74,ADV ENDOSCOPIC PROC /SA-6974,advanced endoscopic procedure sa 6974,Advanced Gastrointestinal Endoscopic Procedure,ai_candidate_selection,0.93,85.462,17.217
 75,STD PAED INF THER,standard paediatric infusion ther,Standard Paediatric Infusion Therapy,fuzzy_high,0.96,95.652,18.509
 76,BEDS  OBST PHYSIO SESS,beds obst physiotherapy session,Bedside Obstetric Physiotherapy Session,ai_candidate_selection,0.95,88.571,10.023
 77,SESS RTN GER PHYSIO /SA-5953,session routine geriatric physiotherapy sa 5953,Routine Geriatric Physiotherapy Session,fuzzy_high,0.96,97.25,26.717
 78,IMG SUPV MSK DIAG,imaging supv musculoskeletal diagnostic,Supervised Musculoskeletal Diagnostic Imaging,ai_candidate_selection,0.95,90.589,0.0
 79,INTERM PSYCHIATRIC LAB PNL /SA-4231,intermittent psychiatric laboratory panel sa 4231,Intermittent Psychiatric Laboratory Panel,fuzzy_high,0.96,97.25,34.967
-80,OCC INTENS WD BD,occupancy intensive wd bd,Intensive Palliative Ward Bed Occupancy,ai_candidate_selection,0.78,85.889,14.081
+80,OCC INTENS WD BD,occupancy intensive wd bd,Intensive Palliative Ward Bed Occupancy,ai_candidate_selection,0.71,85.889,14.081
 81,INPT  ORTHO RECOV RM OCC /SA-8297,inpatient orthopaedic recovery room occupancy sa 8297,Inpatient Orthopaedic Recovery Room Occupancy,fuzzy_high,0.96,97.25,12.101
 82,PREOP  ORTHO SUPP /SA-5284,preoperative orthopaedic support sa 5284,Preoperative Orthopaedic Ventilation Support,ai_candidate_selection,0.95,86.444,26.17
 83,NEURO IMG INTERP RTN,neurological imaging interp routine,Routine Neurological Imaging Interpretation,ai_candidate_selection,0.95,87.276,9.621
 84,SUPV MSK DIAG /SA-7067,supv musculoskeletal diagnostic sa 7067,Supervised Musculoskeletal Diagnostic Imaging,ai_candidate_selection,0.95,79.214,1.414
-85,EMER  REN THER,emergency renal ther,Emergency Renal Infusion Therapy,ai_candidate_selection,0.8,85.596,9.704
+85,EMER  REN THER,emergency renal ther,Emergency Renal Infusion Therapy,ai_candidate_selection,0.84,85.596,9.704
 86,CONT - REN VENT SUPP,continuous renal ventilation support,Continuous Renal Ventilation Support,exact,0.995,100.0,100.0
 87,NEURO ISOL RM OCC PREOP,neurological isolation room occupancy preoperative,Preoperative Neurological Isolation Room Occupancy,fuzzy_high,0.96,97.25,10.545
 88,PULM PHARM DISP FOC,pulmonary pharm dispensing focused,Focused Pulmonary Pharmaceutical Dispensing,ai_candidate_selection,0.95,87.839,14.585
@@ -104,11 +104,11 @@ item_id,description,normalized_description,service_name,mapping_method,mapping_c
 102,INPT ORTHO RECOV OCC,inpatient orthopaedic recovery occupancy,Inpatient Orthopaedic Recovery Room Occupancy,fuzzy_high,0.96,97.25,10.886
 103,SESS PREOP OBST PHYSIO,session preoperative obst physiotherapy,Preoperative Obstetric Physiotherapy Session,fuzzy_medium,0.89,91.392,10.745
 104,PREOPERATIVE  OBST PHYSIO SESSION,preoperative obst physiotherapy session,Preoperative Obstetric Physiotherapy Session,fuzzy_medium,0.89,93.976,12.391
-105,EMER  TRANSP SERVICE /SA-9292,emergency transport service sa 9292,Emergency Haematology Transport Service,ai_candidate_selection,0.78,84.702,19.629
+105,EMER  TRANSP SERVICE /SA-9292,emergency transport service sa 9292,Emergency Haematology Transport Service,ai_candidate_selection,0.75,84.702,19.629
 106,OCC STD MSK RECOV ROOM,occupancy standard musculoskeletal recovery room,Standard Musculoskeletal Recovery Room Occupancy,fuzzy_high,0.96,97.25,28.427
 107,POSTOPERATIVE PAED THTR TM,postoperative paediatric thtr tm,Postoperative Paediatric Theatre Time,fuzzy_medium,0.89,92.754,17.536
 108,STANDARD  - ORTHO ISOL RM OCC,standard orthopaedic isolation room occupancy,Standard Orthopaedic Isolation Room Occupancy,exact,0.995,100.0,100.0
-109,VASC IMAGING INTERP,vascular imaging interp,Preoperative Vascular Imaging Interpretation,ai_candidate_selection,0.85,86.423,10.415
+109,VASC IMAGING INTERP,vascular imaging interp,Preoperative Vascular Imaging Interpretation,ai_candidate_selection,0.82,86.423,10.415
 110,POSTOP PULM INF THER /SA-6470,postoperative pulmonary infusion ther sa 6470,Postoperative Pulmonary Infusion Therapy,fuzzy_medium,0.89,89.176,31.412
 111,INPT OPHTH RECOV RM OCC,inpatient ophthalmic recovery room occupancy,Inpatient Ophthalmic Recovery Room Occupancy,exact,0.995,100.0,100.0
 112,PNL RTN OPHTH LAB,panel routine ophthalmic laboratory,Routine Ophthalmic Laboratory Panel,fuzzy_high,0.96,97.25,11.114
@@ -127,7 +127,7 @@ item_id,description,normalized_description,service_name,mapping_method,mapping_c
 125,ASST MSK DIAG IMG /SA-4432,assisted musculoskeletal diagnostic imaging sa 4432,Assisted Musculoskeletal Diagnostic Imaging,fuzzy_high,0.96,97.25,12.682
 126,FOC OPHTH LAB PNL /SA-5900,focused ophthalmic laboratory panel sa 5900,Focused Ophthalmic Laboratory Panel,fuzzy_high,0.96,97.25,12.548
 127,PREOP CARDIAC SPCM ANLY /SA-9127,preoperative cardiac specimen analysis sa 9127,Preoperative Cardiac Specimen Analysis,fuzzy_high,0.96,97.25,20.067
-128,EMER  TRANSP SVC /SA-1419,emergency transport service sa 1419,Emergency Haematology Transport Service,ai_candidate_selection,0.78,84.702,19.629
+128,EMER  TRANSP SVC /SA-1419,emergency transport service sa 1419,Emergency Haematology Transport Service,ai_candidate_selection,0.75,84.702,19.629
 129,RTN  INFECT ISOL RM,routine infectious isolation room,Routine Infectious Isolation Room Occupancy,fuzzy_high,0.96,97.25,13.414
 130,ORTHO RECOV RM OCC INTERM,orthopaedic recovery room occupancy intermittent,Intermittent Orthopaedic Recovery Room Occupancy,fuzzy_high,0.96,97.25,7.32
 131,PREOP  OBST HOME VST /SA-4776,preoperative obst home visit sa 4776,Preoperative Obstetric Home Visit,ai_candidate_selection,0.95,81.602,22.727
@@ -159,7 +159,7 @@ item_id,description,normalized_description,service_name,mapping_method,mapping_c
 157,FOC VASC TRANSFUSION SVC,focused vascular transfusion service,Focused Vascular Transfusion Service,exact,0.995,100.0,100.0
 158,RTN  NEUROLOGICAL IMG INTERP,routine neurological imaging interp,Routine Neurological Imaging Interpretation,fuzzy_medium,0.89,89.744,12.089
 159,ADV  GI PROC,advanced gastrointestinal procedure,Advanced Gastrointestinal Endoscopic Procedure,fuzzy_high,0.96,97.25,14.348
-160,POSTOP ANAES ADMIN,postoperative anaes administration,,ai_unresolved,0.52,87.67,15.233
+160,POSTOP ANAES ADMIN,postoperative anaes administration,Postoperative Ophthalmic Anaesthesia Administration,ai_candidate_selection,0.72,87.67,15.233
 161,MONIT  STD METAB TELEM /SA-3090,monitoring standard metabolic telem sa 3090,Standard Metabolic Telemetry Monitoring,ai_candidate_selection,0.95,83.018,31.464
 162,SPECIALIST PSYCH STERIL SERVICE,specialist psychiatric steril service,Specialist Psychiatric Sterilisation Service,fuzzy_medium,0.89,91.358,23.679
 163,INTERM CARD ANLY,intermittent cardiac analysis,Intermittent Cardiac Specimen Analysis,fuzzy_high,0.96,97.25,23.884
@@ -175,14 +175,14 @@ item_id,description,normalized_description,service_name,mapping_method,mapping_c
 173,OCC  INPT PAED ISOLATION ROOM,occupancy inpatient paediatric isolation room,Inpatient Paediatric Isolation Room Occupancy,fuzzy_high,0.96,97.25,21.611
 174,EMER PULMONARY VENT SUPP /SA-3137,emergency pulmonary ventilation support sa 3137,Emergency Pulmonary Ventilation Support,fuzzy_high,0.96,97.25,30.059
 175,SVC ELECT CARD TRANSP,service elective cardiac transport,Elective Cardiac Transport Service,fuzzy_high,0.96,97.25,32.417
-176,ASST DIAG IMAGING,assisted diagnostic imaging,Assisted Musculoskeletal Diagnostic Imaging,ai_candidate_selection,0.9,92.025,9.0
+176,ASST DIAG IMAGING,assisted diagnostic imaging,Assisted Musculoskeletal Diagnostic Imaging,ai_candidate_selection,0.88,92.025,9.0
 177,ANLY INTERM CARD SPCM,analysis intermittent cardiac specimen,Intermittent Cardiac Specimen Analysis,fuzzy_high,0.96,97.25,20.067
 178,ADMIN POSTOP OPHTH ANAES,administration postoperative ophthalmic anaes,Postoperative Ophthalmic Anaesthesia Administration,fuzzy_medium,0.89,91.172,15.419
 179,STD MSK RECOV RM /SA-7054,standard musculoskeletal recovery room sa 7054,Standard Musculoskeletal Recovery Room Occupancy,ai_candidate_selection,0.95,87.988,35.049
 180,SUPERVISED BIOPSY PROC,supervised biopsy procedure,Supervised Haematology Biopsy Procedure,fuzzy_high,0.96,97.25,14.484
 181,IMAGING ASST MSK DIAG /SA-2758,imaging assisted musculoskeletal diagnostic sa 2758,Assisted Musculoskeletal Diagnostic Imaging,fuzzy_high,0.96,97.25,13.541
 182,PREOP OBSTETRIC HM VST,preoperative obstetric home visit,Preoperative Obstetric Home Visit,exact,0.995,100.0,100.0
-183,SUPV  IMG INTERP,supv imaging interp,Supervised Neurological Imaging Interpretation,ai_candidate_selection,0.76,73.333,2.022
+183,SUPV  IMG INTERP,supv imaging interp,,ai_unresolved,0.52,73.333,2.022
 184,OCC STD NEURO ISOL,occupancy standard neurological isolation,Standard Neurological Isolation Room Occupancy,fuzzy_high,0.96,97.25,11.99
 185,CARD SPCM ANLY PREOP,cardiac specimen analysis preoperative,Preoperative Cardiac Specimen Analysis,fuzzy_high,0.96,97.25,20.067
 186,SVC FOCUSED VASC TRANSFUSION /SA-5676,service focused vascular transfusion sa 5676,Focused Vascular Transfusion Service,fuzzy_high,0.96,97.25,28.975
@@ -195,7 +195,7 @@ item_id,description,normalized_description,service_name,mapping_method,mapping_c
 193,POSTOPERATIVE OPHTH ANAES ADMIN,postoperative ophthalmic anaes administration,Postoperative Ophthalmic Anaesthesia Administration,fuzzy_medium,0.89,93.75,15.855
 194,OCC ADV INFECT ISOL /SA-7328,occupancy advanced infectious isolation sa 7328,Advanced Infectious Isolation Room Occupancy,fuzzy_medium,0.89,91.392,11.46
 195,EMER PAED THTR TM /SA-9377,emergency paediatric thtr tm sa 9377,Emergency Paediatric Theatre Time,ai_candidate_selection,0.95,81.159,20.885
-196,PREOPERATIVE  OBST SESS /SA-3810,preoperative obst session sa 3810,Preoperative Obstetric Physiotherapy Session,ai_candidate_selection,0.88,73.396,2.371
+196,PREOPERATIVE  OBST SESS /SA-3810,preoperative obst session sa 3810,Preoperative Obstetric Physiotherapy Session,ai_candidate_selection,0.89,73.396,2.371
 197,ADV DERM SPCM ANALYSIS /SA-4468,advanced dermatologic specimen analysis sa 4468,Advanced Dermatologic Specimen Analysis,fuzzy_high,0.96,97.25,12.685
 198,ORTHOPAEDIC ISOL RM OCC,orthopaedic isolation room occupancy,,ai_unresolved,0.52,97.25,0.0
 199,OUTPT HAEM BIOPSY PROC,outpatient haematology biopsy procedure,Outpatient Haematology Biopsy Procedure,exact,0.995,100.0,100.0
@@ -221,12 +221,12 @@ item_id,description,normalized_description,service_name,mapping_method,mapping_c
 219,PAED THTR TM EMER,paediatric thtr tm emergency,Emergency Paediatric Theatre Time,fuzzy_medium,0.89,89.279,18.569
 220,POSTOP NEURO PROG /SA-1044,postoperative neurological programme sa 1044,Postoperative Neurological Rehabilitation Programme,ai_candidate_selection,0.95,87.525,22.692
 221,AMB VASC INF THER,ambulatory vascular infusion ther,Ambulatory Vascular Infusion Therapy,fuzzy_high,0.96,95.652,36.611
-222,INTERP  SUPERVISED IMG /SA-6042,interp supervised imaging sa 6042,Supervised Neurological Imaging Interpretation,ai_candidate_selection,0.77,68.647,0.0
+222,INTERP  SUPERVISED IMG /SA-6042,interp supervised imaging sa 6042,Supervised Neurological Imaging Interpretation,ai_candidate_selection,0.7,68.647,0.0
 223,INTENS PALLIATIVE WD BD OCC,intensive palliative wd bd occupancy,Intensive Palliative Ward Bed Occupancy,fuzzy_high,0.96,96.0,26.536
 224,INTENSIVE INFECT PHYSIO SESS /SA-6814,intensive infectious physiotherapy session sa 6814,Intensive Infectious Physiotherapy Session,fuzzy_high,0.96,97.25,28.671
 225,DISP BEDS PULMONARY PHARM,dispensing beds pulmonary pharm,Bedside Pulmonary Pharmaceutical Dispensing,ai_candidate_selection,0.95,81.48,5.205
 226,SERVICE FOC VASC TRANSFUSION /SA-8463,service focused vascular transfusion sa 8463,Focused Vascular Transfusion Service,fuzzy_high,0.96,97.25,28.975
-227,POSTOP INF THER,postoperative infusion ther,Postoperative Pulmonary Infusion Therapy,ai_candidate_selection,0.88,87.327,11.052
+227,POSTOP INF THER,postoperative infusion ther,Postoperative Pulmonary Infusion Therapy,ai_candidate_selection,0.82,87.327,11.052
 228,COMPR HAEM TRANSP SERVICE /SA-1740,comprehensive haematology transport service sa 1740,Comprehensive Haematology Transport Service,fuzzy_high,0.96,97.25,14.301
 229,BEDS PULMONARY PHARM DISP,beds pulmonary pharm dispensing,Bedside Pulmonary Pharmaceutical Dispensing,ai_candidate_selection,0.95,83.784,5.382
 230,CONT REN VENT SUPPORT,continuous renal ventilation support,Continuous Renal Ventilation Support,exact,0.995,100.0,100.0
@@ -255,16 +255,16 @@ item_id,description,normalized_description,service_name,mapping_method,mapping_c
 253,SUPV HAEM BIOP PROC /SA-6547,supv haematology biopsy procedure sa 6547,Supervised Haematology Biopsy Procedure,ai_candidate_selection,0.95,82.987,1.703
 254,DIAG SUPERVISED MSK,diagnostic supervised musculoskeletal,Supervised Musculoskeletal Diagnostic Imaging,fuzzy_high,0.96,97.25,16.98
 255,SUPP PREOP ORTHO VENT,support preoperative orthopaedic ventilation,Preoperative Orthopaedic Ventilation Support,fuzzy_high,0.96,97.25,30.059
-256,STD RECOV RM OCC,standard recovery room occupancy,Standard Musculoskeletal Recovery Room Occupancy,ai_candidate_selection,0.82,92.025,7.364
+256,STD RECOV RM OCC,standard recovery room occupancy,Standard Musculoskeletal Recovery Room Occupancy,ai_candidate_selection,0.74,92.025,7.364
 257,PROCEDURE ASST GI BIOP,procedure assisted gastrointestinal biopsy,Assisted Gastrointestinal Biopsy Procedure,fuzzy_high,0.96,97.25,22.882
 258,SVC COMPR HAEM TRANSP /SA-1408,service comprehensive haematology transport sa 1408,Comprehensive Haematology Transport Service,fuzzy_high,0.96,97.25,14.301
 259,BEDS OPHTH RADIOTHER FRACT /SA-1831,beds ophthalmic radiotherapy fract sa 1831,Bedside Ophthalmic Radiotherapy Fraction,ai_candidate_selection,0.95,82.927,16.26
-260,EMER THTR TM /SA-2118,emergency thtr tm sa 2118,Emergency Paediatric Theatre Time,ai_candidate_selection,0.72,70.849,0.0
+260,EMER THTR TM /SA-2118,emergency thtr tm sa 2118,,ai_unresolved,0.52,70.849,0.0
 261,FOC  PULM PHARM DISP,focused pulmonary pharm dispensing,Focused Pulmonary Pharmaceutical Dispensing,fuzzy_medium,0.89,89.217,13.892
 262,CONF  COMPR ENT CS,conference comprehensive otolaryngologic case conference,Comprehensive Otolaryngologic Case Conference,fuzzy_high,0.96,97.25,22.674
 263,OPHTH - ANAESTHESIA ADMIN /SA-3643,ophthalmic anaesthesia administration sa 3643,,ai_unresolved,0.52,87.762,0.0
 264,HAEM BIOP PROC OUTPT,haematology biopsy procedure outpatient,Outpatient Haematology Biopsy Procedure,fuzzy_high,0.96,97.25,14.962
-265,DISP FOC PHARM,dispensing focused pharm,Focused Pulmonary Pharmaceutical Dispensing,ai_candidate_selection,0.86,85.596,12.101
+265,DISP FOC PHARM,dispensing focused pharm,Focused Pulmonary Pharmaceutical Dispensing,ai_candidate_selection,0.8,85.596,12.101
 266,ADVANCED INFECT RM OCC,advanced infectious room occupancy,Advanced Infectious Isolation Room Occupancy,fuzzy_high,0.96,97.25,14.835
 267,COMPR ENT CASE CONF,comprehensive otolaryngologic case conference,Comprehensive Otolaryngologic Case Conference,exact,0.995,100.0,100.0
 268,ORTHO RECOV RM OCC INPT,orthopaedic recovery room occupancy inpatient,Inpatient Orthopaedic Recovery Room Occupancy,fuzzy_high,0.96,97.25,7.32
@@ -274,16 +274,16 @@ item_id,description,normalized_description,service_name,mapping_method,mapping_c
 272,INPATIENT OPHTH RECOV RM,inpatient ophthalmic recovery room,Inpatient Ophthalmic Recovery Room Occupancy,fuzzy_high,0.96,97.25,18.768
 273,RTN INFECT ISOL RM OCC /SA-6375,routine infectious isolation room occupancy sa 6375,Routine Infectious Isolation Room Occupancy,fuzzy_high,0.96,97.25,11.079
 274,INTENS NEURO REHAB PROG,intensive neurological rehabilitation programme,Intensive Neurological Rehabilitation Programme,exact,0.995,100.0,100.0
-275,PREOP VASC INTERP /SA-3692,preoperative vascular interp sa 3692,Preoperative Vascular Imaging Interpretation,ai_candidate_selection,0.95,73.625,11.388
+275,PREOP VASC INTERP /SA-3692,preoperative vascular interp sa 3692,Preoperative Vascular Imaging Interpretation,ai_candidate_selection,0.92,73.625,11.388
 276,INTERP  RTN NEURO IMG,interp routine neurological imaging,Routine Neurological Imaging Interpretation,ai_candidate_selection,0.95,87.276,10.436
 277,OCC  ADV RHEUM ISOL,occupancy advanced rheum isolation,Advanced Rheumatologic Isolation Room Occupancy,ai_candidate_selection,0.95,87.839,0.0
 278,PHYSIOTHERAPY  BEDS OBST,physiotherapy beds obst,Bedside Obstetric Physiotherapy Session,ai_candidate_selection,0.95,80.412,0.887
-279,SPCLST STERILISATION SVC,spclst sterilisation service,Specialist Psychiatric Sterilisation Service,ai_candidate_selection,0.76,85.596,18.29
+279,SPCLST STERILISATION SVC,spclst sterilisation service,Specialist Psychiatric Sterilisation Service,ai_candidate_selection,0.79,85.596,18.29
 280,TM  POSTOP PAED THTR,tm postoperative paediatric thtr,Postoperative Paediatric Theatre Time,fuzzy_medium,0.89,90.203,14.985
-281,IMG ASST DIAG,imaging assisted diagnostic,Assisted Musculoskeletal Diagnostic Imaging,ai_candidate_selection,0.9,92.025,9.0
+281,IMG ASST DIAG,imaging assisted diagnostic,Assisted Musculoskeletal Diagnostic Imaging,ai_candidate_selection,0.88,92.025,9.0
 282,SESS RTN GER PHYSIO /SA-7008,session routine geriatric physiotherapy sa 7008,Routine Geriatric Physiotherapy Session,fuzzy_high,0.96,97.25,26.717
 283,POSTOP  OPHTH ANAES ADMINISTRATION /SA-5379,postoperative ophthalmic anaes administration sa 5379,Postoperative Ophthalmic Anaesthesia Administration,ai_candidate_selection,0.95,88.269,15.676
-284,BEDS PULM DISP /SA-7949,beds pulmonary dispensing sa 7949,Bedside Pulmonary Pharmaceutical Dispensing,ai_candidate_selection,0.89,73.396,0.0
+284,BEDS PULM DISP /SA-7949,beds pulmonary dispensing sa 7949,Bedside Pulmonary Pharmaceutical Dispensing,ai_candidate_selection,0.94,73.396,0.0
 285,SUPP  AMB HAEM NUTR /SA-4369,support ambulatory haematology nutritional sa 4369,Ambulatory Haematology Nutritional Support,fuzzy_high,0.96,97.25,37.245
 286,POSTOP PULM INFUSION THER,postoperative pulmonary infusion ther,Postoperative Pulmonary Infusion Therapy,fuzzy_high,0.96,96.104,33.506
 287,ENDO  CS CONF,endocrine case conference conference,Advanced Endocrine Case Conference,fuzzy_high,0.96,97.25,24.312
@@ -298,7 +298,7 @@ item_id,description,normalized_description,service_name,mapping_method,mapping_c
 296,STD  MSK RECOV RM OCC,standard musculoskeletal recovery room occupancy,Standard Musculoskeletal Recovery Room Occupancy,exact,0.995,100.0,100.0
 297,ASST INFECT MONIT /SA-6965,assisted infectious monitoring sa 6965,Assisted Infectious Telemetry Monitoring,ai_candidate_selection,0.95,85.809,34.589
 298,FRACT  BEDS OPHTH RADIOTHER /SA-8930,fract beds ophthalmic radiotherapy sa 8930,Bedside Ophthalmic Radiotherapy Fraction,ai_candidate_selection,0.95,80.646,15.813
-299,OTOLARYNGOLOGIC  DISCH PLNG /SA-6235,otolaryngologic disch planning sa 6235,Continuous Otolaryngologic Discharge Planning,ai_candidate_selection,0.88,75.29,20.243
+299,OTOLARYNGOLOGIC  DISCH PLNG /SA-6235,otolaryngologic disch planning sa 6235,Continuous Otolaryngologic Discharge Planning,ai_candidate_selection,0.95,75.29,20.243
 300,POSTOP VASC TRANSP SERVICE,postoperative vascular transport service,Postoperative Vascular Transport Service,exact,0.995,100.0,100.0
 301,INTENS  PALL WD BD /SA-1182,intensive palliative wd bd sa 1182,Intensive Palliative Ward Bed Occupancy,ai_candidate_selection,0.95,76.712,23.191
 302,INTERM ORTHO RECOV RM OCC,intermittent orthopaedic recovery room occupancy,Intermittent Orthopaedic Recovery Room Occupancy,exact,0.995,100.0,100.0
@@ -309,7 +309,7 @@ item_id,description,normalized_description,service_name,mapping_method,mapping_c
 307,EXT ORTHO RADIOTHERAPY FRACT,extended orthopaedic radiotherapy fract,Extended Orthopaedic Radiotherapy Fraction,fuzzy_high,0.96,96.296,22.879
 308,EXTENDED VASC VST /SA-2084,extended vascular visit sa 2084,Extended Vascular Home Visit,ai_candidate_selection,0.95,87.716,38.365
 309,ASST - INFECT TELEM MONIT,assisted infectious telem monitoring,Assisted Infectious Telemetry Monitoring,fuzzy_medium,0.89,94.737,33.137
-310,AMB NUTRITIONAL SUPP /SA-7761,ambulatory nutritional support sa 7761,Ambulatory Haematology Nutritional Support,ai_candidate_selection,0.74,85.809,20.975
+310,AMB NUTRITIONAL SUPP /SA-7761,ambulatory nutritional support sa 7761,,ai_unresolved,0.52,85.809,20.975
 311,SESS PREOP PHYSIO,session preoperative physiotherapy,Preoperative Obstetric Physiotherapy Session,fuzzy_high,0.96,97.25,16.419
 312,ENT REHAB PROG INTENS,otolaryngologic rehabilitation programme intensive,Intensive Otolaryngologic Rehabilitation Programme,fuzzy_high,0.96,97.25,8.498
 313,ADMIN OPHTH ANAES /SA-6486,administration ophthalmic anaes sa 6486,,ai_unresolved,0.52,75.977,0.0
@@ -318,7 +318,7 @@ item_id,description,normalized_description,service_name,mapping_method,mapping_c
 316,SUPP - CONT REN VENT,support continuous renal ventilation,Continuous Renal Ventilation Support,fuzzy_high,0.96,97.25,30.059
 317,EMER PULM VENT SUPP /SA-6819,emergency pulmonary ventilation support sa 6819,Emergency Pulmonary Ventilation Support,fuzzy_high,0.96,97.25,30.059
 318,INTENS - NEURO REHABILITATION PROG /SA-8220,intensive neurological rehabilitation programme sa 8220,Intensive Neurological Rehabilitation Programme,fuzzy_high,0.96,97.25,14.786
-319,OCC STD RECOV RM,occupancy standard recovery room,Standard Musculoskeletal Recovery Room Occupancy,ai_candidate_selection,0.88,92.025,7.364
+319,OCC STD RECOV RM,occupancy standard recovery room,Standard Musculoskeletal Recovery Room Occupancy,ai_candidate_selection,0.9,92.025,7.364
 320,POSTOP  PULMONARY INF THER,postoperative pulmonary infusion ther,Postoperative Pulmonary Infusion Therapy,fuzzy_high,0.96,96.104,33.506
 321,OCC INPT PAED ISOL RM /SA-7229,occupancy inpatient paediatric isolation room sa 7229,Inpatient Paediatric Isolation Room Occupancy,fuzzy_high,0.96,97.25,27.578
 322,EMER REN INF THER /SA-8878,emergency renal infusion ther sa 8878,Emergency Renal Infusion Therapy,ai_candidate_selection,0.95,86.398,31.329
@@ -337,7 +337,7 @@ item_id,description,normalized_description,service_name,mapping_method,mapping_c
 335,FOC  VASC TRANSF SVC,focused vascular transfusion service,Focused Vascular Transfusion Service,exact,0.995,100.0,100.0
 336,ENT CS CONF /SA-6459,otolaryngologic case conference conference sa 6459,Comprehensive Otolaryngologic Case Conference,ai_candidate_selection,0.95,86.136,26.595
 337,PROC  - SUPV HEP,procedure supv hepatic,Supervised Hepatic Endoscopic Procedure,ai_candidate_selection,0.87,86.256,11.198
-338,VST VASCULAR HM /SA-8814,visit vascular home sa 8814,Extended Vascular Home Visit,ai_candidate_selection,0.74,80.337,12.741
+338,VST VASCULAR HM /SA-8814,visit vascular home sa 8814,Extended Vascular Home Visit,ai_candidate_selection,0.76,80.337,12.741
 339,OUTPT HAEMATOLOGY BIOP PROC /SA-7396,outpatient haematology biopsy procedure sa 7396,Outpatient Haematology Biopsy Procedure,fuzzy_high,0.96,97.25,15.966
 340,STD - ORTHO ISOL RM OCC /SA-1562,standard orthopaedic isolation room occupancy sa 1562,Standard Orthopaedic Isolation Room Occupancy,fuzzy_high,0.96,97.25,15.831
 341,SVC STD PSYCH TRANSF /SA-9672,service standard psychiatric transfusion sa 9672,Standard Psychiatric Transfusion Service,fuzzy_high,0.96,97.25,30.059
@@ -349,7 +349,7 @@ item_id,description,normalized_description,service_name,mapping_method,mapping_c
 347,OCC PREOP ISOL RM,occupancy preoperative isolation room,Preoperative Neurological Isolation Room Occupancy,fuzzy_high,0.96,97.25,16.767
 348,ENT REHAB PROG INTERM,otolaryngologic rehabilitation programme intermittent,Intermittent Otolaryngologic Rehabilitation Programme,fuzzy_high,0.96,97.25,8.498
 349,OPHTH ANAES ADMIN POSTOP,ophthalmic anaes administration postoperative,Postoperative Ophthalmic Anaesthesia Administration,fuzzy_medium,0.89,91.172,15.419
-350,PULM INF THER /SA-9868,pulmonary infusion ther sa 9868,Postoperative Pulmonary Infusion Therapy,ai_candidate_selection,0.83,71.449,12.79
+350,PULM INF THER /SA-9868,pulmonary infusion ther sa 9868,Postoperative Pulmonary Infusion Therapy,ai_candidate_selection,0.78,71.449,12.79
 351,ASST - INFECT TELEM,assisted infectious telem,Assisted Infectious Telemetry Monitoring,ai_candidate_selection,0.95,88.364,15.624
 352,THER  STD PAED INF,ther standard paediatric infusion,Standard Paediatric Infusion Therapy,fuzzy_medium,0.89,93.022,18.0
 353,SESS INTENS INFECT PHYSIO /SA-4043,session intensive infectious physiotherapy sa 4043,Intensive Infectious Physiotherapy Session,fuzzy_high,0.96,97.25,29.175
@@ -378,8 +378,8 @@ item_id,description,normalized_description,service_name,mapping_method,mapping_c
 376,INFECT ISOL RM OCC ADV,infectious isolation room occupancy advanced,Advanced Infectious Isolation Room Occupancy,fuzzy_high,0.96,97.25,9.974
 377,INTENS  - PALLIATIVE WD BD OCC /SA-6765,intensive palliative wd bd occupancy sa 6765,Intensive Palliative Ward Bed Occupancy,ai_candidate_selection,0.95,86.841,24.099
 378,COMPR HAEM TRANSPORT SVC,comprehensive haematology transport service,Comprehensive Haematology Transport Service,exact,0.995,100.0,100.0
-379,BEDS PHARM DISP,beds pharm dispensing,Bedside Pulmonary Pharmaceutical Dispensing,ai_candidate_selection,0.89,76.556,0.499
-380,STD - TELEM MONIT /SA-8775,standard telem monitoring sa 8775,Standard Metabolic Telemetry Monitoring,ai_candidate_selection,0.78,72.938,16.91
+379,BEDS PHARM DISP,beds pharm dispensing,Bedside Pulmonary Pharmaceutical Dispensing,ai_candidate_selection,0.87,76.556,0.499
+380,STD - TELEM MONIT /SA-8775,standard telem monitoring sa 8775,Standard Metabolic Telemetry Monitoring,ai_candidate_selection,0.75,72.938,16.91
 381,PREOP VASC IMG INTERP,preoperative vascular imaging interp,Preoperative Vascular Imaging Interpretation,fuzzy_medium,0.89,90.0,29.241
 382,INPT ISOL RM OCC,inpatient isolation room occupancy,Inpatient Paediatric Isolation Room Occupancy,fuzzy_high,0.96,97.25,16.767
 383,SPCLST HEP NUTR SUPP,spclst hepatic nutritional support,,ai_unresolved,0.52,71.343,1.617
@@ -390,7 +390,7 @@ item_id,description,normalized_description,service_name,mapping_method,mapping_c
 388,SUPP AMB HAEM NUTR,support ambulatory haematology nutritional,Ambulatory Haematology Nutritional Support,fuzzy_high,0.96,97.25,33.924
 389,SUPERVISED NEUROLOGICAL IMG INTERP /SA-6293,supervised neurological imaging interp sa 6293,Supervised Neurological Imaging Interpretation,ai_candidate_selection,0.95,84.783,12.872
 390,DISP - BEDS PULM PHARM,dispensing beds pulmonary pharm,Bedside Pulmonary Pharmaceutical Dispensing,ai_candidate_selection,0.95,81.48,5.205
-391,COMPR  HAEM SVC /SA-2722,comprehensive haematology service sa 2722,Comprehensive Haematology Transport Service,ai_candidate_selection,0.9,86.736,23.021
+391,COMPR  HAEM SVC /SA-2722,comprehensive haematology service sa 2722,Comprehensive Haematology Transport Service,ai_candidate_selection,0.95,86.736,23.021
 392,POSTOP VASCULAR TRANSPORT SVC,postoperative vascular transport service,Postoperative Vascular Transport Service,exact,0.995,100.0,100.0
 393,OCC  - FOC PALL RECOV ROOM,occupancy focused palliative recovery room,Focused Palliative Recovery Room Occupancy,fuzzy_high,0.96,97.25,27.614
 394,BEDS OBSTETRIC PHYSIO SESS /SA-6964,beds obstetric physiotherapy session sa 6964,Bedside Obstetric Physiotherapy Session,ai_candidate_selection,0.95,87.568,7.175
@@ -399,7 +399,7 @@ item_id,description,normalized_description,service_name,mapping_method,mapping_c
 397,DERM SPCM ANLY ADV,dermatologic specimen analysis advanced,Advanced Dermatologic Specimen Analysis,fuzzy_high,0.96,97.25,12.468
 398,OCC - PREOPERATIVE NEURO ISOL RM,occupancy preoperative neurological isolation room,Preoperative Neurological Isolation Room Occupancy,fuzzy_high,0.96,97.25,10.545
 399,PAED INF THER STD,paediatric infusion ther standard,Standard Paediatric Infusion Therapy,fuzzy_medium,0.89,93.022,18.0
-400,THER AMB VASC,ther ambulatory vascular,Ambulatory Vascular Infusion Therapy,ai_candidate_selection,0.74,86.792,13.297
+400,THER AMB VASC,ther ambulatory vascular,Ambulatory Vascular Infusion Therapy,ai_candidate_selection,0.73,86.792,13.297
 401,INTERPRETATION SUPERVISED NEURO IMG,interpretation supervised neurological imaging,Supervised Neurological Imaging Interpretation,fuzzy_high,0.96,97.25,9.974
 402,POSTOP THTR TM,postoperative thtr tm,,ai_unresolved,0.52,81.437,0.0
 403,COMPREHENSIVE  HAEM TRANSP SVC /SA-3116,comprehensive haematology transport service sa 3116,Comprehensive Haematology Transport Service,fuzzy_high,0.96,97.25,14.301
@@ -421,7 +421,7 @@ item_id,description,normalized_description,service_name,mapping_method,mapping_c
 419,ADV INFECT ISOL RM OCC,advanced infectious isolation room occupancy,Advanced Infectious Isolation Room Occupancy,exact,0.995,100.0,100.0
 420,DIAGNOSTIC SUPV MSK /SA-5988,diagnostic supv musculoskeletal sa 5988,Supervised Musculoskeletal Diagnostic Imaging,ai_candidate_selection,0.95,77.8,0.0
 421,ELECT CARD NURS OBS /SA-5886,elective cardiac nursing obs sa 5886,Elective Cardiac Nursing Observation,ai_candidate_selection,0.95,80.556,17.184
-422,PREOP SPCM ANLY /SA-5067,preoperative specimen analysis sa 5067,Preoperative Cardiac Specimen Analysis,ai_candidate_selection,0.75,85.809,23.471
+422,PREOP SPCM ANLY /SA-5067,preoperative specimen analysis sa 5067,,ai_unresolved,0.52,85.809,23.471
 423,FOC  PULM PHARM DISP /SA-8680,focused pulmonary pharm dispensing sa 8680,Focused Pulmonary Pharmaceutical Dispensing,ai_candidate_selection,0.95,81.059,11.765
 424,RTN  INFECT RM OCC /SA-3020,routine infectious room occupancy sa 3020,Routine Infectious Isolation Room Occupancy,ai_candidate_selection,0.95,86.736,13.062
 425,PROG INTENS NEURO REHAB,programme intensive neurological rehabilitation,Intensive Neurological Rehabilitation Programme,fuzzy_high,0.96,97.25,11.577
@@ -430,7 +430,7 @@ item_id,description,normalized_description,service_name,mapping_method,mapping_c
 428,EMERGENCY PAED THTR TM /SA-2205,emergency paediatric thtr tm sa 2205,Emergency Paediatric Theatre Time,ai_candidate_selection,0.95,81.159,20.885
 429,POSTOP - NEURO REHAB PROG,postoperative neurological rehabilitation programme,Postoperative Neurological Rehabilitation Programme,exact,0.995,100.0,100.0
 430,ADV RHEUM ISOL RM OCCUPANCY,advanced rheum isolation room occupancy,Advanced Rheumatologic Isolation Room Occupancy,ai_candidate_selection,0.95,91.134,1.988
-431,STD  - TELEM MONIT,standard telem monitoring,Standard Metabolic Telemetry Monitoring,ai_candidate_selection,0.87,85.889,11.171
+431,STD  - TELEM MONIT,standard telem monitoring,Standard Metabolic Telemetry Monitoring,ai_candidate_selection,0.91,85.889,11.171
 432,INTERP  SUPV NEURO IMG /SA-3334,interp supv neurological imaging sa 3334,Supervised Neurological Imaging Interpretation,ai_candidate_selection,0.95,74.634,4.333
 433,ADV - INFECT ISOL RM OCC /SA-7043,advanced infectious isolation room occupancy sa 7043,Advanced Infectious Isolation Room Occupancy,fuzzy_high,0.96,97.25,9.974
 434,FOC  OPHTH LABORATORY PNL /SA-6975,focused ophthalmic laboratory panel sa 6975,Focused Ophthalmic Laboratory Panel,fuzzy_high,0.96,97.25,12.548
@@ -440,7 +440,7 @@ item_id,description,normalized_description,service_name,mapping_method,mapping_c
 438,REHABILITATION INTERM ENT,rehabilitation intermittent otolaryngologic,Intermittent Otolaryngologic Rehabilitation Programme,fuzzy_high,0.96,97.25,17.318
 439,FRACT EXT ORTHO RADIOTHER,fract extended orthopaedic radiotherapy,Extended Orthopaedic Radiotherapy Fraction,fuzzy_medium,0.89,93.648,22.249
 440,POSTOP  CARD PHYSIO SESS /SA-4818,postoperative cardiac physiotherapy session sa 4818,Postoperative Cardiac Physiotherapy Session,fuzzy_high,0.96,97.25,21.461
-441,THER  STANDARD INF,ther standard infusion,Standard Paediatric Infusion Therapy,ai_candidate_selection,0.75,86.256,10.199
+441,THER  STANDARD INF,ther standard infusion,,ai_unresolved,0.52,86.256,10.199
 442,SUPP EMER PULM VENT,support emergency pulmonary ventilation,Emergency Pulmonary Ventilation Support,fuzzy_high,0.96,97.25,30.059
 443,IMG PREOP VASC,imaging preoperative vascular,Preoperative Vascular Imaging Interpretation,fuzzy_medium,0.89,92.025,18.659
 444,SUPP  AMB HAEMATOLOGY,support ambulatory haematology,Ambulatory Haematology Nutritional Support,fuzzy_high,0.96,97.25,38.054
@@ -469,7 +469,7 @@ item_id,description,normalized_description,service_name,mapping_method,mapping_c
 467,EXT VASC HM,extended vascular home,Extended Vascular Home Visit,fuzzy_high,0.96,97.25,26.225
 468,EMER REN INF THER,emergency renal infusion ther,Emergency Renal Infusion Therapy,fuzzy_high,0.96,95.082,35.236
 469,PREOP NEURO ISOL RM,preoperative neurological isolation room,Preoperative Neurological Isolation Room Occupancy,fuzzy_high,0.96,97.25,18.869
-470,EXT RADIOTHER FRACT,extended radiotherapy fract,Extended Orthopaedic Radiotherapy Fraction,ai_candidate_selection,0.91,86.4,18.804
+470,EXT RADIOTHER FRACT,extended radiotherapy fract,Extended Orthopaedic Radiotherapy Fraction,ai_candidate_selection,0.84,86.4,18.804
 471,ELECT CARD NURS OBS,elective cardiac nursing obs,Elective Cardiac Nursing Observation,fuzzy_medium,0.89,89.769,19.042
 472,SPCM  - INTERM CARD /SA-3094,specimen intermittent cardiac sa 3094,Intermittent Cardiac Specimen Analysis,ai_candidate_selection,0.95,85.462,26.745
 473,OCC PREOPERATIVE NEURO ISOL RM,occupancy preoperative neurological isolation room,Preoperative Neurological Isolation Room Occupancy,fuzzy_high,0.96,97.25,10.545
@@ -481,7 +481,7 @@ item_id,description,normalized_description,service_name,mapping_method,mapping_c
 479,PREOP CARD SPECIMEN ANLY /SA-9557,preoperative cardiac specimen analysis sa 9557,Preoperative Cardiac Specimen Analysis,fuzzy_high,0.96,97.25,20.067
 480,PROC  SUPV HAEM BIOP /SA-6944,procedure supv haematology biopsy sa 6944,Supervised Haematology Biopsy Procedure,ai_candidate_selection,0.95,81.284,0.0
 481,FOC OPHTH LAB PNL /SA-4929,focused ophthalmic laboratory panel sa 4929,Focused Ophthalmic Laboratory Panel,fuzzy_high,0.96,97.25,12.548
-482,ADV RHEUM RM OCCUPANCY,advanced rheum room occupancy,Advanced Rheumatologic Isolation Room Occupancy,ai_candidate_selection,0.86,86.833,0.0
+482,ADV RHEUM RM OCCUPANCY,advanced rheum room occupancy,Advanced Rheumatologic Isolation Room Occupancy,ai_candidate_selection,0.95,86.833,0.0
 483,POSTOP NEURO REHABILITATION PROG,postoperative neurological rehabilitation programme,Postoperative Neurological Rehabilitation Programme,exact,0.995,100.0,100.0
 484,ONC WD BD OCC /SA-5889,oncology wd bd occupancy sa 5889,,ai_unresolved,0.52,68.4,0.0
 485,PROCEDURE SUPV HEP ENDOSC,procedure supv hepatic endoscopic,Supervised Hepatic Endoscopic Procedure,fuzzy_medium,0.89,89.279,15.882

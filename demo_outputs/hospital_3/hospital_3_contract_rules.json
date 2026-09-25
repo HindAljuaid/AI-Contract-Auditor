@@ -15,7 +15,7 @@
           "rate_cents": 128100,
           "effective_from": "2024-01-01",
           "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
+          "source_note": "Appendix B",
           "confidence": 1.0
         }
       ],
@@ -33,7 +33,7 @@
           "rate_cents": 1250,
           "effective_from": "2024-01-01",
           "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
+          "source_note": "Appendix B",
           "confidence": 1.0
         }
       ],
@@ -51,7 +51,7 @@
           "rate_cents": 21075,
           "effective_from": "2024-01-01",
           "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
+          "source_note": "Appendix B",
           "confidence": 1.0
         }
       ],
@@ -69,7 +69,7 @@
           "rate_cents": 348975,
           "effective_from": "2024-01-01",
           "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
+          "source_note": "Appendix B",
           "confidence": 1.0
         }
       ],
@@ -87,7 +87,7 @@
           "rate_cents": 41000,
           "effective_from": "2024-01-01",
           "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
+          "source_note": "Appendix B",
           "confidence": 1.0
         }
       ],
@@ -105,2072 +105,7 @@
           "rate_cents": 27875,
           "effective_from": "2024-01-01",
           "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Ambulatory Metabolic Isolation Room Occupancy",
-      "unit_basis": "per day of service",
-      "rates": [
-        {
-          "rate_cents": 159725,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Ambulatory Ophthalmic Imaging Interpretation",
-      "unit_basis": "per procedure",
-      "rates": [
-        {
-          "rate_cents": 414850,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Ambulatory Otolaryngologic Imaging Interpretation",
-      "unit_basis": "per procedure",
-      "rates": [
-        {
-          "rate_cents": 182625,
-          "effective_from": "2024-01-01",
-          "effective_to": "2024-12-31",
-          "source_note": "Appendix B rate replaced by Amendment No. 1",
-          "confidence": 1.0
-        },
-        {
-          "rate_cents": 208200,
-          "effective_from": "2025-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Amendment No. 1 substituted rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": 12.0,
-      "daily_cap_unit": "procedures",
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Ambulatory Renal Case Conference",
-      "unit_basis": "per hour",
-      "rates": [
-        {
-          "rate_cents": 8775,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Assisted Ophthalmic Recovery Room Occupancy",
-      "unit_basis": "per hour",
-      "rates": [
-        {
-          "rate_cents": 8775,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Assisted Paediatric Dialysis Session",
-      "unit_basis": "per procedure",
-      "rates": [
-        {
-          "rate_cents": 372800,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": 12.0,
-      "daily_cap_unit": "procedures",
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Assisted Urologic Endoscopic Procedure",
-      "unit_basis": "per procedure",
-      "rates": [
-        {
-          "rate_cents": 94250,
-          "effective_from": "2024-01-01",
-          "effective_to": "2024-12-31",
-          "source_note": "Appendix B rate replaced by Amendment No. 1",
-          "confidence": 1.0
-        },
-        {
-          "rate_cents": 111225,
-          "effective_from": "2025-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Amendment No. 1 substituted rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Bedside Cardiac Recovery Room Occupancy",
-      "unit_basis": "per night of occupancy",
-      "rates": [
-        {
-          "rate_cents": 167750,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Bedside Geriatric Telemetry Monitoring",
-      "unit_basis": "per day of service",
-      "rates": [
-        {
-          "rate_cents": 131100,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Bedside Metabolic Infusion Therapy",
-      "unit_basis": "per unit dispensed",
-      "rates": [
-        {
-          "rate_cents": 1850,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Bedside Neurological Pharmaceutical Dispensing",
-      "unit_basis": "per item supplied",
-      "rates": [
-        {
-          "rate_cents": 9675,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Bedside Neurological Radiotherapy Fraction",
-      "unit_basis": "per item supplied",
-      "rates": [
-        {
-          "rate_cents": 2575,
-          "effective_from": "2024-01-01",
-          "effective_to": "2024-12-31",
-          "source_note": "Appendix B rate replaced by Amendment No. 1",
-          "confidence": 1.0
-        },
-        {
-          "rate_cents": 3050,
-          "effective_from": "2025-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Amendment No. 1 substituted rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Bedside Oncology Case Conference",
-      "unit_basis": "per hour",
-      "rates": [
-        {
-          "rate_cents": 11400,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Bedside Palliative Wound Care",
-      "unit_basis": "per visit",
-      "rates": [
-        {
-          "rate_cents": 14150,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Bedside Pulmonary Sterilisation Service",
-      "unit_basis": "per procedure",
-      "rates": [
-        {
-          "rate_cents": 381825,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Bedside Renal Imaging Interpretation",
-      "unit_basis": "per test",
-      "rates": [
-        {
-          "rate_cents": 59250,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Bedside Urologic Laboratory Panel",
-      "unit_basis": "per item supplied",
-      "rates": [
-        {
-          "rate_cents": 2000,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Bedside Urologic Ventilation Support",
-      "unit_basis": "per day of service",
-      "rates": [
-        {
-          "rate_cents": 168975,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Bedside Vascular Critical Care Occupancy",
-      "unit_basis": "per day of service",
-      "rates": [
-        {
-          "rate_cents": 144425,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": 8.0,
-      "daily_cap_unit": "days",
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Comprehensive Haematology Radiotherapy Fraction",
-      "unit_basis": "per procedure",
-      "rates": [
-        {
-          "rate_cents": 156925,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Comprehensive Orthopaedic Wound Care",
-      "unit_basis": "per item supplied",
-      "rates": [
-        {
-          "rate_cents": 16600,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Comprehensive Palliative Diagnostic Imaging",
-      "unit_basis": "per procedure",
-      "rates": [
-        {
-          "rate_cents": 163525,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Continuous Gastrointestinal Laboratory Panel",
-      "unit_basis": "per test",
-      "rates": [
-        {
-          "rate_cents": 56000,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Continuous Immunologic Critical Care Occupancy",
-      "unit_basis": "per hour",
-      "rates": [
-        {
-          "rate_cents": 20725,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Continuous Immunologic Isolation Room Occupancy",
-      "unit_basis": "per day of service",
-      "rates": [
-        {
-          "rate_cents": 116275,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": 24.0,
-      "daily_cap_unit": "days",
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Continuous Pulmonary Wound Care",
-      "unit_basis": "per item supplied",
-      "rates": [
-        {
-          "rate_cents": 27625,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Continuous Renal Isolation Room Occupancy",
-      "unit_basis": "per day of service",
-      "rates": [
-        {
-          "rate_cents": 50125,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Elective Palliative Physiotherapy Session",
-      "unit_basis": "per hour",
-      "rates": [
-        {
-          "rate_cents": 18800,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Elective Pulmonary Consultation",
-      "unit_basis": "per procedure",
-      "rates": [
-        {
-          "rate_cents": 399025,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Emergency Dermatologic Sterilisation Service",
-      "unit_basis": "per item supplied",
-      "rates": [
-        {
-          "rate_cents": 23025,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Emergency Oncology Biopsy Procedure",
-      "unit_basis": "per item supplied",
-      "rates": [
-        {
-          "rate_cents": 20375,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Emergency Pulmonary Biopsy Procedure",
-      "unit_basis": "per item supplied",
-      "rates": [
-        {
-          "rate_cents": 26350,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Emergency Renal Isolation Room Occupancy",
-      "unit_basis": "per night of occupancy",
-      "rates": [
-        {
-          "rate_cents": 49050,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Emergency Vascular Biopsy Procedure",
-      "unit_basis": "per procedure",
-      "rates": [
-        {
-          "rate_cents": 215625,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Extended Dermatologic Infusion Therapy",
-      "unit_basis": "per unit dispensed",
-      "rates": [
-        {
-          "rate_cents": 3475,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Extended Dermatologic Sterilisation Service",
-      "unit_basis": "per procedure",
-      "rates": [
-        {
-          "rate_cents": 161525,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Extended Geriatric Infusion Therapy",
-      "unit_basis": "per unit dispensed",
-      "rates": [
-        {
-          "rate_cents": 6100,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Extended Haematology Radiotherapy Fraction",
-      "unit_basis": "per item supplied",
-      "rates": [
-        {
-          "rate_cents": 27575,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Extended Infectious Telemetry Monitoring",
-      "unit_basis": "per day of service",
-      "rates": [
-        {
-          "rate_cents": 82675,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Extended Musculoskeletal Endoscopic Procedure",
-      "unit_basis": "per procedure",
-      "rates": [
-        {
-          "rate_cents": 442975,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Extended Neurological Theatre Time",
-      "unit_basis": "per hour",
-      "rates": [
-        {
-          "rate_cents": 3700,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Focused Metabolic Theatre Time",
-      "unit_basis": "per hour",
-      "rates": [
-        {
-          "rate_cents": 4200,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": 12.0,
-      "daily_cap_unit": "hours",
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Focused Neurological Physiotherapy Session",
-      "unit_basis": "per visit",
-      "rates": [
-        {
-          "rate_cents": 11125,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Focused Obstetric Nutritional Support",
-      "unit_basis": "per unit dispensed",
-      "rates": [
-        {
-          "rate_cents": 6925,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Focused Urologic Telemetry Monitoring",
-      "unit_basis": "per hour, per item",
-      "rates": [
-        {
-          "rate_cents": 5225,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Inpatient Gastrointestinal Pharmaceutical Dispensing",
-      "unit_basis": "per item supplied",
-      "rates": [
-        {
-          "rate_cents": 23550,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": 12.0,
-      "daily_cap_unit": "items",
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Inpatient Haematology Imaging Interpretation",
-      "unit_basis": "per procedure",
-      "rates": [
-        {
-          "rate_cents": 123075,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Inpatient Hepatic Biopsy Procedure",
-      "unit_basis": "per item supplied",
-      "rates": [
-        {
-          "rate_cents": 3650,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Inpatient Infectious Specimen Analysis",
-      "unit_basis": "per test",
-      "rates": [
-        {
-          "rate_cents": 34775,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Inpatient Metabolic Infusion Therapy",
-      "unit_basis": "per hour",
-      "rates": [
-        {
-          "rate_cents": 14850,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Inpatient Metabolic Theatre Time",
-      "unit_basis": "per hour",
-      "rates": [
-        {
-          "rate_cents": 21000,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": 12.0,
-      "daily_cap_unit": "hours",
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Inpatient Musculoskeletal Theatre Time",
-      "unit_basis": "per hour",
-      "rates": [
-        {
-          "rate_cents": 9250,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Inpatient Obstetric Diagnostic Imaging",
-      "unit_basis": "per procedure",
-      "rates": [
-        {
-          "rate_cents": 327325,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": 8.0,
-      "daily_cap_unit": "procedures",
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Inpatient Obstetric Wound Care",
-      "unit_basis": "per visit",
-      "rates": [
-        {
-          "rate_cents": 34175,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Intensive Immunologic Wound Care",
-      "unit_basis": "per item supplied",
-      "rates": [
-        {
-          "rate_cents": 13275,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Intensive Infectious Anaesthesia Administration",
-      "unit_basis": "per procedure",
-      "rates": [
-        {
-          "rate_cents": 294675,
-          "effective_from": "2024-01-01",
-          "effective_to": "2024-12-31",
-          "source_note": "Appendix B rate replaced by Amendment No. 1",
-          "confidence": 1.0
-        },
-        {
-          "rate_cents": 312350,
-          "effective_from": "2025-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Amendment No. 1 substituted rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": 4.0,
-      "daily_cap_unit": "procedures",
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Intensive Oncology Nutritional Support",
-      "unit_basis": "per day of service",
-      "rates": [
-        {
-          "rate_cents": 62675,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Intensive Ophthalmic Laboratory Panel",
-      "unit_basis": "per test",
-      "rates": [
-        {
-          "rate_cents": 41825,
-          "effective_from": "2024-01-01",
-          "effective_to": "2024-12-31",
-          "source_note": "Appendix B rate replaced by Amendment No. 1",
-          "confidence": 1.0
-        },
-        {
-          "rate_cents": 39725,
-          "effective_from": "2025-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Amendment No. 1 substituted rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Intensive Otolaryngologic Anaesthesia Administration",
-      "unit_basis": "per procedure",
-      "rates": [
-        {
-          "rate_cents": 68025,
-          "effective_from": "2024-01-01",
-          "effective_to": "2024-12-31",
-          "source_note": "Appendix B rate replaced by Amendment No. 1",
-          "confidence": 1.0
-        },
-        {
-          "rate_cents": 80275,
-          "effective_from": "2025-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Amendment No. 1 substituted rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Intensive Paediatric Biopsy Procedure",
-      "unit_basis": "per procedure",
-      "rates": [
-        {
-          "rate_cents": 399700,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Intermittent Dermatologic Physiotherapy Session",
-      "unit_basis": "per visit",
-      "rates": [
-        {
-          "rate_cents": 35175,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Intermittent Gastrointestinal Endoscopic Procedure",
-      "unit_basis": "per procedure",
-      "rates": [
-        {
-          "rate_cents": 276475,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Intermittent Immunologic Isolation Room Occupancy",
-      "unit_basis": "per night of occupancy",
-      "rates": [
-        {
-          "rate_cents": 110525,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Intermittent Infectious Theatre Time",
-      "unit_basis": "per hour",
-      "rates": [
-        {
-          "rate_cents": 13900,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Intermittent Otolaryngologic Wound Care",
-      "unit_basis": "per visit",
-      "rates": [
-        {
-          "rate_cents": 28500,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Outpatient Gastrointestinal Isolation Room Occupancy",
-      "unit_basis": "per day of service",
-      "rates": [
-        {
-          "rate_cents": 57050,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Outpatient Haematology Transport Service",
-      "unit_basis": "per item supplied",
-      "rates": [
-        {
-          "rate_cents": 13375,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Outpatient Infectious Anaesthesia Administration",
-      "unit_basis": "per hour",
-      "rates": [
-        {
-          "rate_cents": 11950,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Outpatient Metabolic Rehabilitation Programme",
-      "unit_basis": "per visit",
-      "rates": [
-        {
-          "rate_cents": 18975,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Outpatient Pulmonary Transport Service",
-      "unit_basis": "per visit",
-      "rates": [
-        {
-          "rate_cents": 18125,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Outpatient Renal Specimen Analysis",
-      "unit_basis": "per item supplied",
-      "rates": [
-        {
-          "rate_cents": 20700,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Outpatient Rheumatologic Pharmaceutical Dispensing",
-      "unit_basis": "per unit dispensed",
-      "rates": [
-        {
-          "rate_cents": 8050,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Postoperative Cardiac Ward Bed Occupancy",
-      "unit_basis": "per day of service",
-      "rates": [
-        {
-          "rate_cents": 134325,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Postoperative Dermatologic Physiotherapy Session",
-      "unit_basis": "per hour",
-      "rates": [
-        {
-          "rate_cents": 20200,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": 4.0,
-      "daily_cap_unit": "hours",
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Postoperative Geriatric Nutritional Support",
-      "unit_basis": "per day of service",
-      "rates": [
-        {
-          "rate_cents": 108675,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Postoperative Haematology Nursing Observation",
-      "unit_basis": "per day of service",
-      "rates": [
-        {
-          "rate_cents": 140975,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Postoperative Neurological Diagnostic Imaging",
-      "unit_basis": "per test",
-      "rates": [
-        {
-          "rate_cents": 53550,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Postoperative Otolaryngologic Laboratory Panel",
-      "unit_basis": "per item supplied",
-      "rates": [
-        {
-          "rate_cents": 24475,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Postoperative Otolaryngologic Rehabilitation Programme",
-      "unit_basis": "per day of service",
-      "rates": [
-        {
-          "rate_cents": 147875,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Postoperative Psychiatric Endoscopic Procedure",
-      "unit_basis": "per procedure",
-      "rates": [
-        {
-          "rate_cents": 368575,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Postoperative Pulmonary Consultation",
-      "unit_basis": "per visit",
-      "rates": [
-        {
-          "rate_cents": 26750,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Postoperative Rheumatologic Anaesthesia Administration",
-      "unit_basis": "per hour",
-      "rates": [
-        {
-          "rate_cents": 8725,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Preoperative Cardiac Discharge Planning",
-      "unit_basis": "per hour",
-      "rates": [
-        {
-          "rate_cents": 5675,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Preoperative Dermatologic Dialysis Session",
-      "unit_basis": "per procedure",
-      "rates": [
-        {
-          "rate_cents": 439850,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Preoperative Endocrine Dialysis Session",
-      "unit_basis": "per procedure",
-      "rates": [
-        {
-          "rate_cents": 400300,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Preoperative Gastrointestinal Radiotherapy Fraction",
-      "unit_basis": "per item supplied",
-      "rates": [
-        {
-          "rate_cents": 26025,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Preoperative Ophthalmic Imaging Interpretation",
-      "unit_basis": "per test",
-      "rates": [
-        {
-          "rate_cents": 23275,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Preoperative Paediatric Laboratory Panel",
-      "unit_basis": "per test",
-      "rates": [
-        {
-          "rate_cents": 44500,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Preoperative Psychiatric Home Visit",
-      "unit_basis": "per visit",
-      "rates": [
-        {
-          "rate_cents": 32825,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Preoperative Psychiatric Radiotherapy Fraction",
-      "unit_basis": "per item supplied",
-      "rates": [
-        {
-          "rate_cents": 3450,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": 4.0,
-      "daily_cap_unit": "items",
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Preoperative Rheumatologic Transport Service",
-      "unit_basis": "per item supplied",
-      "rates": [
-        {
-          "rate_cents": 15075,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Routine Endocrine Specimen Analysis",
-      "unit_basis": "per item supplied",
-      "rates": [
-        {
-          "rate_cents": 8725,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Routine Obstetric Diagnostic Imaging",
-      "unit_basis": "per item supplied",
-      "rates": [
-        {
-          "rate_cents": 26375,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Routine Psychiatric Consultation",
-      "unit_basis": "per procedure",
-      "rates": [
-        {
-          "rate_cents": 282975,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": 8.0,
-      "daily_cap_unit": "procedures",
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Routine Vascular Rehabilitation Programme",
-      "unit_basis": "per visit",
-      "rates": [
-        {
-          "rate_cents": 37575,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Specialist Dermatologic Infusion Therapy",
-      "unit_basis": "per hour",
-      "rates": [
-        {
-          "rate_cents": 17400,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Specialist Gastrointestinal Specimen Analysis",
-      "unit_basis": "per test",
-      "rates": [
-        {
-          "rate_cents": 52850,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Specialist Haematology Endoscopic Procedure",
-      "unit_basis": "per procedure",
-      "rates": [
-        {
-          "rate_cents": 101900,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Specialist Hepatic Case Conference",
-      "unit_basis": "per visit",
-      "rates": [
-        {
-          "rate_cents": 35275,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Specialist Obstetric Dialysis Session",
-      "unit_basis": "per procedure",
-      "rates": [
-        {
-          "rate_cents": 62925,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Specialist Ophthalmic Nutritional Support",
-      "unit_basis": "per day of service",
-      "rates": [
-        {
-          "rate_cents": 32475,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Specialist Paediatric Biopsy Procedure",
-      "unit_basis": "per item supplied",
-      "rates": [
-        {
-          "rate_cents": 14225,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Specialist Psychiatric Discharge Planning",
-      "unit_basis": "per visit",
-      "rates": [
-        {
-          "rate_cents": 38650,
-          "effective_from": "2024-01-01",
-          "effective_to": "2024-12-31",
-          "source_note": "Appendix B rate replaced by Amendment No. 1",
-          "confidence": 1.0
-        },
-        {
-          "rate_cents": 44050,
-          "effective_from": "2025-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Amendment No. 1 substituted rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Specialist Pulmonary Biopsy Procedure",
-      "unit_basis": "per procedure",
-      "rates": [
-        {
-          "rate_cents": 385550,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Specialist Pulmonary Physiotherapy Session",
-      "unit_basis": "per hour",
-      "rates": [
-        {
-          "rate_cents": 12500,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Standard Orthopaedic Theatre Time",
-      "unit_basis": "per hour",
-      "rates": [
-        {
-          "rate_cents": 6025,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Standard Otolaryngologic Discharge Planning",
-      "unit_basis": "per visit",
-      "rates": [
-        {
-          "rate_cents": 30600,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Standard Rheumatologic Imaging Interpretation",
-      "unit_basis": "per procedure",
-      "rates": [
-        {
-          "rate_cents": 383550,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Supervised Hepatic Sterilisation Service",
-      "unit_basis": "per item supplied",
-      "rates": [
-        {
-          "rate_cents": 26625,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Supervised Neurological Laboratory Panel",
-      "unit_basis": "per item supplied",
-      "rates": [
-        {
-          "rate_cents": 23125,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Supervised Ophthalmic Nutritional Support",
-      "unit_basis": "per unit dispensed",
-      "rates": [
-        {
-          "rate_cents": 5950,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
-          "confidence": 1.0
-        }
-      ],
-      "aliases": [],
-      "daily_cap": null,
-      "daily_cap_unit": null,
-      "notes": "",
-      "confidence": 1.0
-    },
-    {
-      "service_name": "Supervised Otolaryngologic Wound Care",
-      "unit_basis": "per item supplied",
-      "rates": [
-        {
-          "rate_cents": 24025,
-          "effective_from": "2024-01-01",
-          "effective_to": "2025-12-31",
-          "source_note": "Appendix B base rate",
+          "source_note": "Appendix B",
           "confidence": 1.0
         }
       ],
@@ -2188,14 +123,557 @@
           "rate_cents": 86525,
           "effective_from": "2025-01-01",
           "effective_to": "2025-12-31",
-          "source_note": "Amendment No. 1 additional service",
+          "source_note": "Amendment No. 1 A1.3",
           "confidence": 1.0
         }
       ],
       "aliases": [],
       "daily_cap": null,
       "daily_cap_unit": null,
-      "notes": "Not contracted or billable before 2025-01-01.",
+      "notes": "Not contracted before 1 January 2025.",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Ambulatory Metabolic Isolation Room Occupancy",
+      "unit_basis": "per day of service",
+      "rates": [
+        {
+          "rate_cents": 159725,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Ambulatory Ophthalmic Imaging Interpretation",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 414850,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Ambulatory Otolaryngologic Imaging Interpretation",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 182625,
+          "effective_from": "2024-01-01",
+          "effective_to": "2024-12-31",
+          "source_note": "Appendix B; superseded by Amendment No. 1",
+          "confidence": 1.0
+        },
+        {
+          "rate_cents": 208200,
+          "effective_from": "2025-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Amendment No. 1 A1.2",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": 12.0,
+      "daily_cap_unit": "procedures",
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Ambulatory Renal Case Conference",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 8775,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Assisted Ophthalmic Recovery Room Occupancy",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 8775,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Assisted Paediatric Dialysis Session",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 372800,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": 12.0,
+      "daily_cap_unit": "procedures",
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Assisted Urologic Endoscopic Procedure",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 94250,
+          "effective_from": "2024-01-01",
+          "effective_to": "2024-12-31",
+          "source_note": "Appendix B; superseded by Amendment No. 1",
+          "confidence": 1.0
+        },
+        {
+          "rate_cents": 111225,
+          "effective_from": "2025-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Amendment No. 1 A1.2",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Bedside Cardiac Recovery Room Occupancy",
+      "unit_basis": "per night of occupancy",
+      "rates": [
+        {
+          "rate_cents": 167750,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Bedside Geriatric Telemetry Monitoring",
+      "unit_basis": "per day of service",
+      "rates": [
+        {
+          "rate_cents": 131100,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Bedside Metabolic Infusion Therapy",
+      "unit_basis": "per unit dispensed",
+      "rates": [
+        {
+          "rate_cents": 1850,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Bedside Neurological Pharmaceutical Dispensing",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 9675,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Bedside Neurological Radiotherapy Fraction",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 2575,
+          "effective_from": "2024-01-01",
+          "effective_to": "2024-12-31",
+          "source_note": "Appendix B; superseded by Amendment No. 1",
+          "confidence": 1.0
+        },
+        {
+          "rate_cents": 3050,
+          "effective_from": "2025-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Amendment No. 1 A1.2",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Bedside Oncology Case Conference",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 11400,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Bedside Palliative Wound Care",
+      "unit_basis": "per visit",
+      "rates": [
+        {
+          "rate_cents": 14150,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Bedside Pulmonary Sterilisation Service",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 381825,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Bedside Renal Imaging Interpretation",
+      "unit_basis": "per test",
+      "rates": [
+        {
+          "rate_cents": 59250,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Bedside Urologic Laboratory Panel",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 2000,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Bedside Urologic Ventilation Support",
+      "unit_basis": "per day of service",
+      "rates": [
+        {
+          "rate_cents": 168975,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Bedside Vascular Critical Care Occupancy",
+      "unit_basis": "per day of service",
+      "rates": [
+        {
+          "rate_cents": 144425,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": 8.0,
+      "daily_cap_unit": "days",
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Comprehensive Haematology Radiotherapy Fraction",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 156925,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Comprehensive Orthopaedic Wound Care",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 16600,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Comprehensive Palliative Diagnostic Imaging",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 163525,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Continuous Gastrointestinal Laboratory Panel",
+      "unit_basis": "per test",
+      "rates": [
+        {
+          "rate_cents": 56000,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Continuous Immunologic Critical Care Occupancy",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 20725,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Continuous Immunologic Isolation Room Occupancy",
+      "unit_basis": "per day of service",
+      "rates": [
+        {
+          "rate_cents": 116275,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": 24.0,
+      "daily_cap_unit": "days",
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Continuous Pulmonary Wound Care",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 27625,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Continuous Renal Isolation Room Occupancy",
+      "unit_basis": "per day of service",
+      "rates": [
+        {
+          "rate_cents": 50125,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Elective Palliative Physiotherapy Session",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 18800,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Elective Pulmonary Consultation",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 399025,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
       "confidence": 1.0
     },
     {
@@ -2206,14 +684,1536 @@
           "rate_cents": 456000,
           "effective_from": "2025-01-01",
           "effective_to": "2025-12-31",
-          "source_note": "Amendment No. 1 additional service",
+          "source_note": "Amendment No. 1 A1.3",
           "confidence": 1.0
         }
       ],
       "aliases": [],
       "daily_cap": null,
       "daily_cap_unit": null,
-      "notes": "Not contracted or billable before 2025-01-01.",
+      "notes": "Not contracted before 1 January 2025.",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Emergency Dermatologic Sterilisation Service",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 23025,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Emergency Oncology Biopsy Procedure",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 20375,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Emergency Pulmonary Biopsy Procedure",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 26350,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Emergency Renal Isolation Room Occupancy",
+      "unit_basis": "per night of occupancy",
+      "rates": [
+        {
+          "rate_cents": 49050,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Emergency Vascular Biopsy Procedure",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 215625,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Extended Dermatologic Infusion Therapy",
+      "unit_basis": "per unit dispensed",
+      "rates": [
+        {
+          "rate_cents": 3475,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Extended Dermatologic Sterilisation Service",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 161525,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Extended Geriatric Infusion Therapy",
+      "unit_basis": "per unit dispensed",
+      "rates": [
+        {
+          "rate_cents": 6100,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Extended Haematology Radiotherapy Fraction",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 27575,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Extended Infectious Telemetry Monitoring",
+      "unit_basis": "per day of service",
+      "rates": [
+        {
+          "rate_cents": 82675,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Extended Musculoskeletal Endoscopic Procedure",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 442975,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Extended Neurological Theatre Time",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 3700,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Focused Metabolic Theatre Time",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 4200,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": 12.0,
+      "daily_cap_unit": "hours",
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Focused Neurological Physiotherapy Session",
+      "unit_basis": "per visit",
+      "rates": [
+        {
+          "rate_cents": 11125,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Focused Obstetric Nutritional Support",
+      "unit_basis": "per unit dispensed",
+      "rates": [
+        {
+          "rate_cents": 6925,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Focused Urologic Telemetry Monitoring",
+      "unit_basis": "per hour, per item",
+      "rates": [
+        {
+          "rate_cents": 5225,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Inpatient Gastrointestinal Pharmaceutical Dispensing",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 23550,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": 12.0,
+      "daily_cap_unit": "items",
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Inpatient Haematology Imaging Interpretation",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 123075,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Inpatient Hepatic Biopsy Procedure",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 3650,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Inpatient Infectious Specimen Analysis",
+      "unit_basis": "per test",
+      "rates": [
+        {
+          "rate_cents": 34775,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Inpatient Metabolic Infusion Therapy",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 14850,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Inpatient Metabolic Theatre Time",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 21000,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": 12.0,
+      "daily_cap_unit": "hours",
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Inpatient Musculoskeletal Theatre Time",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 9250,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Inpatient Obstetric Diagnostic Imaging",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 327325,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": 8.0,
+      "daily_cap_unit": "procedures",
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Inpatient Obstetric Wound Care",
+      "unit_basis": "per visit",
+      "rates": [
+        {
+          "rate_cents": 34175,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Intensive Immunologic Wound Care",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 13275,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Intensive Infectious Anaesthesia Administration",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 294675,
+          "effective_from": "2024-01-01",
+          "effective_to": "2024-12-31",
+          "source_note": "Appendix B; superseded by Amendment No. 1",
+          "confidence": 1.0
+        },
+        {
+          "rate_cents": 312350,
+          "effective_from": "2025-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Amendment No. 1 A1.2",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": 4.0,
+      "daily_cap_unit": "procedures",
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Intensive Oncology Nutritional Support",
+      "unit_basis": "per day of service",
+      "rates": [
+        {
+          "rate_cents": 62675,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Intensive Ophthalmic Laboratory Panel",
+      "unit_basis": "per test",
+      "rates": [
+        {
+          "rate_cents": 41825,
+          "effective_from": "2024-01-01",
+          "effective_to": "2024-12-31",
+          "source_note": "Appendix B; superseded by Amendment No. 1",
+          "confidence": 1.0
+        },
+        {
+          "rate_cents": 39725,
+          "effective_from": "2025-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Amendment No. 1 A1.2",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Intensive Otolaryngologic Anaesthesia Administration",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 68025,
+          "effective_from": "2024-01-01",
+          "effective_to": "2024-12-31",
+          "source_note": "Appendix B; superseded by Amendment No. 1",
+          "confidence": 1.0
+        },
+        {
+          "rate_cents": 80275,
+          "effective_from": "2025-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Amendment No. 1 A1.2",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Intensive Paediatric Biopsy Procedure",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 399700,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Intermittent Dermatologic Physiotherapy Session",
+      "unit_basis": "per visit",
+      "rates": [
+        {
+          "rate_cents": 35175,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Intermittent Gastrointestinal Endoscopic Procedure",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 276475,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Intermittent Immunologic Isolation Room Occupancy",
+      "unit_basis": "per night of occupancy",
+      "rates": [
+        {
+          "rate_cents": 110525,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Intermittent Infectious Theatre Time",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 13900,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Intermittent Otolaryngologic Wound Care",
+      "unit_basis": "per visit",
+      "rates": [
+        {
+          "rate_cents": 28500,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Outpatient Gastrointestinal Isolation Room Occupancy",
+      "unit_basis": "per day of service",
+      "rates": [
+        {
+          "rate_cents": 57050,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Outpatient Haematology Transport Service",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 13375,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Outpatient Infectious Anaesthesia Administration",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 11950,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Outpatient Metabolic Rehabilitation Programme",
+      "unit_basis": "per visit",
+      "rates": [
+        {
+          "rate_cents": 18975,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Outpatient Pulmonary Transport Service",
+      "unit_basis": "per visit",
+      "rates": [
+        {
+          "rate_cents": 18125,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Outpatient Renal Specimen Analysis",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 20700,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Outpatient Rheumatologic Pharmaceutical Dispensing",
+      "unit_basis": "per unit dispensed",
+      "rates": [
+        {
+          "rate_cents": 8050,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Postoperative Cardiac Ward Bed Occupancy",
+      "unit_basis": "per day of service",
+      "rates": [
+        {
+          "rate_cents": 134325,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Postoperative Dermatologic Physiotherapy Session",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 20200,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": 4.0,
+      "daily_cap_unit": "hours",
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Postoperative Geriatric Nutritional Support",
+      "unit_basis": "per day of service",
+      "rates": [
+        {
+          "rate_cents": 108675,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Postoperative Haematology Nursing Observation",
+      "unit_basis": "per day of service",
+      "rates": [
+        {
+          "rate_cents": 140975,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Postoperative Neurological Diagnostic Imaging",
+      "unit_basis": "per test",
+      "rates": [
+        {
+          "rate_cents": 53550,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Postoperative Otolaryngologic Laboratory Panel",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 24475,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Postoperative Otolaryngologic Rehabilitation Programme",
+      "unit_basis": "per day of service",
+      "rates": [
+        {
+          "rate_cents": 147875,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Postoperative Psychiatric Endoscopic Procedure",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 368575,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Postoperative Pulmonary Consultation",
+      "unit_basis": "per visit",
+      "rates": [
+        {
+          "rate_cents": 26750,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Postoperative Rheumatologic Anaesthesia Administration",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 8725,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Preoperative Cardiac Discharge Planning",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 5675,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Preoperative Dermatologic Dialysis Session",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 439850,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Preoperative Endocrine Dialysis Session",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 400300,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Preoperative Gastrointestinal Radiotherapy Fraction",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 26025,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Preoperative Ophthalmic Imaging Interpretation",
+      "unit_basis": "per test",
+      "rates": [
+        {
+          "rate_cents": 23275,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Preoperative Paediatric Laboratory Panel",
+      "unit_basis": "per test",
+      "rates": [
+        {
+          "rate_cents": 44500,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Preoperative Psychiatric Home Visit",
+      "unit_basis": "per visit",
+      "rates": [
+        {
+          "rate_cents": 32825,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Preoperative Psychiatric Radiotherapy Fraction",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 3450,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": 4.0,
+      "daily_cap_unit": "items",
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Preoperative Rheumatologic Transport Service",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 15075,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Routine Endocrine Specimen Analysis",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 8725,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Routine Obstetric Diagnostic Imaging",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 26375,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Routine Psychiatric Consultation",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 282975,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": 8.0,
+      "daily_cap_unit": "procedures",
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Routine Vascular Rehabilitation Programme",
+      "unit_basis": "per visit",
+      "rates": [
+        {
+          "rate_cents": 37575,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Specialist Dermatologic Infusion Therapy",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 17400,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Specialist Gastrointestinal Specimen Analysis",
+      "unit_basis": "per test",
+      "rates": [
+        {
+          "rate_cents": 52850,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Specialist Haematology Endoscopic Procedure",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 101900,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Specialist Hepatic Case Conference",
+      "unit_basis": "per visit",
+      "rates": [
+        {
+          "rate_cents": 35275,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Specialist Obstetric Dialysis Session",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 62925,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Specialist Ophthalmic Nutritional Support",
+      "unit_basis": "per day of service",
+      "rates": [
+        {
+          "rate_cents": 32475,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Specialist Paediatric Biopsy Procedure",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 14225,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Specialist Psychiatric Discharge Planning",
+      "unit_basis": "per visit",
+      "rates": [
+        {
+          "rate_cents": 38650,
+          "effective_from": "2024-01-01",
+          "effective_to": "2024-12-31",
+          "source_note": "Appendix B; superseded by Amendment No. 1",
+          "confidence": 1.0
+        },
+        {
+          "rate_cents": 44050,
+          "effective_from": "2025-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Amendment No. 1 A1.2",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Specialist Pulmonary Biopsy Procedure",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 385550,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Specialist Pulmonary Physiotherapy Session",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 12500,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Standard Orthopaedic Theatre Time",
+      "unit_basis": "per hour",
+      "rates": [
+        {
+          "rate_cents": 6025,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Standard Otolaryngologic Discharge Planning",
+      "unit_basis": "per visit",
+      "rates": [
+        {
+          "rate_cents": 30600,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Standard Rheumatologic Imaging Interpretation",
+      "unit_basis": "per procedure",
+      "rates": [
+        {
+          "rate_cents": 383550,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Supervised Hepatic Sterilisation Service",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 26625,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Supervised Neurological Laboratory Panel",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 23125,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Supervised Ophthalmic Nutritional Support",
+      "unit_basis": "per unit dispensed",
+      "rates": [
+        {
+          "rate_cents": 5950,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
+      "confidence": 1.0
+    },
+    {
+      "service_name": "Supervised Otolaryngologic Wound Care",
+      "unit_basis": "per item supplied",
+      "rates": [
+        {
+          "rate_cents": 24025,
+          "effective_from": "2024-01-01",
+          "effective_to": "2025-12-31",
+          "source_note": "Appendix B",
+          "confidence": 1.0
+        }
+      ],
+      "aliases": [],
+      "daily_cap": null,
+      "daily_cap_unit": null,
+      "notes": "",
       "confidence": 1.0
     }
   ],
@@ -2226,7 +2226,7 @@
       "multiplier": 1.3,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": ""
+      "notes": "More than 6 items."
     },
     {
       "service_name": "Ambulatory Renal Case Conference",
@@ -2234,7 +2234,7 @@
       "multiplier": 1.25,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": ""
+      "notes": "More than 8 hours."
     },
     {
       "service_name": "Bedside Metabolic Infusion Therapy",
@@ -2242,7 +2242,7 @@
       "multiplier": 1.4,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": ""
+      "notes": "More than 12 units."
     },
     {
       "service_name": "Emergency Dermatologic Sterilisation Service",
@@ -2250,7 +2250,7 @@
       "multiplier": 1.4,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": ""
+      "notes": "More than 10 items."
     },
     {
       "service_name": "Emergency Oncology Biopsy Procedure",
@@ -2258,7 +2258,7 @@
       "multiplier": 1.3,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": ""
+      "notes": "More than 6 items."
     },
     {
       "service_name": "Inpatient Metabolic Infusion Therapy",
@@ -2266,7 +2266,7 @@
       "multiplier": 1.4,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": ""
+      "notes": "More than 16 hours."
     },
     {
       "service_name": "Outpatient Pulmonary Transport Service",
@@ -2274,7 +2274,7 @@
       "multiplier": 1.4,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": ""
+      "notes": "More than 12 visits."
     },
     {
       "service_name": "Outpatient Rheumatologic Pharmaceutical Dispensing",
@@ -2282,7 +2282,7 @@
       "multiplier": 1.4,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": ""
+      "notes": "More than 10 units."
     },
     {
       "service_name": "Postoperative Haematology Nursing Observation",
@@ -2290,7 +2290,7 @@
       "multiplier": 1.2,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": ""
+      "notes": "More than 8 days."
     },
     {
       "service_name": "Preoperative Ophthalmic Imaging Interpretation",
@@ -2298,7 +2298,7 @@
       "multiplier": 1.4,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": ""
+      "notes": "More than 16 tests."
     },
     {
       "service_name": "Specialist Haematology Endoscopic Procedure",
@@ -2306,7 +2306,7 @@
       "multiplier": 1.15,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": ""
+      "notes": "More than 12 procedures."
     },
     {
       "service_name": "Specialist Paediatric Biopsy Procedure",
@@ -2314,7 +2314,7 @@
       "multiplier": 1.15,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": ""
+      "notes": "More than 8 items."
     },
     {
       "service_name": "Standard Rheumatologic Imaging Interpretation",
@@ -2322,7 +2322,7 @@
       "multiplier": 1.25,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": ""
+      "notes": "More than 8 procedures."
     },
     {
       "service_name": "Supervised Ophthalmic Nutritional Support",
@@ -2330,7 +2330,7 @@
       "multiplier": 1.2,
       "comparison": "gt",
       "scope": "patient_service_day",
-      "notes": ""
+      "notes": "More than 16 units."
     }
   ],
   "weekend_uplifts": [
@@ -2454,7 +2454,8 @@
         }
       ],
       "scope": "contract_service",
-      "notes": "Whole-term, all-patient cumulative utilisation; count prior line items in Service Date then ascending line-identifier order."
+      "reset_period": "none",
+      "notes": "Cumulative across all Patients for the whole Agreement term; excludes line item being priced."
     },
     {
       "service_name": "Assisted Urologic Endoscopic Procedure",
@@ -2471,7 +2472,8 @@
         }
       ],
       "scope": "contract_service",
-      "notes": "Whole-term, all-patient cumulative utilisation; count prior line items in Service Date then ascending line-identifier order."
+      "reset_period": "none",
+      "notes": "Cumulative across all Patients for the whole Agreement term; deeper discount applies."
     },
     {
       "service_name": "Bedside Urologic Laboratory Panel",
@@ -2488,7 +2490,8 @@
         }
       ],
       "scope": "contract_service",
-      "notes": "Whole-term, all-patient cumulative utilisation; count prior line items in Service Date then ascending line-identifier order."
+      "reset_period": "none",
+      "notes": "Cumulative across all Patients for the whole Agreement term; deeper discount applies."
     },
     {
       "service_name": "Bedside Urologic Ventilation Support",
@@ -2505,7 +2508,8 @@
         }
       ],
       "scope": "contract_service",
-      "notes": "Whole-term, all-patient cumulative utilisation; count prior line items in Service Date then ascending line-identifier order."
+      "reset_period": "none",
+      "notes": "Cumulative across all Patients for the whole Agreement term; deeper discount applies."
     },
     {
       "service_name": "Elective Palliative Physiotherapy Session",
@@ -2522,7 +2526,8 @@
         }
       ],
       "scope": "contract_service",
-      "notes": "Whole-term, all-patient cumulative utilisation; count prior line items in Service Date then ascending line-identifier order."
+      "reset_period": "none",
+      "notes": "Cumulative across all Patients for the whole Agreement term; deeper discount applies."
     },
     {
       "service_name": "Extended Infectious Telemetry Monitoring",
@@ -2539,7 +2544,8 @@
         }
       ],
       "scope": "contract_service",
-      "notes": "Whole-term, all-patient cumulative utilisation; count prior line items in Service Date then ascending line-identifier order."
+      "reset_period": "none",
+      "notes": "Cumulative across all Patients for the whole Agreement term; deeper discount applies."
     },
     {
       "service_name": "Inpatient Infectious Specimen Analysis",
@@ -2556,7 +2562,8 @@
         }
       ],
       "scope": "contract_service",
-      "notes": "Whole-term, all-patient cumulative utilisation; count prior line items in Service Date then ascending line-identifier order."
+      "reset_period": "none",
+      "notes": "Cumulative across all Patients for the whole Agreement term; deeper discount applies."
     },
     {
       "service_name": "Intensive Otolaryngologic Anaesthesia Administration",
@@ -2568,7 +2575,8 @@
         }
       ],
       "scope": "contract_service",
-      "notes": "Whole-term, all-patient cumulative utilisation; count prior line items in Service Date then ascending line-identifier order."
+      "reset_period": "none",
+      "notes": "Cumulative across all Patients for the whole Agreement term."
     },
     {
       "service_name": "Intermittent Dermatologic Physiotherapy Session",
@@ -2585,7 +2593,8 @@
         }
       ],
       "scope": "contract_service",
-      "notes": "Whole-term, all-patient cumulative utilisation; count prior line items in Service Date then ascending line-identifier order."
+      "reset_period": "none",
+      "notes": "Cumulative across all Patients for the whole Agreement term; deeper discount applies."
     },
     {
       "service_name": "Outpatient Renal Specimen Analysis",
@@ -2597,7 +2606,8 @@
         }
       ],
       "scope": "contract_service",
-      "notes": "Whole-term, all-patient cumulative utilisation; count prior line items in Service Date then ascending line-identifier order."
+      "reset_period": "none",
+      "notes": "Cumulative across all Patients for the whole Agreement term."
     },
     {
       "service_name": "Postoperative Cardiac Ward Bed Occupancy",
@@ -2609,7 +2619,8 @@
         }
       ],
       "scope": "contract_service",
-      "notes": "Whole-term, all-patient cumulative utilisation; count prior line items in Service Date then ascending line-identifier order."
+      "reset_period": "none",
+      "notes": "Cumulative across all Patients for the whole Agreement term."
     },
     {
       "service_name": "Supervised Hepatic Sterilisation Service",
@@ -2621,7 +2632,8 @@
         }
       ],
       "scope": "contract_service",
-      "notes": "Whole-term, all-patient cumulative utilisation; count prior line items in Service Date then ascending line-identifier order."
+      "reset_period": "none",
+      "notes": "Cumulative across all Patients for the whole Agreement term."
     }
   ],
   "bundles": [
@@ -2677,70 +2689,70 @@
       "excluded_service": "Advanced Gastrointestinal Telemetry Monitoring",
       "window_days": 7,
       "direction": "either",
-      "notes": ""
+      "notes": "Advanced Gastrointestinal Telemetry Monitoring is not billable within 7 days of Advanced Geriatric Nutritional Support."
     },
     {
       "trigger_service": "Specialist Dermatologic Infusion Therapy",
       "excluded_service": "Bedside Cardiac Recovery Room Occupancy",
       "window_days": 14,
       "direction": "either",
-      "notes": ""
+      "notes": "Bedside Cardiac Recovery Room Occupancy is not billable within 14 days of Specialist Dermatologic Infusion Therapy."
     },
     {
       "trigger_service": "Postoperative Geriatric Nutritional Support",
       "excluded_service": "Bedside Neurological Radiotherapy Fraction",
       "window_days": 7,
       "direction": "either",
-      "notes": ""
+      "notes": "Bedside Neurological Radiotherapy Fraction is not billable within 7 days of Postoperative Geriatric Nutritional Support."
     },
     {
       "trigger_service": "Preoperative Endocrine Dialysis Session",
       "excluded_service": "Emergency Vascular Biopsy Procedure",
       "window_days": 30,
       "direction": "either",
-      "notes": ""
+      "notes": "Emergency Vascular Biopsy Procedure is not billable within 30 days of Preoperative Endocrine Dialysis Session."
     },
     {
       "trigger_service": "Inpatient Obstetric Wound Care",
       "excluded_service": "Extended Geriatric Infusion Therapy",
       "window_days": 14,
       "direction": "either",
-      "notes": ""
+      "notes": "Extended Geriatric Infusion Therapy is not billable within 14 days of Inpatient Obstetric Wound Care."
     },
     {
       "trigger_service": "Intermittent Infectious Theatre Time",
       "excluded_service": "Inpatient Musculoskeletal Theatre Time",
       "window_days": 21,
       "direction": "either",
-      "notes": ""
+      "notes": "Inpatient Musculoskeletal Theatre Time is not billable within 21 days of Intermittent Infectious Theatre Time."
     },
     {
       "trigger_service": "Assisted Ophthalmic Recovery Room Occupancy",
       "excluded_service": "Intensive Ophthalmic Laboratory Panel",
       "window_days": 30,
       "direction": "either",
-      "notes": ""
+      "notes": "Intensive Ophthalmic Laboratory Panel is not billable within 30 days of Assisted Ophthalmic Recovery Room Occupancy."
     },
     {
       "trigger_service": "Inpatient Obstetric Wound Care",
       "excluded_service": "Outpatient Haematology Transport Service",
       "window_days": 30,
       "direction": "either",
-      "notes": ""
+      "notes": "Outpatient Haematology Transport Service is not billable within 30 days of Inpatient Obstetric Wound Care."
     },
     {
       "trigger_service": "Extended Dermatologic Infusion Therapy",
       "excluded_service": "Preoperative Cardiac Discharge Planning",
       "window_days": 30,
       "direction": "either",
-      "notes": ""
+      "notes": "Preoperative Cardiac Discharge Planning is not billable within 30 days of Extended Dermatologic Infusion Therapy."
     },
     {
       "trigger_service": "Outpatient Gastrointestinal Isolation Room Occupancy",
       "excluded_service": "Preoperative Dermatologic Dialysis Session",
       "window_days": 10,
       "direction": "either",
-      "notes": ""
+      "notes": "Preoperative Dermatologic Dialysis Session is not billable within 10 days of Outpatient Gastrointestinal Isolation Room Occupancy."
     }
   ],
   "adjustment_order": [
@@ -2752,21 +2764,17 @@
     "volume_discount"
   ],
   "interpretation_notes": [
-    "No facility differential applies; Services are delivered from Main Campus (F-MAIN).",
-    "All plan tiers are reimbursed identically.",
-    "Rounding is half-up to the nearest whole cent after each individual multiplier, premium, or discount step.",
-    "Line total is resulting unit rate multiplied by billed quantity.",
-    "Amendment No. 1 applies by Service Date; invoice issue date is irrelevant."
+    "No facility differential applies; all plan tiers are reimbursed identically.",
+    "Multipliers, premiums, and discounts are rounded half-up to whole cents after each individual calculation step.",
+    "Volume utilisation is counted in Service Date order, excluding the line being priced; same-date lines are ordered by ascending line identifier."
   ],
   "ambiguities": [
-    "The agreement groups threshold premiums and non-business-day uplifts together as step (d) ('any premium or uplift') without specifying their relative sequence when both apply. The listed adjustment order places threshold_premium before weekend_uplift solely for schema ordering; their contractual relative order is not stated."
+    "Clause 3.2 places any premium or uplift at the same adjustment stage but does not state an order between a threshold premium and a non-business-day uplift when both apply.",
+    "Exclusion-window table does not explicitly state whether the window is limited to the same Patient."
   ],
   "unsupported_rules": [
-    "Daily caps are expressly per Patient per Service Day; the schema records the cap quantity and unit but has no field for the cap aggregation scope.",
-    "Exclusion-window clauses do not expressly state whether the excluded service is barred when the trigger service occurs on the same Service Day; 'within' is represented as an either-side window but inclusive endpoint treatment is not specified.",
     "The same Service may not be billed twice for the same Patient and Service Date, whether on one invoice or across several.",
-    "Every Service Date must fall within the term and may not fall after the invoice date.",
-    "Amendment No. 1 does not affect an invoice already settled before 2025-01-01."
+    "An amendment does not affect an invoice already settled before the amendment effective date."
   ],
-  "extraction_confidence": 0.97
+  "extraction_confidence": 0.98
 }
